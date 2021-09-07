@@ -17,32 +17,32 @@ const Header = () => {
                 <div className="col-lg-3 col-md-4 col-sm-4 col-4">
                     <div className="logo">
                         <Link href="/" title="">
-                           <a><img src='images/logo.png' alt=""/></a>
+                           <a><img src='images/fundifund-logo.png' alt=""/></a>
                         </Link>
                     </div>
                 </div>
                 <div className="col-lg-8 d-lg-block d-none">
                     <nav>
                         <ul>
-                            <li><Link className="active" href="/" title="">Home</Link>
-                                <ul>
+                            <li><Link className="active" href="/HomePage3" title="">Home</Link>
+                                {/* <ul>
                                     <li><Link className="active" href="/">Home style 1</Link></li>
                                     <li><Link href="/HomePage2">Home style 2</Link></li>
                                     <li><Link href="/HomePage3">Home style 3</Link></li>
-                                </ul>
+                                </ul> */}
                             </li>
                             <li><Link href="/AboutPage" title="">About</Link></li>
                             <li><Link href="/CasePage" title="">Causes</Link>
-                                <ul>
+                                {/* <ul>
                                     <li><Link href="/CasePage" title="">Causes</Link></li>
                                     <li><Link href="/CaseSinglePage" title="">Causes Single</Link></li>
-                                </ul>
+                                </ul> */}
                             </li>
-                            <li><Link href="/EventPage" title="">Event</Link>
-                                <ul>
+                            <li><Link href="/EventPage" title="">Events</Link>
+                                {/* <ul>
                                     <li><Link href="/EventPage" title="">Event</Link></li>
                                     <li><Link href="/EventPageSingle" title="">Event Single</Link></li>
-                                </ul>
+                                </ul> */}
                             </li>
                             <li><Link href="/" title="">Pages</Link>
                                 <ul>
@@ -52,7 +52,7 @@ const Header = () => {
                                     <li><Link href="/ErrorPage" title="">Error 404</Link></li>
                                 </ul>
                             </li>
-                            <li><Link href="/BlogPage">Blog</Link>
+                            {/* <li><Link href="/BlogPage">Blog</Link>
                                 <ul>
                                     <li><Link href="/BlogPage">Blog</Link></li>
                                     <li><Link href="/BlogPageLeft">Blog Left sidebar</Link></li>
@@ -65,7 +65,7 @@ const Header = () => {
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> */}
                             <li><Link href="/ContactPage" title="">Contact</Link></li>
                         </ul>
                     </nav>
@@ -84,7 +84,7 @@ const Header = () => {
                                     </form>
                                 </div>
                             </div>
-                            <div className="mini-cart">
+                            {/* <div className="mini-cart">
                                 <button className="cart-toggle-btn"> <i className="fi flaticon-shopping-bag"></i> <span className="cart-count">02</span></button>
                                 <div className="mini-cart-content">
                                     <div className="mini-cart-items">
@@ -114,7 +114,7 @@ const Header = () => {
                                         <Link href="/"><a className="view-cart-btn theme-btn"> View Cart</a></Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
