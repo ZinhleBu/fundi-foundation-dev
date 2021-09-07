@@ -19,7 +19,7 @@ const Mission = (props) => {
                                     <img src='images/mission/icon1.png' alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
-                                    <h2>Clean Water</h2>
+                                    <h2>#RebuildSA</h2>
                                     <p>Lorem ipsum dolor amet cosectetur adipiscing, sed do eiusmod.</p>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@ const Mission = (props) => {
                                     <img src='images/mission/icon2.png' alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
-                                    <h2>Healthy Food</h2>
+                                    <h2>R10 goes a long way</h2>
                                     <p>Lorem ipsum dolor amet cosectetur adipiscing, sed do eiusmod.</p>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const Mission = (props) => {
                                     <img src='images/mission/icon3.png' alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
-                                    <h2>Pure Education</h2>
+                                    <h2>Leaders4Learners</h2>
                                     <p>Lorem ipsum dolor amet cosectetur adipiscing, sed do eiusmod.</p>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ const Mission = (props) => {
                                     <img src='images/mission/icon4.png' alt=""/>
                                 </div>
                                 <div className="wpo-mission-content">
-                                    <h2>Medical Facilities</h2>
+                                    <h2>FundiFund</h2>
                                     <p>Lorem ipsum dolor amet cosectetur adipiscing, sed do eiusmod.</p>
                                 </div>
                             </div>

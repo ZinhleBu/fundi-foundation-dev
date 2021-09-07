@@ -16,7 +16,7 @@ const HomePage3 =() => {
     return(
         <Fragment>
              <Head>
-                <title>Home Page 3</title>
+                <title>Fundi Foundation</title>
             </Head>
             <Header/>
             <Hero3/>

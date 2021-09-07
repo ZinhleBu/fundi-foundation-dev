@@ -1240,7 +1240,7 @@ hero-style-1
 }
 
 .hero-style-3 {
-    background: url('../public/images/slider/img-1.jpg') no-repeat center center / cover;
+    background: url('../public/images/slider/img-1-home-3.png') no-repeat center center / cover;
 }
 
 .hero-style-3 .slide-caption {
@@ -1253,8 +1253,8 @@ hero-style-1
 }
 
 .hero-style-3 .slide-caption .btns .theme-btn {
-    background: #fff;
-    color: #08cc7f;
+    background: #FBC931;
+    color: #000;
 }
 
 .slide-caption {
@@ -1886,7 +1886,7 @@ hero-style3
     width: 70px;
     height: 70px;
     line-height: 65px;
-    background: #08cc7f;
+    background: #3AA935;
     border-radius: 50%;
     margin: auto;
 }

@@ -10,11 +10,11 @@ const Hero3 = (props) => {
                         <div className="row">
                             <div className="col col-lg-12 slide-caption">
                                 <div className="slide-title">
-                                    <h2>Let’s be Kind for <span>Children</span></h2>
+                                    <h2>Welcome to <span>Fundi Foundation</span></h2>
                                 </div>
                                 <div className="slide-subtitle">
-                                    <p>High Quality Charity Theme in Envato Market.</p>
-                                    <p>You Can Satisfied Yourself By Helping.</p>
+                                    <p>Donate to the Fundi Foundtion today,</p>
+                                    <p>And help us make education dreams come true.</p>
                                 </div>
                                 <div className="btns">
                                     <Link href="/DonatePage"><a className="theme-btn">Donate Now</a></Link>
