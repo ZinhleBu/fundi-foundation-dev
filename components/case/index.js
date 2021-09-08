@@ -66,14 +66,16 @@ class CaseSlide extends Component {
                   <div className="wpo-case-wrap">
                       <div className="wpo-case-slider">
                         <Slider {...settings}>
+
+
                           <div className="wpo-case-single">
                                 <div className="wpo-case-item">
                                     <div className="wpo-case-img">
-                                        <img src='images/case/img-1.png' alt=""/>
+                                        <img src='images/case/img-1-leaders.png' alt=""/>
                                     </div>
                                     <div className="wpo-case-content">
                                         <div className="wpo-case-text-top">
-                                            <h2>Ensure Education for every poor children</h2>
+                                            <h2>Leaders4Learners</h2>
                                             <div className="progress-section">
                                                 <div className="process">
                                                     <div className="progress">
@@ -84,8 +86,8 @@ class CaseSlide extends Component {
                                                 </div>
                                             </div>
                                             <ul>
-                                                <li><span>Raised:</span> $7,000.00</li>
-                                                <li><span>Goal:</span> $8,000.00</li>
+                                                <li><span>Raised:</span> R7,000.00</li>
+                                                <li><span>Goal:</span> R8,000.00</li>
                                             </ul>
                                         </div>
                                         <div className="case-btn">
@@ -102,14 +104,16 @@ class CaseSlide extends Component {
                                     </div>
                                 </div>
                             </div>
+
+
                             <div className="wpo-case-single">
                                 <div className="wpo-case-item">
                                     <div className="wpo-case-img">
-                                        <img src='images/case/img-2.png' alt=""/>
+                                        <img src='images/case/img-2-rebuild.png' alt=""/>
                                     </div>
                                     <div className="wpo-case-content">
                                         <div className="wpo-case-text-top">
-                                            <h2>Supply drinking water for the people</h2>
+                                            <h2>#RebuildSA</h2>
                                             <div className="progress-section">
                                                 <div className="process">
                                                     <div className="progress">
@@ -120,8 +124,8 @@ class CaseSlide extends Component {
                                                 </div>
                                             </div>
                                             <ul>
-                                                <li><span>Raised:</span> $7,000.00</li>
-                                                <li><span>Goal:</span> $8,000.00</li>
+                                                <li><span>Raised:</span> R7,000.00</li>
+                                                <li><span>Goal:</span> R8,000.00</li>
                                             </ul>
                                         </div>
                                         <div className="case-btn">
@@ -138,14 +142,16 @@ class CaseSlide extends Component {
                                     </div>
                                 </div>
                             </div>
+
+
                             <div className="wpo-case-single">
                                 <div className="wpo-case-item">
                                     <div className="wpo-case-img">
-                                        <img src='images/case/img-3.png' alt=""/>
+                                        <img src='images/case/img-3-fund.svg' alt=""/>
                                     </div>
                                     <div className="wpo-case-content">
                                         <div className="wpo-case-text-top">
-                                            <h2>Providing Healthy Food for the children</h2>
+                                            <h2>FundiFund</h2>
                                             <div className="progress-section">
                                                 <div className="process">
                                                     <div className="progress">
@@ -156,8 +162,8 @@ class CaseSlide extends Component {
                                                 </div>
                                             </div>
                                             <ul>
-                                                <li><span>Raised:</span> $7,000.00</li>
-                                                <li><span>Goal:</span> $8,000.00</li>
+                                                <li><span>Raised:</span> R7,000.00</li>
+                                                <li><span>Goal:</span> R8,000.00</li>
                                             </ul>
                                         </div>
                                         <div className="case-btn">
@@ -174,6 +180,8 @@ class CaseSlide extends Component {
                                     </div>
                                 </div>
                             </div>
+
+
                             <div className="wpo-case-single">
                                 <div className="wpo-case-item">
                                     <div className="wpo-case-img">
@@ -181,7 +189,7 @@ class CaseSlide extends Component {
                                     </div>
                                     <div className="wpo-case-content">
                                         <div className="wpo-case-text-top">
-                                            <h2>Ensure Education for every poor children</h2>
+                                            <h2>R10 goes a long way</h2>
                                             <div className="progress-section">
                                                 <div className="process">
                                                     <div className="progress">
@@ -192,8 +200,8 @@ class CaseSlide extends Component {
                                                 </div>
                                             </div>
                                             <ul>
-                                                <li><span>Raised:</span> $7,000.00</li>
-                                                <li><span>Goal:</span> $8,000.00</li>
+                                                <li><span>Raised:</span> R7,000.00</li>
+                                                <li><span>Goal:</span> R8,000.00</li>
                                             </ul>
                                         </div>
                                         <div className="case-btn">
@@ -210,6 +218,8 @@ class CaseSlide extends Component {
                                     </div>
                                 </div>
                             </div>
+
+
                         </Slider>
                       </div>
                   </div>

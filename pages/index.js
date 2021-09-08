@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../components/header'
-import Hero from '../components/hero'
+import Hero3 from '../components/hero3'
 import Mission from '../components/mission'
 import About from '../components/about'
 import CaseSlide from '../components/case'
@@ -22,7 +22,7 @@ const HomePage =() => {
             </Head>
             <ToastContainer/>
             <Header/>
-            <Hero/>
+            <Hero3/>
             <Mission/>
             <About/>
             <CaseSlide/>

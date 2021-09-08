@@ -38,7 +38,7 @@ const Footer = (props) =>{
                                     <img src='images/footer/img-1.jpg' alt=""/>
                                 </div>
                                 <div className="news-text">
-                                    <h3><Link onClick={ClickHandler} href="/BlogPage"><a>Education for all poor children</a></Link></h3>
+                                    <h3><Link onClick={ClickHandler} href="/BlogPage"><a>Fundi Fund Run</a></Link></h3>
                                     <span>12 Jan, 2021</span>
                                 </div>
                             </div>
@@ -47,8 +47,8 @@ const Footer = (props) =>{
                                     <img src='images/footer/img-2.jpg' alt=""/>
                                 </div>
                                 <div className="news-text">
-                                    <h3><Link onClick={ClickHandler} href="/BlogPage"><a>Education for all poor children</a></Link></h3>
-                                    <span>12 Jan, 2021</span>
+                                    <h3><Link onClick={ClickHandler} href="/BlogPage"><a>Leaders4Learners</a></Link></h3>
+                                    <span>1 Jun, 2021</span>
                                 </div>
                             </div>
                         </div>
@@ -72,12 +72,13 @@ const Footer = (props) =>{
                             <div className="widget-title">
                                 <h3>Contact </h3>
                             </div>
-                            <p>online store with lots of cool and exclusive wpo-features</p>
+                            <p>In support of responsible lending, FUNDI would like to notify you that you have the right to Debt Counselling. For more information, contact the NCR on 0860 627 627 / www.ncr.org.za </p>
                             <div className="contact-ft">
                                 <ul>
-                                    <li><i className="fi flaticon-pin"></i>28 Street, New York City, USA</li>
-                                    <li><i className="fi flaticon-call"></i>+000123456789</li>
-                                    <li><i className="fi flaticon-envelope"></i>nasarna@gmail.com</li>
+                                    <li><i className="fi flaticon-pin"></i>Hendrik Potgieter Rd and 14th Ave, Weltevreden Park, 1751</li>
+                                    <li><i className="fi flaticon-call"></i>Call Centre: 0860 55 55 44</li>
+                                    <li><i className="fi flaticon-call"></i>Reception: 011 670 6100</li>
+                                    <li><i className="fi flaticon-envelope"></i>support@fundi.co.za</li>
                                 </ul>
                             </div>
                         </div>
@@ -89,7 +90,7 @@ const Footer = (props) =>{
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">
-                        <p className="copyright">&copy; 2021 Nasarna. All rights reserved</p>
+                        <p className="copyright">&copy; ©FundiCapital(Pty) Ltd 2020 | All rights reserved</p>
                     </div>
                 </div>
             </div>

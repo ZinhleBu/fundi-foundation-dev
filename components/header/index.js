@@ -16,7 +16,7 @@ const Header = () => {
             <div className="row">
                 <div className="col-lg-3 col-md-4 col-sm-4 col-4">
                     <div className="logo">
-                        <Link href="/" title="">
+                        <Link href="/HomePage3" title="">
                            <a><img src='images/fundifund-logo.png' alt=""/></a>
                         </Link>
                     </div>

@@ -26,7 +26,7 @@ const HomePage3 =() => {
             <CounterSection countclass={'wpo-counter-style-2'}/>
             <TeamSection/>
             <WorldSection worldclass={'wpo-world-area-2'}/>
-            <BlogSection/>
+            {/* <BlogSection/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>
