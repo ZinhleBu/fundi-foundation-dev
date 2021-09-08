@@ -92,7 +92,7 @@ class CaseSlide extends Component {
                                         </div>
                                         <div className="case-btn">
                                             <ul>
-                                                <li><Link onClick={ClickHandler} href="/CaseSinglePage">
+                                                <li><Link onClick={ClickHandler} href="/CaseSinglePageLeaders">
                                                     <a href="/DonatePage">
                                                         Learn More
                                                     </a> 
@@ -130,7 +130,7 @@ class CaseSlide extends Component {
                                         </div>
                                         <div className="case-btn">
                                             <ul>
-                                                <li><Link onClick={ClickHandler} href="/CaseSinglePage">
+                                                <li><Link onClick={ClickHandler} href="/CaseSinglePageRebuild">
                                                     <a href="/DonatePage">
                                                         Learn More
                                                     </a> 
@@ -168,7 +168,7 @@ class CaseSlide extends Component {
                                         </div>
                                         <div className="case-btn">
                                             <ul>
-                                                <li><Link onClick={ClickHandler} href="/CaseSinglePage">
+                                                <li><Link onClick={ClickHandler} href="/CaseSinglePageFund">
                                                     <a href="/DonatePage">
                                                         Learn More
                                                     </a> 
@@ -206,7 +206,7 @@ class CaseSlide extends Component {
                                         </div>
                                         <div className="case-btn">
                                             <ul>
-                                                <li><Link onClick={ClickHandler} href="/CaseSinglePage">
+                                                <li><Link onClick={ClickHandler} href="/CaseSinglePageR10">
                                                     <a href="/DonatePage">
                                                         Learn More
                                                     </a> 
