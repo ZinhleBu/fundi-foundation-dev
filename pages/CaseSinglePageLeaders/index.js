@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
+import PageTitleLeaders from '../../components/pagetitleleaders'
 import CaseSingleLeaders from '../../components/CaseSingleLeaders'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -13,7 +13,7 @@ const CaseSinglePageLeaders =() => {
                 <title>Leaders4Learners Details</title>
             </Head>
             <Header/>
-            <PageTitle pageTitle={'Leaders4Learners'} pagesub={'Ensure Education for every poor children'}/> 
+            <PageTitleLeaders pageTitleLeaders={'Leaders4Learners'} pagesub={'Ensure Education for every poor children'}/> 
             <CaseSingleLeaders/>
             <Footer/>
             <Scrollbar/>

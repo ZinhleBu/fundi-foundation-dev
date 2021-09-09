@@ -1644,7 +1644,7 @@ hero-style3
 
 .hero-style-2 .slide-caption h2,
 .hero-style-1 .slide-caption h2 {
-    color: #062265;
+    color: #164a74;
 }
 
 .hero-style-2 .slide .slide-caption h2 span {
@@ -2405,7 +2405,7 @@ hero-style3
 }
 
 .wpo-team-content h2 a {
-    color: #062265;
+    color: #164a74;
 }
 
 .wpo-team-content ul {
@@ -2420,7 +2420,7 @@ hero-style3
 }
 
 .wpo-team-content ul li a {
-    color: #062265;
+    color: #164a74;
 }
 
 .wpo-team-content ul li:last-child {
@@ -2511,7 +2511,7 @@ hero-style3
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url('../public/images/world.png') no-repeat center center / cover;
+    background: url('../public/images/world-1.jpg') no-repeat center center / cover;
     align-items: center;
     position: relative;
     z-index: 1;
@@ -2543,7 +2543,7 @@ hero-style3
     padding: 15px 20px;
     background: #fff;
     border-radius: 5px;
-    color: #062265;
+    color: #164a74;
     font-weight: 600;
 }
 
@@ -2586,11 +2586,11 @@ hero-style3
 }
 
 .wpo-world-area-2 .wpo-world-section:before {
-    background: rgba(8, 204, 127, 0.5);
+    background: rgba(8, 168, 204, 0.5);
 }
 
 .wpo-world-area-2 .wpo-world-section a {
-    background: #08cc7f;
+    background: #FBC931;
     color: #fff;
 }
 
@@ -2599,7 +2599,7 @@ hero-style3
 }
 
 .wpo-cta-area-2:before {
-    background: rgba(8, 204, 127, 0.84);
+    background: rgba(8, 135, 204, 0.84);
 }
 
 .wpo-cta-text p {
@@ -2897,7 +2897,7 @@ hero-style3
 }
 
 .wpo-blog-content h2 a {
-    color: #062265;
+    color: #164a74;
     font-weight: 700;
 }
 
@@ -3054,7 +3054,7 @@ hero-style3
 }
 
 .blog-section .entry-details h3 a {
-    color: #062265;
+    color: #164a74;
 }
 
 .blog-section .grid ul {
@@ -3090,7 +3090,7 @@ hero-style3
 
 .wpo-news-letter-section,
 .wpo-news-letter-section-2 {
-    background: #062265;
+    background: #164a74;
     text-align: center;
     padding: 100px 0;
 }
@@ -3206,14 +3206,14 @@ hero-style3
 
 .wpo-site-footer,
 .wpo-site-footer {
-    background: #062265;
+    background: #164a74;
     position: relative;
     font-size: 15px;
     overflow: hidden;
 }
 
 .wpo-ne-footer {
-    background: #062265;
+    background: #164a74;
 }
 
 .wpo-site-footer-2 {
@@ -3446,7 +3446,7 @@ hero-style3
 .wpo-site-footer-2 .wpo-lower-footer {
     text-align: center;
     position: relative;
-    background: #011b58;
+    background: #164a74;
 }
 
 .wpo-site-footer .wpo-lower-footer .row,
@@ -3533,7 +3533,7 @@ hero-style3
 .sticky-on {
     opacity: 1;
     top: 0;
-    background: #062265 !important;
+    background: #164a74 !important;
 }
 
 .wpo-header-style-3 .sticky-on {
@@ -3608,7 +3608,37 @@ page-title
 =============================================*/
 
 .wpo-breadcumb-area {
-    background: url('../public/images/breadcumb/img-1.jpg') no-repeat center top / cover;
+    background: url('../public/images/breadcumb/img-1-fund.png') no-repeat center top / cover;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.wpo-breadcumb-area-fund {
+    background: url('../public/images/breadcumb/img-1-fund.png') no-repeat center top / cover;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.wpo-breadcumb-area-rebuild {
+    background: url('../public/images/breadcumb/img-1-rebuild.png') no-repeat center top / cover;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.wpo-breadcumb-area-leaders {
+    background: url('../public/images/breadcumb/img-1-leaders.png') no-repeat center top / cover;
     min-height: 350px;
     position: relative;
     display: flex;

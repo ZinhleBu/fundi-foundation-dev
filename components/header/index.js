@@ -33,10 +33,13 @@ const Header = () => {
                             </li>
                             <li><Link href="/AboutPage" title="">About</Link></li>
                             <li><Link href="/CasePage" title="">Causes</Link>
-                                {/* <ul>
-                                    <li><Link href="/CasePage" title="">Causes</Link></li>
-                                    <li><Link href="/CaseSinglePage" title="">Causes Single</Link></li>
-                                </ul> */}
+                                <ul>
+                                    <li><Link href="/CaseSinglePageFund" title="">Fundi Fund</Link></li>
+                                    <li><Link href="/CaseSinglePageRebuild" title="">RebuildSA</Link></li>
+                                    <li><Link href="/CaseSinglePageLeaders" title="">Leaders4Learners</Link></li>
+                                    <li><Link href="/CaseSinglePageR10" title="">R10 Goes a Long way</Link></li>
+
+                                </ul>
                             </li>
                             <li><Link href="/EventPage" title="">Events</Link>
                                 {/* <ul>

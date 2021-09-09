@@ -6,23 +6,23 @@ const menus = [
     {
         id: 1,
         title: 'Home',
-        link: '/',
+        link: '/HomePage3',
         submenu: [
-            {
-                id: 11,
-                title: 'Home style 1',
-                link: '/'
-            },
-            {
-                id: 12,
-                title: 'Home style 2',
-                link: '/HomePage2'
-            },
-            {
-                id: 13,
-                title: 'Home style 3',
-                link: '/HomePage3'
-            },
+            // {
+            //     id: 11,
+            //     title: 'Home style 1',
+            //     link: '/'
+            // },
+            // {
+            //     id: 12,
+            //     title: 'Home style 2',
+            //     link: '/HomePage2'
+            // },
+            // {
+            //     id: 13,
+            //     title: 'Home',
+            //     link: '/HomePage3'
+            // },
         ]
     },
 
@@ -39,13 +39,28 @@ const menus = [
         submenu: [
             {
                 id: 31,
-                title: 'Causes',
+                title: 'All Causes',
                 link: '/CasePage'
             },
             {
                 id: 32,
-                title: 'Causes Single',
-                link: '/CaseSinglePage'
+                title: 'Fundi Fund',
+                link: '/CaseSinglePageFund'
+            },
+            {
+                id: 33,
+                title: 'RebuildSA',
+                link: '/CaseSinglePageRebuild'
+            },
+            {
+                id: 34,
+                title: 'Leaders4Learners',
+                link: '/CaseSinglePageLeaders'
+            },
+            {
+                id: 35,
+                title: 'R10 Goes a Long Way',
+                link: '/CaseSinglePageR10'
             }
         ]
     },
@@ -66,73 +81,73 @@ const menus = [
             }
         ]
     },
-    {
-        id: 7,
-        title: 'Pages',
-        link: '/',
-        submenu: [
-            {
-                id: 71,
-                title: 'About',
-                link: '/AboutPage'
-            },
-            {
-                id: 75,
-                title: 'Donate',
-                link: '/DonatePage'
-            },
-            {
-                id: 76,
-                title: 'Volunteer',
-                link: '/volunteerPage'
-            },
+    // {
+    //     id: 7,
+    //     title: 'Pages',
+    //     link: '/',
+    //     submenu: [
+    //         {
+    //             id: 71,
+    //             title: 'About',
+    //             link: '/AboutPage'
+    //         },
+    //         {
+    //             id: 75,
+    //             title: 'Donate',
+    //             link: '/DonatePage'
+    //         },
+    //         {
+    //             id: 76,
+    //             title: 'Volunteer',
+    //             link: '/volunteerPage'
+    //         },
     
-            {
-                id: 79,
-                title: 'Error 404',
-                link: '/ErrorPage'
-            },
+    //         {
+    //             id: 79,
+    //             title: 'Error 404',
+    //             link: '/ErrorPage'
+    //         },
             
-        ]
-    },
+    //     ]
+    // },
 
-    {
-        id: 5,
-        title: 'Blog',
-        link: '/BlogPage',
-        submenu: [
-            {
-                id: 51,
-                title: 'Blog',
-                link: '/BlogPage'
-            },
-            {
-                id: 52,
-                title: 'Blog Left sidebar',
-                link: '/BlogPageLeft'
-            },
-            {
-                id: 53,
-                title: 'Blog full width',
-                link: '/BlogPageFullwidth'
-            },
-            {
-                id: 54,
-                title: 'Blog single',
-                link: '/BlogDetails'
-            },
-            {
-                id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/BlogDetailsLeftSiide'
-            },
-            {
-                id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/BlogDetailsFull'
-            },
-        ]
-    },
+    // {
+    //     id: 5,
+    //     title: 'Blog',
+    //     link: '/BlogPage',
+    //     submenu: [
+    //         {
+    //             id: 51,
+    //             title: 'Blog',
+    //             link: '/BlogPage'
+    //         },
+    //         {
+    //             id: 52,
+    //             title: 'Blog Left sidebar',
+    //             link: '/BlogPageLeft'
+    //         },
+    //         {
+    //             id: 53,
+    //             title: 'Blog full width',
+    //             link: '/BlogPageFullwidth'
+    //         },
+    //         {
+    //             id: 54,
+    //             title: 'Blog single',
+    //             link: '/BlogDetails'
+    //         },
+    //         {
+    //             id: 55,
+    //             title: 'Blog single Left sidebar',
+    //             link: '/BlogDetailsLeftSiide'
+    //         },
+    //         {
+    //             id: 56,
+    //             title: 'Blog single Left sidebar',
+    //             link: '/BlogDetailsFull'
+    //         },
+    //     ]
+    // }
     {
         id: 88,
         title: 'Contact',

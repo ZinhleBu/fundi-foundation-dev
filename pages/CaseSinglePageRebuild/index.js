@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
+import PageTitleRebuild from '../../components/pagetitlerebuild'
 import CaseSingleRebuild from '../../components/CaseSingleRebuild'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -13,7 +13,7 @@ const CaseSinglePageRebuild =() => {
                 <title>#RebuildSA Details</title>
             </Head>
             <Header/>
-            <PageTitle pageTitle={'#RebuildSA'} pagesub={'Rebuilding our country.html'}/> 
+            <PageTitleRebuild pageTitleRebuild={'#RebuildSA'} pagesub={'Rebuilding our country.html'}/> 
             <CaseSingleRebuild/>
             <Footer/>
             <Scrollbar/>

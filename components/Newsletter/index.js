@@ -10,7 +10,7 @@ const Newsletter = (props) => {
                 <div className="row">
                     <div className="col col-md-6 offset-lg-3 col-sm-8 offset-md-2">
                         <div className="wpo-newsletter">
-                            <h3>Follow us For ferther information</h3>
+                            <h3>Follow us For further information</h3>
                             <div className="wpo-newsletter-form">
                                 <form onSubmit={SubmitHandler}>
                                     <div>

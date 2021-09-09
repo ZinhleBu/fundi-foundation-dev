@@ -24,7 +24,7 @@ const CaseSingleFund = (props) => {
                     <div className="col col-lg-8">
                         <div className="wpo-case-details-wrap">
                             <div className="wpo-case-details-img">
-                                <img src='images/event-details.jpg' alt=""/>
+                                <img src='images/event-details-makwena.jpg' alt=""/>
                             </div>
                             <div className="wpo-case-details-tab">
                                 <Nav tabs>

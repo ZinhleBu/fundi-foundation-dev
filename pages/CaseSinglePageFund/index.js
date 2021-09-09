@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
+import PageTitleFund from '../../components/pagetitlefund'
 import CaseSingleFund from '../../components/CaseSingleFund'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -13,7 +13,7 @@ const CaseSinglePageFund =() => {
                 <title>Fundi Fund Details</title>
             </Head>
             <Header/>
-            <PageTitle pageTitle={'Fundi Fund'} pagesub={'Funding the dreams of matriculants throughout the country.'}/> 
+            <PageTitleFund pageTitleFund={'Fundi Fund'} pagesub={'Funding the dreams of matriculants throughout the country.'}/> 
             <CaseSingleFund/>
             <Footer/>
             <Scrollbar/>
