@@ -34,10 +34,10 @@ const Header = () => {
                             <li><Link href="/AboutPage" title="">About</Link></li>
                             <li><Link href="/CasePage" title="">Causes</Link>
                                 <ul>
+                                    <li><Link href="/CaseSinglePageR10" title="">R10 Goes a Long way</Link></li>
                                     <li><Link href="/CaseSinglePageFund" title="">Fundi Fund</Link></li>
                                     <li><Link href="/CaseSinglePageRebuild" title="">RebuildSA</Link></li>
                                     <li><Link href="/CaseSinglePageLeaders" title="">Leaders4Learners</Link></li>
-                                    <li><Link href="/CaseSinglePageR10" title="">R10 Goes a Long way</Link></li>
 
                                 </ul>
                             </li>
@@ -47,14 +47,14 @@ const Header = () => {
                                     <li><Link href="/EventPageSingle" title="">Event Single</Link></li>
                                 </ul> */}
                             </li>
-                            <li><Link href="/" title="">Pages</Link>
+                            {/* <li><Link href="/" title="">Pages</Link>
                                 <ul>
                                     <li><Link href="/AboutPage" title="">About</Link></li>
                                     <li><Link href="/DonatePage" title="">Donate</Link></li>
                                     <li><Link href="/volunteerPage" title="">Volunteer</Link></li>
                                     <li><Link href="/ErrorPage" title="">Error 404</Link></li>
                                 </ul>
-                            </li>
+                            </li> */}
                             {/* <li><Link href="/BlogPage">Blog</Link>
                                 <ul>
                                     <li><Link href="/BlogPage">Blog</Link></li>

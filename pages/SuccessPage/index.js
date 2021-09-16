@@ -1,23 +1,23 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitleRebuild from '../../components/pagetitlerebuild'
-import CaseSingleRebuild from '../../components/CaseSingleRebuild'
+import PageTitle from '../../components/pagetitle'
+import Success from '../../components/Success'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
-const CaseSinglePageRebuild =() => {
+const SuccessPage =() => {
     return(
         <Fragment>
              <Head>
-                <title>#RebuildSA Details</title>
+                <title>Payment successful</title>
             </Head>
             <Header/>
-            <PageTitleRebuild pageTitleRebuild={'#RebuildSA'} pagesub={'Save Our Schools'}/> 
-            <CaseSingleRebuild/>
+            <PageTitle pageTitle={'Payment successful'} pagesub={'Thank you for your donation'}/> 
+            <Success/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
     )
 };
-export default CaseSinglePageRebuild;
+export default SuccessPage;

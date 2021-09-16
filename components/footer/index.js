@@ -21,7 +21,7 @@ const Footer = (props) =>{
                             </div>
                             <p>Build and Earn with your online store with lots of cool and exclusive wpo-features </p>
                             <ul>
-                                <li><Link onClick={ClickHandler} href="/"><a><i className="ti-facebook"></i></a></Link></li>
+                                <li><Link onClick={ClickHandler} href="https://web.facebook.com/FundiS0uthAfrica"><a><i className="ti-facebook"></i></a></Link></li>
                                 <li><Link onClick={ClickHandler} href="/"><a><i className="ti-twitter-alt"></i></a></Link></li>
                                 <li><Link onClick={ClickHandler} href="/"><a><i className="ti-instagram"></i></a></Link></li>
                                 <li><Link onClick={ClickHandler} href="/"><a><i className="ti-google"></i></a></Link></li>

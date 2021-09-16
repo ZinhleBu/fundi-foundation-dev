@@ -16,13 +16,13 @@ const Volunteer = () =>  {
                         <div className="volunteer-item">
                             <div className="volunteer-img-wrap">
                                 <div className="volunter-img">
-                                    <img src='images/volunteer.jpg' alt=""/>
+                                    <img src='images/Changing-view-from-space.jpg' alt=""/>
                                 </div>
                             </div>
                         </div>
                         <div className="volunteer-contact">
                             <div className="volunteer-contact-form">
-                                <h2>Become a Volunteer</h2>
+                                <h2>Register for 2022 Funding</h2>
                                 <form onSubmit={SubmitHandler} className="contact-validation-active" id="contact-form">
                                     <div className="row">
                                         <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
@@ -35,7 +35,12 @@ const Volunteer = () =>  {
                                             <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject"/>
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group form-group-in">
-                                            <label htmlFor="file">Upload Your CV</label>
+                                            <label htmlFor="file">Upload Your ID</label>
+                                            <input id="file" type="file" className="form-control" name="file"/>
+                                            <i className="ti-cloud-up"></i>
+                                        </div>
+                                        <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group form-group-in">
+                                            <label htmlFor="file">Upload Your Results</label>
                                             <input id="file" type="file" className="form-control" name="file"/>
                                             <i className="ti-cloud-up"></i>
                                         </div>

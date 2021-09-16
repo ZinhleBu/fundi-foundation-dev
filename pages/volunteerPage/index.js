@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
+import PageTitleRegiser from '../../components/pagetitleregister'
 import Volunteer from '../../components/Volunteer'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -10,10 +10,10 @@ const VolunteerPage =() => {
     return(
         <Fragment>
              <Head>
-                <title>Volunteer</title>
+                <title>Register for 2022 Funding</title>
             </Head>
             <Header/>
-            <PageTitle pageTitle={'Become a Volunteer'} pagesub={'Become a Volunteer'}/> 
+            <PageTitleRegiser pageTitleRegister={'Register for 2022 Funding'} pagesub={'Register'}/> 
             <Volunteer/>
             <Footer/>
             <Scrollbar/>
