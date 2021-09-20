@@ -9,7 +9,7 @@ import TeamSection from '../../components/team'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
-
+import MissionAbout from '../../components/missionabout'
 const CasePage =() => {
     return(
         <Fragment>
@@ -18,6 +18,7 @@ const CasePage =() => {
             </Head>
             <Header/>
             <PageTitleAbout pageTitleAbout={'About Us'} pagesub={'About'}/> 
+            <MissionAbout/>
             <VedioAbout/>
             <TeamSection/>
             <CounterSection/>
