@@ -161,39 +161,6 @@ const CaseSingleR10 = (props) => {
                                                                 </div>
                                                             </div>
 
-
-
-
-
-                                                            {/* <h2>Ayandamantombazane Mhlongo writes:</h2>
-                                                            <p>
-
-                                                                The job market is extremely competitive and skilled employees are high in demand. Degrees are required for a wide range of careers such as Medicine, Education, Engineering, Accounting and Law.
-
-                                                            </p>
-                                                            <p>
-                                                                A university education will help the youth succeed in today's workforce and establish an enjoyable career of their choice.
-                                                            </p>
-                                                            <p>
-                                                                This past week, students took to the streets to protest over a number of issues, including the financial exclusion of some 6,000 students due to historical debt.  In Solidarity with students across the country The R10 Goes A Long Way Initiative strives to assist with the current plight of students in South Africa who are currently unable to attend University due to their financial difficulties. This initiative is set to assist 50 students to be able to register for University & finally get a chance to participate in today’s economy.
-
-                                                            </p>
-                                                            <p>
-
-                                                                The impact of the R10 Goes A Long Way initiative will allow 50 students who were financially excluded in the year of 2021 to register to study further at University.
-
-                                                            </p>
-                                                            <p>
-                                                                The funds will be raised using a crowd funding technique aimed at raising small amounts of money from a large number of people. This will ensure that students who are financially excluded from University get an equal opportunity and level playing field in order to attend and graduate which is abasic Human Right.
-
-                                                            </p>
-                                                            <p>
-
-                                                                The R10 Goes A Long Way Initiative is created by Social Media Sensation, Lasizwe Dambuza, Event Agency Owner, Sibu Mabena, Internationally renowned choreographer, Takkies & Marketing Manager, Ayandamantombazane Mhlongo
-                                                            </p> */}
-
-
-
                                                             <div>
                                                                 <h1>Student Registration Verification Process </h1>
                                                                 <p>We request the following documents:</p>
@@ -203,13 +170,7 @@ const CaseSingleR10 = (props) => {
                                                                     <li>ID Copy.</li>
                                                                     <li>Student fee account and proof of payment for those that made the payment by other personal means.</li>                                                            </ul>
                                                             </div>
-                                                            {/* <ul>
-                                                                <li>The wise man therefore always holds in these matters.</li>
-                                                                <li>In a free hour, when our power of choice and when nothing.</li>
-                                                                <li>Else he endures pains to avoid worse pains.</li>
-                                                                <li>We denounce with righteous indignation and dislike men. </li>
-                                                                <li>Which is the same as saying through.</li>
-                                                            </ul> */}
+                                                           
                                                         </div>
                                                     </div>
 
