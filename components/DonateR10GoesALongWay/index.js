@@ -1,5 +1,5 @@
 
-const DonateR10GoesAlongWay = (props) => {
+const DonateR10GoesALongWay = (props) => {
 
     const SubmitHandler = (e) => {
         e.preventDefault()
@@ -69,6 +69,10 @@ const DonateR10GoesAlongWay = (props) => {
 
 
 
+                     
+                     
+                     
+                     
                       <form onSubmit={SubmitHandler} action="https://sandbox.payfast.co.za​/eng/process" method="post">
                         <div className="wpo-donations-amount">
                         <h2>Your Donation</h2>
@@ -169,4 +173,4 @@ const DonateR10GoesAlongWay = (props) => {
     )
 }
 
-export default DonateR10GoesAlongWay;
+export default DonateR10GoesALongWay;
