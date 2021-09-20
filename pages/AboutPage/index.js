@@ -2,7 +2,6 @@ import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import PageTitleAbout from '../../components/pagetitleabout'
 import VedioAbout from '../../components/vedioAbout'
-import Mission from '../../components/Mission'
 import AboutSec from '../../components/aboutsec'
 import CaseSlide from '../../components/case'
 import CounterSection from '../../components/counter'
@@ -20,7 +19,6 @@ const CasePage =() => {
             <Header/>
             <PageTitleAbout pageTitleAbout={'About Us'} pagesub={'About'}/> 
             <VedioAbout/>
-            <Mission/>
             <TeamSection/>
             <CounterSection/>
             <AboutSec/>
