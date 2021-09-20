@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import Hero3 from '../../components/hero3'
 import Mission from '../../components/mission'
-import About from '../../components/about'
+import AboutSec from '../../components/aboutsec'
 import CaseSlide from '../../components/case'
 import CounterSection from '../../components/counter'
 import TeamSection from '../../components/team'
@@ -11,6 +11,7 @@ import BlogSection from '../../components/BlogSection'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
+import ImageSlide from '../../components/imageSlider';
 
 const HomePage3 =() => {
     return(
@@ -20,11 +21,13 @@ const HomePage3 =() => {
             </Head>
             <Header/>
             <Hero3/>
+            <AboutSec/>
+            <ImageSlide/>
+
             <Mission subclass={'section-padding'}/>
-            <About/>
-            <CaseSlide/>
             <CounterSection countclass={'wpo-counter-style-2'}/>
-            <TeamSection/>
+            <CaseSlide/>
+            {/* <TeamSection/> */}
             <WorldSection worldclass={'wpo-world-area-2'}/>
             {/* <BlogSection/> */}
             <Footer/>

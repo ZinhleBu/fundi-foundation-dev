@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
+import PageTitleR10 from '../../components/pagetitleR10'
 import CaseSingleR10 from '../../components/CaseSingleR10'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -13,7 +13,7 @@ const CaseSinglePageR10 =() => {
                 <title>R10 Goes a Long Way</title>
             </Head>
             <Header/>
-            <PageTitle pageTitle={'R10 Goes a Long Way'} pagesub={'Funding the dreams of matriculants throughout the country.'}/> 
+            <PageTitleR10 pageTitleR10={'R10 Goes a Long Way'} pagesub={'Funding the dreams of matriculants throughout the country.'}/> 
             <CaseSingleR10/>
             <Footer/>
             <Scrollbar/>

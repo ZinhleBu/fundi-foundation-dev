@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import Header from '../components/header'
 import Hero3 from '../components/hero3'
 import Mission from '../components/mission'
-import About from '../components/about'
+import AboutSec from '../components/aboutsec'
 import CaseSlide from '../components/case'
 import CounterSection from '../components/counter'
 import TeamSection from '../components/team'
@@ -24,7 +24,7 @@ const HomePage =() => {
             <Header/>
             <Hero3/>
             <Mission/>
-            <About/>
+            <AboutSec/>
             <CaseSlide/>
             <CounterSection/>
             <TeamSection/>

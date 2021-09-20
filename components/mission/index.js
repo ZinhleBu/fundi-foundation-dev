@@ -57,6 +57,19 @@ const Mission = (props) => {
                                 </div>
                             </div>
                         </div>
+                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid"
+                        style={{ marginTop:"20px"}} >
+                            <div className="wpo-mission-item">
+                                <div className="wpo-mission-icon-8">
+                                    <img src='images/mission/icon4.png' alt=""/>
+                                </div>
+                                <div className="wpo-mission-content">
+                                    <h2>Fundi CSI</h2>
+                                    <p>Lorem ipsum dolor amet cosectetur adipiscing, sed do eiusmod.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

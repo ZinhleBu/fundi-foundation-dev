@@ -2,8 +2,9 @@ import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import PageTitle from '../../components/pagetitle'
 import VedioCta from '../../components/vediocta'
-import Mission from '../../components/mission'
-import About from '../../components/about'
+import MissionAbout from '../../components/MissionAbout'
+import Mission from '../../components/Mission'
+import AboutSec from '../../components/aboutsec'
 import CaseSlide from '../../components/case'
 import CounterSection from '../../components/counter'
 import TeamSection from '../../components/team'
@@ -20,11 +21,14 @@ const CasePage =() => {
             <Header/>
             <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
             <VedioCta/>
-            <Mission subclass={'section-padding'}/>
-            <About/>
-            <CaseSlide/>
-            <CounterSection/>
+            <MissionAbout subclass={'section-padding'}/>
+            <Mission/>
+
             <TeamSection/>
+            <CounterSection/>
+
+            <AboutSec/>
+            <CaseSlide/>
             <Footer/>
             <Scrollbar/>
         </Fragment>

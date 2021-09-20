@@ -13,7 +13,7 @@ const EventPage =() => {
                 <title>Event</title>
             </Head>
             <Header/>
-            <PageTitle pageTitle={'Our Event'} pagesub={'Event'}/> 
+            <PageTitle pageTitle={'Articles'} pagesub={'Events'}/> 
             <EventSection2/>
             <Footer/>
             <Scrollbar/>

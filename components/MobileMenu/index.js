@@ -7,23 +7,23 @@ const menus = [
         id: 1,
         title: 'Home',
         link: '/HomePage3',
-        submenu: [
-            // {
-            //     id: 11,
-            //     title: 'Home style 1',
-            //     link: '/'
-            // },
-            // {
-            //     id: 12,
-            //     title: 'Home style 2',
-            //     link: '/HomePage2'
-            // },
-            // {
-            //     id: 13,
-            //     title: 'Home',
-            //     link: '/HomePage3'
-            // },
-        ]
+        // submenu: [
+        //     {
+        //         id: 11,
+        //         title: 'Home style 1',
+        //         link: '/'
+        //     },
+        //     {
+        //         id: 12,
+        //         title: 'Home style 2',
+        //         link: '/HomePage2'
+        //     },
+        //     {
+        //         id: 13,
+        //         title: 'Home',
+        //         link: '/HomePage3'
+        //     },
+        // ]
     },
 
     {
