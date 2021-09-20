@@ -13,7 +13,7 @@ const Mission = (props) => {
                 </div>
                 <div className="wpo-mission-wrap">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-5">
                                     <img src='images/mission/icon1.png' alt=""/>
@@ -24,7 +24,7 @@ const Mission = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-6">
                                     <img src='images/mission/icon2.png' alt=""/>
@@ -35,7 +35,7 @@ const Mission = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-7">
                                     <img src='images/mission/icon3.png' alt=""/>
@@ -46,7 +46,7 @@ const Mission = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-8">
                                     <img src='images/mission/icon4.png' alt=""/>
@@ -57,7 +57,7 @@ const Mission = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid"
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid"
                         style={{ marginTop:"20px"}} >
                             <div className="wpo-mission-item">
                                 <div className="wpo-mission-icon-8">
