@@ -17,7 +17,7 @@ const Footer = (props) =>{
                     <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                         <div className="widget about-widget">
                             <div className="logo widget-title">
-                                <img src='images/logo-2.png' alt=""/>
+                                <img src='images/fundifondation-logo.png' alt=""/>
                             </div>
                             <p>Build and Earn with your online store with lots of cool and exclusive wpo-features </p>
                             <ul>
