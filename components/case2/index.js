@@ -182,7 +182,7 @@ class Casesection extends Component {
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
-                                        <h2>Fundi CSI</h2>
+                                        <h2>Fundi CSi</h2>
                                         <div className="progress-section">
                                             <div className="process">
                                                 <div className="progress">
