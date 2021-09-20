@@ -69,7 +69,7 @@ const DonateR10GoesAlongWay = (props) => {
 
 
 
-                        {/* <form onSubmit={SubmitHandler} action="https://sandbox.payfast.co.za​/eng/process" method="post">
+                      <form onSubmit={SubmitHandler} action="https://sandbox.payfast.co.za​/eng/process" method="post">
                         <div className="wpo-donations-amount">
                         <h2>Your Donation</h2>
                         <input type ="text" className="form-control" name="text" id="text" placeholder="Enter Donation Amount" />
@@ -159,7 +159,7 @@ const DonateR10GoesAlongWay = (props) => {
                         <div className="submit-area">
                         <button type ="submit" className="theme-btn submit-btn">Donate Now</button>
                         </div>
-                        </form> */}
+                        </form>
 
 
                     </div>

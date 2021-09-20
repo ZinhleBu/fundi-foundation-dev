@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
+import PageTitleAbout from '../../components/pagetitleabout'
 import VedioCta from '../../components/vediocta'
 import MissionAbout from '../../components/MissionAbout'
 import Mission from '../../components/Mission'
@@ -19,7 +19,7 @@ const CasePage =() => {
                 <title>About Us</title>
             </Head>
             <Header/>
-            <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
+            <PageTitleAbout pageTitleAbout={'About Us'} pagesub={'About'}/> 
             <VedioCta/>
             <MissionAbout subclass={'section-padding'}/>
             <Mission/>
