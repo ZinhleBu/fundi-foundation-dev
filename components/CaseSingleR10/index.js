@@ -162,15 +162,16 @@ const CaseSingleR10 = (props) => {
                                                             </div>
 
                                                             <div>
-                                                                <h1>Student Registration Verification Process </h1>
-                                                                <p>We request the following documents:</p>
+                                                                <h1>Apply for Registration Funding </h1>
+                                                                <p>If you've applied for registration at a tertiary institution, and havee been accepted to study further, you can apply for funding here.</p>
+                                                                <p>Please provide the following documents with your application.:</p>
                                                                 <ul>
                                                                     <li>Acceptance letter reflecting the registration amount.</li>
                                                                     <li>Proof of registration (if available).</li>
                                                                     <li>ID Copy.</li>
                                                                     <li>Student fee account and proof of payment for those that made the payment by other personal means.</li>                                                            </ul>
                                                             </div>
-                                                           
+
                                                         </div>
                                                     </div>
 
@@ -237,6 +238,8 @@ const CaseSingleR10 = (props) => {
                                                                         <li className="pay"><input id="4" type="radio" name="size" value="30" />
                                                                             <label htmlFor="4"><img src='images/checkout/img-4.png' alt="" /></label>
                                                                         </li>
+                                                                        <a href="https://www.payfast.co.za/eng/process?cmd=_paynow&amp;receiver=16564521&amp;item_name=R10+goes+a+long+way&amp;amount=10.00&amp;return_url=https%3A%2F%2Fwww.fundifoundation.org&amp;cancel_url=https%3A%2F%2Fwww.fundifoundation.org"><img src="https://www.payfast.co.za/images/buttons/light-small-donate.png" width="165" height="36" alt="Buy" title="Buy Now with PayFast" /></a>
+
                                                                     </ul>
                                                                     <div className="contact-form form-style">
                                                                         <div className="row">

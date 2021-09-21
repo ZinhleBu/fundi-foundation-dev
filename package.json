@@ -1,9 +1,9 @@
 {
-    "name": "Fundi-foundation",
+    "name": "FundiFoundation",
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "next dev && next export",
+        "dev": "next dev",
         "build": "next build  && next export",
         "start": "next start -H 0.0.0.0 -p $PORT"
     },

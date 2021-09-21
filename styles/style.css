@@ -1304,6 +1304,12 @@ hero-style-1
     height: 910px;
 }
 
+.hero-style-3-Btm {
+    height: 910px;
+    position: relative;
+    background-color: #000;
+}
+
 .hero-style-2 .slide {
     height: 910px;
 }
@@ -1508,8 +1514,16 @@ hero-style3
 
 .hero-style-3 {
     position: relative;
-    height: 800px;
+    height: 900px;
 }
+
+
+/* 
+.bottom-sec {
+    position: relative;
+    height: 150px;
+    background: #000;
+} */
 
 .hero-style-3 .slide {
     height: 800px;
@@ -3609,6 +3623,16 @@ page-title
 
 .wpo-breadcumb-area {
     background: url('../public/images/breadcumb/img-1-fund.png') no-repeat center top / cover;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.wpo-breadcumb-area-case {
+    background: url('../public/images/case1.png') no-repeat center top / cover;
     min-height: 350px;
     position: relative;
     display: flex;

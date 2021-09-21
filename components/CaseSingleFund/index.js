@@ -62,7 +62,7 @@ const CaseSingleFund = (props) => {
                                         <div className="col-12">
                                             <div className="wpo-case-content">
                                                 <div className="wpo-case-text-top">
-                                                    <h2>Ensure Education for every poor children</h2>
+                                                    <h2>#SavingTheClassOf2020 #Fundi12412</h2>
                                                     <div className="progress-section">
                                                         <div className="process">
                                                             <div className="progress">
@@ -78,11 +78,11 @@ const CaseSingleFund = (props) => {
                                                         <li><span>Donar:</span> 380</li>
                                                     </ul>
                                                     <div className="case-b-text">
-                                                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
-                                                        <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
-                                                        <p>But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures.</p>
+                                                        <p>Nearly 800 000 Matric learners were out of school for over 2 months due to the Covid19 lockdown. Learners from township and rural schools were seriously disadvantaged by the limited access and technologies which would have allowed teachers to remain in contact with them during the lockdown.</p>
+                                                        <p>After schools opened for Grade 12, many learners are still struggling to catch up with their matric curriculum.</p>
+                                                        <p>Fundi, together with Primestars invites you to be a part of our fundraising initiative to help us get the Class of 2020 to the finish line by donating any amount you can to the FundiFund12for12 Challenge.</p>
                                                     </div>
-                                                    <div className="case-bb-text">
+                                                    {/* <div className="case-bb-text">
                                                         <h3>We want to ensure the education for the kids.</h3>
                                                         <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure.</p>
                                                         <ul>
@@ -92,7 +92,7 @@ const CaseSingleFund = (props) => {
                                                             <li>We denounce with righteous indignation and dislike men. </li>
                                                             <li>Which is the same as saying through.</li>
                                                         </ul>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>

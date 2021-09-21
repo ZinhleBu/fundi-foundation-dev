@@ -13,6 +13,7 @@ import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 import ImageSlide from '../../components/imageSlider';
 
+
 const HomePage3 =() => {
     return(
         <Fragment>

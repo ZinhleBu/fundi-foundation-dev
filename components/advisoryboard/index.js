@@ -16,7 +16,7 @@ const AdvisorySection = (props) => {
                     <div className="col-lg-3 col-md-16 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap">
                             <div className="wpo-team-img">
-                                <img src='images/advisory/sibu.png' alt="" />
+                                <img src='images/advisory/sibu.jpg' alt="" />
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
@@ -30,7 +30,7 @@ const AdvisorySection = (props) => {
                     <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap">
                             <div className="wpo-team-img">
-                                <img src='images/advisory/lasizwe.png' alt="" />
+                                <img src='images/advisory/lasizwe.jpeg' alt="" />
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
@@ -44,7 +44,7 @@ const AdvisorySection = (props) => {
                     <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap">
                             <div className="wpo-team-img">
-                                <img src='images/advisory/ayanda.png' alt="" />
+                                <img src='images/advisory/ayanda.jpg' alt="" />
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">

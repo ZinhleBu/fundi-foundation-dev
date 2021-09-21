@@ -10,7 +10,7 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 import MissionAbout from '../../components/missionabout'
-const CasePage =() => {
+const AboutPage =() => {
     return(
         <Fragment>
             <Head>
@@ -29,4 +29,4 @@ const CasePage =() => {
         </Fragment>
     )
 };
-export default CasePage;
+export default AboutPage;

@@ -22,7 +22,7 @@ const AboutSec = (props) => {
                             <h3>Sibonile school of the blind. </h3>
                             <h3>Bukho Bami community centre, Sakhile Nsibande</h3>
                             <div className="btns">
-                                <Link href="/DonateR10GoesAlongWayPage">
+                                <Link href="/DonatePage">
                                     <a className="theme-btn" onClick={ClickHandler}>Donate Now</a>
                                 </Link>
                                 <ul>

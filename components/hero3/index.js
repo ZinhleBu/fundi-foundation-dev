@@ -21,7 +21,7 @@ const Hero3 = (props) => {
                                         animate={{ opacity: 1, y: -10 }}
                                         exit={{ opacity: 0, y: 10 }}
                                         className="slide-title">
-                                        <h2>Welcome to <span>Fundi Foundation</span></h2>
+                                        <h2>Doing Good<span> Is Good Business</span></h2>
                                     </motion.div>
                                     <div className="slide-subtitle">
                                         <p>Donate to the Fundi Foundtion today,</p>
@@ -35,8 +35,12 @@ const Hero3 = (props) => {
                         </div>
                         <div className="right-vec">
                         </div>
+                       
                     </div>
                 </div>
+                <div className="bottom-sec">
+                            <h1>hello</h1>
+                        </div>
             </motion.section>
         </AnimatePresence>
 

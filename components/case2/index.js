@@ -23,7 +23,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src='images/case/img-1.png' alt=""/>
+                                    <img src='images/case/img-1-R10.png' alt=""/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
@@ -54,7 +54,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src='images/case/img-2.png' alt=""/>
+                                    <img src='images/case/img-2-rebuild.png' alt=""/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
@@ -85,7 +85,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src='images/case/img-3.png' alt=""/>
+                                    <img src='images/case/img-3-leaders.png' alt=""/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
@@ -116,11 +116,11 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src='images/case/img-4.png' alt=""/>
+                                    <img src='images/case/img-4-makwena.jpg' alt=""/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
-                                        <h2>Fundi Fund</h2>
+                                        <h2>Fundi Fund 12412</h2>
                                         <div className="progress-section">
                                             <div className="process">
                                                 <div className="progress">
