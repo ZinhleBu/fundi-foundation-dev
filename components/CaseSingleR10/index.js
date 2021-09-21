@@ -61,7 +61,7 @@ const CaseSingleR10 = (props) => {
                                             <div className="col-12">
                                                 <div className="wpo-case-content">
                                                     <div className="wpo-case-text-top">
-                                                        <h2>The Challenge</h2>
+                                                        <h1>The Challenge</h1>
                                                         <div className="progress-section">
                                                             <div className="process">
                                                                 <div className="progress">
@@ -93,6 +93,8 @@ const CaseSingleR10 = (props) => {
                                                                 South African citizens.. All SASSA grant recipients qualifies for funding. Applicants whose combined household income is not more than R350 000 per annum. Persons with disability: Combined household income must not be more than R600 000 per annum.
                                                             </p>
                                                         </div>
+                                                        <AdvisorySection />
+
                                                         <div className="case-bb-text">
                                                             <h1>#R10GoesALongWay - History</h1>
                                                             <h3>How and why #R10GoesALongWay started?</h3>
@@ -106,7 +108,6 @@ const CaseSingleR10 = (props) => {
 
                                                                 On 13 March Sibu Mabena, Ayanda Mhlongo ,Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. In 16 hours... YOU ALL HAVE TURNED THAT INTO R200 000
                                                             </p>
-                                                            <AdvisorySection />
                                                             <div className="container">
                                                                 <div className="row">
                                                                     <div className="col-12">
