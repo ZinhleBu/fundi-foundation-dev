@@ -35,7 +35,7 @@ const Header = () => {
                             <li><Link href="/CasePage" title="">Causes</Link>
                                 <ul>
                                     <li><Link href="/CaseSinglePageR10" title="">R10 Goes a Long way</Link></li>
-                                    <li><Link href="/CaseSinglePageFund" title="">Fundi Fund</Link></li>
+                                    <li><Link href="/CaseSinglePageFund" title="">FundiFund 12412</Link></li>
                                     <li><Link href="/CaseSinglePageRebuild" title="">RebuildSA</Link></li>
                                     <li><Link href="/CaseSinglePageLeaders" title="">Leaders4Learners</Link></li>
 

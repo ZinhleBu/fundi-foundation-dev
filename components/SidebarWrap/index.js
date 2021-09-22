@@ -27,7 +27,7 @@ const SidebarWrap = () => {
                                 <img src='images/recent-posts/img-1.jpg' alt=""/>
                             </div>
                             <div className="details">
-                                <h4><Link href="/BlogDetails">Many Children are suffering a lot for food.</Link></h4>
+                                <h4><Link href="/AyandamantombazaneBlogPost">Many Children are suffering a lot for food.</Link></h4>
                                 <span className="date">22 Jan 2021</span>
                             </div>
                         </div>

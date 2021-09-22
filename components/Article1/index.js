@@ -23,15 +23,18 @@ const Article1 = (props) => {
                         <div className="col col-lg-8">
                             <div className="wpo-event-item">
                                 <div className="wpo-event-img">
-                                    <img src='images/event-details2.jpg' alt=""/>
+                                    <img src='images/event-details2-ayanda.jpg' alt=""/>
                                     <div className="thumb-text">
                                         <span>25</span>
                                         <span>NOV</span>
                                     </div>
                                 </div>
                                 <div className="wpo-event-details-text">
-                                    <h2>Education for All Children</h2>
-                                    <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
+                                    <h2>Ayandamantombazane Mhlongo writes:</h2>
+                                    <p>The job market is extremely competitive and skilled employees are high in demand. Degrees are required for a wide range of careers such as Medicine, Education, Engineering, Accounting and Law.</p>
+                                    <p>A university education will help the youth succeed in today's workforce and establish an enjoyable career of their choice.</p>
+                                    <p>This past week, students took to the streets to protest over a number of issues, including the financial exclusion of some 6,000 students due to historical debt.  In Solidarity with students across the country The R10 Goes A Long Way Initiative strives to assist with the current plight of students in South Africa who are currently unable to attend University due to their financial difficulties. This initiative is set to assist 50 students to be able to register for University & finally get a chance to participate in today’s economy.  </p>
+                                    <p>The impact of the R10 Goes A Long Way initiative will allow 50 students who were financially excluded in the year of 2021 to register to study further at University.</p>
                                 </div>
                                 <div className="wpo-event-details-wrap">
                                     <div className="wpo-event-details-tab">
@@ -41,7 +44,7 @@ const Article1 = (props) => {
                                                     className={classnames({ active: activeTab === '1' })}
                                                     onClick={() => { toggle('1'); }}
                                                 >
-                                                    Event Schedule
+                                                    Donations
                                                 </NavLink>
                                             </NavItem>
                                             <NavItem>
@@ -66,9 +69,10 @@ const Article1 = (props) => {
                                     <div className="wpo-event-details-content">
                                         <TabContent activeTab={activeTab}>
                                             <TabPane tabId="1" id="Schedule">
-                                                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
+                                                <p>The funds will be raised using a crowd funding technique aimed at raising small amounts of money from a large number of people. This will ensure that students who are financially excluded from University get an equal opportunity and level playing field in order to attend and graduate which is abasic Human Right.</p>
                                                 <ul>
-                                                    <li>The wise man therefore in these matters.</li>
+                                                    <li> <h5>Apr 21, 2021 - R 1 090.00</h5>
+                                                        "Thank you for starting this amazing initiative!" - Wicked Donuts.</li>
                                                     <li>In a free hour, when our power of choice and when nothing.</li>
                                                     <li>Else he pains to avoid pains.</li>
                                                     <li>We denounce with righteous indignation dislike men. </li>

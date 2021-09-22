@@ -10,10 +10,10 @@ const CaseSinglePageFund =() => {
     return(
         <Fragment>
              <Head>
-                <title>Fundi Fund Details</title>
+                <title>FundiFund Details</title>
             </Head>
             <Header/>
-            <PageTitleFund pageTitleFund={'Fundi Fund'} pagesub={'Funding the dreams of matriculants throughout the country.'}/> 
+            <PageTitleFund pageTitleFund={'FundiFund'} pagesub={'Funding the dreams of matriculants throughout the country.'}/> 
             <CaseSingleFund/>
             <Footer/>
             <Scrollbar/>

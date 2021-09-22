@@ -35,12 +35,8 @@ const Hero3 = (props) => {
                         </div>
                         <div className="right-vec">
                         </div>
-                       
                     </div>
                 </div>
-                <div className="bottom-sec">
-                            <h1>hello</h1>
-                        </div>
             </motion.section>
         </AnimatePresence>
 
