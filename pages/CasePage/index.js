@@ -14,7 +14,7 @@ const CasePage =() => {
                 <title>Causes</title>
             </Head>
             <Header/>
-            <PageTitleCase pageTitle={'Our Causes'} pagesub={'Causes'}/> 
+            <PageTitleCase pageTitleCase={'Our Causes'} pagesub={'Causes'}/> 
             <Casesection/>
             <Mission subclass={'section-padding'}/>
             <Footer/>
