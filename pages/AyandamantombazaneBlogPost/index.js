@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import PageTitle from '../../components/pagetitle'
-import Article1 from '../../components/Article1'
+import Article1 from '../../components/EventSingle'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'

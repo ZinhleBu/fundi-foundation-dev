@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import SidebarWrap from '../SidebarWrap'
 
 
-const Article1 = (props) => {
+const EventSingle = (props) => {
 
     const SubmitHandler = (e) =>{
         e.preventDefault()
@@ -123,7 +123,7 @@ const Article1 = (props) => {
             );
     }
     
-    export default Article1;
+    export default EventSingle;
           
           
           
