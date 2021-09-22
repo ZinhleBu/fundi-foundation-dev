@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import HeaderTopbar from '../HeaderTopbar'
 import MobileMenu from '../../components/MobileMenu'
-
+import { motion } from 'framer-motion'
 const Header = () => {
     const SubmitHandler = (e) =>{
         e.preventDefault()
@@ -15,11 +15,16 @@ const Header = () => {
             <div className="header-content">
             <div className="row">
                 <div className="col-lg-3 col-md-4 col-sm-4 col-4">
-                    <div className="logo">
+                    <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{delay: .5}}
+                    exit={{ opacity: 0 }}
+                    className="logo">
                         <Link href="/HomePage3" title="">
                            <a><img src='images/fundifondation-logo.png' alt=""/></a>
                         </Link>
-                    </div>
+                    </motion.div>
                 </div>
                 <div className="col-lg-8 d-lg-block d-none">
                     <nav>

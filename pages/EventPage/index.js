@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
+import PageTitleEvent from '../../components/pagetitleevent'
 import EventSection2 from '../../components/event2'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -10,10 +10,10 @@ const EventPage =() => {
     return(
         <Fragment>
              <Head>
-                <title>Event</title>
+                <title>Articles</title>
             </Head>
             <Header/>
-            <PageTitle pageTitle={'Articles'} pagesub={'Events'}/> 
+            <PageTitleEvent pageTitle={'Articles'} pagesub={'Events'}/> 
             <EventSection2/>
             <Footer/>
             <Scrollbar/>

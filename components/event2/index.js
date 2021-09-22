@@ -17,7 +17,7 @@ const EventSection2 = (props) => {
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
-                                <img src='images/event/img-1.jpg' alt="" />
+                                <img src='images/event/img-1-ayanda.jpg' alt="" />
                                 <div className="thumb-text">
                                     <span>25</span>
                                     <span>NOV</span>

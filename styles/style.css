@@ -2456,14 +2456,14 @@ hero-style3
     position: absolute;
     right: 0px;
     bottom: -45px;
-    width: 80%;
+    width: 100%;
     text-align: center;
     padding: 30px;
     overflow: hidden;
 }
 
 .wpo-team-text-sub {
-    margin-bottom: -52px;
+    margin-bottom: -32px;
     transition: all .3s;
 }
 
@@ -2472,7 +2472,7 @@ hero-style3
 }
 
 .wpo-team-text-sub span {
-    margin-bottom: 28px;
+    margin-bottom: 18px;
     display: block;
     transition: all .3s;
 }
@@ -3623,6 +3623,16 @@ page-title
 
 .wpo-breadcumb-area {
     background: url('../public/images/breadcumb/img-1-fund.png') no-repeat center top / cover;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.wpo-breadcumb-area-event {
+    background: url('../public/images/breadcumb/articles.jpg') no-repeat center top / cover;
     min-height: 350px;
     position: relative;
     display: flex;

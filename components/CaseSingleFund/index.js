@@ -44,7 +44,7 @@ const CaseSingleFund = (props) => {
                                         Donations
                                         </NavLink>
                                     </NavItem>
-
+{/* 
                                     <NavItem>
                                         <NavLink
                                             className={classnames({ active: activeTab === '3' })}
@@ -52,7 +52,7 @@ const CaseSingleFund = (props) => {
                                             >
                                             Comments
                                         </NavLink>
-                                    </NavItem>
+                                    </NavItem> */}
                                 </Nav>
                             </div>
                             <div className="wpo-case-details-text">
@@ -72,11 +72,11 @@ const CaseSingleFund = (props) => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <ul>
+                                                    {/* <ul>
                                                         <li><span>Raised:</span> R7,000.00</li>
                                                         <li><span>Goal:</span> R8,000.00</li>
                                                         <li><span>Donar:</span> 380</li>
-                                                    </ul>
+                                                    </ul> */}
                                                     <div className="case-b-text">
                                                         <p>Nearly 800 000 Matric learners were out of school for over 2 months due to the Covid19 lockdown. Learners from township and rural schools were seriously disadvantaged by the limited access and technologies which would have allowed teachers to remain in contact with them during the lockdown.</p>
                                                         <p>After schools opened for Grade 12, many learners are still struggling to catch up with their matric curriculum.</p>

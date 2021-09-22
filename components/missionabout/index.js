@@ -1,3 +1,5 @@
+import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 const MissionAbout = (props) => {
     return (
@@ -6,12 +8,27 @@ const MissionAbout = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>Whai is Fundi Foundation</span>
-                            <h2>Fundi Foundation</h2>
+                            <motion.span
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1, y: -10 }}
+                                exit={{ opacity: 0, y: 10 }}
+                                transition={{ delay: .2 }}
+                            >Whai is Fundi Foundation</motion.span>
+                            <motion.h2
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1, y: -10 }}
+                                exit={{ opacity: 0, y: 10 }}
+                                transition={{ delay: .2 }}
+                            >Fundi Foundation</motion.h2>
                         </div>
                     </div>
                 </div>
-                <div className="wpo-mission-wrap">
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, y: -10 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    transition={{ delay: .4 }}
+                    className="wpo-mission-wrap">
                     <div className="row">
                         <div className="col-12">
                             <p>
@@ -91,7 +108,7 @@ const MissionAbout = (props) => {
                             </div>
                         </div> */}
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     )

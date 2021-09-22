@@ -20,7 +20,7 @@ const CaseSingleR10 = (props) => {
         <div className="wpo-case-details-area section-padding">
             <div className="container">
                 <div className="row">
-                    <div className="col col-lg-12">
+                    <div className="col col-lg-8">
                         <div className="wpo-case-details-wrap">
                             <div className="wpo-case-details-img">
                                 <img src='images/R10.png' alt="" />
@@ -72,8 +72,7 @@ const CaseSingleR10 = (props) => {
                                                             </div>
                                                         </div>
                                                         <ul>
-                                                            <li><span>Funds Raised:</span> R 2 192 462.58</li>
-                                                            <li><span>Funds payed:</span> R 872 462.58</li>
+                                                          
                                                             {/* <li><span>Donar:</span> 380</li> */}
                                                         </ul>
                                                         <div className="case-b-text">
@@ -369,7 +368,7 @@ const CaseSingleR10 = (props) => {
                             </div>
                         </div>
                     </div>
-                    {/* <SidebarWrap /> */}
+                    <SidebarWrap />
                 </div>
             </div>
         </div>

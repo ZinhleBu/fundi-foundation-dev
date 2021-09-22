@@ -22,10 +22,10 @@ const HomePage3 =() => {
             </Head>
             <Header/>
             <Hero3/>
+            
+            <Mission subclass={'section-padding'}/>
             <AboutSec/>
             <ImageSlide/>
-
-            <Mission subclass={'section-padding'}/>
             <CounterSection countclass={'wpo-counter-style-2'}/>
             <CaseSlide/>
             {/* <TeamSection/> */}

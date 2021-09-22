@@ -22,10 +22,10 @@ const TeamSection = (props) => {
                                 <div className="wpo-team-text-sub">
                                     <h2><Link href="/volunteerPage"><a>Makgau Dibakwane</a></Link> </h2>
                                     <span>CEO</span>
-                                    <ul>
+                                    {/* <ul>
                                         <li><Link href="https://web.facebook.com/makgau.dibakwane.9"><a><i className="ti-facebook"></i></a></Link></li>
                                         <li><Link href="linkedin.com/in/makgau-dibakwane-ca-sa-92570797"><a><i className="ti-linkedin"></i></a></Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                         </div>
@@ -39,12 +39,12 @@ const TeamSection = (props) => {
                                 <div className="wpo-team-text-sub">
                                     <h2><Link href="/volunteerPage"><a>Phumla Tshabalala</a></Link></h2>
                                     <span>Managing Executive Lending</span>
-                                    <ul>
+                                    {/* <ul>
                                         <li><Link href="/volunteerPage"><a><i className="ti-facebook"></i></a></Link></li>
                                         <li><Link href="/volunteerPage"><a><i className="ti-twitter"></i></a></Link></li>
                                         <li><Link href="/volunteerPage"><a><i className="ti-google"></i></a></Link></li>
                                         <li><Link href="/volunteerPage"><a><i className="ti-instagram"></i></a></Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                         </div>
@@ -57,13 +57,13 @@ const TeamSection = (props) => {
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
                                     <h2><Link href="/volunteerPage"><a>Mala Suriah</a></Link></h2>
-                                    <span>CMO</span>
-                                    <ul>
+                                    <span>Fundi CMO</span>
+                                    {/* <ul>
                                         <li><Link href="/volunteerPage"><a><i className="ti-facebook"></i></a></Link></li>
                                         <li><Link href="/volunteerPage"><a><i className="ti-twitter"></i></a></Link></li>
                                         <li><Link href="/volunteerPage"><a><i className="ti-google"></i></a></Link></li>
                                         <li><Link href="/volunteerPage"><a><i className="ti-instagram"></i></a></Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                         </div>
@@ -83,13 +83,13 @@ const TeamSection = (props) => {
                                 <div className="wpo-team-content">
                                     <div className="wpo-team-text-sub">
                                         <h2><Link href="/volunteerPage"><a>Lifa Magwentshu</a></Link></h2>
-                                        <span>-</span>
-                                        <ul>
+                                        <span></span>
+                                        {/* <ul>
                                             <li><Link href="/volunteerPage"><a><i className="ti-facebook"></i></a></Link></li>
                                             <li><Link href="/volunteerPage"><a><i className="ti-twitter"></i></a></Link></li>
                                             <li><Link href="/volunteerPage"><a><i className="ti-google"></i></a></Link></li>
                                             <li><Link href="/volunteerPage"><a><i className="ti-instagram"></i></a></Link></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
@@ -102,18 +102,19 @@ const TeamSection = (props) => {
                                 <div className="wpo-team-content">
                                     <div className="wpo-team-text-sub">
                                         <h2><Link href="/volunteerPage"><a>Fulu Makwetla </a></Link></h2>
-                                        <span>-</span>
-                                        <ul>
+                                        <span>CEO Third Way Investments</span>
+                                        {/* <ul>
                                             <li><Link href="/volunteerPage"><a><i className="ti-facebook"></i></a></Link></li>
                                             <li><Link href="/volunteerPage"><a><i className="ti-twitter"></i></a></Link></li>
                                             <li><Link href="/volunteerPage"><a><i className="ti-google"></i></a></Link></li>
                                             <li><Link href="/volunteerPage"><a><i className="ti-instagram"></i></a></Link></li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
 
             </>

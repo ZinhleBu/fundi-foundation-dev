@@ -2,9 +2,11 @@
 import React, { Component } from 'react'
 import Slider from "react-slick";
 import Link from 'next/link'
+import { InView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 class CaseSlide extends Component {
-    
+
     render() {
         var settings = {
             dots: false,
@@ -18,219 +20,238 @@ class CaseSlide extends Component {
             loop: true,
             responsive: [
                 {
-                  breakpoint: 1200,
-                  settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true
-                  }
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true
+                    }
                 },
                 {
-                  breakpoint: 991,
-                  settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                  }
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
                 },
                 {
-                  breakpoint: 768,
-                  settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                  }
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
                 },
                 {
-                  breakpoint: 576,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                  }
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
                 }
-              ]
+            ]
         };
 
-        const ClickHandler = () =>{
+        const ClickHandler = () => {
             window.scrollTo(10, 0);
-         }
-        return (
-          <div className="wpo-case-area section-padding">
-              <div className="container">
-                  <div className="row">
-                      <div className="col-12">
-                          <div className="wpo-section-title">
-                              <span>Our Causes</span>
-                              <h2>Popular Causes What You Should Know</h2>
-                          </div>
-                      </div>
-                  </div>
-                  <div className="wpo-case-wrap">
-                      <div className="wpo-case-slider">
-                        <Slider {...settings}>
-
-
-                          <div className="wpo-case-single">
-                                <div className="wpo-case-item">
-                                    <div className="wpo-case-img">
-                                        <img src='images/case/img-1-leaders.png' alt=""/>
-                                    </div>
-                                    <div className="wpo-case-content">
-                                        <div className="wpo-case-text-top">
-                                            <h2>Leaders4Learners</h2>
-                                            <div className="progress-section">
-                                                <div className="process">
-                                                    <div className="progress">
-                                                        <div className="progress-bar">
-                                                            <div className="progress-value"><span>65.5</span>%</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <ul>
-                                                <li><span>Raised:</span> R7,000.00</li>
-                                                <li><span>Goal:</span> R8,000.00</li>
-                                            </ul>
-                                        </div>
-                                        <div className="case-btn">
-                                            <ul>
-                                                <li><Link onClick={ClickHandler} href="/CaseSinglePageLeaders">
-                                                    <a href="/DonatePage">
-                                                        Learn More
-                                                    </a> 
-                                                    </Link>
-                                                </li>
-                                                <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div className="wpo-case-single">
-                                <div className="wpo-case-item">
-                                    <div className="wpo-case-img">
-                                        <img src='images/case/img-2-rebuild.png' alt=""/>
-                                    </div>
-                                    <div className="wpo-case-content">
-                                        <div className="wpo-case-text-top">
-                                            <h2>#RebuildSA</h2>
-                                            <div className="progress-section">
-                                                <div className="process">
-                                                    <div className="progress">
-                                                        <div className="progress-bar">
-                                                            <div className="progress-value"><span>40.5</span>%</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <ul>
-                                                <li><span>Raised:</span> R7,000.00</li>
-                                                <li><span>Goal:</span> R8,000.00</li>
-                                            </ul>
-                                        </div>
-                                        <div className="case-btn">
-                                            <ul>
-                                                <li><Link onClick={ClickHandler} href="/CaseSinglePageRebuild">
-                                                    <a href="/DonatePage">
-                                                        Learn More
-                                                    </a> 
-                                                    </Link>
-                                                </li>
-                                                <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div className="wpo-case-single">
-                                <div className="wpo-case-item">
-                                    <div className="wpo-case-img">
-                                        <img src='images/case/img-3-fund.svg' alt=""/>
-                                    </div>
-                                    <div className="wpo-case-content">
-                                        <div className="wpo-case-text-top">
-                                            <h2>FundiFund</h2>
-                                            <div className="progress-section">
-                                                <div className="process">
-                                                    <div className="progress">
-                                                        <div className="progress-bar">
-                                                            <div className="progress-value"><span>80.5</span>%</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <ul>
-                                                <li><span>Raised:</span> R7,000.00</li>
-                                                <li><span>Goal:</span> R8,000.00</li>
-                                            </ul>
-                                        </div>
-                                        <div className="case-btn">
-                                            <ul>
-                                                <li><Link onClick={ClickHandler} href="/CaseSinglePageFund">
-                                                    <a href="/DonatePage">
-                                                        Learn More
-                                                    </a> 
-                                                    </Link>
-                                                </li>
-                                                <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div className="wpo-case-single">
-                                <div className="wpo-case-item">
-                                    <div className="wpo-case-img">
-                                        <img src='images/case/img-1.png' alt=""/>
-                                    </div>
-                                    <div className="wpo-case-content">
-                                        <div className="wpo-case-text-top">
-                                            <h2>R10 goes a long way</h2>
-                                            <div className="progress-section">
-                                                <div className="process">
-                                                    <div className="progress">
-                                                        <div className="progress-bar">
-                                                            <div className="progress-value"><span>65.5</span>%</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <ul>
-                                                <li><span>Raised:</span> R7,000.00</li>
-                                                <li><span>Goal:</span> R8,000.00</li>
-                                            </ul>
-                                        </div>
-                                        <div className="case-btn">
-                                            <ul>
-                                                <li><Link onClick={ClickHandler} href="/CaseSinglePageR10">
-                                                    <a href="/DonatePage">
-                                                        Learn More
-                                                    </a> 
-                                                    </Link>
-                                                </li>
-                                                <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </Slider>
-                      </div>
-                  </div>
-              </div>
-          </div>
-            );
         }
+        return (
+            <InView threshold={0.45}>
+                {({ ref, inView }) => (
+                    <div className="wpo-case-area section-padding">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12">
+                                    <div className="wpo-section-title">
+                                        <motion.span
+                                            ref={ref}
+                                            initial={{ opacity: 0 }}
+                                            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+                                            transition={{ duration: 0.8 }}
+                                        >Our Causes</motion.span>
+                                        <motion.h2
+                                            ref={ref}
+                                            initial={{ opacity: 0 }}
+                                            animate={inView ? { opacity: 1 } : { opacity: 0 }}
+                                            transition={{ duration: 0.8 }}
+                                        >Popular Causes What You Should Know</motion.h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <motion.div 
+                             ref={ref}
+                             initial={{ opacity: 0 }}
+                             animate={inView ? { opacity: 1 } : { opacity: 0 }}
+                             transition={{ duration: 0.8 }}
+                            className="wpo-case-wrap">
+                                <div className="wpo-case-slider">
+                                    <Slider {...settings}>
+
+
+                                        <div className="wpo-case-single">
+                                            <div className="wpo-case-item">
+                                                <div className="wpo-case-img">
+                                                    <img src='images/case/img-1-leaders.png' alt="" />
+                                                </div>
+                                                <div className="wpo-case-content">
+                                                    <div className="wpo-case-text-top">
+                                                        <h2>Leaders4Learners</h2>
+                                                        <div className="progress-section">
+                                                            <div className="process">
+                                                                <div className="progress">
+                                                                    <div className="progress-bar">
+                                                                        <div className="progress-value"><span>65.5</span>%</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <ul>
+                                                            <li><span>Raised:</span> R7,000.00</li>
+                                                            <li><span>Goal:</span> R8,000.00</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="case-btn">
+                                                        <ul>
+                                                            <li><Link onClick={ClickHandler} href="/CaseSinglePageLeaders">
+                                                                <a href="/DonatePage">
+                                                                    Learn More
+                                                                </a>
+                                                            </Link>
+                                                            </li>
+                                                            <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div className="wpo-case-single">
+                                            <div className="wpo-case-item">
+                                                <div className="wpo-case-img">
+                                                    <img src='images/case/img-2-rebuild.png' alt="" />
+                                                </div>
+                                                <div className="wpo-case-content">
+                                                    <div className="wpo-case-text-top">
+                                                        <h2>#RebuildSA</h2>
+                                                        <div className="progress-section">
+                                                            <div className="process">
+                                                                <div className="progress">
+                                                                    <div className="progress-bar">
+                                                                        <div className="progress-value"><span>40.5</span>%</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <ul>
+                                                            <li><span>Raised:</span> R7,000.00</li>
+                                                            <li><span>Goal:</span> R8,000.00</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="case-btn">
+                                                        <ul>
+                                                            <li><Link onClick={ClickHandler} href="/CaseSinglePageRebuild">
+                                                                <a href="/DonatePage">
+                                                                    Learn More
+                                                                </a>
+                                                            </Link>
+                                                            </li>
+                                                            <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div className="wpo-case-single">
+                                            <div className="wpo-case-item">
+                                                <div className="wpo-case-img">
+                                                    <img src='images/case/img-3-fund.svg' alt="" />
+                                                </div>
+                                                <div className="wpo-case-content">
+                                                    <div className="wpo-case-text-top">
+                                                        <h2>FundiFund</h2>
+                                                        <div className="progress-section">
+                                                            <div className="process">
+                                                                <div className="progress">
+                                                                    <div className="progress-bar">
+                                                                        <div className="progress-value"><span>80.5</span>%</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <ul>
+                                                            <li><span>Raised:</span> R7,000.00</li>
+                                                            <li><span>Goal:</span> R8,000.00</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="case-btn">
+                                                        <ul>
+                                                            <li><Link onClick={ClickHandler} href="/CaseSinglePageFund">
+                                                                <a href="/DonatePage">
+                                                                    Learn More
+                                                                </a>
+                                                            </Link>
+                                                            </li>
+                                                            <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div className="wpo-case-single">
+                                            <div className="wpo-case-item">
+                                                <div className="wpo-case-img">
+                                                    <img src='images/case/img-1.png' alt="" />
+                                                </div>
+                                                <div className="wpo-case-content">
+                                                    <div className="wpo-case-text-top">
+                                                        <h2>R10 goes a long way</h2>
+                                                        <div className="progress-section">
+                                                            <div className="process">
+                                                                <div className="progress">
+                                                                    <div className="progress-bar">
+                                                                        <div className="progress-value"><span>65.5</span>%</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <ul>
+                                                            <li><span>Raised:</span> R7,000.00</li>
+                                                            <li><span>Goal:</span> R8,000.00</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="case-btn">
+                                                        <ul>
+                                                            <li><Link onClick={ClickHandler} href="/CaseSinglePageR10">
+                                                                <a href="/DonatePage">
+                                                                    Learn More
+                                                                </a>
+                                                            </Link>
+                                                            </li>
+                                                            <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </Slider>
+                                </div>
+                            </motion.div>
+                        </div>
+                    </div>
+                )}
+            </InView>
+        );
     }
-    
-    export default CaseSlide;
-          
-          
-          
-          
+}
+
+export default CaseSlide;
+
+
+
+

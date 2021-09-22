@@ -24,14 +24,14 @@ const SidebarWrap = () => {
                     <div className="posts">
                         <div className="post">
                             <div className="img-holder">
-                                <img src='images/recent-posts/img-1.jpg' alt=""/>
+                                <img src='images/recent-posts/event-details2-ayanda.jpg' alt=""/>
                             </div>
                             <div className="details">
-                                <h4><Link href="/AyandamantombazaneBlogPost">Many Children are suffering a lot for food.</Link></h4>
+                                <h4><Link href="/AyandamantombazaneBlogPost">Ayandamantombazane Mhlongo writes:</Link></h4>
                                 <span className="date">22 Jan 2021</span>
                             </div>
                         </div>
-                        <div className="post">
+                        {/* <div className="post">
                             <div className="img-holder">
                                 <img src='images/recent-posts/img-2.jpg' alt=""/>
                             </div>
@@ -48,7 +48,7 @@ const SidebarWrap = () => {
                                 <h4><Link href="/BlogDetails">Be soft and kind for the poor people.</Link></h4>
                                 <span className="date">22 Jan 2021</span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="widget tag-widget">

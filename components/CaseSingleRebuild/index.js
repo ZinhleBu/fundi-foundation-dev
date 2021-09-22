@@ -44,7 +44,7 @@ const CaseSingleLeaders = (props) => {
                                         Donations
                                         </NavLink>
                                     </NavItem>
-
+{/* 
                                     <NavItem>
                                         <NavLink
                                             className={classnames({ active: activeTab === '3' })}
@@ -52,7 +52,7 @@ const CaseSingleLeaders = (props) => {
                                             >
                                             Comments
                                         </NavLink>
-                                    </NavItem>
+                                    </NavItem> */}
                                 </Nav>
                             </div>
                             <div className="wpo-case-details-text">
@@ -62,7 +62,7 @@ const CaseSingleLeaders = (props) => {
                                         <div className="col-12">
                                             <div className="wpo-case-content">
                                                 <div className="wpo-case-text-top">
-                                                    <h2>Ensure Education for every poor children</h2>
+                                                    <h2>#RebuildSA | Save Our Schools</h2>
                                                     <div className="progress-section">
                                                         <div className="process">
                                                             <div className="progress">
@@ -72,17 +72,18 @@ const CaseSingleLeaders = (props) => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <ul>
+                                                    {/* <ul>
                                                         <li><span>Raised:</span> $7,000.00</li>
                                                         <li><span>Goal:</span> $8,000.00</li>
                                                         <li><span>Donar:</span> 380</li>
-                                                    </ul>
+                                                    </ul> */}
                                                     <div className="case-b-text">
-                                                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
-                                                        <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
-                                                        <p>But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures.</p>
+                                                        <p>FundiFund and Save the Children SA is calling on business leaders to Unite for Education and help us Rebuild our schools and rebuild the hope young people have in grown ups.</p>
+                                                        <p>Funds raised will go a long way to help us get students back to school.At least 139 schools were looted and vandalised during last month’s unrest. Among the schools that lost everything was Golden Steps, a special needs school, in Verulam, KZN.</p>
+                                                        <p>The school was com-pletely ransacked, with looters taking everything from food and appliances to specialised computers and TVs designed to assist children with disabilities.</p>
+                                                        <p>For many children in South Africa, school is so much more than just a place to learn. It is often where they receive their only nutritious meal of the day. It is a place of hope, long lasting friendships and big dreams.</p>
                                                     </div>
-                                                    <div className="case-bb-text">
+                                                    {/* <div className="case-bb-text">
                                                         <h3>We want to ensure the education for the kids.</h3>
                                                         <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure.</p>
                                                         <ul>
@@ -92,7 +93,7 @@ const CaseSingleLeaders = (props) => {
                                                             <li>We denounce with righteous indignation and dislike men. </li>
                                                             <li>Which is the same as saying through.</li>
                                                         </ul>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>

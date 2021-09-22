@@ -11,8 +11,8 @@ const WorldSection = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-world-section">
-                            <h2>Lets Chenge The World With Humanity</h2>
-                            <Link onClick={ClickHandler} href="/volunteerPage"><a><img src='images/team/1.png' alt=""/>   Become A Volunteer</a></Link>
+                            <h2>Register for 2022 registration fees funding</h2>
+                            <Link onClick={ClickHandler} href="/volunteerPage"><a><img src='images/team/1.png' alt=""/>   Register </a></Link>
                         </div>
                     </div>
                 </div>

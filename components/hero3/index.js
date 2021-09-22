@@ -7,6 +7,7 @@ const Hero3 = (props) => {
         <AnimatePresence>
 
             <motion.section
+            exitBeforeEnter
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
@@ -20,13 +21,19 @@ const Hero3 = (props) => {
                                         initial={{ opacity: 0 }}
                                         animate={{ opacity: 1, y: -10 }}
                                         exit={{ opacity: 0, y: 10 }}
+                                        transition={{ delay: .2}}
                                         className="slide-title">
                                         <h2>Doing Good<span> Is Good Business</span></h2>
                                     </motion.div>
-                                    <div className="slide-subtitle">
+                                    <motion.div 
+                                     initial={{ opacity: 0 }}
+                                     animate={{ opacity: 1, y: -10 }}
+                                     transition={{ delay: .2}}
+                                     exit={{ opacity: 0, y: 10 }}
+                                    className="slide-subtitle">
                                         <p>Donate to the Fundi Foundtion today,</p>
                                         <p>And help us make education dreams come true.</p>
-                                    </div>
+                                    </motion.div>
                                     <div className="btns">
                                         <Link href="/DonatePage"><a className="theme-btn">Donate Now</a></Link>
                                     </div>
