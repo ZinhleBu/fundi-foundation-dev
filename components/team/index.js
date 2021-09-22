@@ -5,7 +5,7 @@ const TeamSection = (props) => {
         <><div className="wpo-team-area section-padding">
             <div className="container">
                 <div className="row">
-                    <div className="col-15">
+                    <div className="col-12">
                         <div className="wpo-section-title">
                             <span>Board of Trustees</span>
                             <h2>Governance</h2>
@@ -114,7 +114,6 @@ const TeamSection = (props) => {
                             </div>
                         </div>
                     </div>
-                    
                 </div>
 
             </>
