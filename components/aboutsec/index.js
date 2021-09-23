@@ -74,11 +74,16 @@ const AboutSec = (props) => {
                                     </motion.div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12 colsm-12">
-                                <div className="wpo-about-img-3">
+                            <div className="col-lg-6 col-md-8 col-sm-12">
+                                <motion.div 
+                                ref={ref}
+                                initial={{ opacity: 0 }}
+                                animate={inView ? { opacity: 1 } : { opacity: 0 }}
+                                transition={{ duration: 0.5 }}
+                                className="wpo-about-img-3">
 
-                                    <img src='images/about3-tembisa-student.webp' alt="" />
-                                </div>
+                                    <img src='images/event-details-makwena.webp' alt="" />
+                                </motion.div>
                             </div>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Mission = (props) => {
 
     return (
-        <InView threshold={0.35}>
+        <InView threshold={0.25}>
             {({ ref, inView }) => (
                 <div className={`wpo-mission-area ${props.subclass}`}>
                     <div className="container">

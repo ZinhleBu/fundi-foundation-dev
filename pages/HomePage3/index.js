@@ -12,19 +12,21 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 import ImageSlide from '../../components/imageSlider';
+import Gallery from '../../components/Gallery';
 
 
 const HomePage3 =() => {
     return(
         <Fragment>
              <Head>
-                <title>Fundi Foundation</title>
+                <title>FundiFoundation</title>
             </Head>
             <Header/>
             <Hero3/>
             
             <Mission subclass={'section-padding'}/>
             <AboutSec/>
+            <Gallery/>
             <ImageSlide/>
             <CounterSection countclass={'wpo-counter-style-2'}/>
             <CaseSlide/>

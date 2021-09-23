@@ -24,7 +24,7 @@ const HomePage2 =() => {
              <About/>
             <CaseSlide/>
             <CounterSection/>
-            <TeamSection/>
+            {/* <TeamSection/> */}
             <WorldSection/>
             <BlogSection/>
             <Footer/>
