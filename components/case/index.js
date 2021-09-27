@@ -90,7 +90,7 @@ class CaseSlide extends Component {
                                         <div className="wpo-case-single">
                                             <div className="wpo-case-item">
                                                 <div className="wpo-case-img">
-                                                    <img src='images/case/img-1-leaders.png' alt="" />
+                                                    <img src='images/case/img-1-leaders.jpg' alt="" />
                                                 </div>
                                                 <div className="wpo-case-content">
                                                     <div className="wpo-case-text-top">
@@ -128,7 +128,7 @@ class CaseSlide extends Component {
                                         <div className="wpo-case-single">
                                             <div className="wpo-case-item">
                                                 <div className="wpo-case-img">
-                                                    <img src='images/case/img-2-rebuild.png' alt="" />
+                                                    <img src='images/case/img-1-unite.jpg' alt="" />
                                                 </div>
                                                 <div className="wpo-case-content">
                                                     <div className="wpo-case-text-top">
@@ -166,7 +166,7 @@ class CaseSlide extends Component {
                                         <div className="wpo-case-single">
                                             <div className="wpo-case-item">
                                                 <div className="wpo-case-img">
-                                                    <img src='images/case/img-3-fund.svg' alt="" />
+                                                    <img src='images/case/img-1-12412' alt="" />
                                                 </div>
                                                 <div className="wpo-case-content">
                                                     <div className="wpo-case-text-top">
@@ -204,7 +204,7 @@ class CaseSlide extends Component {
                                         <div className="wpo-case-single">
                                             <div className="wpo-case-item">
                                                 <div className="wpo-case-img">
-                                                    <img src='images/case/img-1.png' alt="" />
+                                                    <img src='images/case/img-1-R10.jpg' alt="" />
                                                 </div>
                                                 <div className="wpo-case-content">
                                                     <div className="wpo-case-text-top">
@@ -237,6 +237,44 @@ class CaseSlide extends Component {
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <div className="wpo-case-single">
+                                            <div className="wpo-case-item">
+                                                <div className="wpo-case-img">
+                                                    <img src='images/case/img-1-csi.jpg' alt="" />
+                                                </div>
+                                                <div className="wpo-case-content">
+                                                    <div className="wpo-case-text-top">
+                                                        <h2>Fundi CSI</h2>
+                                                        <div className="progress-section">
+                                                            <div className="process">
+                                                                <div className="progress">
+                                                                    <div className="progress-bar">
+                                                                        <div className="progress-value"><span>65.5</span>%</div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <ul>
+                                                            <li><span>Raised:</span> R7,000.00</li>
+                                                            <li><span>Goal:</span> R8,000.00</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="case-btn">
+                                                        <ul>
+                                                            <li><Link onClick={ClickHandler} href="/CaseSinglePageR10">
+                                                                <a href="/DonatePage">
+                                                                    Learn More
+                                                                </a>
+                                                            </Link>
+                                                            </li>
+                                                            <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
 
 
                                     </Slider>

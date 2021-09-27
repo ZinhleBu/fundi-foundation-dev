@@ -23,9 +23,10 @@ const HomePage =() => {
             <ToastContainer/>
             <Header/>
             <Hero3/>
-            <Mission/>
-            <AboutSec/>
             <CaseSlide/>
+
+            {/* <Mission/> */}
+            <AboutSec/>
             <CounterSection/>
             <TeamSection/>
             <WorldSection/>

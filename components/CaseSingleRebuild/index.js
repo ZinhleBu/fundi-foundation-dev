@@ -21,7 +21,7 @@ const CaseSingleLeaders = (props) => {
             <div className="wpo-case-details-area section-padding">
             <div className="container">
                 <div className="row">
-                    <div className="col col-lg-8">
+                    <div className="col col-lg-12">
                         <div className="wpo-case-details-wrap">
                             <div className="wpo-case-details-img">
                                 <img src='images/event-details-rebuild.jpg' alt=""/>
@@ -286,7 +286,7 @@ const CaseSingleLeaders = (props) => {
                             </div>
                         </div>
                     </div>
-                    <SidebarWrap/>
+                    {/* <SidebarWrap/> */}
                 </div>
             </div>
         </div>

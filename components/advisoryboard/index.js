@@ -16,11 +16,11 @@ const AdvisorySection = (props) => {
                     <div className="col-lg-3 col-md-16 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap">
                             <div className="wpo-team-img">
-                                <img src='images/advisory/sibu.jpg' alt="" />
+                                <img src='images/advisory/img-1-sibu.jpg' alt="" />
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h2><Link href="/volunteerPage"><a>Sibu Mabena</a></Link> </h2>
+                                    <h5><Link href="/volunteerPage"><a>Sibu Mabena</a></Link> </h5>
                                     {/* <span>CEO</span> */}
 
                                 </div>
@@ -30,11 +30,11 @@ const AdvisorySection = (props) => {
                     <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap">
                             <div className="wpo-team-img">
-                                <img src='images/advisory/lasizwe.jpeg' alt="" />
+                                <img src='images/advisory/img-2-lasizwe.jpg' alt="" />
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h2><Link href="/volunteerPage"><a>Lasizwe Dambuza </a></Link></h2>
+                                    <h5><Link href="/volunteerPage"><a>Lasizwe Dambuza </a></Link></h5>
                                     {/* <span>Managing Executive Lending</span> */}
 
                                 </div>
@@ -44,11 +44,11 @@ const AdvisorySection = (props) => {
                     <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap">
                             <div className="wpo-team-img">
-                                <img src='images/advisory/ayanda.jpg' alt="" />
+                                <img src='images/advisory/img-3-ayanda.jpg' alt="" />
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h2><Link href="/volunteerPage"><a>Ayanda Mhlongo </a></Link></h2>
+                                    <h5><Link href="/volunteerPage"><a>Ayanda Mhlongo </a></Link></h5>
                                     {/* <span>CMO</span> */}
 
                                 </div>
@@ -58,11 +58,11 @@ const AdvisorySection = (props) => {
                     <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap">
                             <div className="wpo-team-img">
-                                <img src='images/advisory/ntateko.png' alt="" />
+                                <img src='images/advisory/img-4-nkateko.jpg' alt="" />
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h2><Link href="/volunteerPage"><a>Nkateko Dinwiddy</a></Link></h2>
+                                    <h5><Link href="/volunteerPage"><a>Nkateko Dinwiddy</a></Link></h5>
                                     {/* <span>-</span> */}
 
                                 </div>

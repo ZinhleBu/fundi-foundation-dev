@@ -23,13 +23,12 @@ const HomePage3 =() => {
             </Head>
             <Header/>
             <Hero3/>
-            
-            <Mission subclass={'section-padding'}/>
+            <CaseSlide/>
+            {/* <Mission subclass={'section-padding'}/> */}
             <AboutSec/>
             <Gallery/>
             <ImageSlide/>
             <CounterSection countclass={'wpo-counter-style-2'}/>
-            <CaseSlide/>
             {/* <TeamSection/> */}
             <WorldSection worldclass={'wpo-world-area-2'}/>
             {/* <BlogSection/> */}
