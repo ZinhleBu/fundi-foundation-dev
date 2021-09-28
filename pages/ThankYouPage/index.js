@@ -4,7 +4,7 @@ import PageTitleThank from '../../components/pagetitlethankyou'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
-import ThankYouPage from '../../components/ThankYouPage';
+import ThankYoupage from '../../components/ThankYoupage';
 
 const ThankYouPage =() => {
     return(
@@ -14,7 +14,7 @@ const ThankYouPage =() => {
             </Head>
             <Header/>
             <PageTitleThank pageTitleThank={'Thank you!'} pagesub={'Your message has been sent successfully'}/> 
-            <ThankYouPage/>
+            <ThankYoupage/>
             <Footer/>
             <Scrollbar/>
         </Fragment>

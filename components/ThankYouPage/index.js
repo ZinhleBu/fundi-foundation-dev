@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const ThankYouPage = () => {
+const ThankYoupage = () => {
 
     return(
         <section className="wpo-contact-form-map section-padding">
@@ -72,4 +72,4 @@ const ThankYouPage = () => {
         
 }
 
-export default ThankYouPage;
+export default ThankYoupage;
