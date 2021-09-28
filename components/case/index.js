@@ -166,7 +166,7 @@ class CaseSlide extends Component {
                                         <div className="wpo-case-single">
                                             <div className="wpo-case-item">
                                                 <div className="wpo-case-img">
-                                                    <img src='images/case/img-1-12412' alt="" />
+                                                    <img src='images/case/img-1-12412.jpg' alt="" />
                                                 </div>
                                                 <div className="wpo-case-content">
                                                     <div className="wpo-case-text-top">

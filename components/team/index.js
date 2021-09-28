@@ -16,7 +16,7 @@ const TeamSection = (props) => {
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap">
                             <div className="wpo-team-img">
-                                <img src='images/team/team-1.png' alt="" />
+                                <img src='images/team/makgau.jpg' alt="" />
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
@@ -33,7 +33,7 @@ const TeamSection = (props) => {
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap">
                             <div className="wpo-team-img">
-                                <img src='images/team/team-2.png' alt="" />
+                                <img src='images/team/phumla.jpg' alt="" />
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
@@ -52,7 +52,7 @@ const TeamSection = (props) => {
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-team-wrap">
                             <div className="wpo-team-img">
-                                <img src='images/team/mala.png' alt="" />
+                                <img src='images/team/mala.jpg' alt="" />
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
@@ -78,7 +78,7 @@ const TeamSection = (props) => {
                         <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-team-wrap">
                                 <div className="wpo-team-img">
-                                    <img src='images/team/team-4-lefa.png' alt="" />
+                                    <img src='images/team/lifa.jpg' alt="" />
                                 </div>
                                 <div className="wpo-team-content">
                                     <div className="wpo-team-text-sub">
@@ -97,7 +97,7 @@ const TeamSection = (props) => {
                         <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                             <div className="wpo-team-wrap">
                                 <div className="wpo-team-img">
-                                    <img src='images/team/fulu.png' alt="" />
+                                    <img src='images/team/fulu.jpg' alt="" />
                                 </div>
                                 <div className="wpo-team-content">
                                     <div className="wpo-team-text-sub">

@@ -4,6 +4,7 @@ import classnames from 'classnames';
 import Link from 'next/link'
 import SidebarWrap from '../SidebarWrap'
 import AdvisorySection from '../advisoryboard'
+import Gallery from '../Gallery';
 const CaseSingleR10 = (props) => {
 
     const SubmitHandler = (e) => {
@@ -23,7 +24,7 @@ const CaseSingleR10 = (props) => {
                     <div className="col col-lg-12">
                         <div className="wpo-case-details-wrap">
                             <div className="wpo-case-details-img">
-                                <img src='images/R10.png' alt="" />
+                                <img src='images/R10.jpg' alt="" />
                             </div>
                             <div className="wpo-case-details-tab">
                                 <Nav tabs>
@@ -107,60 +108,8 @@ const CaseSingleR10 = (props) => {
 
                                                                 On 13 March Sibu Mabena, Ayanda Mhlongo ,Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. In 16 hours... YOU ALL HAVE TURNED THAT INTO R200 000
                                                             </p>
-                                                            <div className="container">
-                                                                <div className="row">
-                                                                    <div className="col-12">
-                                                                        <h1>Gallery</h1>
-                                                                    </div>                                                                </div>
-                                                                <div className="row">
-                                                                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                                                                        <div className="wpo-img-gallery">
-                                                                            <img src="images/R10Images/matome.png" alt="" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                                                                        <div className="wpo-img-gallery">
-                                                                            <img src="images/R10Images/matome2.png" alt="" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                                                                        <div className="wpo-img-gallery">
-                                                                            <img src="images/R10Images/sivu.png" alt="" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                                                                        <div className="wpo-img-gallery">
-                                                                            <img src="images/R10Images/sivu2.png" alt="" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                                                                        <div className="wpo-img-gallery">
-                                                                            <img src="images/R10Images/mandisa.png" alt="" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                                                                        <div className="wpo-img-gallery">
-                                                                            <img src="images/R10Images/mandisa2.png" alt="" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                                                                        <div className="wpo-img-gallery">
-                                                                            <img src="images/R10Images/mandisa3.png" alt="" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                                                                        <div className="wpo-img-gallery">
-                                                                            <img src="images/R10Images/akani.png" alt="" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                                                                        <div className="wpo-img-gallery">
-                                                                            <img src="images/R10Images/matome3.png" alt="" />
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
+                                                            <Gallery/>
+                                                           
                                                             <div>
                                                                 <h1>Apply for Registration Funding </h1>
                                                                 <p>If you've applied for registration at a tertiary institution, and havee been accepted to study further, you can apply for funding here.</p>
