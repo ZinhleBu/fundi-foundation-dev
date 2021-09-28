@@ -22,7 +22,7 @@ const Header = () => {
                     exit={{ opacity: 0 }}
                     className="logo">
                         <Link href="/HomePage3" title="">
-                           <a><img src='images/fundifondation-logo.png' alt=""/></a>
+                           <a><img src='images/fundifoundation-logo-blue.png' alt=""/></a>
                         </Link>
                     </motion.div>
                 </div>
