@@ -12,28 +12,29 @@ import Footer from '../components/footer'
 import Scrollbar from '../components/scrollbar'
 import {ToastContainer} from 'react-toastify';
 import Head from 'next/head'
+import ImageSlide from '../components/imageSlider';
 
 
 const HomePage =() => {
     return(
         <Fragment>
-            <Head>
-                <title>Home Page</title>
-            </Head>
-            <ToastContainer/>
-            <Header/>
-            <Hero3/>
-            <CaseSlide/>
-
-            {/* <Mission/> */}
-            <AboutSec/>
-            <CounterSection/>
-            <TeamSection/>
-            <WorldSection/>
-            {/* <BlogSection/> */}
-            <Footer/>
-            <Scrollbar/>
-        </Fragment>
+        <Head>
+           <title>FundiFoundation</title>
+       </Head>
+       <Header/>
+       <Hero3/>
+       <CaseSlide/>
+       {/* <Mission subclass={'section-padding'}/> */}
+       <AboutSec/>
+       {/* <Gallery/> */}
+       <ImageSlide/>
+       {/* <CounterSection countclass={'wpo-counter-style-2'}/> */}
+       {/* <TeamSection/> */}
+       {/* <WorldSection worldclass={'wpo-world-area-2'}/> */}
+       {/* <BlogSection/> */}
+       <Footer/>
+       <Scrollbar/>
+   </Fragment>
     )
 };
 export default HomePage;

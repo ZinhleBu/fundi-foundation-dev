@@ -6,6 +6,7 @@ import SidebarWrap from '../SidebarWrap'
 import CounterSection from '../../components/counter'
 import AdvisorySection from '../advisoryboard'
 import Gallery from '../Gallery';
+import WorldSection from '../world';
 const CaseSingleR10 = (props) => {
 
     const SubmitHandler = (e) => {
@@ -74,7 +75,7 @@ const CaseSingleR10 = (props) => {
                                                             </div>
                                                         </div>
                                                         <ul>
-                                                          
+
                                                             {/* <li><span>Donar:</span> 380</li> */}
                                                         </ul>
                                                         <div className="case-b-text">
@@ -109,8 +110,8 @@ const CaseSingleR10 = (props) => {
 
                                                                 On 13 March Sibu Mabena, Ayanda Mhlongo ,Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. In 16 hours... YOU ALL HAVE TURNED THAT INTO R200 000
                                                             </p>
-                                                            <Gallery/>
-                                                            <CounterSection countclass={'wpo-counter-style-2'}/>
+                                                            <Gallery />
+                                                            <CounterSection countclass={'wpo-counter-style-2'} />
 
                                                             <div>
                                                                 <h1>Apply for Registration Funding </h1>
@@ -122,6 +123,7 @@ const CaseSingleR10 = (props) => {
                                                                     <li>ID Copy.</li>
                                                                     <li>Student fee account and proof of payment for those that made the payment by other personal means.</li>                                                            </ul>
                                                             </div>
+                                                            <WorldSection worldclass={'wpo-world-area-2'} />
 
                                                         </div>
                                                     </div>

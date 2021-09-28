@@ -26,11 +26,11 @@ const HomePage3 =() => {
             <CaseSlide/>
             {/* <Mission subclass={'section-padding'}/> */}
             <AboutSec/>
-            <Gallery/>
+            {/* <Gallery/> */}
             <ImageSlide/>
             {/* <CounterSection countclass={'wpo-counter-style-2'}/> */}
             {/* <TeamSection/> */}
-            <WorldSection worldclass={'wpo-world-area-2'}/>
+            {/* <WorldSection worldclass={'wpo-world-area-2'}/> */}
             {/* <BlogSection/> */}
             <Footer/>
             <Scrollbar/>

@@ -21,7 +21,7 @@ const TeamSection = (props) => {
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
                                     <h2><Link href="/volunteerPage"><a>Makgau Dibakwane</a></Link> </h2>
-                                    <span>CEO</span>
+                                    <span>Fundi CEO</span>
                                     {/* <ul>
                                         <li><Link href="https://web.facebook.com/makgau.dibakwane.9"><a><i className="ti-facebook"></i></a></Link></li>
                                         <li><Link href="linkedin.com/in/makgau-dibakwane-ca-sa-92570797"><a><i className="ti-linkedin"></i></a></Link></li>

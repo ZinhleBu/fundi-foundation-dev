@@ -62,7 +62,7 @@ const CaseSingleLeaders = (props) => {
                                         <div className="col-12">
                                             <div className="wpo-case-content">
                                                 <div className="wpo-case-text-top">
-                                                    <h2>Ensure Education for every poor children</h2>
+                                                    <h2>Leaders 4 Learners</h2>
                                                     <div className="progress-section">
                                                         <div className="process">
                                                             <div className="progress">
@@ -78,9 +78,9 @@ const CaseSingleLeaders = (props) => {
                                                         <li><span>Donar:</span> 380</li>
                                                     </ul> */}
                                                     <div className="case-b-text">
-                                                        <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain.</p>
-                                                        <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
-                                                        <p>But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures.</p>
+                                                        <p>For over 25 years Fundi has provided education funding and fund administration services to South Africans looking to further their career dreams. While as a business, we have successfully enabled over 6 million dreams, there are still thousands of students who are turned away because their guardians do not meet the criteria for study loans. It is for this reason we had set up FundiFund - a fund raising initiative to assist financially excluded students and help them pursue their education dreams.</p>
+                                                        <p>In March this year, students were unable to register due to a lack of funding. The protests inspired social media celebrity, Lasizwe Dambuza and friends into action and the #R10 Goes a long Way campaign was started - raising over R2 million in 5 days to help the most deserving students with tuition fees. </p>
+                                                        <p>FundiFund was asked to get involved – and of the 19 000 funding applications received, we were able to fund the registration fees of 132 student’s of the 161 selected from the first draw – while the others had to be turned away. FundiFund is calling on business leaders to Unite for Education with the LEADERS4LEARNERS Campaign on Nelson Mandela Day to honour Madiba’s passion for education. Funds raised will go a long way to help us provide funding for students over their 3 years of study. </p>
                                                     </div>
                                                     {/* <div className="case-bb-text">
                                                         <h3>We want to ensure the education for the kids.</h3>

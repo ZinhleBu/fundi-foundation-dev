@@ -8,57 +8,25 @@ const AboutSec = (props) => {
         window.scrollTo(10, 0);
     }
     return (
-        <InView threshold={0.25}>
+        <InView threshold={0.5}>
             {({ ref, inView }) => (
                 <div className="wpo-about-area section-padding">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 col-md-12 colsm-12">
                                 <div className="wpo-about-text">
-                                    <motion.div
-                                        ref={ref}
-                                        initial={{ opacity: 0 }}
-                                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                        transition={{ duration: 0.5 }}
+                                    <div
+                                       
                                         className="wpo-section-title">
                                         <span>Foundation</span>
-                                        <h2>Impact to date – fundi capital</h2>
-                                    </motion.div>
-                                    <motion.h3
-                                        ref={ref}
-                                        initial={{ opacity: 0 }}
-                                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                        transition={{ duration: 0.5 }}
-                                    >Tembisa High School Bags</motion.h3>
-                                    <motion.h3
-                                        ref={ref}
-                                        initial={{ opacity: 0 }}
-                                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                        transition={{ duration: 0.5 }}
-                                    >Mandela Day Bursary Students Mpumi and Nompilo Cheque handover – UCT</motion.h3>
-                                    <motion.h3
-                                        ref={ref}
-                                        initial={{ opacity: 0 }}
-                                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                        transition={{ duration: 0.5 }}
-                                    >12for12 Pics – Cheque handover</motion.h3>
-                                    <motion.h3
-                                        ref={ref}
-                                        initial={{ opacity: 0 }}
-                                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                        transition={{ duration: 0.5 }}
-                                    >Sibonile school of the blind. </motion.h3>
-                                    <motion.h3
-                                        ref={ref}
-                                        initial={{ opacity: 0 }}
-                                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                        transition={{ duration: 0.5 }}
-                                    >Bukho Bami community centre, Sakhile Nsibande</motion.h3>
-                                    <motion.div
-                                        ref={ref}
-                                        initial={{ opacity: 0 }}
-                                        animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                        transition={{ duration: 0.5 }}
+                                        <h2>Our impacts  to date</h2>
+                                    </div>
+                                    <p>The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves. </p>
+                                    <p>Through our fundraising initiatives , and we’ve assisted matric learners at Tembisa High School Matriculants, Custom made and distributed School Bags, fund bursary students Mpumi and Nompilo, donated hundreds of thousands of rands to tertiary institutions,</p>
+                                    <p>raised funds and provided study equipment to schools like the Sibonile school of the blind, Bukho Bami Community centre, as well as hosted metric announcements and awards events.</p>
+                                  
+                                    <div
+                                        
                                         className="btns">
                                         <Link href="/DonatePage">
                                             <a className="theme-btn" onClick={ClickHandler}>Donate Now</a>
@@ -71,7 +39,7 @@ const AboutSec = (props) => {
                                                 Watch Our Video
                                             </li>
                                         </ul>
-                                    </motion.div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-8 col-sm-12">
