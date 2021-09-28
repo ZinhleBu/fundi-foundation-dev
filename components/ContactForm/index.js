@@ -83,11 +83,8 @@ class ContactForm extends Component {
             <form action="https://formsubmit.co/zbuhlungu1@gmail.com" method="POST" className="form">
 
                 <div className="row">
-                    <div className="col-lg-6 col-md-12">
-                        <div className="form-field">
-                            <input type="hidden" name="_next" value="https://fundi-foundation-dev-dul59g26v-zinhlebu.vercel.app/ThankYouPage" />
-                        </div>
-                    </div>
+                <input type="hidden" name="_next" value="https://fundi-foundation-dev-chi.vercel.app/ThankYouPage" />
+
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
                             <input value={name} onChange={this.changeHandler} type="text" name="name" placeholder="Name" />
