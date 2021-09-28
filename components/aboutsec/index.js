@@ -82,7 +82,7 @@ const AboutSec = (props) => {
                                 transition={{ duration: 0.5 }}
                                 className="wpo-about-img-3">
 
-                                    <img src='images/event-details-makwena.webp' alt="" />
+                                    <img src='images/event-details-makwena.jpg' alt="" />
                                 </motion.div>
                             </div>
                         </div>

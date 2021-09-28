@@ -28,7 +28,7 @@ const HomePage3 =() => {
             <AboutSec/>
             <Gallery/>
             <ImageSlide/>
-            <CounterSection countclass={'wpo-counter-style-2'}/>
+            {/* <CounterSection countclass={'wpo-counter-style-2'}/> */}
             {/* <TeamSection/> */}
             <WorldSection worldclass={'wpo-world-area-2'}/>
             {/* <BlogSection/> */}

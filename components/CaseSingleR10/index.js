@@ -3,6 +3,7 @@ import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
 import Link from 'next/link'
 import SidebarWrap from '../SidebarWrap'
+import CounterSection from '../../components/counter'
 import AdvisorySection from '../advisoryboard'
 import Gallery from '../Gallery';
 const CaseSingleR10 = (props) => {
@@ -109,7 +110,8 @@ const CaseSingleR10 = (props) => {
                                                                 On 13 March Sibu Mabena, Ayanda Mhlongo ,Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. In 16 hours... YOU ALL HAVE TURNED THAT INTO R200 000
                                                             </p>
                                                             <Gallery/>
-                                                           
+                                                            <CounterSection countclass={'wpo-counter-style-2'}/>
+
                                                             <div>
                                                                 <h1>Apply for Registration Funding </h1>
                                                                 <p>If you've applied for registration at a tertiary institution, and havee been accepted to study further, you can apply for funding here.</p>

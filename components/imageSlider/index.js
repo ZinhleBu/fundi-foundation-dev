@@ -89,7 +89,7 @@ class ImageSlide extends Component {
                     <div className="wpo-case-single">
                       <div className="wpo-case-item">
                         <div className="wpo-case-img">
-                          <img src='images/imageSlider/about3-foundation.png' alt="" />
+                          <img src='images/imageSlider/imgSlider-1.jpg' alt="" />
                         </div>
 
                       </div>
@@ -99,7 +99,7 @@ class ImageSlide extends Component {
                     <div className="wpo-case-single">
                       <div className="wpo-case-item">
                         <div className="wpo-case-img">
-                          <img src='images/imageSlider/about3-foundation2.png' alt="" />
+                          <img src='images/imageSlider/imgSlider-2.jpg' alt="" />
                         </div>
 
                       </div>
@@ -109,7 +109,7 @@ class ImageSlide extends Component {
                     <div className="wpo-case-single">
                       <div className="wpo-case-item">
                         <div className="wpo-case-img">
-                          <img src='images/imageSlider/about3-foundation3.png' alt="" />
+                          <img src='images/imageSlider/imgSlider-3.jpg' alt="" />
                         </div>
 
                       </div>
@@ -119,7 +119,7 @@ class ImageSlide extends Component {
                     <div className="wpo-case-single">
                       <div className="wpo-case-item">
                         <div className="wpo-case-img">
-                          <img src='images/imageSlider/about3-foundation4.png' alt="" />
+                          <img src='images/imageSlider/imgSlider-4.jpg' alt="" />
                         </div>
 
                       </div>

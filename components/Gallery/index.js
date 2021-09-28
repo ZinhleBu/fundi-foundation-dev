@@ -61,13 +61,6 @@ const Gallery = (props) => {
             </div>
                     
                        
-                        <div className="col-lg-12 custom grid">
-                            <div className="col-sm-4"></div>
-                            <a
-                                className=" col-sm-3 theme-btn" href="/">
-                                See More
-                            </a>
-                        </div>
                        
         </div>
 
