@@ -89,11 +89,7 @@ const CaseSingleR10 = (props) => {
                                                             <p>
                                                                 ▪ Increase of fees: Data shows that 70% of students at some point during the academic year cannot afford to buy food, 68% are unable to afford student materials, and 62% feel they could not afford to pay to participate in campus-based social and academic activities.
                                                             </p>
-                                                            <p>
-                                                                The “missing middle” – a term that has gained currency in the higher education sector, refers to those students who come from working class households that do not qualify for the National Student Finance Aid Scheme (NSFAS) while at the same time, they cannot afford higher education
-                                                                Who qualifies for NSFAS funding?
-                                                                South African citizens.. All SASSA grant recipients qualifies for funding. Applicants whose combined household income is not more than R350 000 per annum. Persons with disability: Combined household income must not be more than R600 000 per annum.
-                                                            </p>
+                                                            
                                                         </div>
                                                         <AdvisorySection />
 

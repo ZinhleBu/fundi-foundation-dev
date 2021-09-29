@@ -11,10 +11,10 @@ const CaseSinglePageR10 =() => {
     return(
         <Fragment>
              <Head>
-                <title>R10 Goes a Long Way</title>
+                <title>#R10GoesALongWay</title>
             </Head>
             <Header/>
-            <PageTitleR10 pageTitleR10={'R10 Goes a Long Way'} pagesub={'Funding the dreams of matriculants throughout the country.'}/> 
+            <PageTitleR10 pageTitleR10={'#R10GoesALongWay'} pagesub={'Funding the dreams of matriculants throughout the country.'}/> 
             <CaseSingleR10/>
            {/* <BlogSection/> */}
             <Footer/>
