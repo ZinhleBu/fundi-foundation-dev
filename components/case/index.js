@@ -67,7 +67,7 @@ class CaseSlide extends Component {
                                             initial={{ opacity: 0 }}
                                             animate={inView ? { opacity: 1 } : { opacity: 0 }}
                                             transition={{ duration: 0.8 }}
-                                        >Our Causes</motion.span>
+                                        >FundiFoundation</motion.span>
                                         <motion.h2
                                             ref={ref}
                                             initial={{ opacity: 0 }}
@@ -132,7 +132,7 @@ class CaseSlide extends Component {
                                                 </div>
                                                 <div className="wpo-case-content">
                                                     <div className="wpo-case-text-top">
-                                                        <h2>#RebuildSA</h2>
+                                                        <h2>Unite4Schools</h2>
                                                         <div className="progress-section">
                                                             <div className="process">
                                                                 <div className="progress">
@@ -170,7 +170,7 @@ class CaseSlide extends Component {
                                                 </div>
                                                 <div className="wpo-case-content">
                                                     <div className="wpo-case-text-top">
-                                                        <h2>FundiFund</h2>
+                                                        <h2>FundiFund 12412</h2>
                                                         <div className="progress-section">
                                                             <div className="process">
                                                                 <div className="progress">
@@ -208,7 +208,7 @@ class CaseSlide extends Component {
                                                 </div>
                                                 <div className="wpo-case-content">
                                                     <div className="wpo-case-text-top">
-                                                        <h2>R10 goes a long way</h2>
+                                                        <h2>#R10GoesALongWay</h2>
                                                         <div className="progress-section">
                                                             <div className="process">
                                                                 <div className="progress">
