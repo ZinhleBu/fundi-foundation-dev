@@ -13,7 +13,7 @@ const ThankYouPage =() => {
                 <title>Contact</title>
             </Head>
             <Header/>
-            <PageTitleThank pageTitleThank={'Payment was successful'} pagesub={'Thank you for your donation'}/> 
+            <PageTitleThank pageTitleThank={'Thank you for contacting us'} pagesub={'We will get back to you shortly.'}/> 
             <ThankYou/>
             <Footer/>
             <Scrollbar/>

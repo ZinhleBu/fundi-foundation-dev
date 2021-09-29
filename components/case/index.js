@@ -104,10 +104,10 @@ class CaseSlide extends Component {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <ul>
+                                                        {/* <ul>
                                                             <li><span>Raised:</span> R7,000.00</li>
                                                             <li><span>Goal:</span> R8,000.00</li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </div>
                                                     <div className="case-btn">
                                                         <ul>
@@ -142,10 +142,10 @@ class CaseSlide extends Component {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <ul>
+                                                        {/* <ul>
                                                             <li><span>Raised:</span> R7,000.00</li>
                                                             <li><span>Goal:</span> R8,000.00</li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </div>
                                                     <div className="case-btn">
                                                         <ul>
@@ -180,10 +180,10 @@ class CaseSlide extends Component {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <ul>
+                                                        {/* <ul>
                                                             <li><span>Raised:</span> R7,000.00</li>
                                                             <li><span>Goal:</span> R8,000.00</li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </div>
                                                     <div className="case-btn">
                                                         <ul>
@@ -218,10 +218,10 @@ class CaseSlide extends Component {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <ul>
+                                                        {/* <ul>
                                                             <li><span>Raised:</span> R7,000.00</li>
                                                             <li><span>Goal:</span> R8,000.00</li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </div>
                                                     <div className="case-btn">
                                                         <ul>
@@ -255,10 +255,10 @@ class CaseSlide extends Component {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <ul>
+                                                        {/* <ul>
                                                             <li><span>Raised:</span> R7,000.00</li>
                                                             <li><span>Goal:</span> R8,000.00</li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </div>
                                                     <div className="case-btn">
                                                         <ul>
