@@ -22,8 +22,8 @@ const AboutPage =() => {
             <TeamSection/>
             <VedioAbout/>
             <CounterSection/>
-            <AboutSec/>
-            <CaseSlide/>
+            {/* <AboutSec/> */}
+            {/* <CaseSlide/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>

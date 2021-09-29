@@ -22,7 +22,7 @@ const Volunteer = () =>  {
                         </div>
                         <div className="volunteer-contact">
                             <div className="volunteer-contact-form">
-                                <h2>Apply for Registration Funding</h2>
+                                <h2>Apply for Registration Fees Funding</h2>
                                 
                                 <form  action="https://formsubmit.co/zbuhlungu1@gmail.com" method="POST" className="contact-validation-active" id="contact-form">
                                 <input type="hidden" name="_next" value="https://fundi-foundation-dev.vercel.app/ThankYouPage"/>

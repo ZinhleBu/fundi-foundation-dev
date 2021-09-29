@@ -19,7 +19,7 @@ const Footer = (props) =>{
                             <div className="logo widget-title">
                                 <img src='images/fundifoundation-logo-white.png' alt=""/>
                             </div>
-                            <p>Build and Earn with your online store with lots of cool and exclusive wpo-features </p>
+                            <p>The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves.  </p>
                             <ul>
                                 <li><Link onClick={ClickHandler} href="https://web.facebook.com/FundiS0uthAfrica"><a><i className="ti-facebook"></i></a></Link></li>
                                 <li><Link onClick={ClickHandler} href="https://twitter.com/Official_FUNDI"><a><i className="ti-twitter-alt"></i></a></Link></li>

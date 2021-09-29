@@ -25,9 +25,9 @@ const CaseSingleR10 = (props) => {
                 <div className="row">
                     <div className="col col-lg-12">
                         <div className="wpo-case-details-wrap">
-                            <div className="wpo-case-details-img">
+                            {/* <div className="wpo-case-details-img">
                                 <img src='images/R10.jpg' alt="" />
-                            </div>
+                            </div> */}
                             <div className="wpo-case-details-tab">
                                 <Nav tabs>
                                     <NavItem>
@@ -114,7 +114,7 @@ const CaseSingleR10 = (props) => {
                                                             <CounterSection countclass={'wpo-counter-style-2'} />
 
                                                             <div>
-                                                                <h1>Apply for Registration Funding </h1>
+                                                                <h1>Apply for Registration Fees Funding </h1>
                                                                 <p>If you've applied for registration at a tertiary institution, and havee been accepted to study further, you can apply for funding here.</p>
                                                                 <p>Please provide the following documents with your application.:</p>
                                                                 <ul>
