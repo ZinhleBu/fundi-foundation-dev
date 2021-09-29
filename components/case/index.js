@@ -73,7 +73,7 @@ class CaseSlide extends Component {
                                             initial={{ opacity: 0 }}
                                             animate={inView ? { opacity: 1 } : { opacity: 0 }}
                                             transition={{ duration: 0.8 }}
-                                        >Popular Causes What You Should Know</motion.h2>
+                                        >Our Education Fundraising Initiatives</motion.h2>
                                     </div>
                                 </div>
                             </div>
