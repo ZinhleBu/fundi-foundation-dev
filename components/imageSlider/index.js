@@ -72,7 +72,7 @@ class ImageSlide extends Component {
                     initial={{ opacity: 0 }}
                     animate={inView ? { opacity: 1 } : { opacity: 0 }}
                     transition={{ duration: 0.8 }}
-                    >Some of the beneficiaries</motion.h2>
+                    >Events and Initiatives</motion.h2>
                   </div>
                 </div>
               </div>
