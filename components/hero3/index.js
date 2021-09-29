@@ -31,7 +31,7 @@ const Hero3 = (props) => {
                                      transition={{ delay: .2}}
                                      exit={{ opacity: 0, y: 10 }}
                                     className="slide-subtitle">
-                                        <p>Donate to the Fundi Foundtion today,</p>
+                                        <p>Donate to the FundiFoundation today,</p>
                                         <p>And help us make education dreams come true.</p>
                                     </motion.div>
                                     <div className="btns">

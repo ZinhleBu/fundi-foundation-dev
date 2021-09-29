@@ -23,7 +23,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src='images/case/img-1-R10.png' alt=""/>
+                                    <img src='images/case/img-1-R10.jpg' alt=""/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
@@ -37,10 +37,10 @@ class Casesection extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <ul>
+                                        {/* <ul>
                                             <li><span>Raised:</span> R 2 192 462.58</li>
                                             <li><span>Funds payed::</span> R 872 462.58</li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div className="case-btn">
                                         <ul>
@@ -54,7 +54,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src='images/case/img-2-rebuild.png' alt=""/>
+                                    <img src='images/case/img-1-unite.jpg' alt=""/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
@@ -68,10 +68,10 @@ class Casesection extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <ul>
+                                        {/* <ul>
                                             <li><span>Raised:</span> $7,000.00</li>
                                             <li><span>Donated:</span> $8,000.00</li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div className="case-btn">
                                         <ul>
@@ -85,7 +85,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src='images/case/img-3-leaders.png' alt=""/>
+                                    <img src='images/case/img-1-leaders.jpg' alt=""/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
@@ -99,10 +99,10 @@ class Casesection extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <ul>
+                                        {/* <ul>
                                             <li><span>Raised:</span> $7,000.00</li>
                                             <li><span>Goal:</span> $8,000.00</li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div className="case-btn">
                                         <ul>
@@ -116,7 +116,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src='images/case/img-4-makwena.jpg' alt=""/>
+                                    <img src='images/case/img-1-12412.jpg' alt=""/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
@@ -130,10 +130,10 @@ class Casesection extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <ul>
+                                        {/* <ul>
                                             <li><span>Raised:</span> $7,000.00</li>
                                             <li><span>Goal:</span> $8,000.00</li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div className="case-btn">
                                         <ul>
@@ -161,10 +161,10 @@ class Casesection extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <ul>
+                                        {/* <ul>
                                             <li><span>Raised:</span> $7,000.00</li>
                                             <li><span>Goal:</span> $8,000.00</li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div className="case-btn">
                                         <ul>
@@ -178,7 +178,7 @@ class Casesection extends Component {
                         <div className="col-lg-4 col-md-6 custom-grid col-12">
                             <div className="wpo-case-item">
                                 <div className="wpo-case-img">
-                                    <img src='images/case/img-6.png' alt=""/>
+                                    <img src='images/case/img-1-csi.jpg' alt=""/>
                                 </div>
                                 <div className="wpo-case-content">
                                     <div className="wpo-case-text-top">
@@ -192,10 +192,10 @@ class Casesection extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <ul>
+                                        {/* <ul>
                                             <li><span>Raised:</span> $7,000.00</li>
                                             <li><span>Goal:</span> $8,000.00</li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                     <div className="case-btn">
                                         <ul>
