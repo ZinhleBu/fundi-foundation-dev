@@ -27,7 +27,6 @@ const Article3 = (props) => {
                                 <div className="thumb-text">
                                     <span>30</span>
                                     <span>JUL</span>
-                                    <span>2021</span>
 
                                 </div>
                             </div>
