@@ -44,7 +44,7 @@ const Footer = (props) =>{
                             </div>
                             <div className="news-wrap">
                                 <div className="news-img">
-                                    <img src='images/footer/img-2-golden.jpg' alt=""/>
+                                    <img src='images/footer/img-1-gs-2.jpg' alt=""/>
                                 </div>
                                 <div className="news-text">
                                     <h3><Link onClick={ClickHandler} href="/GoldenStepsBlogPost"><a>Golden Steps School</a></Link></h3>
