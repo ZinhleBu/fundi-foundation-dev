@@ -29,15 +29,30 @@ const Header = () => {
                 <div className="col-lg-8 d-lg-block d-none">
                     <nav>
                         <ul>
-                            <li><Link className="active" href="/HomePage3" title="">Home</Link>
+                            <motion.li
+                            initial={{ opacity: 0, y: -20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: 10 }}
+                            transition={{ delay: .2}}
+                            ><Link className="active" href="/HomePage3" title="">Home</Link>
                                 {/* <ul>
                                     <li><Link className="active" href="/">Home style 1</Link></li>
                                     <li><Link href="/HomePage2">Home style 2</Link></li>
                                     <li><Link href="/HomePage3">Home style 3</Link></li>
                                 </ul> */}
-                            </li>
-                            <li><Link href="/AboutPage" title="">About</Link></li>
-                            <li><Link href="/CasePage" title="">Causes</Link>
+                            </motion.li>
+                            <motion.li
+                             initial={{ opacity: 0, y: -20 }}
+                             animate={{ opacity: 1, y: 0 }}
+                             exit={{ opacity: 0, y: 10 }}
+                             transition={{ delay: .3}}
+                          ><Link href="/AboutPage" title="">About</Link></motion.li>
+                            <motion.li
+                             initial={{ opacity: 0, y: -20 }}
+                             animate={{ opacity: 1, y: 0 }}
+                             exit={{ opacity: 0, y: 10 }}
+                             transition={{ delay: .4}}
+                            ><Link href="/CasePage" title="">Causes</Link>
                                 <ul>
                                     <li><Link href="/CaseSinglePageR10" title="">R10 Goes a Long way</Link></li>
                                     <li><Link href="/CaseSinglePageFund" title="">FundiFund 12412</Link></li>
@@ -45,13 +60,18 @@ const Header = () => {
                                     <li><Link href="/CaseSinglePageLeaders" title="">Leaders4Learners</Link></li>
 
                                 </ul>
-                            </li>
-                            <li><Link href="/EventPage" title="">Events</Link>
+                            </motion.li>
+                            <motion.li
+                             initial={{ opacity: 0, y: -20 }}
+                             animate={{ opacity: 1, y: 0 }}
+                             exit={{ opacity: 0, y: 10 }}
+                             transition={{ delay: .5}}
+                            ><Link href="/EventPage" title="">Events</Link>
                                 {/* <ul>
                                     <li><Link href="/EventPage" title="">Event</Link></li>
                                     <li><Link href="/EventPageSingle" title="">Event Single</Link></li>
                                 </ul> */}
-                            </li>
+                            </motion.li>
                             {/* <li><Link href="/" title="">Pages</Link>
                                 <ul>
                                     <li><Link href="/AboutPage" title="">About</Link></li>
@@ -74,7 +94,12 @@ const Header = () => {
                                     </li>
                                 </ul>
                             </li> */}
-                            <li><Link href="/ContactPage" title="">Contact</Link></li>
+                            <motion.li
+                             initial={{ opacity: 0, y: -20 }}
+                             animate={{ opacity: 1, y: 0 }}
+                             exit={{ opacity: 0, y: 10 }}
+                             transition={{ delay: .6}}
+                            ><Link href="/ContactPage" title="">Contact</Link></motion.li>
                         </ul>
                     </nav>
                 </div>

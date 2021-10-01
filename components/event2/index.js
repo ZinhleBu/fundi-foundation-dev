@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { motion } from "framer-motion";
 
 
 const EventSection2 = (props) => {
@@ -8,13 +9,28 @@ const EventSection2 = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
-                            <span>Our News and Articles</span>
-                            <h2>Current News</h2>
+                            <motion.span
+                             initial={{ opacity: 0 }}
+                             animate={{ opacity: 1, y: -10 }}
+                             exit={{ opacity: 0, y: 10 }}
+                             transition={{ delay: .4}}
+                            >Our News and Articles</motion.span>
+                            <motion.h2
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1, y: -10 }}
+                            exit={{ opacity: 0, y: 10 }}
+                            transition={{ delay: .6}}
+                            >Current News</motion.h2>
                         </div>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                    <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, y: -10 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    transition={{ delay: .2}}
+                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/img-1-ayanda.jpg' alt="" />
@@ -36,8 +52,13 @@ const EventSection2 = (props) => {
 
                             </div>
                         </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                    </motion.div>
+                    <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, y: -10 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    transition={{ delay: .4}}
+                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/img-1-sakhile.jpg' alt="" />
@@ -59,8 +80,13 @@ const EventSection2 = (props) => {
 
                             </div>
                         </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                    </motion.div>
+                    <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, y: -10 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    transition={{ delay: .6}}
+                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/img-1-gs.jpg' alt="" />
@@ -84,7 +110,7 @@ const EventSection2 = (props) => {
 
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
 
                 </div>
 
