@@ -6,8 +6,8 @@ const PageTitleFund = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <div className="wpo-breadcumb-wrap">
-                            <h2>{props.PageTitleFund}</h2>
+                        <div className="wpo-breadcumb-wrap-fund">
+                            <h2>{props.pageTitleFund}</h2>
                             <ul>
                                 <li><Link href="/"><a>Home</a></Link></li>
                                 <li><span>{props.pagesub}</span></li>

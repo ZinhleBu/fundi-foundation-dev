@@ -3713,7 +3713,7 @@ page-title
 }
 
 .wpo-breadcumb-area-fund {
-    background: url('../public/images/breadcumb/img-1-fund-1.jpg') no-repeat center top / cover;
+    background: url('../public/images/breadcumb/img-1-fund.jpg') no-repeat center top / cover;
     min-height: 350px;
     position: relative;
     display: flex;
@@ -3767,6 +3767,10 @@ page-title
     text-align: center;
 }
 
+.wpo-breadcumb-wrap-fund {
+    text-align: center;
+}
+
 @media(max-width: 767px) {
     .wpo-breadcumb-area {
         min-height: 250px;
@@ -3814,6 +3818,50 @@ page-title
 }
 
 .wpo-breadcumb-wrap ul li:last-child:after {
+    display: none;
+}
+
+.wpo-breadcumb-wrap-fund h2 {
+    font-size: 50px;
+    color: #183A69;
+    line-height: 60px;
+    margin-top: -10px;
+}
+
+@media(max-width: 767px) {
+    .wpo-breadcumb-wrap-fund h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+.wpo-breadcumb-wrap-fund ul li {
+    display: inline-block;
+    padding: 0px 5px;
+    color: #fff;
+}
+
+.wpo-breadcumb-wrap-fund ul li a {
+    color: #fff;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.wpo-breadcumb-wrap-fund ul li a:hover {
+    color: #08cc7f;
+}
+
+.wpo-breadcumb-wrap-fund ul li:last-child {
+    color: #08cc7f;
+}
+
+.wpo-breadcumb-wrap-fund ul li:after {
+    content: "/";
+    position: relative;
+    left: 7px;
+}
+
+.wpo-breadcumb-wrap-fund ul li:last-child:after {
     display: none;
 }
 

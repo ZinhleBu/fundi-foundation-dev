@@ -68,18 +68,18 @@ const menus = [
     id: 4,
         title: 'Event',
         link: '/EventPage',
-        submenu: [
-            {
-                id: 41,
-                title: 'Event',
-                link: '/EventPage'
-            },
-            {
-                id: 42,
-                title: 'Event Single',
-                link: '/EventPageSingle'
-            }
-        ]
+        // submenu: [
+        //     {
+        //         id: 41,
+        //         title: 'Event',
+        //         link: '/EventPage'
+        //     },
+        //     {
+        //         id: 42,
+        //         title: 'Event Single',
+        //         link: '/EventPageSingle'
+        //     }
+        // ]
     },
     // {
     //     id: 7,
