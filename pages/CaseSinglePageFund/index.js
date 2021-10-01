@@ -13,7 +13,7 @@ const CaseSinglePageFund =() => {
                 <title>FundiFund Details</title>
             </Head>
             <Header/>
-            <PageTitleFund pageTitleFund={'FundiFund 12412'} pagesub={'Funding the dreams of matriculants throughout the country.'}/> 
+            <PageTitleFund pageTitleFund={'FundiFund'} pagesub={'Helping matriculants get past the finish line.'}/> 
             <CaseSingleFund/>
             <Footer/>
             <Scrollbar/>

@@ -103,7 +103,12 @@ const Header = () => {
                         </ul>
                     </nav>
                 </div>
-                <div className="col-lg-1 col-md-6 col-sm-6 col-6">
+                <motion.div 
+                 initial={{ opacity: 0, y: -20 }}
+                 animate={{ opacity: 1, y: 0 }}
+                 exit={{ opacity: 0, y: 10 }}
+                 transition={{ delay: .7}}
+                className="col-lg-1 col-md-6 col-sm-6 col-6">
                     <div className="contact">
                         <div className="cart-search-contact">
                             <div className="header-search-form-wrapper">
@@ -150,7 +155,7 @@ const Header = () => {
                             </div> */}
                         </div>
                     </div>
-                </div>
+                </motion.div>
                 <div className="col-md-2 col-sm-2 col-2">
                     <MobileMenu/>
                 </div>
