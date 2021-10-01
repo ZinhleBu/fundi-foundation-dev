@@ -66,7 +66,7 @@ const Header = () => {
                              animate={{ opacity: 1, y: 0 }}
                              exit={{ opacity: 0, y: 10 }}
                              transition={{ delay: .5}}
-                            ><Link href="/EventPage" title="">Events</Link>
+                            ><Link href="/EventPage" title="">Press</Link>
                                 {/* <ul>
                                     <li><Link href="/EventPage" title="">Event</Link></li>
                                     <li><Link href="/EventPageSingle" title="">Event Single</Link></li>

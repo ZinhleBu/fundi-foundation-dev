@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-
+import Example from '../pdf'
 const MissionAbout = (props) => {
     return (
         <div className={`wpo-mission-area ${props.subclass}`}>
@@ -13,7 +13,7 @@ const MissionAbout = (props) => {
                                 animate={{ opacity: 1, y: -10 }}
                                 exit={{ opacity: 0, y: 10 }}
                                 transition={{ delay: .2 }}
-                            >Whai is FundiFoundation</motion.span>
+                            >What is FundiFoundation</motion.span>
                             <motion.h2
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1, y: -10 }}
@@ -61,6 +61,7 @@ const MissionAbout = (props) => {
                                 FundiFoundation is managed by a board of trustees made up of management at Fundi, with financials audited by PWC. The fundraising initiatives at FundiFoundation fall under five pillars, namely R10GoesALongWay, Leaders4learners, 12for12, RebuildSA, Fundi Bursaries, Fundi Capital.
                             </p>
                         </div>
+                        <Example/>
                     </div>
                     <div className="row">
                         {/* <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">

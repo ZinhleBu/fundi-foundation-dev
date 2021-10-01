@@ -3,6 +3,7 @@ import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
 import Link from 'next/link'
 import SidebarWrap from '../SidebarWrap'
+import GalleryFund from '../Gallery-Fund';
 
 
 const CaseSingleFund = (props) => {
@@ -82,6 +83,7 @@ const CaseSingleFund = (props) => {
                                                         <p>After schools opened for Grade 12, many learners are still struggling to catch up with their matric curriculum.</p>
                                                         <p>Fundi, together with Primestars invites you to be a part of our fundraising initiative to help us get the Class of 2020 to the finish line by donating any amount you can to the FundiFund12for12 Challenge.</p>
                                                     </div>
+                                                    <GalleryFund/>
                                                     {/* <div className="case-bb-text">
                                                         <h3>We want to ensure the education for the kids.</h3>
                                                         <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure.</p>

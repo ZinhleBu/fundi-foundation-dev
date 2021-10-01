@@ -1,6 +1,6 @@
 import VideoModal from '../ModalVideo'
 import Link from 'next/link'
-
+import Example from '../pdf'
 const About = (props) => {
     const ClickHandler = () =>{
         window.scrollTo(10, 0);
