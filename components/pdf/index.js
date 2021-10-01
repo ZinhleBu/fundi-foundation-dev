@@ -38,7 +38,7 @@ function Example() {
                         Close
                     </Button>
                     <Button color="primary" type="button">
-                        <a  title="Download Registration Form" href="https://fundi-foundation-dev-chi.vercel.app/public/Fundi_Foundation_Trust_REGISTRATION.pdf">
+                        <a  title="Download Registration Form" type="download" href="https://fundi-foundation-dev-chi.vercel.app/public/Fundi_Foundation_Trust_REGISTRATION.pdf">
                             Download 
                         </a>
                     </Button>
