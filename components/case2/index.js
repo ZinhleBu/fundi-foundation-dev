@@ -44,7 +44,7 @@ class Casesection extends Component {
                                         </div>
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
-                                                <h2>#R10 Goes A long Way</h2>
+                                                <h2>#R10GoesALongWay</h2>
                                                 <div className="progress-section">
                                                     <div className="process">
                                                         <div className="progress">
@@ -80,7 +80,7 @@ class Casesection extends Component {
                                         </div>
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
-                                                <h2>#RebuildSA</h2>
+                                                <h2>Unite4School</h2>
                                                 <div className="progress-section">
                                                     <div className="process">
                                                         <div className="progress">
@@ -116,7 +116,7 @@ class Casesection extends Component {
                                         </div>
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
-                                                <h2>Leaders4Learners</h2>
+                                                <h2>#Leaders4Learners</h2>
                                                 <div className="progress-section">
                                                     <div className="process">
                                                         <div className="progress">
@@ -171,37 +171,7 @@ class Casesection extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 custom-grid col-12">
-                                    <div className="wpo-case-item">
-                                        <div className="wpo-case-img">
-                                            <img src='images/case/img-5.png' alt="" />
-                                        </div>
-                                        <div className="wpo-case-content">
-                                            <div className="wpo-case-text-top">
-                                                <h2>Fundi Capital</h2>
-                                                <div className="progress-section">
-                                                    <div className="process">
-                                                        <div className="progress">
-                                                            <div className="progress-bar">
-                                                                <div className="progress-value"><span>90.5</span>%</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {/* <ul>
-                                            <li><span>Raised:</span> $7,000.00</li>
-                                            <li><span>Goal:</span> $8,000.00</li>
-                                        </ul> */}
-                                            </div>
-                                            <div className="case-btn">
-                                                <ul>
-                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePage"><a>Learn More</a></Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                                 <div className="col-lg-4 col-md-6 custom-grid col-12">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
