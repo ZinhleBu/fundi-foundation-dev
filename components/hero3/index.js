@@ -34,9 +34,14 @@ const Hero3 = (props) => {
                                         <p>Donate to the FundiFoundation today,</p>
                                         <p>And help us make education dreams come true.</p>
                                     </motion.div>
-                                    <div className="btns">
+                                    <motion.div className="btns"
+                                     initial={{ opacity: 0 }}
+                                     animate={{ opacity: 1, y: -10 }}
+                                     transition={{ delay: .4}}
+                                     exit={{ opacity: 0, y: 10 }}
+                                    >
                                         <Link href="/DonatePage"><a className="theme-btn">Donate Now</a></Link>
-                                    </div>
+                                    </motion.div>
                                 </div>
                             </div>
                         </div>

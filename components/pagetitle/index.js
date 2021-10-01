@@ -1,22 +1,41 @@
 import Link from 'next/link'
+import { AnimatePresence, motion } from "framer-motion";
 
 const PageTitle = (props) => {
     return(
-        <div className="wpo-breadcumb-area">
+        <AnimatePresence>
+
+        <motion.div 
+         initial={{ opacity: 0 }}
+         animate={{ opacity: 1}}
+         exit={{ opacity: 0 }}
+         transition={{ delay: .1}}
+        className="wpo-breadcumb-area">
             <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-breadcumb-wrap">
-                            <h2>{props.pageTitle}</h2>
-                            <ul>
+                            <motion.h2
+                             initial={{ opacity: 0 }}
+                             animate={{ opacity: 1, y: -10 }}
+                             exit={{ opacity: 0, y: 10 }}
+                             transition={{ delay: .2}}
+                            >{props.pageTitle}</motion.h2>
+                            <motion.ul
+                             initial={{ opacity: 0 }}
+                             animate={{ opacity: 1, y: -10 }}
+                             exit={{ opacity: 0, y: 10 }}
+                             transition={{ delay: .3}}
+                            >
                                 <li><Link href="/"><a>Home</a></Link></li>
                                 <li><span>{props.pagesub}</span></li>
-                            </ul>
+                            </motion.ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
+        </AnimatePresence>
     )
 }
 
