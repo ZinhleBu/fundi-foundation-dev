@@ -2,52 +2,52 @@
 
 
 
-const GalleryUniversityDonations = (props) => {
+const GallerySibongile = (props) => {
 
 
     return (
         <><div className="container">
             <div className="row">
                 <div className="col-lg-12 ">
-                    <h1>University Bursary Donations</h1>
-                    <br></br>
-                    <br></br>
+                    <h1 className="main-title">Sibonile School of the Visually Impaired</h1>
+                <br></br>
+                <br></br>
                 </div>
             </div>
             <div className="row">
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/university-donations/img-1-ud.jpg" alt="" />
+                        <img src="images/sibongile-school/img-1-sb.jpg" alt="" />
                     </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/university-donations/img-2-ud.jpg" alt="" />
+                        <img src="images/sibongile-school/img-2-sb.jpeg" alt="" />
                     </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/university-donations/img-3-ud.jpg" alt="" />
+                        <img src="images/sibongile-school/img-3-sb.jpeg" alt="" />
                     </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/university-donations/img-4-ud.jpg" alt="" />
+                        <img src="images/sibongile-school/img-4-sb.jpeg" alt="" />
                     </div>
                 </div>
 
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/university-donations/img-5-ud.jpg" alt="" />
+                        <img src="images/sibongile-school/img-5-sb.jpeg" alt="" />
                     </div>
                 </div>
 
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/university-donations/img-6-ud.jpg" alt="" />
+                        <img src="images/sibongile-school/img-6-sb.jpeg" alt="" />
                     </div>
                 </div>
-               
+
             </div>
 
 
@@ -56,6 +56,9 @@ const GalleryUniversityDonations = (props) => {
 
             <style jsx>{`
 
+.main-title {
+    marginBottom:" 20px"
+},
                 .wpo-img-gallery {
 
                 paddingTop: "10px",
@@ -67,4 +70,4 @@ const GalleryUniversityDonations = (props) => {
     )
 }
 
-export default GalleryUniversityDonations;
+export default GallerySibongile;

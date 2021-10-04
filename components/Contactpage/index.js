@@ -50,7 +50,7 @@ const Contactpage = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div className="info-item">
-                                        <h2>support@fundi.co.za</h2>
+                                        <h2>fundi@fundi.co.za</h2>
                                         <div className="info-wrap">
                                             <div className="info-icon-2">
                                                 <i className="fi flaticon-envelope"></i>

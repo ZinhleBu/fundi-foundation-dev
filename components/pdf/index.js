@@ -8,9 +8,11 @@ function Example() {
     return (
         <>
             <Button
-            style={{
-                left:"50%",
-                position:"absolute"}}
+                style={{
+                    left: "50%",
+                    color:"white",
+                    position: "absolute"
+                }}
                 color="primary"
                 type="button"
                 onClick={() => setModalOpen(!modalOpen)}
@@ -32,7 +34,9 @@ function Example() {
                     </button>
                 </div>
                 <ModalBody>
-                    <h1>Download our Registration Certificate </h1>
+                    <h1>
+                        18A Certificate and Registration
+                    </h1>
                 </ModalBody>
                 <ModalFooter>
                     <Button
@@ -43,8 +47,14 @@ function Example() {
                         Close
                     </Button>
 
-                    <Button color="primary" type="button">
-                        <a title="Download Registration Form" href="https://fundi-foundation-dev-chi.vercel.app/Fundi_Foundation_Trust_REGISTRATION.pdf" download>
+                    <Button 
+                   
+                    color="primary" type="button">
+                        <a 
+                          style={{
+                            color:"white",
+                        }}
+                        title="Download Registration Form" href="https://fundi-foundation-dev-chi.vercel.app/Fundi_Foundation_Trust_REGISTRATION.pdf" download>
                             Download
                         </a>
                     </Button>

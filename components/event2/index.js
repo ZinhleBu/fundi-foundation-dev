@@ -111,6 +111,34 @@ const EventSection2 = (props) => {
                             </div>
                         </div>
                     </motion.div>
+                    <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, y: -10 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    transition={{ delay: .6}}
+                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                        <div className="wpo-event-item">
+                            <div className="wpo-event-img">
+                                <img src='images/event/mala-suriah-fundi-cmo.jpg' alt="mala-suriah-fundi-cmo" />
+                                <div className="thumb-text">
+                                    <span>4</span>
+                                    <span>DEC</span>
+                                </div>
+                            </div>
+                            <div className="wpo-event-text">
+                                <h2>Fundi’s 12412 relay race raised R100K in support of matrics’ final exams:</h2>
+                                <ul>
+                                    <li><i className="fa fa-clock-o" aria-hidden="true"></i>Helen Rossouw, 2020</li>
+                                    <li><i className="fi flaticon-pin"></i>Joburg</li>
+                                </ul>
+                                <p>
+                                The race was launched to raise funding that will assist matriculants with their holistic exam preparation...                                </p>
+                                <Link href="/RaceBlogPost">Learn More...</Link>
+
+                            </div>
+                        </div>
+                    </motion.div>
+
 
                 </div>
 

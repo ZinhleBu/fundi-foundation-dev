@@ -12,7 +12,7 @@ class ImageSlide extends Component {
       arrows: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       margin: 10,
@@ -125,6 +125,155 @@ class ImageSlide extends Component {
                       </div>
                     </div>
 
+
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-5.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-6.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-7.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-8.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-9.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-10.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-11.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-12.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-13.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-14.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-15.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+                    
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-16.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-17.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-18.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
+
+
+                    <div className="wpo-case-single">
+                      <div className="wpo-case-item">
+                        <div className="wpo-case-img">
+                          <img src='images/imageSlider/imgSlider-19.jpg' alt="" />
+                        </div>
+
+                      </div>
+                    </div>
 
                   </Slider>
                 </div>

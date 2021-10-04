@@ -38,7 +38,7 @@ const SidebarWrap = () => {
                             <div className="details">
                                 <h4><Link href="/SakhileBlogPost">Struggling Sakhile’s academic dreams come true.</Link></h4>
                                 <span className="date">25 Jun 2021</span>
-                                <span className="date"> Erica Abrahams </span>
+                                <span className="date"> ,Erica Abrahams </span>
 
                             </div>
                         </div>
@@ -47,8 +47,10 @@ const SidebarWrap = () => {
                                 <img src='images/recent-posts/img-3.jpg' alt=""/>
                             </div>
                             <div className="details">
-                                <h4><Link href="/BlogDetails">Be soft and kind for the poor people.</Link></h4>
-                                <span className="date">22 Jan 2021</span>
+                                <h4><Link href="/BlogDetails">Fundi’s 12412 relay race raised R100K</Link></h4>
+                                <span className="date">04 Dec 2020</span>
+                                <span className="date">Helen Rossouw</span>
+
                             </div>
                         </div>
                     </div>
