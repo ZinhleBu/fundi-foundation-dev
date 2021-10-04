@@ -3,6 +3,7 @@ import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
 import Link from 'next/link'
 import SidebarWrap from '../SidebarWrap'
+import GalleryUnite from '../Gallery-Unite';
 
 
 const CaseSingleLeaders = (props) => {
@@ -81,8 +82,10 @@ const CaseSingleLeaders = (props) => {
                                                         <p>FundiFund and Save the Children SA is calling on business leaders to Unite for Education and help us Rebuild our schools and rebuild the hope young people have in grown ups.</p>
                                                         <p>Funds raised will go a long way to help us get students back to school.At least 139 schools were looted and vandalised during last month’s unrest. Among the schools that lost everything was Golden Steps, a special needs school, in Verulam, KZN.</p>
                                                         <p>The school was com-pletely ransacked, with looters taking everything from food and appliances to specialised computers and TVs designed to assist children with disabilities.</p>
+                                                       <GalleryUnite/>
                                                         <p>For many children in South Africa, school is so much more than just a place to learn. It is often where they receive their only nutritious meal of the day. It is a place of hope, long lasting friendships and big dreams.</p>
                                                     </div>
+
                                                     {/* <div className="case-bb-text">
                                                         <h3>We want to ensure the education for the kids.</h3>
                                                         <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure.</p>

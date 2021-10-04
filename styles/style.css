@@ -3722,6 +3722,16 @@ page-title
     z-index: 1;
 }
 
+.wpo-breadcumb-area-fundicsi {
+    background: url('../public/images/breadcumb/img-1-csi.jpg') no-repeat center top / cover;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
 .wpo-breadcumb-area-rebuild {
     background: url('../public/images/breadcumb/img-1-rebuild.png') no-repeat center top / cover;
     min-height: 350px;
