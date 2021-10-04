@@ -15,53 +15,37 @@ const GalleryUnite = (props) => {
             <div className="row">
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-1.jpg" alt="" />
+                        <img src="images/unite-images/img-1-un.jpg" alt="" />
                     </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-2.jpg" alt="" />
+                        <img src="images/unite-images/img-2-un.jpg" alt="" />
                     </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-3.jpg" alt="" />
+                        <img src="images/unite-images/img-3-un.jpg" alt="" />
                     </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-4.jpg" alt="" />
+                        <img src="images/unite-images/img-4-un.jpg" alt="" />
                     </div>
                 </div>
 
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-5.jpg" alt="" />
+                        <img src="images/unite-images/img-5-un.png" alt="" />
                     </div>
                 </div>
 
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-6.jpg" alt="" />
+                        <img src="images/unite-images/img-6-un.png" alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                    <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-7.jpg" alt="" />
-                    </div>
-                </div>
-
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                    <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-8.jpg" alt="" />
-                    </div>
-                </div>
-
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                    <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-9.jpg" alt="" />
-                    </div>
-                </div>
+                
 
             </div>
 

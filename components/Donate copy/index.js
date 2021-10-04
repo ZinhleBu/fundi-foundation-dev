@@ -1,0 +1,205 @@
+import ContactForm from '../../components/ContactForm'
+const DonateCopy = (props) => {
+
+    return (
+        <> <div classNameName="wpo-donation-page-area section-padding">
+            <div classNameName="container">
+                <div classNameName="row">
+                    <div classNameName="col-lg-12 ">
+
+                        <div classNameName="wpo-donate-header">
+                            <h2>Make a Donation</h2>
+                        </div>
+                        <section classNameName="wpo-contact-form-map section-padding">
+                            <div classNameName="container">
+                                <div classNameName="row">
+                                    <div classNameName="col-12">
+                                        <div classNameName="row">
+                                            <div classNameName="col col-lg-6 col-md-12 col-sm-12 col-12">
+                                                <div classNameName="contact-form">
+                                                    <h2>Get In Touch</h2>
+                                                    <ContactForm />
+                                                </div>
+                                            </div>
+                                            <div classNameName="col col-lg-6 col-md-12 col-sm-12 col-12">
+
+                                                <div classNameName="contact-form">
+                                                    <h2>Donation Details</h2>
+
+                                                    <form name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
+                                                        <input required type="hidden" name="cmd" value="_paynow" />
+                                                        <input required type="hidden" name="receiver" pattern="[0-9]" value="16564521" />
+                                                        <input type="hidden" name="return_url" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
+                                                        <input type="hidden" name="cancel_url" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
+                                                        <input type="hidden" name="notify_url" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
+
+                                                        <div>
+
+                                                            <label id="PayFastAmountLabel" htmlFor="PayFastAmount">Amount: </label>
+                                                            <input id="PayFastAmount" type="number" step=".01" name="amount" min="12.00" placeholder="12.00" valueAsNumber="" />
+
+                                                        </div>
+
+                                                        <input required type="hidden" name="item_name" maxLength="255" value="FundiFoundation" />
+
+                                                        <table>
+
+                                                            <td colSpan="2" align="center" />
+                                                            <input type="image" src="https://www.payfast.co.za/images/buttons/DonateNow/Red-Large-Square-DonateNow.png" alt="Donate Now" title="Donate Now with PayFast" />
+
+                                                        </table>
+
+                                                    </form>
+
+                                                    <div className="col-md-12">
+                                                        <button id="ipayButton" type="button" style={{
+                                                            width: "510px", padding: "10px 16px", fontSize: "20px", lineHeight: "1.33", borderRadius: "6px", color: "rgb(68, 175, 133)", backgroundColor: "rgb(255, 255, 255)", borderColor: "rgb(68, 175, 133)", display: "inlineBlock", marginBottom: "20px", fontWeight: "800", textAlign: "center", whiteSpace: "nowrap", verticalAlign: "middle", cursor: "pointer", userSelect: "none", boxShadow: "rgb(136, 136, 136) 3px 3px 20px"
+                                                        }}>
+                                                            <div style={{ float: "left", paddingTop: "22px" }}>
+
+                                                                Click Here
+                                                                <br></br>
+                                                                to pay with
+                                                            </div>
+                                                            <img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png" />
+                                                        </button>
+                                                    </div>
+                                                    <div id="ipayModal" className="modal" style={{ display: "none", position: "fixed", zIndex: "1", left: "0", top: "0", width: "100%", height: "100%", overflow: "auto", backgroundColor: "rgb(0,0,0)", backgroundColor: "rgba(0,0,0,0.4)" }}>
+                                                        <div style={{ backgroundColor: "#fefefe", margin: "15% auto", padding: "20px", border: "1px solid #888", width: "80%", borderRadius: "9px" }}>
+                                                            <span className="ipayClose" style={{ color: "#aaa", float: "right", fontSize: "28px", fontWeight: "bold", cursor: "pointer" }}>×</span>
+                                                            <form method="post" action="https://pay.ozow.com/" id="ipayForm" novalidate="novalidate">
+                                                                <p className="ipay-name">
+                                                                    <input type="text" id="ipayFullName" name="Optional1" placeholder="Full Name" className="fields" required="" aria-required="true" />
+                                                                </p>
+                                                                <p className="ipay-email">
+                                                                    <input type="email" name="Customer" placeholder="Email" className="fields" required="" aria-required="true" />
+                                                                </p>
+                                                                <p className="ipay-contact">
+                                                                    <input type="text" name="Optional2" placeholder="Contact Number" className="fields" required="" aria-required="true" />
+                                                                </p>
+                                                                <p className="ipay-amount">
+                                                                    <input type="text" id="ipayAmount" name="Amount" placeholder="Enter Custom Amount" className="fields" required="" aria-required="true" />
+                                                                </p>
+
+                                                                <button id="ipayButton" type="submit" style={{ width: "510px", padding: "10px 16px", fontSize: "20px", lineHeight: "1.33", borderRadius: "6px", color: "rgb(68, 175, 133)", backgroundColor: "rgb(255, 255, 255)", borderColor: "rgb(68, 175, 133)", display: "inlineBlock", marginBottom: "20px", fontWeight: "800", textAlign: "center", whiteSpace: "nowrap", verticalAlign: "middle", cursor: "pointer", userSelect: "none", boxShadow: "rgb(136, 136, 136) 3px 3px 5px" }}>
+                                                                    <p style={{ fontSize: "12px" }}>
+                                                                        Click Here To Donate Now
+                                                                    </p>
+                                                                    <br></br>
+                                                                    <img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png" style={{ margin: "5px 0 -5px 20px" }} />
+
+                                                                </button>
+
+                                                                <input type="hidden" name="SiteCode" value="FUN-FUN-010" />
+                                                                <input type="hidden" name="CountryCode" value="ZA" />
+                                                                <input type="hidden" name="CurrencyCode" value="ZAR" />
+                                                                <input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="" />
+                                                                <input type="hidden" id="ipayBankRef" name="BankReference" value="" />
+                                                                <input type="hidden" name="Optional5" value="Buy Now" />
+                                                                <input type="hidden" name="CancelUrl" value="https://ozow.com/demo-cancelled/" />
+                                                                <input type="hidden" name="ErrorUrl" value="https://ozow.com/demo-cancelled/" />
+                                                                <input type="hidden" name="SuccessUrl" value="https://fundifund12for12.co.za" />
+                                                                <input type="hidden" name="IsTest" value="false" />
+                                                                <input type="hidden" id="ipayHash" name="HashCheck" value="" />
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                {/* <form classNameName="donate-form " name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
+
+                                                        <input required type="hidden" name="cmd" value="_paynow" />
+                                                        <input required type="hidden" name="receiver" pattern="[0-9]" value="16564521" />
+                                                        <input type="hidden" name="item_name" maxLength="255" value="FundiFoundation" />
+                                                        <input type="hidden" name="name_first" value="Zinhle" />
+                                                        <input type="hidden" name="name_last" value="Buhlungu" />
+                                                        <input type="hidden" name="email_address" value="" />
+                                                        <input type="hidden" name="cell_number" value="" />
+
+                                                        <label id="PayFastAmountLabel" for="PayFastAmount">Amount: </label>
+                                                        <input required id="PayFastAmount" type="number" step=".01" name="amount" min="5.00" placeholder="5.00" valueAsNumber="" />
+
+
+
+                                                        <h3 colspan="2"><span style={{ fontWeight: "bold" }}>Personal Details</span>
+
+                                                        </h3>
+                                                        <span style={{ color: "red" }}>*</span>&nbsp;Name
+                                                        <input type="text" name="name_first" classNameName="shipping" placeholder="First name" valueAsString="" />
+
+
+                                                        <span style={{ color: "red" }}>*</span>&nbsp;Surname
+                                                        <input type="text" name="name_last" classNameName="shipping" valueAsString="" />
+
+
+                                                        <span style={{ color: "red" }}>*</span>&nbsp;City
+                                                        <input type="text" classNameName="shipping" name="city" valueAsString="" />
+
+
+                                                        <span style={{ color: "red" }}>*</span>&nbsp;Province
+                                                        <input type="text" classNameName="shipping" name="region" valueAsString="" />
+
+
+                                                        <span style={{ color: "red" }}>*</span>&nbsp;Country
+
+                                                        <select name="country" classNameName="shipping">
+                                                            <option value="" selected="selected">- Select -</option>
+                                                            <option value="South Africa">South Africa</option>
+                                                            <option value="">------------------------</option>
+                                                            <option value="Botswana">Botswana</option>
+                                                            <option value="Lesotho">Lesotho</option>
+                                                            <option value="Mauritius">Mauritius</option>
+                                                            <option value="Mozambique">Mozambique</option>
+                                                            <option value="Swaziland">Swaziland</option>
+                                                            <option value="Zimbabwe">Zimbabwe</option>
+                                                        </select>
+
+
+
+                                                        <span style={{ color: "red" }}>*</span>&nbsp;Postal Code
+                                                        <input type="number" name="code" classNameName="shipping" valueAsNumber="" />
+
+                                                        <table>
+
+                                                            <td colSpan="2" align="center">
+                                                                <button type="submit" classNameName="theme-btn">Donate</button>
+
+                                                            </td>
+
+                                                        </table>
+
+                                                    </form> */}
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                        {/* <form action="https://sandbox.payfast.co.za​/eng/process" method="post">
+                            <input type="hidden" name="merchant_id" value="10000100" />
+                            <input type="hidden" name="merchant_key" value="46f0cd694581a" />
+                            <input type="hidden" name="amount" value="100.00" />
+                            <input type="hidden" name="item_name" value="Test Product" />
+                            <input type="submit" value="Donate" />
+                        </form> */}
+
+                    </div>
+                </div >
+            </div >
+        </div >
+        </>
+    )
+}
+export default DonateCopy;
+<script>
+    jQuery(function(a){a("#ipayButton").click(function () { a("#ipayModal").show() }), a(".ipayClose").click(function () { a("#ipayModal").hide() }), a("window").click(function (b) { b.target == a("#ipayModal")[0] && a("#ipayModal").hide() }), a.fn.form = function () { var b = []; return a(a(this).serializeArray()).each(function (a, c) { b[c.name] = c.value }), b }, a("#ipayForm").validate({ rules: { Amount: { required: !0, number: !0 } } }), a("#ipayForm").submit(function (b) { var c = new Date, d = c.getTime(), e = d + a("#ipayFullName").val(); e = e.replace(/[^a-zA-Z0-9]/g, ""), a("#ipayAmount").val(parseFloat(a("#ipayAmount").val()).toFixed(2)), a("#ipayTransactionRef").val(e.substr(0, 50)), a("#ipayBankRef").val(e.substr(0, 20)); var f = a(this).form(), g = f.SiteCode + f.CountryCode + f.CurrencyCode + f.Amount + f.TransactionReference + f.BankReference + f.Optional1 + f.Optional2 + f.Optional5 + f.Customer + f.CancelUrl + f.ErrorUrl + f.SuccessUrl + f.IsTest + "c0N8gSerCZBXsJAhVD5Ikk1wMI5gQS7Y", h = sha512(g.toLowerCase()); a("#ipayHash").val(h) })});
+</script>

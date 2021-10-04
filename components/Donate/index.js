@@ -34,21 +34,21 @@ const Donate = (props) => {
                                                         <input type="hidden" name="notify_url" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
 
                                                         <table>
-                                                            
-                                                                <label id="PayFastAmountLabel" for="PayFastAmount">Amount: </label>
-                                                                <input  id="PayFastAmount" type="number" step=".01" name="amount" min="12.00" placeholder="12.00" valueAsNumber="" />
-                                                               
+
+                                                            <label id="PayFastAmountLabel" htmlFor="PayFastAmount">Amount: </label>
+                                                            <input id="PayFastAmount" type="number" step=".01" name="amount" min="12.00" placeholder="12.00" valueAsNumber="" />
+
                                                         </table>
 
                                                         <input required type="hidden" name="item_name" maxLength="255" value="FundiFoundation" />
 
                                                         <table>
-                                                            
-                                                                <td colspan="2" align="center"/>
-                                                                    <input type="image" src="https://www.payfast.co.za/images/buttons/DonateNow/Red-Large-Square-DonateNow.png" alt="Donate Now" title="Donate Now with PayFast" />
-                                                           
+
+                                                            <td colspan="2" align="center" />
+                                                            <input type="image" src="https://www.payfast.co.za/images/buttons/DonateNow/Red-Large-Square-DonateNow.png" alt="Donate Now" title="Donate Now with PayFast" />
+
                                                         </table>
-                                                    </form> 
+                                                    </form>
                                                     {/* <form className="donate-form " name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
 
                                                         <input required type="hidden" name="cmd" value="_paynow" />
@@ -115,9 +115,81 @@ const Donate = (props) => {
 
 
 
+                                                    <div className="col-md-12">
+                                                        <button id="ipayButton" type="button"  
+                                                        style={{
+                                                            width: "100%", 
+                                                            padding: "10px 16px", 
+                                                            fontSize: "20px", 
+                                                            lineHeight: "1.33", 
+                                                            borderRadius: "6px", 
+                                                            color: "rgb(68, 175, 133)", 
+                                                            backgroundColor: "rgb(255, 255, 255)", 
+                                                            borderColor: "rgb(68, 175, 133)", 
+                                                            display: "inlineBlock", 
+                                                            marginBottom: "20px", 
+                                                            fontWeight: "800", 
+                                                            textAlign: "center", 
+                                                            whiteSpace: "nowrap", 
+                                                            verticalAlign: "middle", 
+                                                            cursor: "pointer", 
+                                                            userSelect: "none", 
+                                                            boxShadow: "rgb(136, 136, 136) 3px 3px 20px"
+                                                        }}>
+                                                            <div style={{ float: "left", paddingTop: "22px" }}>
 
+                                                                Click Here
+                                                                <br></br>
+                                                                to pay with
+                                                            </div>
+                                                            <img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png" />
+                                                        </button>
+                                                    </div>
+                                                    <div id="ipayModal" className="modal" style={{ display: "none", position: "fixed", zIndex: "1", left: "0", top: "0", width: "100%", height: "100%", overflow: "auto", backgroundColor: "rgb(0,0,0)", backgroundColor: "rgba(0,0,0,0.4)" }}>
+                                                        <div style={{ backgroundColor: "#fefefe", margin: "15% auto", padding: "20px", border: "1px solid #888", width: "80%", borderRadius: "9px" }}>
+                                                            <span className="ipayClose" style={{ color: "#aaa", float: "right", fontSize: "28px", fontWeight: "bold", cursor: "pointer" }}>×</span>
+                                                            <form method="post" action="https://pay.ozow.com/" id="ipayForm" novalidate="novalidate">
+                                                                <p className="ipay-name">
+                                                                    <input type="text" id="ipayFullName" name="Optional1" placeholder="Full Name" className="fields" required="" aria-required="true" />
+                                                                </p>
+                                                                <p className="ipay-email">
+                                                                    <input type="email" name="Customer" placeholder="Email" className="fields" required="" aria-required="true" />
+                                                                </p>
+                                                                <p className="ipay-contact">
+                                                                    <input type="text" name="Optional2" placeholder="Contact Number" className="fields" required="" aria-required="true" />
+                                                                </p>
+                                                                <p className="ipay-amount">
+                                                                    <input type="text" id="ipayAmount" name="Amount" placeholder="Enter Custom Amount" className="fields" required="" aria-required="true" />
+                                                                </p>
+
+                                                                <button id="ipayButton" type="submit"  action=""style={{ width: "510px", padding: "10px 16px", fontSize: "20px", lineHeight: "1.33", borderRadius: "6px", color: "rgb(68, 175, 133)", backgroundColor: "rgb(255, 255, 255)", borderColor: "rgb(68, 175, 133)", display: "inlineBlock", marginBottom: "20px", fontWeight: "800", textAlign: "center", whiteSpace: "nowrap", verticalAlign: "middle", cursor: "pointer", userSelect: "none", boxShadow: "rgb(136, 136, 136) 3px 3px 5px" }}>
+                                                                    <p style={{ fontSize: "12px" }}>
+                                                                        Click Here To Donate Now
+                                                                    </p>
+                                                                    <br></br>
+                                                                    <img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png" style={{ margin: "5px 0 -5px 20px" }} />
+
+                                                                </button>
+
+                                                                <input type="hidden" name="SiteCode" value="FUN-FUN-010" />
+                                                                <input type="hidden" name="CountryCode" value="ZA" />
+                                                                <input type="hidden" name="CurrencyCode" value="ZAR" />
+                                                                <input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="" />
+                                                                <input type="hidden" id="ipayBankRef" name="BankReference" value="" />
+                                                                <input type="hidden" name="Optional5" value="Buy Now" />
+                                                                <input type="hidden" name="CancelUrl" value="https://ozow.com/demo-cancelled/" />
+                                                                <input type="hidden" name="ErrorUrl" value="https://ozow.com/demo-cancelled/" />
+                                                                <input type="hidden" name="SuccessUrl" value="https://fundifund12for12.co.za" />
+                                                                <input type="hidden" name="IsTest" value="false" />
+                                                                <input type="hidden" id="ipayHash" name="HashCheck" value="" />
+                                                            </form>
+
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
+
+
                                         </div>
 
                                     </div>
