@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 // reactstrap components
@@ -38,9 +39,9 @@ function Example() {
                         Close
                     </Button>
                     <Button color="primary" type="button">
-                        <a  title="Download Registration Form" href="https://fundi-foundation-dev-chi.vercel.app/Fundi_Foundation_Trust_REGISTRATION.pdf" download>
+                        <Link  target="_blank" title="Download Registration Form" to="/Fundi_Foundation_Trust_REGISTRATION.pdf" download>
                             Download 
-                        </a>
+                        </Link>
                     </Button>
                 </ModalFooter>
             </Modal>
