@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
 import Link from 'next/link'
-import GalleryU
+import GalleryUniversityDonations from '../Gallery-University-Bursary-Donations'
 
 const CaseSingleFundiCsi = (props) => {
 

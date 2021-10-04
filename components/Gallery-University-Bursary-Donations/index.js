@@ -9,7 +9,7 @@ const GalleryUniversityDonations = (props) => {
         <><div className="container">
             <div className="row">
                 <div className="col-lg-12 ">
-                    <h1>Thembisa High School FundRun Event</h1>
+                    <h1>University Busrary Donations</h1>
                 </div>
             </div>
             <div className="row">

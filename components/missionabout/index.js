@@ -61,7 +61,10 @@ const MissionAbout = (props) => {
                                 FundiFoundation is managed by a board of trustees made up of management at Fundi, with financials audited by PWC. The fundraising initiatives at FundiFoundation fall under five pillars, namely R10GoesALongWay, Leaders4learners, 12for12, RebuildSA, Fundi Bursaries, Fundi Capital.
                             </p>
                         </div>
-                        <Example/>
+                        <div className=" buttonDownload-wrap col col-12 col-lg-12">
+                                <Example />
+
+                        </div>
                     </div>
                     <div className="row">
                         {/* <div className="col-lg-3 col-md-6 col-sm-12 col-12 custom-grid">
@@ -111,7 +114,16 @@ const MissionAbout = (props) => {
                     </div>
                 </motion.div>
             </div>
+            <style>{`
+
+            buttonDownload-wrap: {
+                    justifyContent = "center",
+                    alignItems="center"
+                }
+                `
+        }</style>
         </div>
+
     )
 }
 
