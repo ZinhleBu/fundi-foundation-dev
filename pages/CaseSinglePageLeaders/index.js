@@ -13,7 +13,7 @@ const CaseSinglePageLeaders =() => {
                 <title>Leaders4Learners Details</title>
             </Head>
             <Header/>
-            <PageTitleLeaders pageTitleLeaders={'Leaders4Learners'} pagesub={'Ensure Education for every poor children'}/> 
+            <PageTitleLeaders pageTitleLeaders={'Leaders4Learners'} pagesub={'Unite 4 Education'}/> 
             <CaseSingleLeaders/>
             <Footer/>
             <Scrollbar/>

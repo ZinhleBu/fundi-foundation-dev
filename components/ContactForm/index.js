@@ -117,7 +117,6 @@ class ContactForm extends Component {
                     <div className="col-lg-12">
                         <div className="form-submit">
                             <button type="submit" className="theme-btn">Send Message</button>
-
                         </div>
                     </div>
                 </div>

@@ -2,6 +2,8 @@ import ContactForm from '../../components/ContactForm'
 const Donate = (props) => {
 
     return (
+       
+        
         <> <div className="wpo-donation-page-area section-padding">
             <div className="container">
                 <div className="row">
@@ -26,12 +28,13 @@ const Donate = (props) => {
                                                 <div className="contact-form">
                                                     <h2>Donation Details</h2>
 
-                                                    <form name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
+                                                    {/* <form name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
                                                         <input required type="hidden" name="cmd" value="_paynow" />
                                                         <input required type="hidden" name="receiver" pattern="[0-9]" value="16564521" />
                                                         <input type="hidden" name="return_url" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
                                                         <input type="hidden" name="cancel_url" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
                                                         <input type="hidden" name="notify_url" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
+                                                        <input required type="hidden" name="item_name" maxLength="255" value="FundiFoundation" />
 
                                                         <table>
 
@@ -40,7 +43,6 @@ const Donate = (props) => {
 
                                                         </table>
 
-                                                        <input required type="hidden" name="item_name" maxLength="255" value="FundiFoundation" />
 
                                                         <table>
 
@@ -48,7 +50,7 @@ const Donate = (props) => {
                                                             <input type="image" src="https://www.payfast.co.za/images/buttons/DonateNow/Red-Large-Square-DonateNow.png" alt="Donate Now" title="Donate Now with PayFast" />
 
                                                         </table>
-                                                    </form>
+                                                    </form> */}
                                                     {/* <form className="donate-form " name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
 
                                                         <input required type="hidden" name="cmd" value="_paynow" />
@@ -114,99 +116,123 @@ const Donate = (props) => {
                                                     </form> */}
 
 
+                                                    <form
+                                                    
+                                                    >
+                                                        <div className="col-md-12">
 
-                                                    <div className="col-md-12">
-                                                        <button id="ipayButton" type="button"  
-                                                        style={{
-                                                            width: "100%", 
-                                                            padding: "10px 16px", 
-                                                            fontSize: "20px", 
-                                                            lineHeight: "1.33", 
-                                                            borderRadius: "6px", 
-                                                            color: "rgb(68, 175, 133)", 
-                                                            backgroundColor: "rgb(255, 255, 255)", 
-                                                            borderColor: "rgb(68, 175, 133)", 
-                                                            display: "inlineBlock", 
-                                                            marginBottom: "20px", 
-                                                            fontWeight: "800", 
-                                                            textAlign: "center", 
-                                                            whiteSpace: "nowrap", 
-                                                            verticalAlign: "middle", 
-                                                            cursor: "pointer", 
-                                                            userSelect: "none", 
-                                                            boxShadow: "rgb(136, 136, 136) 3px 3px 20px"
-                                                        }}>
-                                                            <div style={{ float: "left", paddingTop: "22px" }}>
+                                                        <span
+                                                                    className="ipayClose"
+                                                                    style={{
+                                                                        color: "#aaa",
+                                                                        float: "right",
+                                                                        fontSize: "28px",
+                                                                        fontWeight: "bold",
+                                                                        cursor: "pointer"
+                                                                    }}>×</span>
+                                                                <form
+                                                                    method="POST"
+                                                                    action="https://pay.ozow.com/"
+                                                                    id="ipayForm"
+                                                                    novalidate="novalidate">
 
-                                                                Click Here
-                                                                <br></br>
-                                                                to pay with
-                                                            </div>
-                                                            <img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png" />
-                                                        </button>
-                                                    </div>
-                                                    <div id="ipayModal" className="modal" style={{ display: "none", position: "fixed", zIndex: "1", left: "0", top: "0", width: "100%", height: "100%", overflow: "auto", backgroundColor: "rgb(0,0,0)", backgroundColor: "rgba(0,0,0,0.4)" }}>
-                                                        <div style={{ backgroundColor: "#fefefe", margin: "15% auto", padding: "20px", border: "1px solid #888", width: "80%", borderRadius: "9px" }}>
-                                                            <span className="ipayClose" style={{ color: "#aaa", float: "right", fontSize: "28px", fontWeight: "bold", cursor: "pointer" }}>×</span>
-                                                            <form method="post" action="https://pay.ozow.com/" id="ipayForm" novalidate="novalidate">
-                                                                <p className="ipay-name">
-                                                                    <input type="text" id="ipayFullName" name="Optional1" placeholder="Full Name" className="fields" required="" aria-required="true" />
-                                                                </p>
-                                                                <p className="ipay-email">
-                                                                    <input type="email" name="Customer" placeholder="Email" className="fields" required="" aria-required="true" />
-                                                                </p>
-                                                                <p className="ipay-contact">
-                                                                    <input type="text" name="Optional2" placeholder="Contact Number" className="fields" required="" aria-required="true" />
-                                                                </p>
-                                                                <p className="ipay-amount">
-                                                                    <input type="text" id="ipayAmount" name="Amount" placeholder="Enter Custom Amount" className="fields" required="" aria-required="true" />
-                                                                </p>
+                                                                    <input type="hidden" name="SiteCode" value="MOL-MOL-006" />
+                                                                    <input type="hidden" name="CountryCode" value="ZA" />
+                                                                    <input type="hidden" name="CurrencyCode" value="ZAR" />
 
-                                                                <button id="ipayButton" type="submit"  action=""style={{ width: "510px", padding: "10px 16px", fontSize: "20px", lineHeight: "1.33", borderRadius: "6px", color: "rgb(68, 175, 133)", backgroundColor: "rgb(255, 255, 255)", borderColor: "rgb(68, 175, 133)", display: "inlineBlock", marginBottom: "20px", fontWeight: "800", textAlign: "center", whiteSpace: "nowrap", verticalAlign: "middle", cursor: "pointer", userSelect: "none", boxShadow: "rgb(136, 136, 136) 3px 3px 5px" }}>
-                                                                    <p style={{ fontSize: "12px" }}>
-                                                                        Click Here To Donate Now
+                                                                    <input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="123" />
+                                                                    <input type="hidden" id="913999fa-3a32-4e3d-82f0-a1df7e9e4f7b" name="BankReference" value="ABC123" />
+                                                                    <input type="hidden" name="Optional5" value="Donate Now" />
+                                                                    <input type="hidden" name="CancelUrl" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
+                                                                    <input type="hidden" name="ErrorUrl" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
+                                                                    <input type="hidden" name="SuccessUrl" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
+                                                                    <input type="hidden" name="IsTest" value="false" />
+                                                                    <input type="hidden" id="ipayHash" name="HashCheck" value="22c8a1449039df6369912c54f9cf6c9cf12efc7e8bd263699bb0d68915c8d57dc47284bb5c59f1cfca00516e02568144b1e98b3a2e964a4220b3254bfd1d89a3" />
+                                                                 
+                                                                   {/* //HashCheck */}
+                                                                   
+                                                                   {/* mol-mol-006zarar123abc123donatenowhttps://fundi-foundation-dev-chi.vercel.app/donatepagehttps://fundi-foundation-dev-chi.vercel.app/donatepagehttps://fundi-foundation-dev-chi.vercel.app/donatepagefalse22c3d5e53e03434dbb40294cce46beff  */}
+                                                                   
+                                                                   <p className="ipay-name">
+                                                                        <input type="text" id="ipayFullName" name="Optional1" placeholder="Full Name" className="fields" required="" aria-required="true" />
                                                                     </p>
-                                                                    <br></br>
-                                                                    <img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png" style={{ margin: "5px 0 -5px 20px" }} />
+                                                                    <p className="ipay-email">
+                                                                        <input type="email" name="Customer" placeholder="Email" className="fields" required="" aria-required="true" />
+                                                                    </p>
+                                                                    <p className="ipay-contact">
+                                                                        <input type="text" name="Optional2" placeholder="Contact Number" className="fields" required="" aria-required="true" />
+                                                                    </p>
+                                                                    <p className="ipay-amount">
+                                                                        <input type="text" id="ipayAmount" name="Amount" placeholder="Enter Custom Amount" className="fields" required="" aria-required="true" />
+                                                                    </p>
 
-                                                                </button>
+                                                                    <button
+                                                                        id="ipayButton"
+                                                                        className="form-submit"
+                                                                        type="submit"
+                                                                        style={{
+                                                                            width: "100%",
+                                                                            padding: "10px 16px",
+                                                                            fontSize: "20px",
+                                                                            lineHeight: "1.33",
+                                                                            borderRadius: "6px",
+                                                                            color: "rgb(68, 175, 133)",
+                                                                            backgroundColor: "rgb(255, 255, 255)",
+                                                                            borderColor: "rgb(68, 175, 133)",
+                                                                            display: "inlineBlock",
+                                                                            marginBottom: "20px",
+                                                                            fontWeight: "800",
+                                                                            textAlign: "center",
+                                                                            whiteSpace: "nowrap",
+                                                                            verticalAlign: "middle",
+                                                                            cursor: "pointer",
+                                                                            userSelect: "none",
+                                                                            boxShadow: "rgb(136, 136, 136) 3px 3px 5px"
+                                                                        }}>
 
-                                                                <input type="hidden" name="SiteCode" value="FUN-FUN-010" />
-                                                                <input type="hidden" name="CountryCode" value="ZA" />
-                                                                <input type="hidden" name="CurrencyCode" value="ZAR" />
-                                                                <input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="" />
-                                                                <input type="hidden" id="ipayBankRef" name="BankReference" value="" />
-                                                                <input type="hidden" name="Optional5" value="Buy Now" />
-                                                                <input type="hidden" name="CancelUrl" value="https://ozow.com/demo-cancelled/" />
-                                                                <input type="hidden" name="ErrorUrl" value="https://ozow.com/demo-cancelled/" />
-                                                                <input type="hidden" name="SuccessUrl" value="https://fundifund12for12.co.za" />
-                                                                <input type="hidden" name="IsTest" value="false" />
-                                                                <input type="hidden" id="ipayHash" name="HashCheck" value="" />
-                                                            </form>
+                                                                        <p style={{ fontSize: "12px" }}>
+                                                                            Click Here To Donate Now
+                                                                        </p>
+                                                                        <br></br>
+
+                                                                        <img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png"
+                                                                            style={{ margin: "5px 0 -5px 20px" }}
+                                                                        />
+
+                                                                    </button>
+
+
+                                                                </form>
 
                                                         </div>
-                                                    </div>
+
+                                                        
+                                                        <div id="ipayModal"
+                                                            className="modal"
+                                                            style={{
+                                                                display: "none",
+                                                                position: "fixed", zIndex: "1", left: "0", top: "0", width: "100%", height: "100%", overflow: "auto", backgroundColor: "rgb(0,0,0)", backgroundColor: "rgba(0,0,0,0.4)"
+                                                            }}>
+                                                            <div
+                                                                style={{
+                                                                    backgroundColor: "#fefefe",
+                                                                    margin: "15% auto",
+                                                                    padding: "20px",
+                                                                    border: "1px solid #888",
+                                                                    width: "80%",
+                                                                    borderRadius: "9px"
+                                                                }}>
+                                                               
+                                                            </div>
+                                                        </div>
+                                                    </form>
                                                 </div>
                                             </div>
-
-
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                         </section>
-
-
-
-                        {/* <form action="https://sandbox.payfast.co.za​/eng/process" method="post">
-                            <input type="hidden" name="merchant_id" value="10000100" />
-                            <input type="hidden" name="merchant_key" value="46f0cd694581a" />
-                            <input type="hidden" name="amount" value="100.00" />
-                            <input type="hidden" name="item_name" value="Test Product" />
-                            <input type="submit" value="Donate" />
-                        </form> */}
-
                     </div>
                 </div>
             </div>
@@ -214,4 +240,5 @@ const Donate = (props) => {
         </>
     )
 }
+
 export default Donate;
