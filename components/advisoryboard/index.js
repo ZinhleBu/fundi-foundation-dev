@@ -20,7 +20,7 @@ const AdvisorySection = (props) => {
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h5><Link href="/volunteerPage"><a>Sibu Mabena</a></Link> </h5>
+                                    <h5><Link href="/"><a>Sibu Mabena</a></Link> </h5>
                                     {/* <span>CEO</span> */}
 
                                 </div>
@@ -34,7 +34,7 @@ const AdvisorySection = (props) => {
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h5><Link href="/volunteerPage"><a>Lasizwe Dambuza </a></Link></h5>
+                                    <h5><Link href="/"><a>Lasizwe Dambuza </a></Link></h5>
                                     {/* <span>Managing Executive Lending</span> */}
 
                                 </div>
@@ -48,7 +48,7 @@ const AdvisorySection = (props) => {
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h5><Link href="/volunteerPage"><a>Ayanda Mhlongo </a></Link></h5>
+                                    <h5><Link href="/"><a>Ayanda Mhlongo </a></Link></h5>
                                     {/* <span>CMO</span> */}
 
                                 </div>
@@ -62,7 +62,7 @@ const AdvisorySection = (props) => {
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h5><Link href="/volunteerPage"><a>Nkateko Dinwiddy</a></Link></h5>
+                                    <h5><Link href="/"><a>Nkateko Dinwiddy</a></Link></h5>
                                     {/* <span>-</span> */}
 
                                 </div>

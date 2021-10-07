@@ -1,7 +1,7 @@
 import TeamSection from '../team'
 
 
-const Volunteer = () =>  {
+const Registration = () =>  {
 
     const SubmitHandler = (e) =>{
         e.preventDefault()
@@ -82,7 +82,7 @@ const Volunteer = () =>  {
    
 
     
-    export default Volunteer;
+    export default Registration;
           
           
           

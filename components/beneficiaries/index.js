@@ -9,9 +9,10 @@ function List() {
         <>
             <Button
                 style={{
+                    width: "200px",
                     left: "50%",
                     color: "white",
-                    position: "absolute"
+                    position: "relative"
                 }}
                 color="primary"
                 type="button"

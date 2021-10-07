@@ -1,12 +1,12 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import PageTitleRegiser from '../../components/pagetitleregister'
-import Volunteer from '../../components/Volunteer'
+import Registration from '../../components/Registration'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
-const VolunteerPage =() => {
+const RegistrationPage =() => {
     return(
         <Fragment>
              <Head>
@@ -14,10 +14,10 @@ const VolunteerPage =() => {
             </Head>
             <Header/>
             <PageTitleRegiser pageTitleRegister={'Register for 2022 Funding'} pagesub={'Register'}/> 
-            <Volunteer/>
+            <Registration/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
     )
 };
-export default VolunteerPage;
+export default RegistrationPage;

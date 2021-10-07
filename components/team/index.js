@@ -20,7 +20,7 @@ const TeamSection = (props) => {
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h2><Link href="/volunteerPage"><a>Makgau Dibakwane</a></Link> </h2>
+                                    <h2><Link href="/"><a>Makgau Dibakwane</a></Link> </h2>
                                     <span>Fundi CEO</span>
                                     {/* <ul>
                                         <li><Link href="https://web.facebook.com/makgau.dibakwane.9"><a><i className="ti-facebook"></i></a></Link></li>
@@ -37,13 +37,13 @@ const TeamSection = (props) => {
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h2><Link href="/volunteerPage"><a>Phumla Tshabalala</a></Link></h2>
+                                    <h2><Link href="/"><a>Phumla Tshabalala</a></Link></h2>
                                     <span>Managing Executive Lending</span>
                                     {/* <ul>
-                                        <li><Link href="/volunteerPage"><a><i className="ti-facebook"></i></a></Link></li>
-                                        <li><Link href="/volunteerPage"><a><i className="ti-twitter"></i></a></Link></li>
-                                        <li><Link href="/volunteerPage"><a><i className="ti-google"></i></a></Link></li>
-                                        <li><Link href="/volunteerPage"><a><i className="ti-instagram"></i></a></Link></li>
+                                        <li><Link href="/"><a><i className="ti-facebook"></i></a></Link></li>
+                                        <li><Link href="/"><a><i className="ti-twitter"></i></a></Link></li>
+                                        <li><Link href="/"><a><i className="ti-google"></i></a></Link></li>
+                                        <li><Link href="/"><a><i className="ti-instagram"></i></a></Link></li>
                                     </ul> */}
                                 </div>
                             </div>
@@ -56,13 +56,13 @@ const TeamSection = (props) => {
                             </div>
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
-                                    <h2><Link href="/volunteerPage"><a>Mala Suriah</a></Link></h2>
+                                    <h2><Link href="/"><a>Mala Suriah</a></Link></h2>
                                     <span>Fundi CMO</span>
                                     {/* <ul>
-                                        <li><Link href="/volunteerPage"><a><i className="ti-facebook"></i></a></Link></li>
-                                        <li><Link href="/volunteerPage"><a><i className="ti-twitter"></i></a></Link></li>
-                                        <li><Link href="/volunteerPage"><a><i className="ti-google"></i></a></Link></li>
-                                        <li><Link href="/volunteerPage"><a><i className="ti-instagram"></i></a></Link></li>
+                                        <li><Link href="/"><a><i className="ti-facebook"></i></a></Link></li>
+                                        <li><Link href="/"><a><i className="ti-twitter"></i></a></Link></li>
+                                        <li><Link href="/"><a><i className="ti-google"></i></a></Link></li>
+                                        <li><Link href="/"><a><i className="ti-instagram"></i></a></Link></li>
                                     </ul> */}
                                 </div>
                             </div>
@@ -82,13 +82,13 @@ const TeamSection = (props) => {
                                 </div>
                                 <div className="wpo-team-content">
                                     <div className="wpo-team-text-sub">
-                                        <h2><Link href="/volunteerPage"><a>Lifa Magwentshu</a></Link></h2>
+                                        <h2><Link href="/"><a>Lifa Magwentshu</a></Link></h2>
                                         <span>Chief BEE Consultant - MSD Group</span>
                                         {/* <ul>
-                                            <li><Link href="/volunteerPage"><a><i className="ti-facebook"></i></a></Link></li>
-                                            <li><Link href="/volunteerPage"><a><i className="ti-twitter"></i></a></Link></li>
-                                            <li><Link href="/volunteerPage"><a><i className="ti-google"></i></a></Link></li>
-                                            <li><Link href="/volunteerPage"><a><i className="ti-instagram"></i></a></Link></li>
+                                            <li><Link href="/"><a><i className="ti-facebook"></i></a></Link></li>
+                                            <li><Link href="/"><a><i className="ti-twitter"></i></a></Link></li>
+                                            <li><Link href="/"><a><i className="ti-google"></i></a></Link></li>
+                                            <li><Link href="/"><a><i className="ti-instagram"></i></a></Link></li>
                                         </ul> */}
                                     </div>
                                 </div>
@@ -101,13 +101,13 @@ const TeamSection = (props) => {
                                 </div>
                                 <div className="wpo-team-content">
                                     <div className="wpo-team-text-sub">
-                                        <h2><Link href="/volunteerPage"><a>Fulu Makwetla </a></Link></h2>
+                                        <h2><Link href="/"><a>Fulu Makwetla </a></Link></h2>
                                         <span>CEO Third Way Investments</span>
                                         {/* <ul>
-                                            <li><Link href="/volunteerPage"><a><i className="ti-facebook"></i></a></Link></li>
-                                            <li><Link href="/volunteerPage"><a><i className="ti-twitter"></i></a></Link></li>
-                                            <li><Link href="/volunteerPage"><a><i className="ti-google"></i></a></Link></li>
-                                            <li><Link href="/volunteerPage"><a><i className="ti-instagram"></i></a></Link></li>
+                                            <li><Link href="/"><a><i className="ti-facebook"></i></a></Link></li>
+                                            <li><Link href="/"><a><i className="ti-twitter"></i></a></Link></li>
+                                            <li><Link href="/"><a><i className="ti-google"></i></a></Link></li>
+                                            <li><Link href="/"><a><i className="ti-instagram"></i></a></Link></li>
                                         </ul> */}
                                     </div>
                                 </div>

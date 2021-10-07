@@ -109,6 +109,21 @@ const CaseSingleR10 = (props) => {
                                                                 On 13 March Sibu Mabena, Ayanda Mhlongo ,Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. In 16 hours... YOU ALL HAVE TURNED THAT INTO R200 000
                                                             </p>
                                                             <Gallery />
+                                                            <div
+                                                             className="col-12 col-md-8"
+                                                             style={{ 
+                                                                 marginTop:"20px",
+                                                                 marginBottom:"20px",
+                                                                 posiion:"relative"
+
+                                                             }}
+                                                             >
+                                                            <h1>List of Beneficiaries</h1>
+                                                            <p>To view the list of all the beneficiaries of the #10GoesA LongWay campaign, clickon the button below:</p>
+                                                            <List/>
+
+                                                            </div>
+                                                            
                                                             <CounterSection countclass={'wpo-counter-style-2'} />
 
                                                             <div>
@@ -126,7 +141,6 @@ const CaseSingleR10 = (props) => {
                                                         </div>
                                                     </div>
 
-                                                    <List/>
 
                                                 </div>
                                             </div>
