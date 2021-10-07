@@ -47,10 +47,12 @@ const Donate = (props) => {
                                                         <input required type="hidden" name="item_name" maxLength="255" value="FundiFoundation" />
                                                         <input type="hidden" name="signature" value=""/> 
 
-
-
                                                         <table>
-                                                            <input type="text" name="name_first" placeholder="Name" valueAsString="" />
+                                                        <label id="PayFastNameLabel" htmlFor="PayFastName">Name </label>
+                                                        <input type="text" name="name_first" placeholder="Name" valueAsString="" />
+
+                                                        </table>
+                                                        <table>
                                                             <input type="text" name="name_last" placeholder="Surname" valueAsString="" />
                                                             <input type="text" name="email_address" placeholder="Email" valueAsString="" />
                                                             <input type="text" name="cell_number" placeholder="Cellphone" valueAsNumber="" />

@@ -61,6 +61,11 @@ const menus = [
                 id: 35,
                 title: 'R10 Goes a Long Way',
                 link: '/CaseSinglePageR10'
+            },
+            {
+                id: 35,
+                title: 'Fundi CSI',
+                link: '/CaseSinglePageFundiCsi'
             }
         ]
     },

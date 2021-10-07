@@ -83,7 +83,7 @@ const TeamSection = (props) => {
                                 <div className="wpo-team-content">
                                     <div className="wpo-team-text-sub">
                                         <h2><Link href="/"><a>Lifa Magwentshu</a></Link></h2>
-                                        <span>Chief BEE Consultant - MSD Group</span>
+                                        <span>Chief BEE Consultant - MSDF Group</span>
                                         {/* <ul>
                                             <li><Link href="/"><a><i className="ti-facebook"></i></a></Link></li>
                                             <li><Link href="/"><a><i className="ti-twitter"></i></a></Link></li>
