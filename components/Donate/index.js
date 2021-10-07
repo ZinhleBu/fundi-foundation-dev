@@ -37,9 +37,9 @@ const Donate = (props) => {
                                                     <form name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
                                                         <input required type="hidden" name="cmd" value="_paynow" />
                                                         <input required type="hidden" name="receiver" pattern="[0-9]" value="16564521" />
-                                                        <input type="hidden" name="return_url" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
-                                                        <input type="hidden" name="cancel_url" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
-                                                        <input type="hidden" name="notify_url" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
+                                                        <input type="hidden" name="return_url" value="https://fundifoundation.org/DonatePage" />
+                                                        <input type="hidden" name="cancel_url" value="https://fundifoundation.org/DonatePage" />
+                                                        <input type="hidden" name="notify_url" value="https://fundifoundation.org/DonatePage" />
                                                         <input required type="hidden" name="name_first" value="" />
                                                         <input required type="hidden" name="name_last" value="" />
                                                         <input required type="hidden" name="email_address" value="" />

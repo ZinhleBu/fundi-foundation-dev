@@ -80,10 +80,10 @@ class ContactForm extends Component {
             error } = this.state;
 
         return (
-            <form action="https://formsubmit.co/zbuhlungu1@gmail.com" method="POST" className="form">
+            <form action="https://formsubmit.co/fund@fundi.co.za" method="POST" className="form">
 
                 <div className="row">
-                <input type="hidden" name="_next" value="https://fundi-foundation-dev-chi.vercel.app/ThankYouPage" />
+                <input type="hidden" name="_next" value="https://fundifoundation.org/ThankYouPage" />
 
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">

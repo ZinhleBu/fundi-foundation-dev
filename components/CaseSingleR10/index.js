@@ -39,14 +39,14 @@ const CaseSingleR10 = (props) => {
                                             Description
                                         </NavLink>
                                     </NavItem>
-                                    <NavItem>
+                                    {/* <NavItem>
                                         <NavLink
                                             className={classnames({ active: activeTab === '2' })}
                                             onClick={() => { toggle('2'); }}
                                         >
                                             Donations
                                         </NavLink>
-                                    </NavItem>
+                                    </NavItem> */}
 
                                     {/* <NavItem>
                                         <NavLink
@@ -127,7 +127,7 @@ const CaseSingleR10 = (props) => {
                                                             <CounterSection countclass={'wpo-counter-style-2'} />
 
                                                             <div>
-                                                                <h1>Apply for Registration Fees Funding </h1>
+                                                                <h1>Register for Registration Fees Funding </h1>
                                                                 <p>If you've applied for registration at a tertiary institution, and havee been accepted to study further, you can apply for funding here.</p>
                                                                 <p>Please provide the following documents with your application.:</p>
                                                                 <ul>

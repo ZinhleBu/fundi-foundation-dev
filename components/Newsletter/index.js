@@ -2,9 +2,9 @@
 const Newsletter = (props) => {
 
     const SubmitHandler = (e) => {
-      e.preventDefault()
+        e.preventDefault()
     }
-    return(
+    return (
         <section className="wpo-news-letter-section">
             <div className="container">
                 <div className="row">
@@ -12,12 +12,16 @@ const Newsletter = (props) => {
                         <div className="wpo-newsletter">
                             <h3>Follow us For further information</h3>
                             <div className="wpo-newsletter-form">
-                                <form onSubmit={SubmitHandler}>
+
+                                <form onSubmit={SubmitHandler} action="https://formsubmit.co/fund@fundi.co.za" method="POST" >
+
                                     <div>
-                                        <input type="text" placeholder="Enter Your Email" className="form-control"/>
+                                        <input type="text" placeholder="Enter Your Email" name="email" value="" className="form-control" />
                                         <button type="submit">Subscribe</button>
                                     </div>
                                 </form>
+
+
                             </div>
                         </div>
                     </div>
