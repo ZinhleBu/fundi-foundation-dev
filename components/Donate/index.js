@@ -45,18 +45,14 @@ const Donate = (props) => {
                                                         <input required type="hidden" name="email_address" value="" />
                                                         <input required type="hidden" name="cell_number" value="" />
                                                         <input required type="hidden" name="item_name" maxLength="255" value="FundiFoundation" />
-                                                        <input type="hidden" name="signature" value=""/> 
+                                                        <input type="hidden" name="signature" value="" />
 
                                                         <table>
-                                                        <label id="PayFastNameLabel" htmlFor="PayFastName">Name </label>
-                                                        <input type="text" name="name_first" placeholder="Name" valueAsString="" />
 
-                                                        </table>
-                                                        <table>
-                                                            <input type="text" name="name_last" placeholder="Surname" valueAsString="" />
-                                                            <input type="text" name="email_address" placeholder="Email" valueAsString="" />
-                                                            <input type="text" name="cell_number" placeholder="Cellphone" valueAsNumber="" />
-
+                                                            <input id="PayFastName" type="text" name="name_first" placeholder="Name" valueAsString="" />
+                                                            <input id="PayFastLast"type="text" name="name_last" placeholder="Surname" valueAsString="" />
+                                                            <input id="PayFastEmail"type="text" name="email_address" placeholder="Email" valueAsString="" />
+                                                            <input id="PayFastCell"type="number" name="cell_number" placeholder="Cellphone" valueAsNumber="" />
                                                             <label id="PayFastAmountLabel" htmlFor="PayFastAmount">Amount: </label>
                                                             <input id="PayFastAmount" type="number" step=".01" name="amount" min="12.00" placeholder="12.00" valueAsNumber="" />
 
@@ -65,7 +61,7 @@ const Donate = (props) => {
 
                                                         <table>
 
-                                                            <td colspan="2" align="center" />
+                                                            <td colSpan="2" align="center" />
                                                             <input type="image" src="https://www.payfast.co.za/images/buttons/DonateNow/Red-Large-Square-DonateNow.png" alt="Donate Now" title="Donate Now with PayFast" />
 
                                                         </table>

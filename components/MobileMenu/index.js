@@ -63,7 +63,7 @@ const menus = [
                 link: '/CaseSinglePageR10'
             },
             {
-                id: 35,
+                id: 36,
                 title: 'Fundi CSI',
                 link: '/CaseSinglePageFundiCsi'
             }
