@@ -52,7 +52,7 @@ const DonateCopy = (props) => {
                                                     </form>
 
                                                     <div className="col-md-12">
-                                                        <button id="ipayButton" type="button" style={{
+                                                        {/* <button id="ipayButton" type="button" style={{
                                                             width: "510px", padding: "10px 16px", fontSize: "20px", lineHeight: "1.33", borderRadius: "6px", color: "rgb(68, 175, 133)", backgroundColor: "rgb(255, 255, 255)", borderColor: "rgb(68, 175, 133)", display: "inlineBlock", marginBottom: "20px", fontWeight: "800", textAlign: "center", whiteSpace: "nowrap", verticalAlign: "middle", cursor: "pointer", userSelect: "none", boxShadow: "rgb(136, 136, 136) 3px 3px 20px"
                                                         }}>
                                                             <div style={{ float: "left", paddingTop: "22px" }}>
@@ -62,8 +62,7 @@ const DonateCopy = (props) => {
                                                                 to pay with
                                                             </div>
                                                             <img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png" />
-                                                        </button>
-                                                    </div>
+                                                        </button> */}
                                                     <div id="ipayModal" className="modal" style={{ display: "none", position: "fixed", zIndex: "1", left: "0", top: "0", width: "100%", height: "100%", overflow: "auto", backgroundColor: "rgb(0,0,0)", backgroundColor: "rgba(0,0,0,0.4)" }}>
                                                         <div style={{ backgroundColor: "#fefefe", margin: "15% auto", padding: "20px", border: "1px solid #888", width: "80%", borderRadius: "9px" }}>
                                                             <span className="ipayClose" style={{ color: "#aaa", float: "right", fontSize: "28px", fontWeight: "bold", cursor: "pointer" }}>×</span>
@@ -87,7 +86,6 @@ const DonateCopy = (props) => {
                                                                     </p>
                                                                     <br></br>
                                                                     <img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png" style={{ margin: "5px 0 -5px 20px" }} />
-
                                                                 </button>
 
                                                                 <input type="hidden" name="SiteCode" value="FUN-FUN-010" />
@@ -100,10 +98,11 @@ const DonateCopy = (props) => {
                                                                 <input type="hidden" name="ErrorUrl" value="https://ozow.com/demo-cancelled/" />
                                                                 <input type="hidden" name="SuccessUrl" value="https://fundifund12for12.co.za" />
                                                                 <input type="hidden" name="IsTest" value="false" />
-                                                                <input type="hidden" id="ipayHash" name="HashCheck" value="" />
+                                                                {/* <input type="hidden" id="ipayHash" name="HashCheck" value="" /> */}
                                                             </form>
 
                                                         </div>
+                                                    </div>
                                                     </div>
 
                                                 </div>

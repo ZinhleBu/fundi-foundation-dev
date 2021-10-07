@@ -7,6 +7,7 @@ import CounterSection from '../../components/counter'
 import AdvisorySection from '../advisoryboard'
 import Gallery from '../Gallery';
 import WorldSection from '../world';
+import List from '../beneficiaries';
 const CaseSingleR10 = (props) => {
 
     const SubmitHandler = (e) => {
@@ -96,6 +97,7 @@ const CaseSingleR10 = (props) => {
                                                         <div className="case-bb-text">
                                                             <h1>#R10GoesALongWay - History</h1>
                                                             <h3>How and why #R10GoesALongWay started?</h3>
+
                                                             <p>
                                                                 In March this year, students were unable to register due to a lack of funding. The protests inspired social media celebrity, Lasizwe Dambuza and friends into action and the #R10 Goes a long Way campaign was started – first raising R38 000 between the four friends, Takkies Nkateko, Sibu Mabena, Ayanda Mhlongo.
                                                             </p>
@@ -124,6 +126,7 @@ const CaseSingleR10 = (props) => {
                                                         </div>
                                                     </div>
 
+                                                    <List/>
 
                                                 </div>
                                             </div>

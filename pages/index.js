@@ -8,12 +8,15 @@ import Scrollbar from '../components/scrollbar'
 import Head from 'next/head'
 import ImageSlide from '../components/imageSlider';
 
+
 const HomePage = () => {
+
+
     return (
         <Fragment>
             <Head>
                 <title>FundiFoundation</title>
-
+               
             </Head>
             <Header />
             <Hero3 />
