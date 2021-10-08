@@ -18,7 +18,7 @@ const MissionAbout = (props) => {
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1, y: -10 }}
                                 exit={{ opacity: 0, y: 10 }}
-                                transition={{ delay: .2 }}
+                                transition={{ delay: .4 }}
                             >Helping Those Who Can't Help Themselves. </motion.h2>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const MissionAbout = (props) => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, y: -10 }}
                     exit={{ opacity: 0, y: 10 }}
-                    transition={{ delay: .4 }}
+                    transition={{ delay: .6 }}
                     className="wpo-mission-wrap">
                     <div className="row">
                         <div className="col-12">

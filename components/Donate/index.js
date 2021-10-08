@@ -52,9 +52,8 @@ const Donate = (props) => {
                                                             <input id="PayFastName" type="text" name="name_first" placeholder="Name" valueAsString="" />
                                                             <input id="PayFastLast"type="text" name="name_last" placeholder="Surname" valueAsString="" />
                                                             <input id="PayFastEmail"type="text" name="email_address" placeholder="Email" valueAsString="" />
-                                                            <input id="PayFastCell"type="number" name="cell_number" placeholder="Cellphone" valueAsNumber="" />
                                                             <label id="PayFastAmountLabel" htmlFor="PayFastAmount">Amount: </label>
-                                                            <input id="PayFastAmount" type="number" step=".01" name="amount" min="12.00" placeholder="12.00" valueAsNumber="" />
+                                                            <input id="PayFastAmount" type="number" step=".01" name="amount" min="0.00" placeholder="R0.00" valueAsNumber="" />
 
                                                         </table>
 

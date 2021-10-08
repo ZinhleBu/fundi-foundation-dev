@@ -55,7 +55,7 @@ class CaseSlide extends Component {
             window.scrollTo(10, 0);
         }
         return (
-            <InView threshold={0.45}>
+            <InView threshold={0.02}>
                 {({ ref, inView }) => (
                     <div className="wpo-case-area section-padding">
                         <div className="container">
@@ -66,13 +66,13 @@ class CaseSlide extends Component {
                                             ref={ref}
                                             initial={{ opacity: 0 }}
                                             animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                            transition={{ duration: 0.8 }}
+                                            transition={{ duration: 0.8, delay: 0.2 }}
                                         >FundiFoundation</motion.span>
                                         <motion.h2
                                             ref={ref}
                                             initial={{ opacity: 0 }}
                                             animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                            transition={{ duration: 0.8 }}
+                                            transition={{ duration: 0.8,  delay: 0.4 }}
                                         >Our Education Fundraising Initiatives</motion.h2>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@ class CaseSlide extends Component {
                              ref={ref}
                              initial={{ opacity: 0 }}
                              animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                             transition={{ duration: 0.8 }}
+                             transition={{ duration: 0.8,  delay: 0.6 }}
                             className="wpo-case-wrap">
                                 <div className="wpo-case-slider">
                                     <Slider {...settings}>

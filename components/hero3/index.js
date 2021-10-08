@@ -23,7 +23,7 @@ const Hero3 = (props) => {
                                         exit={{ opacity: 0, y: 10 }}
                                         transition={{ delay: .2}}
                                         className="slide-title">
-                                        <h2>Doing Good<span> Is Good Business</span></h2>
+                                        <h2>Help Us Help Those<span> Who Can't Help Themselves</span></h2>
                                     </motion.div>
                                     <motion.div 
                                      initial={{ opacity: 0 }}

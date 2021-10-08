@@ -13,11 +13,21 @@ const PageTitleR10 = (props) => {
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-breadcumb-wrap">
-                            <motion.h2>{props.pageTitleR10}</motion.h2>
-                            <ul>
+                            <motion.h2
+                              initial={{ opacity: 0 }}
+                              animate={{ opacity: 1, y: -10 }}
+                              exit={{ opacity: 0, y: 10 }}
+                              transition={{ delay: .4}}
+                            >{props.pageTitleR10}</motion.h2>
+                            <motion.ul
+                             initial={{ opacity: 0 }}
+                             animate={{ opacity: 1, y: -10 }}
+                             exit={{ opacity: 0, y: 10 }}
+                             transition={{ delay: .6}}
+                            >
                                 <li><Link href="/"><a>Home</a></Link></li>
                                 <li><span>{props.pagesub}</span></li>
-                            </ul>
+                            </motion.ul>
                         </div>
                     </div>
                 </div>
