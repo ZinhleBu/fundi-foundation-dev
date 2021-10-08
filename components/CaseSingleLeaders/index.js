@@ -3,6 +3,7 @@ import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
 import Link from 'next/link'
 import SidebarWrap from '../SidebarWrap'
+import GalleryLeaders from '../Gallery-Leaders';
 
 
 const CaseSingleLeaders = (props) => {
@@ -36,14 +37,14 @@ const CaseSingleLeaders = (props) => {
                                             Description
                                         </NavLink>
                                     </NavItem>
-                                    <NavItem>
+                                    {/* <NavItem>
                                         <NavLink
                                             className={classnames({ active: activeTab === '2' })}
                                             onClick={() => { toggle('2'); }}
                                         >
                                         Donations
                                         </NavLink>
-                                    </NavItem>
+                                    </NavItem> */}
 {/* 
                                     <NavItem>
                                         <NavLink
@@ -82,6 +83,8 @@ const CaseSingleLeaders = (props) => {
                                                         <p>In March this year, students were unable to register due to a lack of funding. The protests inspired social media celebrity, Lasizwe Dambuza and friends into action and the #R10 Goes a long Way campaign was started - raising over R2 million in 5 days to help the most deserving students with tuition fees. </p>
                                                         <p>FundiFund was asked to get involved – and of the 19 000 funding applications received, we were able to fund the registration fees of 132 student’s of the 161 selected from the first draw – while the others had to be turned away. FundiFund is calling on business leaders to Unite for Education with the LEADERS4LEARNERS Campaign on Nelson Mandela Day to honour Madiba’s passion for education. Funds raised will go a long way to help us provide funding for students over their 3 years of study. </p>
                                                     </div>
+                                                    <GalleryLeaders/>
+
                                                     {/* <div className="case-bb-text">
                                                         <h3>We want to ensure the education for the kids.</h3>
                                                         <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure.</p>

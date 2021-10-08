@@ -55,7 +55,7 @@ function List() {
                             style={{
                                 color: "white",
                             }}
-                            title="View list of beneficiaries" href="https://fundi-foundation-dev-chi.vercel.app/Winners_Updated 06 September 2021 Fees Comments .xlsx" download>
+                            title="View list of beneficiaries" href="https://fundifoundation.org/Winners_Updated 06 September 2021 Fees Comments .xlsx" download>
                             View
                         </a>
                     </Button>

@@ -65,7 +65,7 @@ const Footer = (props) => {
                                     <li><Link onClick={ClickHandler} href="/ContactPage"><a>Contact Us</a></Link></li>
                                     <li><Link onClick={ClickHandler} href="/EventPage"><a>Our Event</a></Link></li>
                                     <li>
-                                        <a title="Download Registration Form" href="https://fundi-foundation-dev-chi.vercel.app/Fundi_Foundation_Trust_REGISTRATION.pdf" download>
+                                        <a title="Download Registration Form" href="https://fundifoundation.org/Fundi_Foundation_Trust_REGISTRATION.pdf" download>
                                             18A Certificate and Registration
                                         </a>
                                     </li>

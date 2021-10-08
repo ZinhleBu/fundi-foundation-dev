@@ -37,14 +37,14 @@ const CaseSingleLeaders = (props) => {
                                             Description
                                         </NavLink>
                                     </NavItem>
-                                    <NavItem>
+                                    {/* <NavItem>
                                         <NavLink
                                             className={classnames({ active: activeTab === '2' })}
                                             onClick={() => { toggle('2'); }}
                                         >
                                         Donations
                                         </NavLink>
-                                    </NavItem>
+                                    </NavItem> */}
 {/* 
                                     <NavItem>
                                         <NavLink

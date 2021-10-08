@@ -54,7 +54,7 @@ function Example() {
                           style={{
                             color:"white",
                         }}
-                        title="Download Registration Form" href="https://fundi-foundation-dev-chi.vercel.app/Fundi_Foundation_Trust_REGISTRATION.pdf" download>
+                        title="Download Registration Form" href="https://fundifoundation.org/Fundi_Foundation_Trust_REGISTRATION.pdf" download>
                             Download
                         </a>
                     </Button>
