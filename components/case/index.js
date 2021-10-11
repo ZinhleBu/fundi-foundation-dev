@@ -55,33 +55,23 @@ class CaseSlide extends Component {
             window.scrollTo(10, 0);
         }
         return (
-            <InView threshold={0.02}>
-                {({ ref, inView }) => (
+           
                     <div className="wpo-case-area section-padding">
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
                                     <div className="wpo-section-title">
-                                        <motion.span
-                                            ref={ref}
-                                            initial={{ opacity: 0 }}
-                                            animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                            transition={{ duration: 0.8, delay: 0.2 }}
-                                        >FundiFoundation</motion.span>
-                                        <motion.h2
-                                            ref={ref}
-                                            initial={{ opacity: 0 }}
-                                            animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                            transition={{ duration: 0.8,  delay: 0.4 }}
-                                        >Our Education Fundraising Initiatives</motion.h2>
+                                        <span
+                                           
+                                        >FundiFoundation</span>
+                                        <h2
+                                           
+                                        >Our Education Fundraising Initiatives</h2>
                                     </div>
                                 </div>
                             </div>
-                            <motion.div 
-                             ref={ref}
-                             initial={{ opacity: 0 }}
-                             animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                             transition={{ duration: 0.8,  delay: 0.6 }}
+                            <div 
+                             
                             className="wpo-case-wrap">
                                 <div className="wpo-case-slider">
                                     <Slider {...settings}>
@@ -237,7 +227,6 @@ class CaseSlide extends Component {
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div className="wpo-case-single">
                                             <div className="wpo-case-item">
                                                 <div className="wpo-case-img">
@@ -274,16 +263,11 @@ class CaseSlide extends Component {
                                                 </div>
                                             </div>
                                         </div>
-
-
-
                                     </Slider>
                                 </div>
-                            </motion.div>
+                            </div>
                         </div>
                     </div>
-                )}
-            </InView>
         );
     }
 }

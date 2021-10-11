@@ -46,23 +46,16 @@ const Donate = (props) => {
                                                         <input required type="hidden" name="cell_number" value="" />
                                                         <input required type="hidden" name="item_name" maxLength="255" value="FundiFoundation" />
                                                         <input type="hidden" name="signature" value="" />
-
                                                         <table>
-
                                                             <input id="PayFastName" type="text" name="name_first" placeholder="Name" valueAsString="" />
                                                             <input id="PayFastLast"type="text" name="name_last" placeholder="Surname" valueAsString="" />
                                                             <input id="PayFastEmail"type="text" name="email_address" placeholder="Email" valueAsString="" />
                                                             <label id="PayFastAmountLabel" htmlFor="PayFastAmount">Amount: </label>
                                                             <input id="PayFastAmount" type="number" step=".01" name="amount" min="0.00" placeholder="R0.00" valueAsNumber="" />
-
                                                         </table>
-
-
                                                         <table>
-
                                                             <td colSpan="2" align="center" />
                                                             <input type="image" src="https://www.payfast.co.za/images/buttons/DonateNow/Red-Large-Square-DonateNow.png" alt="Donate Now" title="Donate Now with PayFast" />
-
                                                         </table>
                                                     </form>
                                                     {/* <form className="donate-form " name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
@@ -128,7 +121,7 @@ const Donate = (props) => {
                                                         </table>
 
                                                     </form> */}
-                                                    {/* 
+                                                    
 
                                                     <div className="col-md-12">
 
@@ -145,7 +138,7 @@ const Donate = (props) => {
                                                             method="POST"
                                                             action="https://pay.ozow.com/"
                                                             id="ipayForm"
-                                                            novalidate="novalidate">
+                                                            novalidate="validate">
 
                                                             <input type="hidden" name="SiteCode" value="FUN-FUN-010 " />
                                                             <input type="hidden" name="CountryCode" value="ZA" />
@@ -158,7 +151,6 @@ const Donate = (props) => {
                                                             <input type="hidden" name="SuccessUrl" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
                                                             <input type="hidden" name="IsTest" value="false" />
                                                             <input type="hidden" id="ipayHash" name="HashCheck" value="" />
-                                                            FUN-FUN-010ZAZARDonate Nowhttps://fundi-foundation-dev-chi.vercel.app/DonatePagehttps://fundi-foundation-dev-chi.vercel.app/DonatePagehttps://fundi-foundation-dev-chi.vercel.app/DonatePagefalse
 
 
 
@@ -213,7 +205,7 @@ const Donate = (props) => {
 
                                                         </form>
 
-                                                    </div> */}
+                                                    </div>
 
 
 

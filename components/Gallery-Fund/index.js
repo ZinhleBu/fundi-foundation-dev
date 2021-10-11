@@ -45,23 +45,9 @@ const GalleryFund = (props) => {
                         <img src="images/FundRun-images/img-6.jpg" alt="" />
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                    <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-7.jpg" alt="" />
-                    </div>
-                </div>
+               
 
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                    <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-8.jpg" alt="" />
-                    </div>
-                </div>
 
-                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
-                    <div className="wpo-img-gallery">
-                        <img src="images/FundRun-images/img-9.jpg" alt="" />
-                    </div>
-                </div>
 
             </div>
 

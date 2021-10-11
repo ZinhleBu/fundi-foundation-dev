@@ -20,7 +20,17 @@ const GalleryLeaders = (props) => {
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
+                        <img src="images/leaders-students/ld-3.jpg" alt="" />
+                    </div>
+                </div>
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
+                    <div className="wpo-img-gallery">
                         <img src="images/leaders-images/img-2-ld.webp" alt="" />
+                    </div>
+                </div>
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
+                    <div className="wpo-img-gallery">
+                        <img src="images/leaders-students/ld-2.jpg" alt="" />
                     </div>
                 </div>
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
@@ -31,6 +41,10 @@ const GalleryLeaders = (props) => {
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
                         <img src="images/leaders-images/img-4-ld.webp" alt="" />
+                    </div>
+                </div><div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
+                    <div className="wpo-img-gallery">
+                        <img src="images/leaders-students/ld-1.jpg" alt="" />
                     </div>
                 </div>
 
@@ -45,8 +59,17 @@ const GalleryLeaders = (props) => {
                         <img src="images/leaders-images/img-6-ld.webp" alt="" />
                     </div>
                 </div>
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
+                    <div className="wpo-img-gallery">
+                        <img src="images/leaders-students/ld-4.jpg" alt="" />
+                    </div>
+                </div>
                 
-
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
+                    <div className="wpo-img-gallery">
+                        <img src="images/leaders-students/ld-5.jpg" alt="" />
+                    </div>
+                </div>
             </div>
 
 
