@@ -121,7 +121,7 @@ const Donate = (props) => {
                                                         </table>
 
                                                     </form> */}
-                                                    
+{/*                                                     
 
                                                     <div className="col-md-12">
 
@@ -138,21 +138,18 @@ const Donate = (props) => {
                                                             method="POST"
                                                             action="https://pay.ozow.com/"
                                                             id="ipayForm"
-                                                            novalidate="validate">
+                                                            >
 
                                                             <input type="hidden" name="SiteCode" value="FUN-FUN-010 " />
                                                             <input type="hidden" name="CountryCode" value="ZA" />
                                                             <input type="hidden" name="CurrencyCode" value="ZAR" />
-                                                            <input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="" />
-                                                            <input type="hidden" id="" name="BankReference" value="" />
+                                                            <input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="FundiFoundation" />
+                                                            <input type="hidden" id="" name="BankReference" value="Fundi-Foundation" />
                                                             <input type="hidden" name="Optional5" value="Donate Now" />
-                                                            <input type="hidden" name="CancelUrl" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
-                                                            <input type="hidden" name="ErrorUrl" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
-                                                            <input type="hidden" name="SuccessUrl" value="https://fundi-foundation-dev-chi.vercel.app/DonatePage" />
                                                             <input type="hidden" name="IsTest" value="false" />
-                                                            <input type="hidden" id="ipayHash" name="HashCheck" value="" />
+                                                            <input type="hidden" id="ipayHash" name="HashCheck" value="39E0E7BBC737860E11A9E637EE6320DCAF86940575EBF5B20D768890AA42835D54E0F2BBCAA22F43A64A2C4A0FFAD84AE8A0BF0B2C5D4D857C250F882069447C" />
 
-
+                                                            fun-fun-010zazarfundifoundationfundi-foundationdonate nowfalsec0n8gserczbxsjahvd5ikk1wmi5gqs7y
 
                                                             <p className="ipay-name">
                                                                 <input type="text" id="ipayFullName" name="Optional1" placeholder="Full Name" className="fields" required="" aria-required="true" />
@@ -205,7 +202,7 @@ const Donate = (props) => {
 
                                                         </form>
 
-                                                    </div>
+                                                    </div> */}
 
 
 

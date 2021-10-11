@@ -36,7 +36,7 @@ function List() {
                 </div>
                 <ModalBody>
                     <h1>
-                        List of Benefitiaries
+                        List of Beneficiaries
                     </h1>
                 </ModalBody>
                 <ModalFooter>
@@ -56,7 +56,7 @@ function List() {
                                 color: "white",
                             }}
                             title="View list of beneficiaries" href="https://fundifoundation.org/Winners_Updated 06 September 2021 Fees Comments .xlsx" download>
-                            View
+                            Download
                         </a>
                     </Button>
 

@@ -44,7 +44,7 @@ const menus = [
             },
             {
                 id: 32,
-                title: 'Fundi Fund',
+                title: 'Fundi Fund 12412',
                 link: '/CaseSinglePageFund'
             },
             {

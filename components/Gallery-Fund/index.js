@@ -46,6 +46,7 @@ const GalleryFund = (props) => {
                     </div>
                 </div>
                
+               
 
 
 

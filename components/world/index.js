@@ -12,7 +12,7 @@ const WorldSection = (props) => {
                     <div className="col-12">
                         <div className="wpo-world-section">
                             <h2>Register for 2022 registration fees funding</h2>
-                            <Link onClick={ClickHandler} href="/RegistrationPage"><a><img src='images/team/1.png' alt=""/> Apply </a></Link>
+                            <Link onClick={ClickHandler} href="/RegistrationPage"><a><img src='images/team/1.png' alt=""/> Register </a></Link>
                         </div>
                     </div>
                 </div>
