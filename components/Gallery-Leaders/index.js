@@ -1,3 +1,4 @@
+import VideoPlayer1 from "../VideoPlayer1";
 
 
 
@@ -37,7 +38,7 @@ const GalleryLeaders = (props) => {
                     <div className="wpo-img-gallery">
                         <img src="images/leaders-images/img-3-ld.webp" alt="" />
                     </div>
-                </div>
+                </div>               
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
                         <img src="images/leaders-images/img-4-ld.webp" alt="" />
@@ -68,6 +69,11 @@ const GalleryLeaders = (props) => {
                 <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
                     <div className="wpo-img-gallery">
                         <img src="images/leaders-students/ld-5.jpg" alt="" />
+                    </div>
+                </div>
+
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
+                    <div className="wpo-img-gallery">
                     </div>
                 </div>
             </div>

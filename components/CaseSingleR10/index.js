@@ -90,8 +90,9 @@ const CaseSingleR10 = (props) => {
                                                             <p>
                                                                 ▪ Increase of fees: Data shows that 70% of students at some point during the academic year cannot afford to buy food, 68% are unable to afford student materials, and 62% feel they could not afford to pay to participate in campus-based social and academic activities.
                                                             </p>
-                                                            
+
                                                         </div>
+                                                        
                                                         <AdvisorySection />
 
                                                         <div className="case-bb-text">
@@ -110,20 +111,20 @@ const CaseSingleR10 = (props) => {
                                                             </p>
                                                             <Gallery />
                                                             <div
-                                                             className="col-12 col-md-8"
-                                                             style={{ 
-                                                                 marginTop:"20px",
-                                                                 marginBottom:"20px",
-                                                                 posiion:"relative"
+                                                                className="col-12 col-md-8"
+                                                                style={{
+                                                                    marginTop: "20px",
+                                                                    marginBottom: "20px",
+                                                                    posiion: "relative"
 
-                                                             }}
-                                                             >
-                                                            <h1>List of Beneficiaries</h1>
-                                                            <p>To view the list of all the beneficiaries of the #10GoesA LongWay campaign, clickon the button below:</p>
-                                                            <List/>
+                                                                }}
+                                                            >
+                                                                <h1>List of Beneficiaries</h1>
+                                                                <p>To view the list of all the beneficiaries of the #10GoesA LongWay campaign, clickon the button below:</p>
+                                                                <List />
 
                                                             </div>
-                                                            
+
                                                             <CounterSection countclass={'wpo-counter-style-2'} />
 
                                                             <div>
