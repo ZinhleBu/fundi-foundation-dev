@@ -32,7 +32,7 @@ const Registration = () => {
                                                 <input type="text" className="form-control" name="name" id="name" placeholder="First Name" />
                                             </div>
                                             <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
-                                                <input type="text" className="form-control" name="surname" id="surname" placeholder="Last Name" />
+                                                <input type="text" className="form-control" name="surname" id="surname" placeholder="Surname" />
                                             </div>
                                             <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group clearfix">
                                                 <input type="email" className="form-control" name="email" id="email" placeholder="Email" />
@@ -61,24 +61,14 @@ const Registration = () => {
                                             <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
                                                 <input type="number" className="form-control" name="year" id="year" placeholder="What year are you registering for?" />
                                             </div>
-                                            <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
-                                                <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" />
-                                            </div>
-
-
-
-
                                             <div className="col-lg-12 col-md-12 col-sm-12 col-12 form-group">
-
                                                 <label
                                                     style={{
                                                         display: "flex",
                                                         justifyContent: "center",
                                                         lineHeight:"15px"
-
                                                     }}
                                                     htmlFor="qualify-post">What type qualification are you registering for?</label>
-
                                                 <div
                                                     style={{
                                                         display: "flex",

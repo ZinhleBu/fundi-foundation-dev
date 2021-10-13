@@ -6,9 +6,10 @@ import Gallery from '../Gallery';
 import WorldSection from '../world';
 import List from '../beneficiaries';
 import Sponsors from '../sponsors';
+import Gallery1 from '../Gallery1';
 const CaseSingleR10 = (props) => {
 
- 
+
 
     return (
         <div className="wpo-case-details-area section-padding">
@@ -47,7 +48,8 @@ const CaseSingleR10 = (props) => {
                                                     <p>
                                                         On 13 March Sibu Mabena, Ayanda Mhlongo ,Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. In 16 hours... YOU ALL HAVE TURNED THAT INTO R200 000
                                                     </p>
-                                                    <Gallery />
+                                                    <Gallery1/>
+
                                                     <div
                                                         className="col-12 col-md-8"
                                                         style={{
@@ -60,8 +62,8 @@ const CaseSingleR10 = (props) => {
                                                         <List />
                                                     </div>
                                                     <CounterSection countclass={'wpo-counter-style-2'} />
-                                                  <Sponsors/>
-                                                  <div>
+                                                    <Sponsors />
+                                                    <div>
                                                         <h1>Application Rules, Criteria & Process:</h1>
                                                         <p>If you've applied for registration at a tertiary institution, and havee been accepted to study further, you can apply for funding here.</p>
                                                         <ul>
@@ -76,7 +78,7 @@ const CaseSingleR10 = (props) => {
                                                             <li>All supporting documents and application enquiries to be emailed to: FundiFund@fundi.co.za</li>
                                                         </ul>
                                                         <div className="process col-12 col">
-                                                        <img src='images/process.png' alt="" />
+                                                            <img src='images/process.png' alt="" />
                                                         </div>
                                                     </div>
                                                     <WorldSection worldclass={'wpo-world-area-2'} />

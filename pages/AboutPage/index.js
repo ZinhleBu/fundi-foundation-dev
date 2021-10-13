@@ -11,6 +11,7 @@ import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 import MissionAbout from '../../components/missionabout'
 import { AnimatePresence, motion } from "framer-motion";
+import VideoPlayer5 from '../../components/VideoPlayer5';
 
 const AboutPage =() => {
     return(
@@ -30,10 +31,7 @@ const AboutPage =() => {
             <PageTitleAbout pageTitleAbout={'About Us'} pagesub={'About'}/> 
             <MissionAbout/>
             <TeamSection/>
-            <VedioAbout/>
-            {/* <CounterSection/> */}
-            {/* <AboutSec/> */}
-            {/* <CaseSlide/> */}
+            <VideoPlayer5/>
             <Footer/>
             <Scrollbar/>
             </motion.div>

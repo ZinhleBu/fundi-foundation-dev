@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import VideoPlayer5 from '../VideoPlayer5';
 
 const TeamSection = (props) => {
     return (
@@ -114,6 +115,7 @@ const TeamSection = (props) => {
                             </div>
                         </div>
                     </div>
+
                 </div>
 
             </>
