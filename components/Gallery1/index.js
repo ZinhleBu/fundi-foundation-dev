@@ -42,6 +42,7 @@ const photos = [
     {
       src: "/images/R10Images/mandisa2.jpg",
       width: 1,
+      
       height: 1
     },
     {

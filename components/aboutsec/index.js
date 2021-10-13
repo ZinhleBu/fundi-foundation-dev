@@ -22,7 +22,7 @@ const AboutSec = (props) => {
                                         <h2>Meet The Beneficiaries</h2>
                                     </div>
                                     <p>The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves. </p>
-                                    <p>Through our fundraising initiatives, and we’ve assisted matric learners at Tembisa High School Matriculants, Custom made and distributed School Bags, funded bursary students Mpumi and Nompilo, donated hundreds of thousands of rands to tertiary institutions, raised funds and provided study equipment to schools like the Sibonile school of the blind, Bukho Bami Community centre, as well as hosted matric announcements and awards events.</p>
+                                    <p>Through our fundraising initiatives, and we’ve assisted matric learners at Tembisa High School, We've custom made and distributed School Bags, funded bursary students Mpumi and Nompilo, donated hundreds of thousands of rands to tertiary institutions, raised funds and provided study equipment to schools like the Sibonile School for the Blind, Bukho Bami Community Centre, as well as hosted matric announcements and awards events.</p>
                                     <p></p>
                                   
                                     <div

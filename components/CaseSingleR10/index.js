@@ -25,7 +25,7 @@ const CaseSingleR10 = (props) => {
                                                 <h1>The Challenge</h1>
                                                 <div className="case-b-text">
                                                     <p>
-                                                        Over the years we have witnessed an exponential growth in higher education fees prohibiting thousands of Black students’ access. This problem saw the rise of student protests like the #FeesMustFall movement that began in 2015. Since 2015, there have been various advocacy related activities by students to make higher education accessible. In the beginning of 2021, we witnessed again students protest all over the country over the following challenges:
+                                                        Over the years we have witnessed an exponential growth in higher education fees prohibiting thousands of Black students’ access. This problem saw the rise of student protests like the #FeesMustFall movement that began in 2015. Since 2015, there have been various advocacy related activities by students to make higher education accessible. In the beginning of 2021, we again witnessed student protests all over the country over the following challenges:
                                                     </p>
                                                     <p>
                                                         ▪ Historical debt: prohibiting them from graduating, receiving the qualification and or registering for the new academic year.</p>
