@@ -1,7 +1,5 @@
 import React from 'react';
-
-import GalleryUniversityDonations from '../Gallery-University-Bursary-Donations'
-import GallerySibongile from '../Gallery-Sibongile';
+import Gallery5 from '../../components/Gallery5';
 
 const CaseSingleFundiCsi = (props) => {
 
@@ -23,10 +21,9 @@ const CaseSingleFundiCsi = (props) => {
                                                     </p>
                                                     <p> Doing Good is good business, and due to our ethos of doing more to enable more learning as well as being confronted by the challenges students face in getting access to education, Fundi made a strategic decision to establish Fundi Foundation as a long-term commitment to enabling education dreams and making an impactful difference in society. FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves.
                                                     </p>
-                                                    <GalleryUniversityDonations />
                                                     <br></br>
+                                                    <Gallery5/>
                                                     <br></br>
-                                                    <GallerySibongile />
                                                 </div>
                                             </div>
                                         </div>

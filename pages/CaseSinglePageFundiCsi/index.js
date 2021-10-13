@@ -5,7 +5,7 @@ import CaseSingleFundiCsi from '../../components/CaseSingleFundiCsi'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
-
+    
 const CaseSinglePageFundiCsi =() => {
     return(
         <Fragment>
