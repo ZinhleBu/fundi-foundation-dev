@@ -30,9 +30,9 @@ const CounterSection = (props) => {
                                         transition={{ duration: 0.8, delay: 0.3 }}
                                         className="grid">
                                         <div>
-                                            <h2><span className="odometer" data-count="80">R565 442</span></h2>
+                                            <h2><span className="odometer" data-count="80">R565.4K</span></h2>
                                         </div>
-                                        <p>Fund Distributed</p>
+                                        <p>Fund Dispursed</p>
                                     </motion.div>
                                     <motion.div
                                         ref={ref}
@@ -54,7 +54,7 @@ const CounterSection = (props) => {
                                         <div>
                                             <h2><span className="odometer" data-count="1 778 000">R1,78M</span></h2>
                                         </div>
-                                        <p>Balance</p>
+                                        <p>Funds to be awarded in the next cycle</p>
                                     </motion.div>
                                 </div>
                             </div>
