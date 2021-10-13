@@ -65,7 +65,7 @@ class CaseSlide extends Component {
                                     FundiFoundation
                                 </span>
                                 <h2>
-                                    Our Education Fundraising Initiatives
+                                    Our Education Fundraising Platforms
                                 </h2>
                             </div>
                         </div>
