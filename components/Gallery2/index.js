@@ -41,48 +41,49 @@ export default Gallery2;
 const photos = [
     {
       src: "/images/leaders-images/img-1-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3,
     },
+    
     {
       src: "/images/leaders-images/img-2-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/leaders-images/img-3-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/leaders-images/img-4-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/leaders-images/img-5-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/leaders-images/img-6-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/leaders-images/img-7-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/leaders-images/img-8-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/leaders-images/img-9-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     }
     
   ];

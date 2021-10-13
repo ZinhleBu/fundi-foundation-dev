@@ -19,7 +19,12 @@ const Footer = (props) => {
                                 <div className="logo widget-title">
                                     <img src='images/fundifoundation-logo-white.png' alt="" />
                                 </div>
-                                <p>PBO Number: 930/047/343 <br/> Organization Name: FundiFoundation Trust | Registration No: IT001931/2019(G) |<br></br>  <br></br>Tax Number: 366 945 1175 <br/>(SARS Pin: 5FG1E1A232) </p>
+                                <p>PBO Number: 930/047/343
+                                    <br />
+                                    Organization Name: FundiFoundation Trust | Registration No: IT001931/2019(G) |
+                                   
+                                    
+                                </p>
                                 <ul>
                                     <li><Link onClick={ClickHandler} href="https://web.facebook.com/FundiS0uthAfrica"><a><i className="ti-facebook"></i></a></Link></li>
                                     <li><Link onClick={ClickHandler} href="https://twitter.com/Official_FUNDI"><a><i className="ti-twitter-alt"></i></a></Link></li>
@@ -65,12 +70,12 @@ const Footer = (props) => {
                                     <li><Link onClick={ClickHandler} href="/ContactPage"><a>Contact Us</a></Link></li>
                                     <li><Link onClick={ClickHandler} href="/EventPage"><a>Our Event</a></Link></li>
                                     <li>
-                                        <a title="Download Registration Form" href="https://fundifoundation.org/Fundi_Foundation_Trust_REGISTRATION.pdf" download>
+                                        <a title="Download Registration Form" href="https://fundi-foundation-dev-chi.vercel.app/Fundi_Foundation_Trust_REGISTRATION.pdf" download>
                                             18A Certificate and Registration
                                         </a>
                                     </li>
                                     <li>
-                                        <a title="View Privacy Policy" href="https://fundifoundation.org/Fundi Capital Privacy Policy - Updated (002).docx" download>
+                                        <a title="View Privacy Policy" href="https://fundi-foundation-dev-chi.vercel.app/Fundi Capital Privacy Policy - Updated (002).docx" download>
                                             Privacy Policy
                                         </a>
                                     </li>

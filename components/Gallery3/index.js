@@ -41,33 +41,33 @@ export default Gallery3;
 const photos = [
     {
       src: "/images/unite-images/img-1-un.webp",
-      width: 1,
-      height: 1
+      width: 5,
+      height: 3
     },
     {
       src: "/images/unite-images/img-2-un.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/unite-images/img-3-un.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/unite-images/img-4-un.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/unite-images/img-5-un.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/unite-images/img-6-un.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     }
     
   ];

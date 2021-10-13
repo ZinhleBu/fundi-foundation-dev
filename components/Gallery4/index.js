@@ -40,19 +40,19 @@ export default Gallery4;
 
 const photos = [
     {
-      src: "/images/leaders-images/img-10-ld.webp",
-      width: 1,
-      height: 1
+      src: "/images/leaders-images/img-14-ld.webp",
+      width: 2,
+      height: 3
     },
     {
       src: "/images/leaders-images/img-11-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     },
     {
       src: "/images/leaders-images/img-12-ld.webp",
-      width: 1,
-      height: 1
+      width: 3,
+      height: 4
     },
     {
       src: "/images/leaders-images/img-13-ld.webp",
@@ -60,14 +60,14 @@ const photos = [
       height: 1
     },
     {
-      src: "/images/leaders-images/img-14-ld.webp",
-      width: 1,
-      height: 1
+      src: "/images/leaders-images/img-10-ld.webp",
+      width: 4,
+      height: 3
     },
     {
       src: "/images/leaders-images/img-15-ld.webp",
-      width: 1,
-      height: 1
+      width: 4,
+      height: 3
     }
     
   ];
