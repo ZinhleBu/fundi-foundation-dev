@@ -5,7 +5,6 @@ import CaseSingleFund from '../../components/CaseSingleFund'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
-import Gallery2 from '../../components/Gallery2';
 
 const CaseSinglePageFund =() => {
     return(
@@ -16,7 +15,6 @@ const CaseSinglePageFund =() => {
             <Header/>
             <PageTitleFund pageTitleFund={'FundiFund 12412'} pagesub={'Helping matriculants get past the finish line.'}/> 
             <CaseSingleFund/>
-            <Gallery2/> 
 
             <Footer/>
             <Scrollbar/>
