@@ -69,7 +69,11 @@ const Footer = (props) => {
                                             18A Certificate and Registration
                                         </a>
                                     </li>
-
+                                    <li>
+                                        <a title="View Privacy Policy" href="https://fundifoundation.org/Fundi Capital Privacy Policy - Updated (002).docx" download>
+                                            Privacy Policy
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

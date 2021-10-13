@@ -45,19 +45,7 @@ class Casesection extends Component {
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
                                                 <h2>#R10GoesALongWay</h2>
-                                                <div className="progress-section">
-                                                    <div className="process">
-                                                        <div className="progress">
-                                                            <div className="progress-bar">
-                                                                <div className="progress-value"><span>65.5</span>%</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {/* <ul>
-                                            <li><span>Raised:</span> R 2 192 462.58</li>
-                                            <li><span>Funds payed::</span> R 872 462.58</li>
-                                        </ul> */}
+
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
@@ -81,19 +69,6 @@ class Casesection extends Component {
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
                                                 <h2>Unite4School</h2>
-                                                <div className="progress-section">
-                                                    <div className="process">
-                                                        <div className="progress">
-                                                            <div className="progress-bar">
-                                                                <div className="progress-value"><span>40.5</span>%</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {/* <ul>
-                                            <li><span>Raised:</span> $7,000.00</li>
-                                            <li><span>Donated:</span> $8,000.00</li>
-                                        </ul> */}
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
@@ -117,19 +92,6 @@ class Casesection extends Component {
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
                                                 <h2>#Leaders4Learners</h2>
-                                                <div className="progress-section">
-                                                    <div className="process">
-                                                        <div className="progress">
-                                                            <div className="progress-bar">
-                                                                <div className="progress-value"><span>80.5</span>%</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {/* <ul>
-                                            <li><span>Raised:</span> $7,000.00</li>
-                                            <li><span>Goal:</span> $8,000.00</li>
-                                        </ul> */}
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
@@ -148,19 +110,6 @@ class Casesection extends Component {
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
                                                 <h2>Fundi Fund 12412</h2>
-                                                <div className="progress-section">
-                                                    <div className="process">
-                                                        <div className="progress">
-                                                            <div className="progress-bar">
-                                                                <div className="progress-value"><span>50.5</span>%</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {/* <ul>
-                                            <li><span>Raised:</span> $7,000.00</li>
-                                            <li><span>Goal:</span> $8,000.00</li>
-                                        </ul> */}
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
@@ -180,19 +129,7 @@ class Casesection extends Component {
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
                                                 <h2>Fundi CSi</h2>
-                                                <div className="progress-section">
-                                                    <div className="process">
-                                                        <div className="progress">
-                                                            <div className="progress-bar">
-                                                                <div className="progress-value"><span>70.5</span>%</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                {/* <ul>
-                                            <li><span>Raised:</span> $7,000.00</li>
-                                            <li><span>Goal:</span> $8,000.00</li>
-                                        </ul> */}
+                                               
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
