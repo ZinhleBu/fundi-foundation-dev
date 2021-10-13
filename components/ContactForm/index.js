@@ -93,7 +93,7 @@ class ContactForm extends Component {
                     </div>
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
-                            <input value={lastname} onChange={this.changeHandler} type="text" name="lastname" placeholder="Lastname" />
+                            <input value={lastname} onChange={this.changeHandler} type="text" name="lastname" placeholder="Last Name" />
                             <p>{error.lastname ? error.lastname : ''}</p>
                         </div>
                     </div>

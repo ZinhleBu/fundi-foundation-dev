@@ -63,9 +63,7 @@ const Contactpage = () => {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                                     <div className="info-item">
-                                        <h2>Call Centre: 0860 55 55 44</h2>
-                                        <h2>Reception: 011 670 6100</h2>
-
+                                        <h2>Contact: 011 670 6188</h2>
                                         <div className="info-wrap">
                                             <div className="info-icon-3">
                                                 <i className="ti-headphone-alt"></i>
