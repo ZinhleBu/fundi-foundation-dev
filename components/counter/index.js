@@ -19,7 +19,13 @@ const CounterSection = (props) => {
                                         transition={{ duration: 0.8, delay: 0.1 }}
                                         className="grid">
                                         <div>
-                                            <h2><span className="odometer" data-count="2 342 462">R2,34M</span></h2>
+                                            <h2>
+                                                <span
+                                                    className="odometer"
+                                                    data-count="2 342 462">
+                                                    R2,34M
+                                                </span>
+                                            </h2>
                                         </div>
                                         <p>Total pledged</p>
                                     </motion.div>
@@ -60,11 +66,11 @@ const CounterSection = (props) => {
                             </div>
                         </div>
 
-                        <div 
-                        style={{
-                            top: 50,
-                        }}
-                        className="col-12">
+                        <div
+                            style={{
+                                top: 50,
+                            }}
+                            className="col-12">
                             <div className="row-12">
                                 NB. Of the total funds pledged, only cash paid into the campaign account was paid out for registration fees. Outstanding funds pledged were only paid to us in the last two months and will therefore be available for distribution during the next registration period.
                             </div>

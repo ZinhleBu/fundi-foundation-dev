@@ -10,10 +10,10 @@ const CaseSinglePageRebuild =() => {
     return(
         <Fragment>
              <Head>
-                <title>#RebuildSA Details</title>
+                <title>#Unite4Schools Details</title>
             </Head>
             <Header/>
-            <PageTitleRebuild pageTitleRebuild={'#RebuildSA'} pagesub={'Save Our Schools'}/> 
+            <PageTitleRebuild pageTitleRebuild={'#Unite4Schools'} pagesub={'Enabling education dreams'}/> 
             <CaseSingleRebuild/>
             <Footer/>
             <Scrollbar/>
