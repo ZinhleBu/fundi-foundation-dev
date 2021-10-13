@@ -5,6 +5,7 @@ import AdvisorySection from '../advisoryboard'
 import Gallery from '../Gallery';
 import WorldSection from '../world';
 import List from '../beneficiaries';
+import Sponsors from '../sponsors';
 const CaseSingleR10 = (props) => {
 
  
@@ -59,7 +60,8 @@ const CaseSingleR10 = (props) => {
                                                         <List />
                                                     </div>
                                                     <CounterSection countclass={'wpo-counter-style-2'} />
-                                                    <div>
+                                                  <Sponsors/>
+                                                  <div>
                                                         <h1>Application Rules, Criteria & Process:</h1>
                                                         <p>If you've applied for registration at a tertiary institution, and havee been accepted to study further, you can apply for funding here.</p>
                                                         <ul>

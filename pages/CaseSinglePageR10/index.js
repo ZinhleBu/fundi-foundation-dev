@@ -14,7 +14,7 @@ const CaseSinglePageR10 =() => {
                 <title>#R10GoesALongWay</title>
             </Head>
             <Header/>
-            <PageTitleR10 pageTitleR10={'#R10GoesALongWay'} pagesub={'Funding the dreams of matriculants throughout the country.'}/> 
+            <PageTitleR10 pageTitleR10={'#R10GoesALongWay'} pagesub={'Enabling the dreams of all South Africans'}/> 
             <CaseSingleR10/>
            {/* <BlogSection/> */}
             <Footer/>
