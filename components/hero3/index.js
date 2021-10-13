@@ -27,7 +27,7 @@ const Hero3 = (props) => {
                                         style={{
                                             fontSize: "60px"
                                         }}
-                                        >Helping Those<span> Who Can't Help Themselves</span></h2>
+                                        >Enabling Education Dreams<span> of All South Africans</span></h2>
                                     </motion.div>
                                     <motion.div 
                                      initial={{ opacity: 0 }}

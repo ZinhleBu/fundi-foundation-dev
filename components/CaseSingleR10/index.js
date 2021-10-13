@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
-import classnames from 'classnames';
-import Link from 'next/link'
-import SidebarWrap from '../SidebarWrap'
+
 import CounterSection from '../../components/counter'
 import AdvisorySection from '../advisoryboard'
 import Gallery from '../Gallery';
@@ -10,15 +7,7 @@ import WorldSection from '../world';
 import List from '../beneficiaries';
 const CaseSingleR10 = (props) => {
 
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
-
-    const [activeTab, setActiveTab] = useState('1');
-
-    const toggle = tab => {
-        if (activeTab !== tab) setActiveTab(tab);
-    }
+ 
 
     return (
         <div className="wpo-case-details-area section-padding">
@@ -71,15 +60,22 @@ const CaseSingleR10 = (props) => {
                                                     </div>
                                                     <CounterSection countclass={'wpo-counter-style-2'} />
                                                     <div>
-                                                        <h1>Register for Registration Fees Funding </h1>
+                                                        <h1>Application Rules, Criteria & Process:</h1>
                                                         <p>If you've applied for registration at a tertiary institution, and havee been accepted to study further, you can apply for funding here.</p>
-                                                        <p>Please provide the following documents with your application.:</p>
                                                         <ul>
-                                                            <li>Acceptance letter reflecting the registration amount.</li>
-                                                            <li>Proof of registration (if available).</li>
-                                                            <li>ID Copy.</li>
-                                                            <li>Student fee account and proof of payment for those that made the payment by other personal means.</li>
+                                                            <li>  Applicant must be looking at pursuing a 2022 undergraduate qualification at a higher education institute established under the Higher Education Act 101 of 1997, as amended by Higher Amendment Act of 2001, within the Republic of South Africa.</li>
+                                                            <li>  Applicant must confirm that they are registered for an undergraduate qualification in 2022 by the deadline as advised on the application form.</li>
+                                                            <li>Provide consent to FUNDI Capital (Pty) Ltd to verify the students acceptance status at the student's relevant Higher Education Institute.</li>
+                                                            <li>Application Opening date: 15 December.</li>
+                                                            <li>Application closing date: 15 January</li>
+                                                            <li>Only online applications will be considered.</li>
+                                                            <li>Students funded by a private or public bursary/grant is not eligible to apply.</li>
+                                                            <li>Supporting documentation, i.e., ID copy, proof of registration including tuition fee statement reflecting registration amount, submission deadline: 7 February.</li>
+                                                            <li>All supporting documents and application enquiries to be emailed to: FundiFund@fundi.co.za</li>
                                                         </ul>
+                                                        <div className="process col-12 col">
+                                                        <img src='images/process.png' alt="" />
+                                                        </div>
                                                     </div>
                                                     <WorldSection worldclass={'wpo-world-area-2'} />
                                                 </div>
