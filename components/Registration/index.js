@@ -56,7 +56,7 @@ const Registration = () => {
                                                 <input type="text" className="form-control" name="student_number" id="student-number" placeholder="Student number?" />
                                             </div>
                                             <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
-                                                <input type="number" className="form-control" name="fee_amount" id="fee-amount" placeholder="2021 registration fee amount?" />
+                                                <input type="number" className="form-control" name="fee_amount" id="fee-amount" placeholder="Registration fee amount?" />
                                             </div>
                                             <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
                                                 <input type="number" className="form-control" name="year" id="year" placeholder="What year are you registering for?" />
@@ -171,8 +171,6 @@ const Registration = () => {
 
                                                 </div>
                                             </div>
-                                           
-
                                             <div className="col-lg-12 col-12 form-group">
                                                 <textarea className="form-control" name="note" id="note" placeholder="Message..."></textarea>
                                             </div>
@@ -187,7 +185,6 @@ const Registration = () => {
                     </div>
                 </div>
             </div>
-            <TeamSection />
         </div>
     )
 
