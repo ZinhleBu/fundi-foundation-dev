@@ -38,7 +38,7 @@ const CounterSection = (props) => {
                                         <div>
                                             <h2><span className="odometer" data-count="80">R565.4K</span></h2>
                                         </div>
-                                        <p>Fund Dispursed</p>
+                                        <p>Fund Disbursed</p>
                                     </motion.div>
                                     <motion.div
                                         ref={ref}

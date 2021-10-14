@@ -19,7 +19,7 @@ const PrivacySection = (props) => {
                                 animate={{ opacity: 1, y: -10 }}
                                 exit={{ opacity: 0, y: 10 }}
                                 transition={{ delay: .4 }}
-                            >Privacy Policy </motion.h2>
+                            >Privacy Policy</motion.h2>
                         </div>
                     </div>
                 </div>
@@ -31,42 +31,39 @@ const PrivacySection = (props) => {
                     className="wpo-mission-wrap">
                     <div className="row">
                         <div className="col-12">
-                            <h5>1.	Introduction</h5>
+                            <h1>1.	Introduction</h1>
                             <p>
 
-                            •	These Terms apply to you individually and to your use of the Fundi Foundation.                            
-                            •	Please read these Terms carefully as they impose legally binding obligations on you and contain exclusions and limitations of our liability that affect you. It is your responsibility to determine whether the Platform is suitable and adequate for your needs. You assume all risks associated with your use of the Platform.
-                            
-                            
-                            •	Please pay special attention to the sections that are in bold and italics. These are important clauses which explain what may limit our responsibility or involve some risk for you.
-                            
+                                •	These Terms apply to you individually and to your use of the Fundi Foundation.
+                            </p>
+
+                        </div>
+                        <div className="col-12">
+                            <p>
+
+                                •	Please read these Terms carefully as they impose legally binding obligations on you and contain exclusions and limitations of our liability that affect you. It is your responsibility to determine whether the Platform is suitable and adequate for your needs. You assume all risks associated with your use of the Platform.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <p>
+
+                                •	Please pay special attention to the sections that are in bold and italics. These are important clauses which explain what may limit our responsibility or involve some risk for you.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+
+                            <p>
                             •	By ‘accepting’ the Terms when you sign up for the Fundi Foundation platform and by continuing to use the Platform, you agree to these Terms and represent and warrant that (i) you are at least 18 years of age and capable of entering into a legally binding agreement; or (ii) you have your guardian’s consent and agreement to enter into these Terms.
-                            •	You must know, understand and comply with these Terms.
-                            </p>
-
-                        </div>
-                        <div className="col-12">
-                            <p>
-
-                            </p>
-
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <p>
-
-                            </p>
-
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-12">
-
-                            <p>
-                                
+                            
                             </p>
                         </div>
+                        
                         <div className="titleCertificate col-12">
                             <h1 
                             style={{ 
@@ -133,7 +130,7 @@ const PrivacySection = (props) => {
 
             buttonDownload-wrap: {
                     justifyContent = "center",
-                }
+               }
                 `
             }</style>
         </div>
