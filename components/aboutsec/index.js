@@ -31,14 +31,14 @@ const AboutSec = (props) => {
                                         <Link href="/DonatePage">
                                             <a className="theme-btn" onClick={ClickHandler}>Donate Now</a>
                                         </Link>
-                                        <ul>
+                                        {/* <ul>
                                             <li className="video-holder">
                                                 <VideoModal />
                                             </li>
                                             <li className="video-text">
                                                 Watch Our Video
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </div>
