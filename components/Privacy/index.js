@@ -64,6 +64,7 @@ const PrivacySection = (props) => {
                         <div className="col-12">
 
                             <p>
+                                
                             </p>
                         </div>
                         <div className="titleCertificate col-12">
