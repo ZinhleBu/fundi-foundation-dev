@@ -23,7 +23,7 @@ const CaseSingleLeaders = (props) => {
                                             <div className="wpo-case-text-top">
                                                 <h2>Leaders 4 Learners</h2>
                                                 <div className="case-b-text">
-                                                    <p>For over 25 years Fundi has provided education funding and fund administration services to South Africans looking to further their career dreams. While as a business, we have successfully enabled over 6 million dreams, there are still thousands of students who are turned away because their guardians do not meet the criteria for study loans. It is for this reason we had set up FundiFund - a fund raising initiative to assist financially excluded students and help them pursue their education dreams.</p>
+                                                    <p>For over 25 years Fundi has provided education funding and fund administration services to South Africans looking to further their career dreams. While as a business, we have successfully enabled over 6 million dreams, there are still thousands of students who are turned away because their guardians do not meet the criteria for study loans. It is for this reason we have set up Leaders4Learners - a fund raising initiative to assist financially excluded students and help them pursue their education dreams.</p>
                                                     <br />
                                                 <br />
                                                     <VideoPlayer />
