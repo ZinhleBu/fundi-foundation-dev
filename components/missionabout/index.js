@@ -19,7 +19,7 @@ const MissionAbout = (props) => {
                                 animate={{ opacity: 1, y: -10 }}
                                 exit={{ opacity: 0, y: 10 }}
                                 transition={{ delay: .4 }}
-                            >Helping Those Who Can't Help Themselves. </motion.h2>
+                            >Doing Good Is Good Business </motion.h2>
                         </div>
                     </div>
                 </div>

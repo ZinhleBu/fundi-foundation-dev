@@ -70,6 +70,7 @@ class Newsletter extends Component {
                                             <input type="text" placeholder="Enter Your Email" name="email" valueAsString="" className="form-control" />
                                             <button type="submit">Send</button>
                                         </div>
+
                                     </form>
 
 

@@ -138,6 +138,33 @@ const EventSection2 = (props) => {
                             </div>
                         </div>
                     </motion.div>
+                    <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, y: -10 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    transition={{ delay: .6}}
+                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                        <div className="wpo-event-item">
+                            <div className="wpo-event-img">
+                                <img src='images/event/article5.jpg' alt="school-bag-handover" />
+                                {/* <div className="thumb-text">
+                                    <span>4</span>
+                                    <span>DEC</span>
+                                </div> */}
+                            </div>
+                            <div className="wpo-event-text">
+                                <h2>Fundi: school bag handover (Mpebe Primary School)</h2>
+                                <ul>
+                                    <li><i className="fa fa-clock-o" aria-hidden="true"></i>Fundi</li>
+                                    <li><i className="fi flaticon-pin"></i>Joburg</li>
+                                </ul>
+                                <p>
+                                Fundi recently gifted 420 learners at the Mpebe Primary School with new school back-packs.                                </p>
+                                <Link href="/SchoolBagsBlogPost">Learn More...</Link>
+
+                            </div>
+                        </div>
+                    </motion.div>
 
 
                 </div>

@@ -19,11 +19,10 @@ const Footer = (props) => {
                                 <div className="logo widget-title">
                                     <img src='images/fundifoundation-logo-white.png' alt="" />
                                 </div>
+                                <p>Auditors Nexia SAB&T</p>
                                 <p>PBO Number: 930/047/343
                                     <br />
                                     Organization Name: FundiFoundation Trust | Registration No: IT001931/2019(G) |
-                                   
-                                    
                                 </p>
                                 <ul>
                                     <li><Link onClick={ClickHandler} href="https://web.facebook.com/FundiS0uthAfrica"><a><i className="ti-facebook"></i></a></Link></li>
