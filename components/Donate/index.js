@@ -3,13 +3,7 @@ import ContactForm from '../../components/ContactForm'
 
 const Donate = (props) => {
 
-
-
-
-
     return (
-
-
         <> <div className="wpo-donation-page-area section-padding">
             <div className="container">
                 <div className="row">
@@ -33,6 +27,7 @@ const Donate = (props) => {
 
                                                 <div className="contact-form">
                                                     <h2>Donation Details</h2>
+                                                    {/* 
 
                                                     <form name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
                                                         <input required type="hidden" name="cmd" value="_paynow" />
@@ -57,111 +52,41 @@ const Donate = (props) => {
                                                             <td colSpan="2" align="center" />
                                                             <input type="image" src="https://www.payfast.co.za/images/buttons/DonateNow/Red-Large-Square-DonateNow.png" alt="Donate Now" title="Donate Now with PayFast" />
                                                         </table>
-                                                    </form>
-                                                    {/* <form className="donate-form " name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
-
-                                                        <input required type="hidden" name="cmd" value="_paynow" />
-                                                        <input required type="hidden" name="receiver" pattern="[0-9]" value="16564521" />
-                                                        <input type="hidden" name="item_name" maxLength="255" value="FundiFoundation" />
-                                                        <input type="hidden" name="name_first" value="Zinhle" />
-                                                        <input type="hidden" name="name_last" value="Buhlungu" />
-                                                        <input type="hidden" name="email_address" value="" />
-                                                        <input type="hidden" name="cell_number" value="" />
-
-                                                        <label id="PayFastAmountLabel" for="PayFastAmount">Amount: </label>
-                                                        <input required id="PayFastAmount" type="number" step=".01" name="amount" min="5.00" placeholder="5.00" valueAsNumber="" />
-
-
-
-                                                        <h3 colspan="2"><span style={{ fontWeight: "bold" }}>Personal Details</span>
-
-                                                        </h3>
-                                                        <span style={{ color: "red" }}>*</span>&nbsp;Name
-                                                        <input type="text" name="name_first" className="shipping" placeholder="First name" valueAsString="" />
-
-
-                                                        <span style={{ color: "red" }}>*</span>&nbsp;Surname
-                                                        <input type="text" name="name_last" className="shipping" valueAsString="" />
-
-
-                                                        <span style={{ color: "red" }}>*</span>&nbsp;City
-                                                        <input type="text" className="shipping" name="city" valueAsString="" />
-
-
-                                                        <span style={{ color: "red" }}>*</span>&nbsp;Province
-                                                        <input type="text" className="shipping" name="region" valueAsString="" />
-
-
-                                                        <span style={{ color: "red" }}>*</span>&nbsp;Country
-
-                                                        <select name="country" className="shipping">
-                                                            <option value="" selected="selected">- Select -</option>
-                                                            <option value="South Africa">South Africa</option>
-                                                            <option value="">------------------------</option>
-                                                            <option value="Botswana">Botswana</option>
-                                                            <option value="Lesotho">Lesotho</option>
-                                                            <option value="Mauritius">Mauritius</option>
-                                                            <option value="Mozambique">Mozambique</option>
-                                                            <option value="Swaziland">Swaziland</option>
-                                                            <option value="Zimbabwe">Zimbabwe</option>
-                                                        </select>
-
-
-
-                                                        <span style={{ color: "red" }}>*</span>&nbsp;Postal Code
-                                                        <input type="number" name="code" className="shipping" valueAsNumber="" />
-
-                                                        <table>
-
-                                                            <td colSpan="2" align="center">
-                                                                <button type="submit" className="theme-btn">Donate</button>
-
-                                                            </td>
-
-                                                        </table>
-
                                                     </form> */}
-                                                     
+
+
 
                                                     <div className="col-md-12">
 
-                                                        <span
-                                                            className="ipayClose"
-                                                            style={{
-                                                                color: "#aaa",
-                                                                float: "right",
-                                                                fontSize: "28px",
-                                                                fontWeight: "bold",
-                                                                cursor: "pointer"
-                                                            }}>×</span>
+                                                        {/* Having an issue genrating a HashCheck, please advise on this. */}
+
                                                         <form
                                                             method="POST"
                                                             action="https://pay.ozow.com/"
                                                             id="ipayForm"
-                                                            >
+                                                        >
 
-                                                            <input type="hidden" name="SiteCode" value="FUN-FUN-010 " />
+                                                            <input type="hidden" name="SiteCode" value="FUN-FUN-015" />
                                                             <input type="hidden" name="CountryCode" value="ZA" />
                                                             <input type="hidden" name="CurrencyCode" value="ZAR" />
-                                                            <input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="FundiFoundation" />
-                                                            <input type="hidden" id="" name="BankReference" value="Fundi-Foundation" />
-                                                            <input type="hidden" name="Optional5" value="Donate Now" />
+                                                            <input type="hidden" name="Amount" value="" />
+                                                            <input type="hidden" name="TransactionReference" value="TestApi" />
+                                                            <input type="hidden" name="BankReference" value="TestApi" />
+                                                            <input type="hidden" name="Optional2" value="" />
+                                                            <input type="hidden" name="Customer" value="" />
                                                             <input type="hidden" name="IsTest" value="false" />
-                                                            <input type="hidden" id="ipayHash" name="HashCheck" value="" />
+                                                            <input type="hidden" name="HashCheck" value="" />
 
-                                                            {/* fun-fun-010zazarfundifoundationfundi-foundationdonate nowfalsec0n8gserczbxsjahvd5ikk1wmi5gqs7y */}
 
                                                             <p className="ipay-name">
-                                                                <input type="text" id="ipayFullName" name="Optional1" placeholder="Full Name" className="fields" required="" aria-required="true" />
+                                                                <input type="text" name="Customer" placeholder="Full Name" className="fields" required="" aria-required="true" />
                                                             </p>
                                                             <p className="ipay-email">
-                                                                <input type="email" name="Customer" placeholder="Email" className="fields" required="" aria-required="true" />
+                                                                <input type="text" name="Optional2" placeholder="Email" className="fields" required="" aria-required="true" />
                                                             </p>
-                                                            <p className="ipay-contact">
-                                                                <input type="text" name="Optional2" placeholder="Contact Number" className="fields" required="" aria-required="true" />
-                                                            </p>
+
                                                             <p className="ipay-amount">
-                                                                <input type="text" id="ipayAmount" name="Amount" placeholder="Enter Custom Amount" className="fields" required="" aria-required="true" />
+                                                                <input type="number" name="Amount" placeholder="Enter Custom Amount" className="fields" required="" aria-required="true" />
                                                             </p>
 
                                                             <button
@@ -202,7 +127,7 @@ const Donate = (props) => {
 
                                                         </form>
 
-                                                    </div> 
+                                                    </div>
 
 
 
