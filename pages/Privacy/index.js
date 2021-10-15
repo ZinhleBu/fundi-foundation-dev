@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import PageTitleAbout from '../../components/pagetitleabout'
-import PrivacySection from '../../components/privacy'
+import PrivacySection from '../../components/PrivacySection'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
