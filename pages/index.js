@@ -16,7 +16,7 @@ const HomePage = () => {
         <Fragment>
             <Head>
                 <title>FundiFoundation</title>
-               
+                
             </Head>
             <Header />
             <Hero3 />

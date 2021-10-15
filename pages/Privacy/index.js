@@ -1,11 +1,10 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import PageTitleAbout from '../../components/pagetitleabout'
-
+import PrivacySection from 'PrivacySection'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
-import  PrivacySection from '../../components/privacy'
 import { AnimatePresence, motion } from "framer-motion";
 import VideoPlayer5 from '../../components/VideoPlayer5';
 
@@ -24,7 +23,7 @@ const AboutPage =() => {
             >
             <Header/>
             <PageTitleAbout pageTitleAbout={'Privacy Policy'} pagesub={'FundiFoundation'}/> 
-            < PrivacySection/>
+         <PrivacySection/>
             <Footer/>
             <Scrollbar/>
             </motion.div>

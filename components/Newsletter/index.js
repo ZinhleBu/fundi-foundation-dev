@@ -67,7 +67,7 @@ class Newsletter extends Component {
                                     <form action="https://formsubmit.co/fund@fundi.co.za" method="POST" >
 
                                         <div>
-                                            <input type="text" placeholder="Enter Your Email" name="email" valueAsString="" className="form-control" />
+                                            <input type="text" placeholder="Enter Your Email" name="email" valueasstring="" className="form-control" />
                                             <button type="submit">Send</button>
                                         </div>
 

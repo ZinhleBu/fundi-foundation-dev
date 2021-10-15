@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fundi-registration-list",
+  "private_key_id": "cf3033be95fe547a8feb2ed2a6c22a7209608404",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCY+mmwv87JYFX0\nACYGkbCgq9NJXgRBtJ2tfPbiB4GuOnasxhA3v9QFFztK3P6XgzlMWcegMOCDW/C2\nVY3AQkhKfQ+Jdum6fuLQQ1S1cGOGUv+uZ9Gk8NYv81rPO52iEU14amSkO839mvSB\npFKXXH+N4sVa7txtoeJlXEfjFjGWNkLsJO9s9Iwo1ZH9blG8nsjQ2/fiuepvEMO7\nr9NKhKBdC0Q3OweCNmBW2scLLRBrg7dbYDBWEnbyLNR3gVo/g7nFru/Xw3VOmchE\n3m19PwPRM9ZUey78USGpOVoJT7PDJhMNvY38BzDwrxdnAUTy3n+DDbeB6/uOz66F\nD+EgBo1rAgMBAAECggEAF6quDT0vZbI0ugIH3/5MIB9VGcWkzPF/b2ak30UgB+9d\nis89lRJlX8A/WQ6liJUxmSFOo/bL1Sa1L9A+lN7sRjHg5Hh0Inkc5/Fyuns/unk+\nuyGuqmDkEhkJFIR5l6grnxR+q3XhIXoGl8PvTyFtTmsl8zJ/AasI1nuXV4eIdl+D\ncRH0BocqyQTzEsdRTxi2kdsfY2/bYhxrK7/kvj1s67dD+SjPNwTzoMf5KzkwR2fZ\ncM76F1Tu65l01Ep61IR7dUcIC7Wo+8K5u7LEvC00mI/yEWRs27+gG6LMor3r40lH\n1PiXqD1dCVUsYND/+KnLSGPcz/dgDR9sf45z2bKSCQKBgQDHbU+uqxjPSh5XnBF1\nO/tWG/tMUcgiP5IH2mvoBs3Q8SHIASCdyIpFzUz65v9WdXmbJaXT7/UMEV0SeQ2h\nkc7ku/W7CxWaSmxQr4Uz3CnXoFfto2eRd64qMzuKWYOC6QsXGses5GhcgkaNnLbo\n1XF0/nV3mNLf3WXJmWp1CYN2XwKBgQDEX+sQ0osIsCnH1RG3ziCQw4eiymezFAD8\nkFC1M/RWjQJDKbyT/xpZkM94sDNlDw7cY5HWuQHDcDdx3CF7cx7nbOOqvowOCLRc\nOl0TyEVNk3FeCmunAeKFqCnjpSDirPsq2v0IvMyS99vbn2H/j3tVWfh+bnVxhvVA\n09ZrmrsMdQKBgQC+EeMF+LBWsK+mlGrXL2nmshiarr9uVORbc8OwivuSjp/BvcFW\nYJHY4UjjQVJPFvvl8MXR7zvAWrQ4LQPe39cuji4wLOpT+Waup/ruaIHAr2PebAUD\n0es+8UFoJNSA6pfVV4LDt5X3xXp08c4qr3PJK9TNPeyNzLd8oymhjoWrRQKBgHZY\neAnDWRb7U7KirfLfvrB/phZtdOFvhMixEHKjxPUENgDT/loSu4aOxvos9kxJLuOS\n/ikxheaKkl+EEombb1x5OxuDilRK2qdaZQ2u/FUsLn5GOWqEsEdseRJASflR1myV\nXTkOzxsjVNSe0Sh7CBEAD8niN9UbSGKxR9/BeEihAoGAZNyaHmv/knfTkZ6+lvsP\nGh8QBRr9YvBJmpEv8CNeUncPo9kmck9EpgnaQVTRFKdkUnXmXYsQ/z5o1rvyv2RS\nxlGVNQJ5KNCL/34QsnZRoWNeztYe8PpT422Fsaj+xCya6zDYxtzLFHxLHk7tDggW\nd+JAh+Egd1sUNfgwUQPD6Sg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fundifoundation-registrstion-f@fundi-registration-list.iam.gserviceaccount.com",
+  "client_id": "102217136749486190530",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fundifoundation-registrstion-f%40fundi-registration-list.iam.gserviceaccount.com"
+}
