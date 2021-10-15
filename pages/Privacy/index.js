@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import PageTitleAbout from '../../components/pagetitleabout'
-import PrivacySection from 'PrivacySection'
+import PrivacySection from '../../components/privacy'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 import { AnimatePresence, motion } from "framer-motion";
 import VideoPlayer5 from '../../components/VideoPlayer5';
 
-const AboutPage =() => {
+const PrivacyPage =() => {
     return(
 
         <Fragment>
@@ -32,4 +32,4 @@ const AboutPage =() => {
         </Fragment>
     )
 };
-export default AboutPage;
+export default PrivacyPage;

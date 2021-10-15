@@ -74,9 +74,11 @@ const Footer = (props) => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a title="View Privacy Policy" href="https://fundi-foundation-dev-chi.vercel.app/Fundi_Foundation_Privacy_Policy.pdf" download>
+                                        <Link onClick={ClickHandler} href="/PrivacyPage">
+                                        <a title="View Privacy Policy" >
                                             Privacy Policy
                                         </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
