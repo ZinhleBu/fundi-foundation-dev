@@ -16,16 +16,16 @@ function Registration() {
         student_number: "",
         fee_amount: "",
         year: "",
-        qualify_1: "",
-        qualify_2: "",
-        choice_1: "",
-        choice_2: "",
+        postgraduate: "",
+        undergraduate: "",
+        yes: "",
+        no: "",
         note: ""
 
 
     });
 
-    const { first_name, surname, email, contact_number, id_number, nationality, qualification, institution, student_number, fee_amount, year, qualify_1, qualify_2, choice_1, choice_2, note } = data;
+    const { first_name, surname, email, contact_number, id_number, nationality, qualification, institution, student_number, fee_amount, year, postgraduate, undergraduate, yes, no, note } = data;
 
     const handleChange = e => {
         setData({ ...data, [e.target.name]: e.target.value })
@@ -44,12 +44,12 @@ function Registration() {
                 },
 
                 body: JSON.stringify([
-                    [first_name, surname, email, contact_number, id_number, nationality, qualification, institution, student_number, fee_amount, year, qualify_1, qualify_2, choice_1, choice_2, note, new Date().toLocaleString()],
+                    [first_name, surname, email, contact_number, id_number, nationality, qualification, institution, student_number, fee_amount, year, postgraduate, undergraduate, yes, no, note, new Date().toLocaleString()],
                 ]),
             }
             );
             await response.json()
-            setData({ ...data, first_name: "", surname: "", email: "", contact_number: "", id_number: "", nationality: "", qualification: "", institution: "", student_number: "", fee_amount: "", year: "", qualify_1: "", qualify_2: "", choice_1: "", choice_2: "", note: ""})
+            setData({ ...data, first_name: "", surname: "", email: "", contact_number: "", id_number: "", nationality: "", qualification: "", institution: "", student_number: "", fee_amount: "", year: "", postgraduate: "yes", undergraduate: "yes", yes: "yes", no: "no", note: "" })
         } catch (successfull) {
             alert("successfull")
         }
@@ -140,7 +140,6 @@ function Registration() {
                                                         }}
                                                         className="col-lg-12 col-md-12 col-sm-6 col-12 form-group">
 
-
                                                         <label
                                                             style={{
                                                                 width: "100px"
@@ -150,13 +149,12 @@ function Registration() {
                                                         </label>
 
                                                         <input
-
                                                             style={{
                                                                 height: "20px",
-                                                                width: "20px",
+                                                                width: "100px",
                                                                 margin: "20px"
                                                             }}
-                                                            type="radio" name="qualify_1" value="Postgraduate" id="choice-yes" value={qualify_1} onChange={handleChange}
+                                                            type="checkbox" name="postgraduate" id="choice" value={postgraduate} onChange={handleChange}
                                                         />
                                                         <label
                                                             style={{
@@ -164,13 +162,12 @@ function Registration() {
                                                             }}
                                                             htmlFor="qualify-under">Undergraduate</label>
                                                         <input
-
                                                             style={{
                                                                 height: "20px",
-                                                                width: "20px",
+                                                                width: "100px",
                                                                 margin: "20px"
                                                             }}
-                                                            type="radio" name="qualify_2" value="Undergraduate" id="choice-no" value={qualify_2} onChange={handleChange}
+                                                            type="checkbox" name="undergraduate" id="choice" value={undergraduate} onChange={handleChange}
                                                         />
 
 
@@ -205,7 +202,7 @@ function Registration() {
                                                             style={{
                                                                 width: "100px"
                                                             }}
-                                                            htmlFor="choice-yes">Yes
+                                                            htmlFor="choice-1">Yes
 
                                                         </label>
                                                         <input
@@ -214,14 +211,14 @@ function Registration() {
                                                                 width: "20px",
                                                                 margin: "20px"
                                                             }}
-                                                            type="radio" name="choice_1" value="Yes" id="choice-yes" value={choice_1} onChange={handleChange}
+                                                            type="radio" name="choice" value={yes} onChange={handleChange}
                                                         />
 
                                                         <label
                                                             style={{
                                                                 width: "100px"
                                                             }}
-                                                            htmlFor="choice-no">No
+                                                            htmlFor="choice-1">No
 
                                                         </label>
                                                         <input
@@ -230,7 +227,7 @@ function Registration() {
                                                                 width: "20px",
                                                                 margin: "20px"
                                                             }}
-                                                            type="radio" name="choice_2" value="No" id="choice-no" value={choice_2} onChange={handleChange}
+                                                            type="radio" name="choice" value={no} onChange={handleChange}
                                                         />
 
 

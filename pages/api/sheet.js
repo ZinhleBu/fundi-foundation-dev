@@ -23,7 +23,7 @@ const response = await sheets.spreadsheets.values.append({
 	range: 'Sheet1!A1:P1',
 	valueInputOption: 'USER_ENTERED',
 	requestBody: {
-		values: [[first_nam, surname, email, contact_number, id_number, nationality, qualification, institution, student_number, fee_amount, year, qualify_1, qualify_2, choice_1, choice_2, note]],
+		values: [[first_name, surname, email, contact_number, id_number, nationality, qualification, institution, student_number, fee_amount, year, qualify_1, qualify_2, choice_1, choice_2, note]],
 	},
 });
 

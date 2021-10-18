@@ -1,21 +1,11 @@
 import React, { useState } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
-import classnames from 'classnames';
+
 import SidebarWrap from '../SidebarWrap'
 
 
 const Article5 = (props) => {
 
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
-
-    const [activeTab, setActiveTab] = useState('1');
-
-    const toggle = tab => {
-        if (activeTab !== tab) setActiveTab(tab);
-    }
-
+  
     return (
         <div className="wpo-event-details-area section-padding">
             <div className="container">

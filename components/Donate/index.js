@@ -1,8 +1,10 @@
+import React, { useState } from 'react'
 import ContactForm from '../../components/ContactForm'
 
 
 const Donate = (props) => {
 
+   
     return (
         <> <div className="wpo-donation-page-area section-padding">
             <div className="container">
@@ -27,9 +29,9 @@ const Donate = (props) => {
 
                                                 <div className="contact-form">
                                                     <h2>Donation Details</h2>
-                                                    {/* 
 
-                                                    <form name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post">
+
+                                                    <form name="PayFastPayNowForm" onSubmit={handleSubmit}>
                                                         <input required type="hidden" name="cmd" value="_paynow" />
                                                         <input required type="hidden" name="receiver" pattern="[0-9]" value="16564521" />
                                                         <input type="hidden" name="return_url" value="https://fundi-foundation-dev-chi.vercel.app" />
@@ -43,8 +45,8 @@ const Donate = (props) => {
                                                         <input type="hidden" name="signature" value="" />
                                                         <table>
                                                             <input id="PayFastName" type="text" name="name_first" placeholder="Name" valueAsString="" />
-                                                            <input id="PayFastLast"type="text" name="name_last" placeholder="Surname" valueAsString="" />
-                                                            <input id="PayFastEmail"type="text" name="email_address" placeholder="Email" valueAsString="" />
+                                                            <input id="PayFastLast" type="text" name="name_last" placeholder="Surname" valueAsString="" />
+                                                            <input id="PayFastEmail" type="text" name="email_address" placeholder="Email" valueAsString="" />
                                                             <label id="PayFastAmountLabel" htmlFor="PayFastAmount">Amount: </label>
                                                             <input id="PayFastAmount" type="number" step=".01" name="amount" min="0.00" placeholder="R0.00" valueAsNumber="" />
                                                         </table>
@@ -52,21 +54,20 @@ const Donate = (props) => {
                                                             <td colSpan="2" align="center" />
                                                             <input type="image" src="https://www.payfast.co.za/images/buttons/DonateNow/Red-Large-Square-DonateNow.png" alt="Donate Now" title="Donate Now with PayFast" />
                                                         </table>
-                                                    </form> */}
+                                                    </form>
 
 
-
+                                                    {/* 
                                                     <div className="col-md-12">
 
-                                                        {/* Having an issue genrating a HashCheck, please advise on this. */}
 
                                                         <form
-                                                            method="POST"
-                                                            action="https://pay.ozow.com/"
+                                                        onSubmit={handleSubmit}
+                                                        method="post"
                                                             id="ipayForm"
                                                         >
 
-                                                            <input type="hidden" name="SiteCode" value="FUN-FUN-015" />
+                                                            <input type="hidden" name="SiteCode" value="TSTSTE0001" />
                                                             <input type="hidden" name="CountryCode" value="ZA" />
                                                             <input type="hidden" name="CurrencyCode" value="ZAR" />
                                                             <input type="hidden" name="Amount" value="" />
@@ -79,14 +80,14 @@ const Donate = (props) => {
 
 
                                                             <p className="ipay-name">
-                                                                <input type="text" name="Customer" placeholder="Full Name" className="fields" required="" aria-required="true" />
+                                                                <input type="text" name="Customer" onChange={handleChange} placeholder="Full Name" className="fields" required="" aria-required="true" />
                                                             </p>
                                                             <p className="ipay-email">
-                                                                <input type="text" name="Optional2" placeholder="Email" className="fields" required="" aria-required="true" />
+                                                                <input type="text" name="Optional2" onChange={handleChange} placeholder="Email" className="fields" required="" aria-required="true" />
                                                             </p>
 
                                                             <p className="ipay-amount">
-                                                                <input type="number" name="Amount" placeholder="Enter Custom Amount" className="fields" required="" aria-required="true" />
+                                                                <input type="number" name="Amount" onChange={handleChange} placeholder="Enter Custom Amount" className="fields" required="" aria-required="true" />
                                                             </p>
 
                                                             <button
@@ -128,7 +129,7 @@ const Donate = (props) => {
                                                         </form>
 
                                                     </div>
-
+ */}
 
 
                                                 </div>
