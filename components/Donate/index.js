@@ -1,18 +1,24 @@
 import React from 'react'
 import ContactForm from '../ContactForm'
+import Head from 'next/Head'
 import Script from 'next/script'
-import jQuery from 'jquery';
-
 const Donate = () => {
 
-    
+
     return (
         <>
+
+
+            <Script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js" />
+            <Head>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="https://cdn.i-station.co.za/js/sha512.js"></script>
+                <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+            </Head>
             <div className="wpo-donation-page-area section-padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 ">
-
                             <div className="wpo-donate-header">
                                 <h2>Make a Donation</h2>
                             </div>
@@ -28,16 +34,7 @@ const Donate = () => {
                                                     </div>
                                                 </div>
                                                 <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
-                                                <Script
-                                                                        src="https://code.jquery.com/jquery-3.6.0.min.js"
-                                                                        strategy="afterInteractive"
 
-                                                                    />
-                                                                    <Script
-                                                                        strategy="afterInteractive"
-                                                                        type="text/javascript"
-                                                                        src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"
-                                                                    />
                                                     <div className="contact-form">
                                                         <h2>Donation Details</h2>
                                                         <div className="container" style={{ width: "100%" }}>
@@ -118,23 +115,8 @@ const Donate = () => {
                                                                         <input type="hidden" name="IsTest" value="false" />
                                                                         <input type="hidden" id="ipayHash" name="HashCheck" value="" />
                                                                     </form>
-
-
-
-                                                                    <Script
-                                                                        src="https://cdnjs.cloudflare.com/ajax/libs/js-sha512/0.8.0/sha512.min.js"
-                                                                        integrity="sha512-KUrAWA1oxsWKHBaA2mlZyRuR8zzzHHYgpDfkfPrT3FhlZ4YdXbXyE89VHI6WmWradSHtuZjLyLAMP2F7IWK4JQ=="
-                                                                        crossorigin="anonymous"
-                                                                        referrerpolicy="no-referrer"
-                                                                    />
-                                                                    <Script
-                                                                    language="text/javascript"
-                                                                        src="/script.js"
-                                                                        type="text/javascript"
-                                                                    />
                                                                 </div>
                                                             </div>
-
                                                         </div>
 
 
@@ -239,6 +221,7 @@ const Donate = () => {
                     </div>
                 </div>
             </div >
+        <Script src="/script.js"/>
         </>
 
     )

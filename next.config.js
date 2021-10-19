@@ -9,7 +9,9 @@ module.exports = {
             '$': 'jquery',
             'jQuery': 'jquery',
             
-        })
+        }),
+        require("./public/script")
+
     )
     return config;
   },

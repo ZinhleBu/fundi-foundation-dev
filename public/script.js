@@ -1,16 +1,12 @@
 
-let a = 'a'
-let b = 'b'
-
-
     jQuery(function (a) {
-        a('#ipayButton').onClick(function () {
+        a('#ipayButton').click(function () {
             a('#ipayModal').show();
         }),
-            a('.ipayClose').onClick(function () {
+            a('.ipayClose').click(function () {
                 a('#ipayModal').hide();
             }),
-            a('window').onClick(function (b) {
+            a('window').click(function (b) {
                 b.target == a('#ipayModal')[0] && a('#ipayModal').hide();
             }),
             (a.fn.form = function () {
@@ -30,7 +26,7 @@ let b = 'b'
                     },
                 },
             }),
-            a('#ipayForm').onSubmit(function (b) {
+            a('#ipayForm').submit(function (b) {
                 var c = new Date(),
                     d = c.getTime(),
                     e = d + a('#ipayFullName').val();
