@@ -1,6 +1,6 @@
-import $ from 'jquery';
-function script() {
 
+let a = 'a'
+let b = 'b'
     jQuery(function (a) {
         a('#ipayButton').click(function () {
             a('#ipayModal').show();
@@ -58,5 +58,4 @@ function script() {
             });
     });
 
-}
-export default script;
+

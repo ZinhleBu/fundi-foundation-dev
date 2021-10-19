@@ -1,33 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import ContactForm from '../ContactForm'
-import Head from 'next/Head'
 import Script from 'next/script'
-import $ from 'jquery'
+import jQuery from 'jquery';
 
-const Donate = (props) => {
+const Donate = () => {
+
     
     return (
         <>
-
-            <Head>
-                <Script
-                    src="https://code.jquery.com/jquery-3.6.0.min.js"
-                    strategy="afterInteractive"
-                    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-                    crossorigin="anonymous"
-                />
-                <Script 
-                                    strategy="afterInteractive"
-
-                src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-                <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-               
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha512/0.8.0/sha512.min.js" integrity="sha512-KUrAWA1oxsWKHBaA2mlZyRuR8zzzHHYgpDfkfPrT3FhlZ4YdXbXyE89VHI6WmWradSHtuZjLyLAMP2F7IWK4JQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-                
-                
-            </Head>
-
             <div className="wpo-donation-page-area section-padding">
                 <div className="container">
                     <div className="row">
@@ -48,13 +28,23 @@ const Donate = (props) => {
                                                     </div>
                                                 </div>
                                                 <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
+                                                <Script
+                                                                        src="https://code.jquery.com/jquery-3.6.0.min.js"
+                                                                        strategy="afterInteractive"
 
+                                                                    />
+                                                                    <Script
+                                                                        strategy="afterInteractive"
+                                                                        type="text/javascript"
+                                                                        src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"
+                                                                    />
                                                     <div className="contact-form">
                                                         <h2>Donation Details</h2>
                                                         <div className="container" style={{ width: "100%" }}>
                                                             <div className="row">
                                                                 <div className="col-md-12">
-                                                                    <form method="post" action="https://pay.ozow.com/" id="ipayForm">
+                                                                    <form
+                                                                        method="post" action="https://pay.ozow.com/" id="ipayForm">
                                                                         <p className="ipay-name">
                                                                             <input
                                                                                 type="text"
@@ -128,6 +118,20 @@ const Donate = (props) => {
                                                                         <input type="hidden" name="IsTest" value="false" />
                                                                         <input type="hidden" id="ipayHash" name="HashCheck" value="" />
                                                                     </form>
+
+
+
+                                                                    <Script
+                                                                        src="https://cdnjs.cloudflare.com/ajax/libs/js-sha512/0.8.0/sha512.min.js"
+                                                                        integrity="sha512-KUrAWA1oxsWKHBaA2mlZyRuR8zzzHHYgpDfkfPrT3FhlZ4YdXbXyE89VHI6WmWradSHtuZjLyLAMP2F7IWK4JQ=="
+                                                                        crossorigin="anonymous"
+                                                                        referrerpolicy="no-referrer"
+                                                                    />
+                                                                    <Script
+                                                                    language="text/javascript"
+                                                                        src="/script.js"
+                                                                        type="text/javascript"
+                                                                    />
                                                                 </div>
                                                             </div>
 
