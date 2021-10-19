@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactForm from '../ContactForm'
-import Head from 'next/Head'
+import Head from 'next/head'
 import Script from 'next/script'
 const Donate = () => {
 
