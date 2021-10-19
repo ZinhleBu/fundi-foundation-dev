@@ -1,6 +1,9 @@
 
 let a = 'a'
 let b = 'b'
+let jQuery = 'jQuery'
+{
+
     jQuery(function (a) {
         a('#ipayButton').click(function () {
             a('#ipayModal').show();
@@ -57,5 +60,5 @@ let b = 'b'
                 a('#ipayHash').val(h);
             });
     });
-
+}
 
