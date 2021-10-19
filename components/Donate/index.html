@@ -1,0 +1,193 @@
+<!-- @format -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+<div class="container" style="width: 100%">
+    <div class="row">
+        <div class="col-md-12">
+            <button id="ipayButton" type="button" style="
+					width: 510px;
+					padding: 10px 16px;
+					font-size: 20px;
+					line-height: 1.33;
+					border-radius: 6px;
+					color: rgb(68, 175, 133);
+					background-color: rgb(255, 255, 255);
+					border-color: rgb(68, 175, 133);
+					display: inline-block;
+					margin-bottom: 20px;
+					font-weight: 800;
+					text-align: center;
+					white-space: nowrap;
+					vertical-align: middle;
+					cursor: pointer;
+					user-select: none;
+					box-shadow: rgb(136, 136, 136) 3px 3px 20px;
+				" onmouseover="this.style.backgroundColor='#EEE'" onmouseout="this.style.backgroundColor='#FFFFFF'">
+				<div style="float: left; padding-top: 22px">Click Here<br />to pay with</div>
+				<img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png" />
+			</button>
+
+            <div id="ipayModal" class="modal" style="
+					display: none;
+					position: fixed;
+					z-index: 1;
+					left: 0;
+					top: 0;
+					width: 100%;
+					height: 100%;
+					overflow: auto;
+					background-color: rgb(0, 0, 0);
+					background-color: rgba(0, 0, 0, 0.4);
+				">
+                <div style="
+						background-color: #fefefe;
+						margin: 15% auto;
+						padding: 20px;
+						border: 1px solid #888;
+						width: 80%;
+						border-radius: 9px;
+					">
+                    <span class="ipayClose" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer">×</span
+					>
+					<form method="post" action="https://pay.ozow.com/" id="ipayForm">
+						<p class="ipay-name">
+							<input
+								type="text"
+								id="ipayFullName"
+								name="Optional1"
+								placeholder="Full Name"
+								class="fields"
+								required
+							/>
+						</p>
+						<p class="ipay-email">
+							<input type="email" name="Customer" placeholder="Email" class="fields" required />
+						</p>
+						<p class="ipay-contact">
+							<input type="text" name="Optional2" placeholder="Contact Number" class="fields" required />
+						</p>
+						<p class="ipay-amount">
+							<input
+								type="text"
+								id="ipayAmount"
+								name="Amount"
+								placeholder="Enter Custom Amount"
+								class="fields"
+								required
+							/>
+						</p>
+
+						<button
+							id="ipayButton"
+							type="submit"
+							style="
+								width: 510px;
+								padding: 10px 16px;
+								font-size: 20px;
+								line-height: 1.33;
+								border-radius: 6px;
+								color: rgb(68, 175, 133);
+								background-color: rgb(255, 255, 255);
+								border-color: rgb(68, 175, 133);
+								display: inline-block;
+								margin-bottom: 20px;
+								font-weight: 800;
+								text-align: center;
+								white-space: nowrap;
+								vertical-align: middle;
+								cursor: pointer;
+								user-select: none;
+								box-shadow: rgb(136, 136, 136) 3px 3px 5px;
+							"
+							onmouseover="this.style.backgroundColor='#EEE'"
+							onmouseout="this.style.backgroundColor='#FFFFFF'"
+						>
+							<p style="font-size: 12px">Click Here To Donate Now</p>
+							<br />
+							<img
+								src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png"
+								style="margin: 5px 0 -5px 20px"
+							/>
+						</button>
+
+						<input type="hidden" name="SiteCode" value="FUN-FUN-015" />
+						<input type="hidden" name="CountryCode" value="ZA" />
+						<input type="hidden" name="CurrencyCode" value="ZAR" />
+						<input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="" />
+						<input type="hidden" id="ipayBankRef" name="BankReference" value="" />
+						<input type="hidden" name="Optional5" value="Buy Now" />
+						<input type="hidden" name="CancelUrl" value="https://ozow.com/demo-cancelled/" />
+						<input type="hidden" name="ErrorUrl" value="https://ozow.com/demo-cancelled/" />
+						<input type="hidden" name="SuccessUrl" value="https://fundifund12for12.co.za" />
+						<input type="hidden" name="IsTest" value="false" />
+						<input type="hidden" id="ipayHash" name="HashCheck" value="" />
+					</form>
+				</div>
+			</div>
+			<script src="https://cdn.i-station.co.za/js/sha512.js"></script>
+			<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+			<script>
+				jQuery(function (a) {
+					a('#ipayButton').click(function () {
+						a('#ipayModal').show();
+					}),
+						a('.ipayClose').click(function () {
+							a('#ipayModal').hide();
+						}),
+						a('window').click(function (b) {
+							b.target == a('#ipayModal')[0] && a('#ipayModal').hide();
+						}),
+						(a.fn.form = function () {
+							var b = [];
+							return (
+								a(a(this).serializeArray()).each(function (a, c) {
+									b[c.name] = c.value;
+								}),
+								b
+							);
+						}),
+						a('#ipayForm').validate({
+							rules: {
+								Amount: {
+									required: !0,
+									number: !0,
+								},
+							},
+						}),
+						a('#ipayForm').submit(function (b) {
+							var c = new Date(),
+								d = c.getTime(),
+								e = d + a('#ipayFullName').val();
+							(e = e.replace(/[^a-zA-Z0-9]/g, '')),
+								a('#ipayAmount').val(parseFloat(a('#ipayAmount').val()).toFixed(2)),
+								a('#ipayTransactionRef').val(e.substr(0, 50)),
+								a('#ipayBankRef').val(e.substr(0, 20));
+							var f = a(this).form(),
+								g =
+									f.SiteCode +
+									f.CountryCode +
+									f.CurrencyCode +
+									f.Amount +
+									f.TransactionReference +
+									f.BankReference +
+									f.Optional1 +
+									f.Optional2 +
+									f.Optional5 +
+									f.Customer +
+									f.CancelUrl +
+									f.ErrorUrl +
+									f.SuccessUrl +
+									f.IsTest +
+									'c0N8gSerCZBXsJAhVD5Ikk1wMI5gQS7Y',
+								h = sha512(g.toLowerCase());
+							a('#ipayHash').val(h);
+						});
+				});
+			</script>
+		</div>
+	</div>
+</div>
+<!---end of container--->

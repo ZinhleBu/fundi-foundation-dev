@@ -1,36 +1,144 @@
-import React, { useState } from 'react'
-import ContactForm from '../../components/ContactForm'
-
+import React, { useState, useEffect } from 'react'
+import ContactForm from '../ContactForm'
+import Head from 'next/Head'
+import Script from 'next/script'
+import $ from 'jquery'
 
 const Donate = (props) => {
-
-   
+    
     return (
-        <> <div className="wpo-donation-page-area section-padding">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12 ">
+        <>
 
-                        <div className="wpo-donate-header">
-                            <h2>Make a Donation</h2>
-                        </div>
-                        <section className="wpo-contact-form-map section-padding">
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-12">
-                                        <div className="row">
-                                            <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
-                                                <div className="contact-form">
-                                                    <h2>Get In Touch</h2>
-                                                    <ContactForm />
+            <Head>
+                <Script
+                    src="https://code.jquery.com/jquery-3.6.0.min.js"
+                    strategy="afterInteractive"
+                    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                    crossorigin="anonymous"
+                />
+                <Script 
+                                    strategy="afterInteractive"
+
+                src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+                <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+               
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha512/0.8.0/sha512.min.js" integrity="sha512-KUrAWA1oxsWKHBaA2mlZyRuR8zzzHHYgpDfkfPrT3FhlZ4YdXbXyE89VHI6WmWradSHtuZjLyLAMP2F7IWK4JQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                
+                
+            </Head>
+
+            <div className="wpo-donation-page-area section-padding">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12 ">
+
+                            <div className="wpo-donate-header">
+                                <h2>Make a Donation</h2>
+                            </div>
+                            <section className="wpo-contact-form-map section-padding">
+                                <div className="container">
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <div className="row">
+                                                <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
+                                                    <div className="contact-form">
+                                                        <h2>Get In Touch</h2>
+                                                        <ContactForm />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
+                                                <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
 
-                                                <div className="contact-form">
-                                                    <h2>Donation Details</h2>
+                                                    <div className="contact-form">
+                                                        <h2>Donation Details</h2>
+                                                        <div className="container" style={{ width: "100%" }}>
+                                                            <div className="row">
+                                                                <div className="col-md-12">
+                                                                    <form method="post" action="https://pay.ozow.com/" id="ipayForm">
+                                                                        <p className="ipay-name">
+                                                                            <input
+                                                                                type="text"
+                                                                                id="ipayFullName"
+                                                                                name="Optional1"
+                                                                                placeholder="Full Name"
+                                                                                className="fields"
+                                                                                required
+                                                                            />
+                                                                        </p>
+                                                                        <p className="ipay-email">
+                                                                            <input type="email" name="Customer" placeholder="Email" className="fields" required />
+                                                                        </p>
+                                                                        <p className="ipay-contact">
+                                                                            <input type="text" name="Optional2" placeholder="Contact Number" className="fields" required />
+                                                                        </p>
+                                                                        <p className="ipay-amount">
+                                                                            <input
+                                                                                type="text"
+                                                                                id="ipayAmount"
+                                                                                name="Amount"
+                                                                                placeholder="Enter Custom Amount"
+                                                                                className="fields"
+                                                                                required
+                                                                            />
+                                                                        </p>
+
+                                                                        <button
+                                                                            id="ipayButton"
+                                                                            type="submit"
+                                                                            style=
+                                                                            {{
+                                                                                height: "50%",
+                                                                                width: "100%",
+                                                                                padding: "10px 16px",
+                                                                                fontSize: "20px",
+                                                                                lineHeight: "1.33",
+                                                                                borderRadius: "6px",
+                                                                                color: "rgb(68, 175, 133)",
+                                                                                backgroundColor: " rgb(255, 255, 255)",
+                                                                                borderColor: "rgb(68, 175, 133)",
+                                                                                display: "inlineBlock",
+                                                                                marginBottom: "20px",
+                                                                                fontWeight: "800",
+                                                                                textAlign: "center",
+                                                                                whiteSpace: " nowrap",
+                                                                                verticalAlign: "middle",
+                                                                                cursor: "pointer",
+                                                                                userSelect: "none",
+                                                                                boxShadow: "rgb(136, 136, 136) 3px 3px 5px",
+                                                                            }}
+
+                                                                        >
+                                                                            <p style={{ fontSize: "12px" }}>Click Here To Donate Now</p>
+                                                                            <br />
+                                                                            <img
+                                                                                src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png"
+                                                                                style={{ margin: "5px 0 -5px 20px" }}
+                                                                            />
+                                                                        </button>
+
+                                                                        <input type="hidden" name="SiteCode" value="FUN-FUN-015" />
+                                                                        <input type="hidden" name="CountryCode" value="ZA" />
+                                                                        <input type="hidden" name="CurrencyCode" value="ZAR" />
+                                                                        <input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="" />
+                                                                        <input type="hidden" id="ipayBankRef" name="BankReference" value="" />
+                                                                        <input type="hidden" name="Optional5" value="Buy Now" />
+                                                                        <input type="hidden" name="CancelUrl" value="https://ozow.com/demo-cancelled/" />
+                                                                        <input type="hidden" name="ErrorUrl" value="https://ozow.com/demo-cancelled/" />
+                                                                        <input type="hidden" name="SuccessUrl" value="https://fundifund12for12.co.za" />
+                                                                        <input type="hidden" name="IsTest" value="false" />
+                                                                        <input type="hidden" id="ipayHash" name="HashCheck" value="" />
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
 
 
+
+
+
+
+                                                        {/* 
                                                     <form name="PayFastPayNowForm" onSubmit={handleSubmit}>
                                                         <input required type="hidden" name="cmd" value="_paynow" />
                                                         <input required type="hidden" name="receiver" pattern="[0-9]" value="16564521" />
@@ -54,19 +162,14 @@ const Donate = (props) => {
                                                             <td colSpan="2" align="center" />
                                                             <input type="image" src="https://www.payfast.co.za/images/buttons/DonateNow/Red-Large-Square-DonateNow.png" alt="Donate Now" title="Donate Now with PayFast" />
                                                         </table>
-                                                    </form>
+                                                    </form> */}
 
-
-                                                    {/* 
-                                                    <div className="col-md-12">
-
-
+                                                        {/* <div className="col-md-12">
                                                         <form
-                                                        onSubmit={handleSubmit}
+                                                        action="https://pay.ozow.com/"
                                                         method="post"
                                                             id="ipayForm"
                                                         >
-
                                                             <input type="hidden" name="SiteCode" value="TSTSTE0001" />
                                                             <input type="hidden" name="CountryCode" value="ZA" />
                                                             <input type="hidden" name="CurrencyCode" value="ZAR" />
@@ -77,17 +180,15 @@ const Donate = (props) => {
                                                             <input type="hidden" name="Customer" value="" />
                                                             <input type="hidden" name="IsTest" value="false" />
                                                             <input type="hidden" name="HashCheck" value="" />
-
-
                                                             <p className="ipay-name">
-                                                                <input type="text" name="Customer" onChange={handleChange} placeholder="Full Name" className="fields" required="" aria-required="true" />
+                                                                <input type="text" name="Customer" placeholder="Full Name" className="fields" required="" aria-required="true" />
                                                             </p>
                                                             <p className="ipay-email">
-                                                                <input type="text" name="Optional2" onChange={handleChange} placeholder="Email" className="fields" required="" aria-required="true" />
+                                                                <input type="text" name="Optional2" placeholder="Email" className="fields" required="" aria-required="true" />
                                                             </p>
 
                                                             <p className="ipay-amount">
-                                                                <input type="number" name="Amount" onChange={handleChange} placeholder="Enter Custom Amount" className="fields" required="" aria-required="true" />
+                                                                <input type="text" name="Amount" placeholder="Enter Custom Amount" className="fields" required="" aria-required="true" />
                                                             </p>
 
                                                             <button
@@ -113,38 +214,31 @@ const Donate = (props) => {
                                                                     userSelect: "none",
                                                                     boxShadow: "rgb(136, 136, 136) 3px 3px 5px"
                                                                 }}>
-
                                                                 <p style={{ fontSize: "12px" }}>
                                                                     Click Here To Donate Now
                                                                 </p>
                                                                 <br></br>
-
                                                                 <img src="https://cdn.i-station.co.za/img/ozow-payment-logo-c.png"
                                                                     style={{ margin: "5px 0 -5px 20px" }}
                                                                 />
-
                                                             </button>
-
-
                                                         </form>
-
+                                                    </div> */}
                                                     </div>
- */}
-
-
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div >
         </>
+
     )
+
 }
 
 export default Donate;

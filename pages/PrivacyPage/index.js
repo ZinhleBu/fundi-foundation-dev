@@ -1,11 +1,11 @@
 import React, {Fragment} from 'react';
-import PrivacySection from "../../components/privacy 17-06-37-884";
+import PrivacySection from "../../components/privacy";
 import Head from 'next/head'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 
-const Privacy = (props) => {
+const PrivacyPage = (props) => {
 
     return (
         <Fragment>
@@ -21,7 +21,7 @@ const Privacy = (props) => {
     );
 }
 
-export default Privacy;
+export default PrivacyPage;
 
 
 

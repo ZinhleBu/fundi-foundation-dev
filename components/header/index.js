@@ -55,7 +55,6 @@ const Header = () => {
                                             <li><Link href="/CaseSinglePageRebuild" title="">Unite4Schools</Link></li>
                                             <li><Link href="/CaseSinglePageLeaders" title="">Leaders4Learners</Link></li>
                                             <li><Link href="/CaseSinglePageFundiCsi" title="">Fundi CSI</Link></li>
-                                            <li><Link href="/PrivacyPage" title="">Privacy Policy</Link></li>
 
                                         </ul>
                                     </motion.li>
