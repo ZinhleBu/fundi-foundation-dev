@@ -1,6 +1,6 @@
 import React from 'react';
 import Gallery5 from '../../components/Gallery5';
-import Link from 'next/Link'
+import Link from 'next/link'
 
 const CaseSingleFundiCsi = (props) => {
 

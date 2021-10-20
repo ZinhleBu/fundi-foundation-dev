@@ -2,7 +2,7 @@ import React from 'react';
 import Gallery4 from '../Gallery4';
 import VideoPlayer from '../VideoPlayer';
 import VideoPlayer4 from '../VideoPlayer4';
-import Link from 'next/Link'
+import Link from 'next/link'
 
 const CaseSingleLeaders = (props) => {
 

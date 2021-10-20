@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/Link'
+import Link from 'next/link'
 import VideoPlayer2 from '../VideoPlayer2';
 import Gallery3 from '../Gallery3';
 
