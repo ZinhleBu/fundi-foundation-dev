@@ -96,7 +96,7 @@ const Donate12412 = () => {
                                                                                 style={{ margin: "5px 0 -5px 20px" }}
                                                                             />
                                                                         </button>
-                                                                        <input type="hidden" name="SiteCode" value=" FUN-FUN-015" />
+                                                                        <input type="hidden" name="SiteCode" value="FUN-FUN-015" />
                                                                         <input type="hidden" name="CountryCode" value="ZA" />
                                                                         <input type="hidden" name="CurrencyCode" value="ZAR" />
                                                                         <input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="" />
