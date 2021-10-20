@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
-
+import React from 'react';
 import CounterSection from '../../components/counter'
 import AdvisorySection from '../advisoryboard'
-import Gallery from '../Gallery';
 import WorldSection from '../world';
 import List from '../beneficiaries';
+import Link from 'next/link'
 import Sponsors from '../sponsors';
 import Gallery1 from '../Gallery1';
 const CaseSingleR10 = (props) => {
-
-
 
     return (
         <div className="wpo-case-details-area section-padding">
@@ -48,8 +45,18 @@ const CaseSingleR10 = (props) => {
                                                     <p>
                                                         On 13 March Sibu Mabena, Ayanda Mhlongo ,Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. In 16 hours... YOU ALL HAVE TURNED THAT INTO R200 000
                                                     </p>
-                                                    <Gallery1/>
-
+                                                    <Gallery1 />
+                                                    <div
+                                                        style={{
+                                                            position: "relative",
+                                                            left: "40%",
+                                                            marginBottom: "30px"
+                                                        }}
+                                                        className="btns">
+                                                        <Link href="/DonatePageR10GoesALongWay">
+                                                            <a className="theme-btn">Donate Now</a>
+                                                        </Link>
+                                                    </div>
                                                     <div
                                                         className="col-12 col-md-8"
                                                         style={{
@@ -60,6 +67,7 @@ const CaseSingleR10 = (props) => {
                                                         <h1>List of Beneficiaries</h1>
                                                         <p>To view the list of all the beneficiaries of the #10GoesA LongWay campaign, clickon the button below:</p>
                                                         <List />
+                                                       
                                                     </div>
                                                     <CounterSection countclass={'wpo-counter-style-2'} />
                                                     <Sponsors />

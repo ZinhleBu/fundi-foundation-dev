@@ -1,20 +1,7 @@
-import React, { useState } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
-import classnames from 'classnames';
+import React from 'react';
 import SidebarWrap from '../SidebarWrap'
 
-
-const Article4 = (props) => {
-
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
-
-    const [activeTab, setActiveTab] = useState('1');
-
-    const toggle = tab => {
-        if (activeTab !== tab) setActiveTab(tab);
-    }
+const Article4 = () => {
 
     return (
         <div className="wpo-event-details-area section-padding">
@@ -27,7 +14,6 @@ const Article4 = (props) => {
                                 <div className="thumb-text">
                                     <span>4</span>
                                     <span>DEC</span>
-
                                 </div>
                             </div>
                             <div className="wpo-event-details-text">
@@ -41,8 +27,6 @@ const Article4 = (props) => {
                                 </p>
                                 <p>
                                 All the money raised in the build-up to the event, as well as in days that followed, are aimed to be donated to NGO Primestars.
-
-
                                 </p>
                                 <p>
                                 Mala Suriah (CMO of Fundi) presented Martin Sweet (MD of Primestars) and Nkosinathi Moshoana (GM of Primestars) with the money to support the matric class of 2020 as they pursue to write their exams.
@@ -54,13 +38,10 @@ const Article4 = (props) => {
                                 Thembisa Secondary School awakened the community with an air horn at 6am on the day of the race, signaling the start of the relay initiative.                                </p>
                                 <p>
                                 The event united team members across Fundi in donating their time or funds towards the cause.                                </p>
-                                
-                            </div>
-                            
+                            </div>  
                         </div>
                     </div>
                     <SidebarWrap />
-
                 </div>
             </div>
         </div>

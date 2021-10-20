@@ -5,7 +5,6 @@ import CaseSingleR10 from '../../components/CaseSingleR10'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
-import BlogSection from '../../components/BlogSection'
 
 const CaseSinglePageR10 =() => {
     return(
@@ -16,7 +15,6 @@ const CaseSinglePageR10 =() => {
             <Header/>
             <PageTitleR10 pageTitleR10={'#R10GoesALongWay'} pagesub={'Enabling the dreams of all South Africans'}/> 
             <CaseSingleR10/>
-           {/* <BlogSection/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>

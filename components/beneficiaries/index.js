@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link'
 
 // reactstrap components
 import { Button, Col, Modal, ModalBody, ModalFooter } from "reactstrap";
@@ -7,6 +8,7 @@ function List() {
     const [modalOpen, setModalOpen] = React.useState(false);
     return (
         <>
+
             <Button
                 style={{
                     width: "200px",
@@ -62,6 +64,7 @@ function List() {
 
                 </ModalFooter>
             </Modal>
+            
         </>
     );
 }

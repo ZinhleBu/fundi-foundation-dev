@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GalleryFund from '../Gallery-Fund';
+import Link from 'next/Link';
 import Gallery2 from '../Gallery2';
 import VideoPlayer1 from '../VideoPlayer1';
 
@@ -27,9 +27,20 @@ const CaseSingleFund = (props) => {
                                                     <p>After schools opened for Grade 12, many learners are still struggling to catch up with their matric curriculum.</p>
                                                     <p>Fundi, together with Primestars invites you to be a part of our fundraising initiative to help us get the Class of 2020 to the finish line by donating any amount you can to the FundiFund12for12 Challenge.</p>
                                                 </div>
-                                                <Gallery2/> 
-                                                <VideoPlayer1/>
-                                           </div>
+                                                <div
+                                                    style={{
+                                                        position: "relative",
+                                                        left: "40%",
+                                                        marginBottom: "30px"
+                                                    }}
+                                                    className="btns">
+                                                    <Link href="/DonatePage12412">
+                                                        <a className="theme-btn">Donate Now</a>
+                                                    </Link>
+                                                </div>
+                                                <Gallery2 />
+                                                <VideoPlayer1 />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

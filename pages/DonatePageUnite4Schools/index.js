@@ -1,23 +1,23 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
-import Casesection from '../../components/case2'
+import PageTitleRebuild from '../../components/pagetitlerebuild'
+import DonateUnite from '../../components/DonateUnite'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
-const CasePage =() => {
+const DonatePageUnite4Schools =() => {
     return(
         <Fragment>
              <Head>
-                <title>Causes</title>
+                <title>Donate</title>
             </Head>
             <Header/>
-            <PageTitle pageTitle={'Our Causes'} pagesub={'Causes'}/> 
-            <Casesection/>
+            <PageTitleRebuild pageTitle={'Donate Now'} pagesub={'Donate'}/> 
+            <DonateUnite/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
     )
 };
-export default CasePage;
+export default DonatePageUnite4Schools;

@@ -44,7 +44,7 @@ const Hero3 = (props) => {
                                      transition={{ delay: .4}}
                                      exit={{ opacity: 0, y: 10 }}
                                     >
-                                        <Link href="/DonatePage"><a className="theme-btn">Donate Now</a></Link>
+                                        <Link href="/CasePage"><a className="theme-btn">Donate Now</a></Link>
                                     </motion.div>
                                 </div>
                             </div>

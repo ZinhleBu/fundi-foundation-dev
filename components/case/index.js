@@ -2,9 +2,6 @@
 import React, { Component } from 'react'
 import Slider from "react-slick";
 import Link from 'next/link'
-import { InView } from "react-intersection-observer";
-import { motion } from "framer-motion";
-
 class CaseSlide extends Component {
 
     render() {
@@ -88,13 +85,13 @@ class CaseSlide extends Component {
                                                         <Link
                                                             onClick={ClickHandler}
                                                             href="/CaseSinglePageLeaders">
-                                                            <a href="/DonatePage">
+                                                            <a href="/CaseSinglePageLeaders">
                                                                 Learn More
                                                             </a>
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link onClick={ClickHandler} href="/DonatePage">
+                                                        <Link onClick={ClickHandler} href="/DonatePageLeaders4Learners">
                                                             <a>
                                                                 Donate Now
                                                             </a>
@@ -123,7 +120,7 @@ class CaseSlide extends Component {
                                                         <Link
                                                             onClick={ClickHandler}
                                                             href="/CaseSinglePageRebuild">
-                                                            <a href="/DonatePage">
+                                                            <a href="/CaseSinglePageRebuild">
                                                                 Learn More
                                                             </a>
                                                         </Link>
@@ -131,7 +128,7 @@ class CaseSlide extends Component {
                                                     <li>
                                                         <Link
                                                             onClick={ClickHandler}
-                                                            href="/DonatePage">
+                                                            href="/DonatePageUnite4Schools">
                                                             <a>
                                                                 Donate Now
                                                             </a>
@@ -156,12 +153,12 @@ class CaseSlide extends Component {
                                             <div className="case-btn">
                                                 <ul>
                                                     <li><Link onClick={ClickHandler} href="/CaseSinglePageFund">
-                                                        <a href="/DonatePage">
+                                                        <a href="/CaseSinglePageFund">
                                                             Learn More
                                                         </a>
                                                     </Link>
                                                     </li>
-                                                    <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/DonatePage12412"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -181,12 +178,12 @@ class CaseSlide extends Component {
                                             <div className="case-btn">
                                                 <ul>
                                                     <li><Link onClick={ClickHandler} href="/CaseSinglePageR10">
-                                                        <a href="/DonatePage">
+                                                        <a href="/CaseSinglePageR10">
                                                             Learn More
                                                         </a>
                                                     </Link>
                                                     </li>
-                                                    <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/DonatePageR10GoesALongWay"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -203,13 +200,13 @@ class CaseSlide extends Component {
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
-                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePageR10">
-                                                        <a href="/DonatePage">
+                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePageFundiCsi">
+                                                        <a href="/CaseSinglePageFundiCsi">
                                                             Learn More
                                                         </a>
                                                     </Link>
                                                     </li>
-                                                    <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/DonatePageR10GoesALongWay"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>

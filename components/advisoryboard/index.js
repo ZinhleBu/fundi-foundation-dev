@@ -1,5 +1,4 @@
 import Link from 'next/link'
-
 const AdvisorySection = (props) => {
     return (
         <div className="wpo-team-area section-padding">
@@ -21,8 +20,6 @@ const AdvisorySection = (props) => {
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
                                     <h5><Link href="/"><a>Sibu Mabena</a></Link> </h5>
-                                    {/* <span>CEO</span> */}
-
                                 </div>
                             </div>
                         </div>
@@ -35,8 +32,6 @@ const AdvisorySection = (props) => {
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
                                     <h5><Link href="/"><a>Lasizwe Dambuza </a></Link></h5>
-                                    {/* <span>Managing Executive Lending</span> */}
-
                                 </div>
                             </div>
                         </div>
@@ -49,8 +44,6 @@ const AdvisorySection = (props) => {
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
                                     <h5><Link href="/"><a>Ayanda Mhlongo </a></Link></h5>
-                                    {/* <span>CMO</span> */}
-
                                 </div>
                             </div>
                         </div>
@@ -63,8 +56,6 @@ const AdvisorySection = (props) => {
                             <div className="wpo-team-content">
                                 <div className="wpo-team-text-sub">
                                     <h5><Link href="/"><a>Nkateko Dinwiddy</a></Link></h5>
-                                    {/* <span>-</span> */}
-
                                 </div>
                             </div>
                         </div>

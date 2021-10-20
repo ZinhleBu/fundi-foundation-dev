@@ -2,7 +2,7 @@ import React from 'react'
 import ContactForm from '../ContactForm'
 import Head from 'next/head'
 import Script from 'next/script'
-const Donate = () => {
+const Donate12412 = () => {
     return (
         <>
             <Script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js" />
@@ -16,7 +16,7 @@ const Donate = () => {
                     <div className="row">
                         <div className="col-lg-12 ">
                             <div className="wpo-donate-header">
-                                <h2>Make a Donation</h2>
+                                <h2>Please Make a Donation to FundiFund 12412</h2>
                             </div>
                             <section className="wpo-contact-form-map section-padding">
                                 <div className="container">
@@ -96,7 +96,7 @@ const Donate = () => {
                                                                                 style={{ margin: "5px 0 -5px 20px" }}
                                                                             />
                                                                         </button>
-                                                                        <input type="hidden" name="SiteCode" value="FUN-FUN-016" />
+                                                                        <input type="hidden" name="SiteCode" value=" FUN-FUN-015" />
                                                                         <input type="hidden" name="CountryCode" value="ZA" />
                                                                         <input type="hidden" name="CurrencyCode" value="ZAR" />
                                                                         <input type="hidden" id="ipayTransactionRef" name="TransactionReference" value="" />
@@ -104,7 +104,7 @@ const Donate = () => {
                                                                         <input type="hidden" name="Optional5" value="Buy Now" />
                                                                         <input type="hidden" name="CancelUrl" value="https://ozow.com/demo-cancelled/" />
                                                                         <input type="hidden" name="ErrorUrl" value="https://ozow.com/demo-cancelled/" />
-                                                                        <input type="hidden" name="SuccessUrl" value="https://fundifund12for12.co.za" />
+                                                                        <input type="hidden" name="SuccessUrl" value="https://fundi-foundation-dev-chi.vercel.app" />
                                                                         <input type="hidden" name="IsTest" value="false" />
                                                                         <input type="hidden" id="ipayHash" name="HashCheck" value="" />
                                                                     </form>
@@ -124,9 +124,7 @@ const Donate = () => {
             </div >
             <Script src="/script.js" />
         </>
-
     )
-
 }
 
-export default Donate;
+export default Donate12412;

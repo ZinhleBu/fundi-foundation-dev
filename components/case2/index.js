@@ -2,7 +2,6 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
 import { AnimatePresence, motion } from "framer-motion";
-
 class Casesection extends Component {
     render() {
         const ClickHandler = () => {
@@ -50,7 +49,7 @@ class Casesection extends Component {
                                             <div className="case-btn">
                                                 <ul>
                                                     <li><Link onClick={ClickHandler} href="/CaseSinglePageR10"><a>Learn More</a></Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/DonatePageR10GoesALongWay"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -73,7 +72,7 @@ class Casesection extends Component {
                                             <div className="case-btn">
                                                 <ul>
                                                     <li><Link onClick={ClickHandler} href="/CaseSinglePageRebuild"><a>Learn More</a></Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/DonatePageUnite4Schools"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -96,7 +95,7 @@ class Casesection extends Component {
                                             <div className="case-btn">
                                                 <ul>
                                                     <li><Link onClick={ClickHandler} href="/CaseSinglePageLeaders"><a>Learn More</a></Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/DonatePageLeaders4Learners"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -114,7 +113,7 @@ class Casesection extends Component {
                                             <div className="case-btn">
                                                 <ul>
                                                     <li><Link onClick={ClickHandler} href="/CaseSinglePageFund"><a>Learn More</a></Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/DonatePage12412"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -135,7 +134,7 @@ class Casesection extends Component {
                                                 <ul>
                                                     
                                                     <li><Link onClick={ClickHandler} href="/CaseSinglePageFundiCsi"><a>Learn More</a></Link></li>
-                                                    <li><Link onClick={ClickHandler} href="/DonatePage"><a>Donate Now</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/DonatePageFundiCsi"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>

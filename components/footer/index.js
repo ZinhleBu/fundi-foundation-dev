@@ -65,9 +65,8 @@ const Footer = (props) => {
                                 <ul>
                                     <li><Link onClick={ClickHandler} href="/AboutPage"><a>About Us</a></Link></li>
                                     <li><Link onClick={ClickHandler} href="/CasePage"><a>Our Causes</a></Link></li>
-                                    <li><Link onClick={ClickHandler} href="/CasePage"><a>Our Mission</a></Link></li>
                                     <li><Link onClick={ClickHandler} href="/ContactPage"><a>Contact Us</a></Link></li>
-                                    <li><Link onClick={ClickHandler} href="/EventPage"><a>Our Event</a></Link></li>
+                                    <li><Link onClick={ClickHandler} href="/EventPage"><a>Press</a></Link></li>
                                     <li><Link onClick={ClickHandler} href="/PrivacyPage"><a>Privacy Policy</a></Link></li>
 
                                     <li>

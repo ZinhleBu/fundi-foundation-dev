@@ -3072,12 +3072,12 @@ hero-style3
 
 .blog-section .entry-media .tag {
     background: #01b56f;
-    background: -webkit-linear-gradient(left, #01b56f, #00ded8);
-    background: -moz-linear-gradient(left, #01b56f, #00ded8);
-    background: -o-linear-gradient(left, #01b56f, #00ded8);
+    background: -webkit-linear-gradient(to left, #01b56f, #00ded8);
+    background: -moz-linear-gradient(to left, #01b56f, #00ded8);
+    background: -o-linear-gradient(to left, #01b56f, #00ded8);
     background: -ms-linear-gradient(left, #01b56f, #00ded8);
     background: -webkit-gradient(linear, left top, right top, from(#01b56f), to(#00ded8));
-    background: linear-gradient(left, #01b56f, #00ded8);
+    background: linear-gradient(to left, #01b56f, #00ded8);
     font-size: 14px;
     font-size: 0.875rem;
     font-weight: 600;
