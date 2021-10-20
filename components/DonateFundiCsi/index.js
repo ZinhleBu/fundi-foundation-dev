@@ -48,7 +48,7 @@ const DonateFundiCsi = () => {
                                                                             />
                                                                         </p>
                                                                         <p className="ipay-email">
-                                                                            <input type="email" name="Customer" placeholder="Email" className="fields" required />
+                                                                            <input type="text" name="Customer" placeholder="Email" className="fields" required />
                                                                         </p>
                                                                         <p className="ipay-contact">
                                                                             <input type="text" name="Optional2" placeholder="Contact Number" className="fields" required />
@@ -104,7 +104,7 @@ const DonateFundiCsi = () => {
                                                                         <input type="hidden" name="Optional5" value="Buy Now" />
                                                                         <input type="hidden" name="CancelUrl" value="https://ozow.com/demo-cancelled/" />
                                                                         <input type="hidden" name="ErrorUrl" value="https://ozow.com/demo-cancelled/" />
-                                                                        <input type="hidden" name="SuccessUrl" value="https://fundi-foundation-dev-chi.vercel.app" />
+                                                                        <input type="hidden" name="SuccessUrl" value="https://fundi-foundation-dev-chi.vercel.app/SuccessPage" />
                                                                         <input type="hidden" name="IsTest" value="false" />
                                                                         <input type="hidden" id="ipayHash" name="HashCheck" value="" />
                                                                     </form>

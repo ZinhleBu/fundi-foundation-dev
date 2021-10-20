@@ -32,6 +32,17 @@ const CaseSingleR10 = (props) => {
                                                         ▪ Increase of fees: Data shows that 70% of students at some point during the academic year cannot afford to buy food, 68% are unable to afford student materials, and 62% feel they could not afford to pay to participate in campus-based social and academic activities.
                                                     </p>
                                                 </div>
+                                                <div
+                                                        style={{
+                                                            position: "relative",
+                                                            left: "40%",
+                                                            marginBottom: "30px"
+                                                        }}
+                                                        className="btns">
+                                                        <Link href="/DonatePageR10GoesALongWay">
+                                                            <a className="theme-btn">Donate Now</a>
+                                                        </Link>
+                                                    </div>
                                                 <AdvisorySection />
                                                 <div className="case-bb-text">
                                                     <h1>#R10GoesALongWay - History</h1>
@@ -46,17 +57,6 @@ const CaseSingleR10 = (props) => {
                                                         On 13 March Sibu Mabena, Ayanda Mhlongo ,Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. In 16 hours... YOU ALL HAVE TURNED THAT INTO R200 000
                                                     </p>
                                                     <Gallery1 />
-                                                    <div
-                                                        style={{
-                                                            position: "relative",
-                                                            left: "40%",
-                                                            marginBottom: "30px"
-                                                        }}
-                                                        className="btns">
-                                                        <Link href="/DonatePageR10GoesALongWay">
-                                                            <a className="theme-btn">Donate Now</a>
-                                                        </Link>
-                                                    </div>
                                                     <div
                                                         className="col-12 col-md-8"
                                                         style={{

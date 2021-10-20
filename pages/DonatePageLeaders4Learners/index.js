@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitleR10 from '../../components/pagetitleR10'
+import PageTitleLeaders from '../../components/pagetitleleaders'
 import DonateLeaders from '../../components/DonateLeaders'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -13,7 +13,7 @@ const DonatePageLeaders4Learners =() => {
                 <title>Donate</title>
             </Head>
             <Header/>
-            <PageTitleR10 pageTitle={'Donate Now'} pagesub={'Donate'}/> 
+            <PageTitleLeaders pageTitle={'Donate Now'} pagesub={'Donate'}/> 
             <DonateLeaders/>
             <Footer/>
             <Scrollbar/>

@@ -1,10 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import PageTitleAbout from '../../components/pagetitleabout'
-import VedioAbout from '../../components/vedioAbout'
-import AboutSec from '../../components/aboutsec'
-import CaseSlide from '../../components/case'
-import CounterSection from '../../components/counter'
 import TeamSection from '../../components/team'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -21,7 +17,6 @@ const AboutPage =() => {
                 <title>About Us</title>
             </Head>
             <AnimatePresence exitBeforeEnter>
-
             <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -36,7 +31,6 @@ const AboutPage =() => {
             <Scrollbar/>
             </motion.div>
             </AnimatePresence>
-
         </Fragment>
     )
 };

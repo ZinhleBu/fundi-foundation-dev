@@ -42,7 +42,7 @@ const DonateR10 = () => {
                                                                         <input required type="hidden" name="receiver" pattern="[0-9]" value="16564521" />
                                                                         <input type="hidden" name="return_url" value="https://fundi-foundation-dev-chi.vercel.app" />
                                                                         <input type="hidden" name="cancel_url" value="https://fundi-foundation-dev-chi.vercel.app" />
-                                                                        <input type="hidden" name="notify_url" value="https://fundi-foundation-dev-chi.vercel.app" />
+                                                                        <input type="hidden" name="notify_url" value="https://fundi-foundation-dev-chi.vercel.app/SuccessPage" />
                                                                         <input required type="hidden" name="name_first" value="" />
                                                                         <input required type="hidden" name="name_last" value="" />
                                                                         <input required type="hidden" name="email_address" value="" />

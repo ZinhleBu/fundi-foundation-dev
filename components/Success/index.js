@@ -1,9 +1,5 @@
 
-const Success = (props) => {
-
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
+const Success = () => {
 
     return (
         <div className="wpo-donation-page-area section-padding">
@@ -13,8 +9,6 @@ const Success = (props) => {
                         <div className="wpo-donate-header">
                             <h2>Your Donation was successful!</h2>
                         </div>
-                      
-
                     </div>
                 </div>
             </div>

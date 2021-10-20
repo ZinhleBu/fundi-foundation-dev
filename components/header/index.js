@@ -1,13 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-import HeaderTopbar from '../HeaderTopbar'
 import MobileMenu from '../../components/MobileMenu'
 import { motion } from 'framer-motion'
 const Header = () => {
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
-
+   
     return (
         <div className="middle-header header-style-3">
             {/* <HeaderTopbar/> */}
@@ -66,14 +62,7 @@ const Header = () => {
                                     ><Link href="/EventPage" title="">Press</Link>
                                       
                                     </motion.li>
-                                    {/* <motion.li
-                                        initial={{ opacity: 0, y: -20 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        exit={{ opacity: 0, y: 10 }}
-                                        transition={{ delay: .5 }}
-                                    ><li><Link href="/PrivacyPage" title="">Privacy Policy</Link></li>
-                                    </motion.li> */}
-                                    
+                                 
                                     <motion.li
                                         initial={{ opacity: 0, y: -20 }}
                                         animate={{ opacity: 1, y: 0 }}
@@ -91,7 +80,7 @@ const Header = () => {
                             className="col-lg-1 col-md-6 col-sm-6 col-6">
                             <div className="contact">
                                 <div className="cart-search-contact">
-                                
+                            
                                 </div>
                             </div>
                         </motion.div>
@@ -99,7 +88,6 @@ const Header = () => {
                             <MobileMenu />
                         </div>
                     </div>
-
                     <div className="clearfix"></div>
                 </div>
 

@@ -206,7 +206,7 @@ class CaseSlide extends Component {
                                                         </a>
                                                     </Link>
                                                     </li>
-                                                    <li><Link onClick={ClickHandler} href="/DonatePageR10GoesALongWay"><a>Donate Now</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/DonatePageFundiCsi"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Error = (props) => {
+const Error = () => {
     return(
         <section className="error-404-section section-padding">
             <div className="container">
