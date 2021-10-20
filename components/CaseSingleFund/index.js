@@ -1,8 +1,7 @@
-import React from 'react';
-
-import Link from 'next/Link';
-import Gallery2 from '../Gallery2';
-import VideoPlayer1 from '../VideoPlayer1';
+import React from 'react'
+import Link from 'next/Link'
+import Gallery2 from '../Gallery2'
+import VideoPlayer1 from '../VideoPlayer1'
 
 
 const CaseSingleFund = (props) => {
