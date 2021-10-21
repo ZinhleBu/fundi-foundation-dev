@@ -82,7 +82,7 @@ class ContactForm extends Component {
         return (
             <form 
             
-            action="https://formsubmit.co/zbuhlungu1@gmail.com" method="POST" className="form">
+            action="https://formsubmit.co/fund@fundi.co.za" method="POST" className="form">
 
                 <div className="row">
                 <input type="hidden" name="_next" value="https://fundi-foundation-dev-chi.vercel.app/ThankYouPage" />
