@@ -25,7 +25,8 @@ class Casesection extends Component {
                                      animate={{ opacity: 1, y: -10 }}
                                      exit={{ opacity: 0, y: 10 }}
                                      transition={{ delay: .2 }}
-                                    >Popular Causes What You Should Know</motion.h2>
+                                    >                                    Our Education Fundraising Platforms
+                                    </motion.h2>
                                 </div>
                             </div>
                         </div>

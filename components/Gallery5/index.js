@@ -126,6 +126,31 @@ const photos = [
       width: 4,
       height: 3
     },
+    {
+      src: "/images/csi-images/img-20-csi.webp",
+      width: 3,
+      height: 3
+    },
+    {
+      src: "/images/csi-images/img-21-csi.webp",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/csi-images/img-22-csi.webp",
+      width: 3,
+      height: 3
+    },
+    {
+      src: "/images/csi-images/img-23-csi.webp",
+      width: 3,
+      height: 3
+    },
+    {
+      src: "/images/csi-images/img-24-csi.webp",
+      width: 3,
+      height: 3
+    },
     
   ];
   

@@ -55,10 +55,10 @@ const Donate12412 = () => {
                                                                         </p>
                                                                         <p className="ipay-amount">
                                                                             <input
-                                                                                type="text"
+                                                                                type="number"
                                                                                 id="ipayAmount"
                                                                                 name="Amount"
-                                                                                placeholder="Please add decimal point '0.00'"
+                                                                                placeholder="Enter amount as '0.00'"
                                                                                 className="fields"
                                                                                 required
                                                                             />

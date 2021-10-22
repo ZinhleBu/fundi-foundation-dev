@@ -58,7 +58,7 @@ const DonateLeaders = () => {
                                                                                 type="text"
                                                                                 id="ipayAmount"
                                                                                 name="Amount"
-                                                                                placeholder="Please add decimal point '0.00'"
+                                                                                placeholder="Enter amount as '0.00'"
                                                                                 className="fields"
                                                                                 required
                                                                             />

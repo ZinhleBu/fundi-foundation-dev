@@ -191,6 +191,31 @@ const EventSection2 = (props) => {
                         </div>
                     </motion.div>
 
+                    <motion.div 
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, y: -10 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    transition={{ delay: .6}}
+                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                        <div className="wpo-event-item">
+                            <div className="wpo-event-img">
+                                <img src='images/event/article7.jpg' alt="school-bag-handover" />
+                                
+                            </div>
+                            <div className="wpo-event-text">
+                                <h2>Fundi - Sibongile School Donations</h2>
+                                <ul>
+                                    <li><i className="fa fa-clock-o" aria-hidden="true"></i>Fundi</li>
+                                    <li><i className="fi flaticon-pin"></i>Tembisa</li>
+                                </ul>
+                                <p>
+                                Matric Class of 2020 “wins” thanks to FundiFund marathon event                                 </p>
+                                <Link href="/SibongileSchoolBlogPost">Learn More...</Link>
+
+                            </div>
+                        </div>
+                    </motion.div>
+
                 </div>
 
 

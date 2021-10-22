@@ -53,8 +53,6 @@ class ContactForm extends Component {
         if (notes === '') {
             error.notes = "Please enter your note";
         }
-
-
         if (error) {
             this.setState({
                 error
@@ -125,6 +123,5 @@ class ContactForm extends Component {
             </form>
         )
     }
-
 }
 export default ContactForm;
