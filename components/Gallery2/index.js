@@ -40,48 +40,48 @@ export default Gallery2;
 
 const photos = [
     {
-      src: "/public/images/leaders-images/img-1-ld.webp",
+      src: "/images/leaders-images/img-1-ld.webp",
       width: 4,
       height: 3,
     },
     
     {
-      src: "/public/images/leaders-images/img-2-ld.webp",
+      src: "/images/leaders-images/img-2-ld.webp",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/leaders-images/img-3-ld.webp",
+      src: "/images/leaders-images/img-3-ld.webp",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/leaders-images/img-4-ld.webp",
+      src: "/images/leaders-images/img-4-ld.webp",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/leaders-images/img-5-ld.webp",
+      src: "/images/leaders-images/img-5-ld.webp",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/leaders-images/img-6-ld.webp",
+      src: "/images/leaders-images/img-6-ld.webp",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/leaders-images/img-7-ld.webp",
+      src: "/images/leaders-images/img-7-ld.webp",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/leaders-images/img-8-ld.webp",
+      src: "/images/leaders-images/img-8-ld.webp",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/leaders-images/img-9-ld.webp",
+      src: "/images/leaders-images/img-9-ld.webp",
       width: 4,
       height: 3
     }

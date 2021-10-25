@@ -40,32 +40,32 @@ export default Gallery1;
 
 const photos = [
     {
-      src: "/public/images/R10Images/mandisa2.jpg",
+      src: "/images/R10Images/mandisa.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/R10Images/akani.jpg",
+      src: "/images/R10Images/akani.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/R10Images/matome2.jpg",
+      src: "/images/R10Images/matome2.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/R10Images/school.jpg",
+      src: "/images/R10Images/school.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/R10Images/matome3.jpg",
+      src: "/images/R10Images/matome3.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "/public/images/R10Images/sivu.jpg",
+      src: "/images/R10Images/sivu.jpg",
       width: 4,
       height: 3
     }
