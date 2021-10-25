@@ -64,7 +64,7 @@ class Newsletter extends Component {
                                 <h3>Follow us For further information</h3>
                                 <div className="wpo-newsletter-form">
 
-                                    <form action="https://formsubmit.co/fund@fundi.co.za" method="POST" >
+                                    <form action="https://getform.io/f/d8d54d87-7c38-4306-ade4-b4192ac57d7e" method="POST" >
 
                                         <div>
                                             <input type="text" placeholder="Enter Your Email" name="email" valueasstring="" className="form-control" />

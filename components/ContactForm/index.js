@@ -80,10 +80,10 @@ class ContactForm extends Component {
         return (
             <form 
             
-            action="https://formsubmit.co/fund@fundi.co.za" method="POST" className="form">
+            action="https://getform.io/f/d8d54d87-7c38-4306-ade4-b4192ac57d7e" method="POST" className="form">
 
                 <div className="row">
-                <input type="hidden" name="_next" value="https://fundi-foundation-dev-chi.vercel.app/ThankYouPage" />
+                <input type="hidden" name="_next" value="https://fundifoundation.org/ThankYouPage" />
 
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">

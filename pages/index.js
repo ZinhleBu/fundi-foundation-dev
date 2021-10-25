@@ -16,19 +16,13 @@ const HomePage = () => {
         <Fragment>
             <Head>
                 <title>FundiFoundation</title>
-                
+
             </Head>
             <Header />
             <Hero3 />
             <CaseSlide />
-            {/* <Mission subclass={'section-padding'}/> */}
             <AboutSec />
-            {/* <Gallery/> */}
             <ImageSlide />
-            {/* <CounterSection countclass={'wpo-counter-style-2'}/> */}
-            {/* <TeamSection/> */}
-            {/* <WorldSection worldclass={'wpo-world-area-2'}/> */}
-            {/* <BlogSection/> */}
             <Footer />
             <Scrollbar />
         </Fragment>
