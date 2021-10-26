@@ -146,7 +146,7 @@ const EventSection2 = (props) => {
                         className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
-                                <img src='/public/images/event/article5.jpg' alt="school-bag-handover" />
+                                <img src='images/event/article5.jpg' alt="school-bag-handover" />
                                 
                             </div>
                             <div className="wpo-event-text">
