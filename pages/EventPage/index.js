@@ -11,6 +11,14 @@ const EventPage =() => {
         <Fragment>
              <Head>
                 <title>Articles</title>
+                <meta name="Description" CONTENT="Articles relating to Fundi Foundation." />
+                <meta name="robots" content="index,follow"/>
+                <link
+                    rel="canonical"
+                    href="https://fundifoundation.org/EventPage"
+                    key="canonical"
+                />
+           
             </Head>
             <Header/>
             <PageTitleEvent pageTitle={'Articles'} pagesub={'Events'}/> 

@@ -10,7 +10,14 @@ const SakhileBlogPost =() => {
     return(
         <Fragment>
              <Head>
-                <title>Sakhile post</title>
+                <title>Sakhile - Article post</title>
+                <meta name="Description" CONTENT="From sleeping in a park at night, a young student is now able to enjoy full-time tertiary studies thanks to a generous bursary" />
+                <meta name="robots" content="index,follow"/>
+                <link
+                    rel="canonical"
+                    href="https://fundifoundation.org/SakhileBlogPost"
+                    key="canonical"
+                />
             </Head>
             <Header/>
             <PageTitle pageTitle={'Local News'} pagesub={'Erica Abrahams'}/> 

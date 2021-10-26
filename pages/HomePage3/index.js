@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import Header from '../../components/header'
 import Hero3 from '../../components/hero3'
 import AboutSec from '../../components/aboutsec'
@@ -9,19 +9,26 @@ import Head from 'next/head'
 import ImageSlide from '../../components/imageSlider';
 
 
-const HomePage3 =() => {
-    return(
+const HomePage3 = () => {
+    return (
         <Fragment>
-             <Head>
-                <title>FundiFoundation</title>
+            <Head>
+                <title>Home - FundiFoundation</title>
+                <meta name="Description" CONTENT="The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves." />
+                <meta name="robots" content="index,follow"/>
+                <link
+                    rel="canonical"
+                    href="https://fundifoundation.org/HomePage3"
+                    key="canonical"
+                />
             </Head>
-            <Header/>
-            <Hero3/>
-            <CaseSlide/>
-            <AboutSec/>
-            <ImageSlide/>
-            <Footer/>
-            <Scrollbar/>
+            <Header />
+            <Hero3 />
+            <CaseSlide />
+            <AboutSec />
+            <ImageSlide />
+            <Footer />
+            <Scrollbar />
         </Fragment>
     )
 };

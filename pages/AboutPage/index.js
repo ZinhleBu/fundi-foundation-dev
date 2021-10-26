@@ -14,7 +14,15 @@ const AboutPage =() => {
 
         <Fragment>
             <Head>
-                <title>About Us</title>
+                <title>About - FundiFoundation </title>
+                <meta name="Description" CONTENT="The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves." />
+                <meta name="robots" content="index,follow"/>
+
+                <link
+                    rel="canonical"
+                    href="https://fundifoundation.org/AboutPage"
+                    key="canonical"
+                />
             </Head>
             <AnimatePresence exitBeforeEnter>
             <motion.div
