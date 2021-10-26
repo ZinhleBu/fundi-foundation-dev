@@ -24,9 +24,7 @@ const Hero3 = (props) => {
                                         transition={{ delay: .2}}
                                         className="slide-title">
                                         <h2
-                                        style={{
-                                            fontSize: "60px"
-                                        }}
+                                       
                                         >Enabling The Education Dreams<span> of All South Africans</span></h2>
                                     </motion.div>
                                     <motion.div 

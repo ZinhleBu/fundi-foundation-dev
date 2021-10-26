@@ -20,17 +20,13 @@ function MyApp({ Component, pageProps }) {
 
       <Head>
 
-        <meta name="Description" CONTENT="The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves." />
+        <meta name="Description" content="The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves." />
         <meta name="robots" content="index,follow" />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="keywords" content="Fundi, Foundation, donation, schools, loans, students, accommodation, devices" />
         <meta name="author" content="Fundi" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          rel="canonical"
-          href="https://fundifoundation.org/AboutPage"
-          key="canonical"
-        />
+       
       </Head>
       <motion.div
         initial={{ opacity: 0 }}
