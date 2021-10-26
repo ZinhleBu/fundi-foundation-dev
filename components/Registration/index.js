@@ -49,7 +49,7 @@ function Registration() {
             }
             );
             await response.json()
-            setData({ ...data, first_name: "", surname: "", email: "", contact_number: "", id_number: "", nationality: "", qualification: "", institution: "", student_number: "", fee_amount: "", year: "", postgraduate: "yes", undergraduate: "yes", yes: "yes", no: "no", note: "" })
+            setData({ ...data, first_name: "", surname: "", email: "", contact_number: "", id_number: "", nationality: "", qualification: "", institution: "", student_number: "", fee_amount: "", year: "", postgraduate: "", undergraduate: "", yes: "", no: "", note: "" })
         } catch (successfull) {
             console.log("data")
         }

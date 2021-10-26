@@ -10,27 +10,27 @@ const EventSection2 = (props) => {
                     <div className="col-12">
                         <div className="wpo-section-title">
                             <motion.span
-                             initial={{ opacity: 0 }}
-                             animate={{ opacity: 1, y: -10 }}
-                             exit={{ opacity: 0, y: 10 }}
-                             transition={{ delay: .4}}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1, y: -10 }}
+                                exit={{ opacity: 0, y: 10 }}
+                                transition={{ delay: .4 }}
                             >Our News and Articles</motion.span>
                             <motion.h2
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1, y: -10 }}
-                            exit={{ opacity: 0, y: 10 }}
-                            transition={{ delay: .6}}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1, y: -10 }}
+                                exit={{ opacity: 0, y: 10 }}
+                                transition={{ delay: .6 }}
                             >Current News</motion.h2>
                         </div>
                     </div>
                 </div>
                 <div className="row">
-                    <motion.div 
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, y: -10 }}
-                    exit={{ opacity: 0, y: 10 }}
-                    transition={{ delay: .2}}
-                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1, y: -10 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        transition={{ delay: .2 }}
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/img-1-ayanda.jpg' alt="" />
@@ -53,12 +53,12 @@ const EventSection2 = (props) => {
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div 
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, y: -10 }}
-                    exit={{ opacity: 0, y: 10 }}
-                    transition={{ delay: .4}}
-                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1, y: -10 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        transition={{ delay: .4 }}
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/img-1-sakhile.jpg' alt="" />
@@ -71,7 +71,7 @@ const EventSection2 = (props) => {
                                 <h2>Struggling Sakhile’s academic dreams come true:</h2>
                                 <ul>
                                     <li><i className="fa fa-clock-o" aria-hidden="true"></i>8.00 - 5.00</li>
-                                    <li><i className="fi flaticon-pin"></i>Johannesburg</li>
+                                    <li><i className="fi flaticon-pin"></i>KwaZulu-Natal</li>
                                 </ul>
                                 <p>
                                     From sleeping in a park at night, a young student is now able to...
@@ -81,12 +81,12 @@ const EventSection2 = (props) => {
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div 
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, y: -10 }}
-                    exit={{ opacity: 0, y: 10 }}
-                    transition={{ delay: .6}}
-                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1, y: -10 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        transition={{ delay: .6 }}
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/img-1-gs.jpg' alt="" />
@@ -111,12 +111,12 @@ const EventSection2 = (props) => {
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div 
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, y: -10 }}
-                    exit={{ opacity: 0, y: 10 }}
-                    transition={{ delay: .6}}
-                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1, y: -10 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        transition={{ delay: .6 }}
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/mala-suriah-fundi-cmo.jpg' alt="mala-suriah-fundi-cmo" />
@@ -132,18 +132,18 @@ const EventSection2 = (props) => {
                                     <li><i className="fi flaticon-pin"></i>Joburg</li>
                                 </ul>
                                 <p>
-                                The race was launched to raise funding that will assist matriculants with their holistic exam preparation...                                </p>
+                                    The race was launched to raise funding that will assist matriculants with their holistic exam preparation...                                </p>
                                 <Link href="/RaceBlogPost">Learn More...</Link>
 
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div 
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, y: -10 }}
-                    exit={{ opacity: 0, y: 10 }}
-                    transition={{ delay: .6}}
-                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1, y: -10 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        transition={{ delay: .6 }}
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/article5.jpg' alt="school-bag-handover" />
@@ -156,26 +156,26 @@ const EventSection2 = (props) => {
                                 <h2>Fundi: school bag handover (Mpebe Primary School)</h2>
                                 <ul>
                                     <li><i className="fa fa-clock-o" aria-hidden="true"></i>Fundi</li>
-                                    <li><i className="fi flaticon-pin"></i>Joburg</li>
+                                    <li><i className="fi flaticon-pin"></i>Limpopo</li>
                                 </ul>
                                 <p>
-                                Fundi recently gifted 420 learners at the Mpebe Primary School with new school back-packs.                                </p>
+                                    Fundi recently gifted 420 learners at the Mpebe Primary School with new school back-packs.                                </p>
                                 <Link href="/SchoolBagsBlogPost">Learn More...</Link>
 
                             </div>
                         </div>
                     </motion.div>
 
-                    <motion.div 
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, y: -10 }}
-                    exit={{ opacity: 0, y: 10 }}
-                    transition={{ delay: .6}}
-                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1, y: -10 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        transition={{ delay: .6 }}
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/article6.jpg' alt="school-bag-handover" />
-                                
+
                             </div>
                             <div className="wpo-event-text">
                                 <h2>Fundi - FundiFund relay announcement</h2>
@@ -184,23 +184,23 @@ const EventSection2 = (props) => {
                                     <li><i className="fi flaticon-pin"></i>Tembisa</li>
                                 </ul>
                                 <p>
-                                Matric Class of 2020 “wins” thanks to FundiFund marathon event                                 </p>
+                                    Matric Class of 2020 “wins” thanks to FundiFund marathon event                                 </p>
                                 <Link href="/FundRunBlogPost">Learn More...</Link>
 
                             </div>
                         </div>
                     </motion.div>
 
-                    <motion.div 
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, y: -10 }}
-                    exit={{ opacity: 0, y: 10 }}
-                    transition={{ delay: .6}}
-                    className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1, y: -10 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        transition={{ delay: .6 }}
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/article7.jpg' alt="school-bag-handover" />
-                                
+
                             </div>
                             <div className="wpo-event-text">
                                 <h2>Fundi - Sibongile School Donations</h2>
@@ -209,7 +209,9 @@ const EventSection2 = (props) => {
                                     <li><i className="fi flaticon-pin"></i>Tembisa</li>
                                 </ul>
                                 <p>
-                                Matric Class of 2020 “wins” thanks to FundiFund marathon event                                 </p>
+                                    Fundi donates R30 000 to Sibonile School equipping learners to “know more” and “be more”
+
+                                </p>
                                 <Link href="/SibongileSchoolBlogPost">Learn More...</Link>
 
                             </div>

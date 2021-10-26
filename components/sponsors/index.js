@@ -99,6 +99,16 @@ const Sponsors = (props) => {
                         <img src="images/sponsors/img-15.webp" alt="" />
                     </div>
                 </div>
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
+                    <div className="wpo-img-gallery">
+                        <img src="images/sponsors/img-16.png" alt="" />
+                    </div>
+                </div>
+                <div className="col-12 col-sm-12 col-md-6 col-lg-4 custom grid">
+                    <div className="wpo-img-gallery">
+                        <img src="images/sponsors/img-17.png" alt="" />
+                    </div>
+                </div>
             </div>
         </div>
         </>
