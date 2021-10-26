@@ -11,7 +11,7 @@ const EventPage =() => {
         <Fragment>
              <Head>
                 <title>Articles</title>
-                <meta name="Description" CONTENT="Articles relating to Fundi Foundation." />
+                <meta name="Description" content="Articles relating to Fundi Foundation." />
                 <meta name="robots" content="index,follow"/>
                 <link
                     rel="canonical"
