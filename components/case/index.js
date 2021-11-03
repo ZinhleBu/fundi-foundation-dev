@@ -177,8 +177,8 @@ class CaseSlide extends Component {
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
-                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePageR10">
-                                                        <a href="/CaseSinglePageR10">
+                                                    <li><Link onClick={ClickHandler} href="/R10GoesALongWay">
+                                                        <a href="/R10GoesALongWay">
                                                             Learn More
                                                         </a>
                                                     </Link>

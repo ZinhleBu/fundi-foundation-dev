@@ -44,7 +44,7 @@ const menus = [
             {
                 id: 35,
                 title: 'R10 Goes a Long Way',
-                link: '/CaseSinglePageR10'
+                link: '/R10GoesALongWay'
             },
             {
                 id: 36,

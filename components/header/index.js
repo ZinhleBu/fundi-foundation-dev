@@ -46,7 +46,7 @@ const Header = () => {
                                         transition={{ delay: .4 }}
                                     ><Link href="/CasePage" title="">Causes</Link>
                                         <ul>
-                                            <li><Link href="/CaseSinglePageR10" title="">R10 Goes a Long way</Link></li>
+                                            <li><Link href="/R10GoesALongWay" title="">R10 Goes a Long way</Link></li>
                                             <li><Link href="/CaseSinglePageFund" title="">FundiFund 12412</Link></li>
                                             <li><Link href="/CaseSinglePageRebuild" title="">Unite4Schools</Link></li>
                                             <li><Link href="/CaseSinglePageLeaders" title="">Leaders4Learners</Link></li>

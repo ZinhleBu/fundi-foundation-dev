@@ -6,7 +6,7 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
-const CaseSinglePageR10 =() => {
+const R10GoesALongWay =() => {
     return(
         <Fragment>
              <Head>
@@ -18,7 +18,7 @@ const CaseSinglePageR10 =() => {
            <meta name="robots" content="index,follow"/>
                 <link
                     rel="canonical"
-                    href="https://fundifoundation.org/CaseSinglePageR10"
+                    href="https://fundifoundation.org/R10GoesALongWay"
                     key="canonical"
                 />
             </Head>
@@ -30,4 +30,4 @@ const CaseSinglePageR10 =() => {
         </Fragment>
     )
 };
-export default CaseSinglePageR10;
+export default R10GoesALongWay;

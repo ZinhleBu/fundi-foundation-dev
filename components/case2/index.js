@@ -49,7 +49,7 @@ class Casesection extends Component {
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
-                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePageR10"><a>Learn More</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/R10GoesALongWay"><a>Learn More</a></Link></li>
                                                     <li><Link onClick={ClickHandler} href="/DonatePageR10GoesALongWay"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
