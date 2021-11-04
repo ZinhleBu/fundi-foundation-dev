@@ -6,7 +6,7 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
-const EventPage =() => {
+const Press =() => {
     return(
         <Fragment>
              <Head>
@@ -15,7 +15,7 @@ const EventPage =() => {
                 <meta name="robots" content="index,follow"/>
                 <link
                     rel="canonical"
-                    href="https://fundifoundation.org/EventPage"
+                    href="https://fundifoundation.org/Press"
                     key="canonical"
                 />
            
@@ -28,4 +28,4 @@ const EventPage =() => {
         </Fragment>
     )
 };
-export default EventPage;
+export default Press;

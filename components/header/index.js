@@ -17,7 +17,7 @@ const Header = () => {
                                 transition={{ delay: .5 }}
                                 exit={{ opacity: 0 }}
                                 className="logo">
-                                <Link href="/HomePage3" title="">
+                                <Link href="/Home" title="">
                                     <a><img src='images/fundifoundation-logo-blue.png' alt="" /></a>
                                 </Link>
                             </motion.div>
@@ -30,7 +30,7 @@ const Header = () => {
                                         animate={{ opacity: 1, y: 0 }}
                                         exit={{ opacity: 0, y: 10 }}
                                         transition={{ delay: .2 }}
-                                    ><Link className="active" href="/HomePage3" title="">Home</Link>
+                                    ><Link className="active" href="/Home" title="">Home</Link>
                                       
                                     </motion.li>
                                     <motion.li
@@ -38,19 +38,19 @@ const Header = () => {
                                         animate={{ opacity: 1, y: 0 }}
                                         exit={{ opacity: 0, y: 10 }}
                                         transition={{ delay: .3 }}
-                                    ><Link href="/AboutPage" title="">About</Link></motion.li>
+                                    ><Link href="/About" title="">About</Link></motion.li>
                                     <motion.li
                                         initial={{ opacity: 0, y: -20 }}
                                         animate={{ opacity: 1, y: 0 }}
                                         exit={{ opacity: 0, y: 10 }}
                                         transition={{ delay: .4 }}
-                                    ><Link href="/CasePage" title="">Causes</Link>
+                                    ><Link href="/Causes" title="">Causes</Link>
                                         <ul>
                                             <li><Link href="/R10GoesALongWay" title="">R10 Goes a Long way</Link></li>
-                                            <li><Link href="/CaseSinglePageFund" title="">FundiFund 12412</Link></li>
-                                            <li><Link href="/CaseSinglePageRebuild" title="">Unite4Schools</Link></li>
-                                            <li><Link href="/CaseSinglePageLeaders" title="">Leaders4Learners</Link></li>
-                                            <li><Link href="/CaseSinglePageFundiCsi" title="">Fundi CSI</Link></li>
+                                            <li><Link href="/FundiFund12412" title="">FundiFund 12412</Link></li>
+                                            <li><Link href="/Unite4Schools" title="">Unite4Schools</Link></li>
+                                            <li><Link href="/Leaders4Learners" title="">Leaders4Learners</Link></li>
+                                            <li><Link href="/FundiCsi" title="">Fundi CSI</Link></li>
 
                                         </ul>
                                     </motion.li>
@@ -59,7 +59,7 @@ const Header = () => {
                                         animate={{ opacity: 1, y: 0 }}
                                         exit={{ opacity: 0, y: 10 }}
                                         transition={{ delay: .5 }}
-                                    ><Link href="/EventPage" title="">Press</Link>
+                                    ><Link href="/Press" title="">Press</Link>
                                       
                                     </motion.li>
                                  
@@ -68,7 +68,7 @@ const Header = () => {
                                         animate={{ opacity: 1, y: 0 }}
                                         exit={{ opacity: 0, y: 10 }}
                                         transition={{ delay: .6 }}
-                                    ><Link href="/ContactPage" title="">Contact</Link></motion.li>
+                                    ><Link href="/Contact" title="">Contact</Link></motion.li>
                                 </ul>
                             </nav>
                         </div>

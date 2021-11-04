@@ -84,8 +84,8 @@ class CaseSlide extends Component {
                                                     <li>
                                                         <Link
                                                             onClick={ClickHandler}
-                                                            href="/CaseSinglePageLeaders">
-                                                            <a href="/CaseSinglePageLeaders">
+                                                            href="/Leaders4Learners">
+                                                            <a href="/Leaders4Learners">
                                                                 Learn More
                                                             </a>
                                                         </Link>
@@ -119,8 +119,8 @@ class CaseSlide extends Component {
                                                     <li>
                                                         <Link
                                                             onClick={ClickHandler}
-                                                            href="/CaseSinglePageRebuild">
-                                                            <a href="/CaseSinglePageRebuild">
+                                                            href="/Unite4Schools">
+                                                            <a href="/Unite4Schools">
                                                                 Learn More
                                                             </a>
                                                         </Link>
@@ -150,10 +150,10 @@ class CaseSlide extends Component {
                                             <div className="wpo-case-text-top">
                                                 <h2>FundiFund 12412</h2>
                                             </div>
-                                            <div className="case-btn">
+                                            <div className="case-btn"> 
                                                 <ul>
-                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePageFund">
-                                                        <a href="/CaseSinglePageFund">
+                                                    <li><Link onClick={ClickHandler} href="/FundiFund12412">
+                                                        <a href="/FundiFund12412">
                                                             Learn More
                                                         </a>
                                                     </Link>
@@ -200,8 +200,8 @@ class CaseSlide extends Component {
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
-                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePageFundiCsi">
-                                                        <a href="/CaseSinglePageFundiCsi">
+                                                    <li><Link onClick={ClickHandler} href="/FundiCsi">
+                                                        <a href="/FundiCsi">
                                                             Learn More
                                                         </a>
                                                     </Link>

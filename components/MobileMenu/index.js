@@ -6,40 +6,40 @@ const menus = [
     {
         id: 1,
         title: 'Home',
-        link: '/HomePage3',
+        link: '/Home',
         
     },
 
     {
         id: 2,
         title: 'About',
-        link: '/AboutPage',
+        link: '/About',
     },
 
 {
     id: 3,
         title: 'Causes',
-        link: '/CasePage',
+        link: '/Causes',
         submenu: [
             {
                 id: 31,
                 title: 'All Causes',
-                link: '/CasePage'
+                link: '/Causes'
             },
             {
                 id: 32,
                 title: 'Fundi Fund 12412',
-                link: '/CaseSinglePageFund'
+                link: '/FundiFund12412'
             },
             {
                 id: 33,
-                title: 'RebuildSA',
-                link: '/CaseSinglePageRebuild'
+                title: 'Unite 4 Schools',
+                link: '/Unite4Schools'
             },
             {
                 id: 34,
                 title: 'Leaders4Learners',
-                link: '/CaseSinglePageLeaders'
+                link: '/Leaders4Learners'
             },
             {
                 id: 35,
@@ -49,21 +49,21 @@ const menus = [
             {
                 id: 36,
                 title: 'Fundi CSI',
-                link: '/CaseSinglePageFundiCsi'
+                link: '/FundiCsi'
             }
         ]
     },
 {
     id: 4,
         title: 'Press',
-        link: '/EventPage',
+        link: '/Press',
       
     },
     
     {
         id: 88,
         title: 'Contact',
-        link: '/ContactPage',
+        link: '/Contact',
     }
     
     

@@ -1,23 +1,24 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
-import PageTitle from '../../components/pagetitle'
-import Casesection from '../../components/case2'
+import PageTitleFund from '../../components/pagetitlefund'
+import CaseSingleFund from '../../components/CaseSingleFund'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
-const CasePage =() => {
+const FundiFund12412 =() => {
     return(
         <Fragment>
              <Head>
-                <title>Causes</title>
+                <title>FundiFund Details</title>
             </Head>
             <Header/>
-            <PageTitle pageTitle={'Our Causes'} pagesub={'Causes'}/> 
-            <Casesection/>
+            <PageTitleFund pageTitleFund={'FundiFund 12412'} pagesub={'Helping matriculants get past the finish line.'}/> 
+            <CaseSingleFund/>
+
             <Footer/>
             <Scrollbar/>
         </Fragment>
     )
 };
-export default CasePage;
+export default FundiFund12412;

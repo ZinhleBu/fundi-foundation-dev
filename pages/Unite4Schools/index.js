@@ -6,7 +6,7 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
-const CaseSinglePageRebuild =() => {
+const Unite4Schools =() => {
     return(
         <Fragment>
              <Head>
@@ -20,4 +20,4 @@ const CaseSinglePageRebuild =() => {
         </Fragment>
     )
 };
-export default CaseSinglePageRebuild;
+export default Unite4Schools;

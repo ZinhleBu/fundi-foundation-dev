@@ -6,7 +6,7 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
-const ContactPage =() => {
+const Contact =() => {
     return(
         <Fragment>
              <Head>
@@ -15,18 +15,18 @@ const ContactPage =() => {
                 <meta name="robots" content="index,follow"/>
                 <link
                     rel="canonical"
-                    href="https://fundifoundation.org/ContactPage"
+                    href="https://fundifoundation.org/Contact"
                     key="canonical"
                 />
            
             </Head>
             <Header/>
             <PageTitleContact pageTitleContact={'Contact Us'} pagesub={'Contact'}/> 
-            <Contactpage/>
+            <Contact/>
             <Footer/>
             <Scrollbar/>
         </Fragment>
     )
 };
-export default ContactPage;
+export default Contact;
 

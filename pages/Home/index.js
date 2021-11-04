@@ -9,7 +9,7 @@ import Head from 'next/head'
 import ImageSlide from '../../components/imageSlider';
 
 
-const HomePage3 = () => {
+const Home = () => {
     return (
         <Fragment>
             <Head>
@@ -18,7 +18,7 @@ const HomePage3 = () => {
                 <meta name="robots" content="index,follow"/>
                 <link
                     rel="canonical"
-                    href="https://fundifoundation.org/HomePage3"
+                    href="https://fundifoundation.org/Home"
                     key="canonical"
                 />
             </Head>
@@ -32,4 +32,4 @@ const HomePage3 = () => {
         </Fragment>
     )
 };
-export default HomePage3;
+export default Home;

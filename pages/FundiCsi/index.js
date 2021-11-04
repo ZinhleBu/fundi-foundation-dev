@@ -6,7 +6,7 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
     
-const CaseSinglePageFundiCsi =() => {
+const FundiCsi =() => {
     return(
         <Fragment>
              <Head>
@@ -20,4 +20,4 @@ const CaseSinglePageFundiCsi =() => {
         </Fragment>
     )
 };
-export default CaseSinglePageFundiCsi;
+export default FundiCsi;

@@ -9,7 +9,7 @@ import MissionAbout from '../../components/missionabout'
 import { AnimatePresence, motion } from "framer-motion";
 import VideoPlayer5 from '../../components/VideoPlayer5';
 
-const AboutPage =() => {
+const About =() => {
     return(
 
         <Fragment>
@@ -20,7 +20,7 @@ const AboutPage =() => {
 
                 <link
                     rel="canonical"
-                    href="https://fundifoundation.org/AboutPage"
+                    href="https://fundifoundation.org/About"
                     key="canonical"
                 />
             </Head>
@@ -42,4 +42,4 @@ const AboutPage =() => {
         </Fragment>
     )
 };
-export default AboutPage;
+export default About;

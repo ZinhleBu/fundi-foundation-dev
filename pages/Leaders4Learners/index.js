@@ -6,7 +6,7 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
-const CaseSinglePageLeaders =() => {
+const Leaders4Learners =() => {
     return(
         <Fragment>
              <Head>
@@ -20,4 +20,4 @@ const CaseSinglePageLeaders =() => {
         </Fragment>
     )
 };
-export default CaseSinglePageLeaders;
+export default Leaders4Learners;

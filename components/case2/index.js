@@ -21,10 +21,10 @@ class Casesection extends Component {
                                         transition={{ delay: .1 }}
                                     >Our Causes</motion.span>
                                     <motion.h2
-                                     initial={{ opacity: 0 }}
-                                     animate={{ opacity: 1, y: -10 }}
-                                     exit={{ opacity: 0, y: 10 }}
-                                     transition={{ delay: .2 }}
+                                        initial={{ opacity: 0 }}
+                                        animate={{ opacity: 1, y: -10 }}
+                                        exit={{ opacity: 0, y: 10 }}
+                                        transition={{ delay: .2 }}
                                     >                                    Our Education Fundraising Platforms
                                     </motion.h2>
                                 </div>
@@ -33,11 +33,11 @@ class Casesection extends Component {
                         <div className="wpo-case-wrap">
                             <div className="row">
                                 <motion.div
-                                 initial={{ opacity: 0 }}
-                                 animate={{ opacity: 1, y: -10 }}
-                                 exit={{ opacity: 0, y: 10 }}
-                                 transition={{ delay: .2 }}
-                                className="col-lg-4 col-md-6 custom-grid col-12">
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1, y: -10 }}
+                                    exit={{ opacity: 0, y: 10 }}
+                                    transition={{ delay: .2 }}
+                                    className="col-lg-4 col-md-6 custom-grid col-12">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
                                             <img src='images/case/img-1-R10.jpg' alt="" />
@@ -57,11 +57,11 @@ class Casesection extends Component {
                                     </div>
                                 </motion.div>
                                 <motion.div
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1, y: -10 }}
-                                exit={{ opacity: 0, y: 10 }}
-                                transition={{ delay: .4 }}
-                                className="col-lg-4 col-md-6 custom-grid col-12">
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1, y: -10 }}
+                                    exit={{ opacity: 0, y: 10 }}
+                                    transition={{ delay: .4 }}
+                                    className="col-lg-4 col-md-6 custom-grid col-12">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
                                             <img src='images/case/img-1-unite.jpg' alt="" />
@@ -72,19 +72,19 @@ class Casesection extends Component {
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
-                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePageRebuild"><a>Learn More</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/Unite4Schools"><a>Learn More</a></Link></li>
                                                     <li><Link onClick={ClickHandler} href="/DonatePageUnite4Schools"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </motion.div>
-                                <motion.div 
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1, y: -10 }}
-                                exit={{ opacity: 0, y: 10 }}
-                                transition={{ delay: .6 }}
-                                className="col-lg-4 col-md-6 custom-grid col-12">
+                                <motion.div
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1, y: -10 }}
+                                    exit={{ opacity: 0, y: 10 }}
+                                    transition={{ delay: .6 }}
+                                    className="col-lg-4 col-md-6 custom-grid col-12">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
                                             <img src='images/case/img-1-leaders.jpg' alt="" />
@@ -95,7 +95,7 @@ class Casesection extends Component {
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
-                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePageLeaders"><a>Learn More</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/Leaders4Learners"><a>Learn More</a></Link></li>
                                                     <li><Link onClick={ClickHandler} href="/DonatePageLeaders4Learners"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
@@ -113,14 +113,14 @@ class Casesection extends Component {
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
-                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePageFund"><a>Learn More</a></Link></li>
+                                                    <li><Link onClick={ClickHandler} href="/FundiFund12412"><a>Learn More</a></Link></li>
                                                     <li><Link onClick={ClickHandler} href="/DonatePage12412"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div className="col-lg-4 col-md-6 custom-grid col-12">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
@@ -129,12 +129,12 @@ class Casesection extends Component {
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
                                                 <h2>Fundi CSi</h2>
-                                               
+
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
-                                                    
-                                                    <li><Link onClick={ClickHandler} href="/CaseSinglePageFundiCsi"><a>Learn More</a></Link></li>
+
+                                                    <li><Link onClick={ClickHandler} href="/FundiCsi"><a>Learn More</a></Link></li>
                                                     <li><Link onClick={ClickHandler} href="/DonatePageFundiCsi"><a>Donate Now</a></Link></li>
                                                 </ul>
                                             </div>
