@@ -3818,11 +3818,11 @@ page-title
 }
 
 .wpo-breadcumb-wrap ul li a:hover {
-    color: #08cc7f;
+    color: #fff;
 }
 
 .wpo-breadcumb-wrap ul li:last-child {
-    color: #08cc7f;
+    color: #fff;
 }
 
 .wpo-breadcumb-wrap ul li:after {
