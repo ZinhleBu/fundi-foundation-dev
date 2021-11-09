@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import Header from '../../components/header'
 import PageTitleContact from '../../components/pagetitlecontact'
-import Contact from '../../components/Contact'
+import Contactpage from '../../components/Contactpage'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
@@ -22,7 +22,7 @@ const Contact =() => {
             </Head>
             <Header/>
             <PageTitleContact pageTitleContact={'Contact Us'} pagesub={'Contact'}/> 
-            <Contact/>
+            <Contactpage/>
             <Footer/>
             <Scrollbar/>
         </Fragment>

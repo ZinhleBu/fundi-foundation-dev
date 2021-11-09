@@ -2,7 +2,7 @@ import React from 'react';
 import ContactForm from '../ContactForm'
 import { motion } from 'framer-motion'
 
-const Contact = () => {
+const Contactpage = () => {
 
     return (
         <section className="wpo-contact-form-map section-padding">
@@ -84,4 +84,4 @@ const Contact = () => {
 
 }
 
-export default Contact;
+export default Contactpage;
