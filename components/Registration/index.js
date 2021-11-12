@@ -73,9 +73,7 @@ function Registration() {
                                 </div>
                                 <div className="volunteer-contact">
                                     <div className="volunteer-contact-form">
-
-                                        <h2>Register for Registration Fees Funding</h2>
-
+                                        <h2>Apply for Registration Fees Funding</h2>
                                         <form
                                             onSubmit={handleSubmit}
                                             className="contact-validation-active"
@@ -245,10 +243,19 @@ function Registration() {
                                                 onClick={handleSubmit}
                                                 type="submit"
                                                 className="theme-btn submit-btn">Send Message</button>
-                                        </div>
 
+                                        </div>
+                                        <div className="submit-area col-lg-12 col-12"
+                                            style={{
+
+                                                margin: "20px"
+                                            }}>
+                                            <p>Fundi Foundation Trust makes every effort to be compliant to the Protection of Personal Information Act (POPIA). Your information will only be used for the provision of services for which  you are applying and may be shared with partner organisations who provide aspects of those services.  Visit our privacy policy and view our PAIA Manual on our website https://www.fundi.co.za/ to learn how we collect, keep, and process your personal information in accordance with this law.  Details regarding POPIA and PAIA requests are included on the website. </p>
+                                        </div>
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
                     </div>
