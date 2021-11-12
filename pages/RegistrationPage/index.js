@@ -11,10 +11,10 @@ const RegistrationPage = () => {
     return (
         <Fragment>
             <Head>
-                <title>Register for 2022 Funding</title>
+                <title>Apply for 2022 Funding</title>
             </Head>
             <Header />
-            <PageTitleRegiser pageTitleRegister={'Register for 2022 Funding'} pagesub={'Register'} />
+            <PageTitleRegiser pageTitleRegister={'Apply for 2022 Funding'} pagesub={'Apply'} />
             <Registration />
             <Footer />
             <Scrollbar />
