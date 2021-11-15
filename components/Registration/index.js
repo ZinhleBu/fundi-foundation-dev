@@ -16,16 +16,14 @@ function Registration() {
         student_number: "",
         fee_amount: "",
         year: "",
-        postgraduate: "",
-        undergraduate: "",
-        yes: "",
-        no: "",
+        type: "",
+        consent: "",
         note: ""
 
 
     });
 
-    const { first_name, surname, email, contact_number, id_number, nationality, qualification, institution, student_number, fee_amount, year, postgraduate, undergraduate, yes, no, note } = data;
+    const { first_name, surname, email, contact_number, id_number, nationality, qualification, institution, student_number, fee_amount, year, type, consent, note } = data;
 
     const handleChange = e => {
         setData({ ...data, [e.target.name]: e.target.value })
@@ -44,12 +42,12 @@ function Registration() {
                 },
 
                 body: JSON.stringify([
-                    [first_name, surname, email, contact_number, id_number, nationality, qualification, institution, student_number, fee_amount, year, postgraduate, undergraduate, yes, no, note, new Date().toLocaleString()],
+                    [first_name, surname, email, contact_number, id_number, nationality, qualification, institution, student_number, fee_amount, year, type, consent, note, new Date().toLocaleString()],
                 ]),
             }
             );
             await response.json()
-            setData({ ...data, first_name: "", surname: "", email: "", contact_number: "", id_number: "", nationality: "", qualification: "", institution: "", student_number: "", fee_amount: "", year: "", postgraduate: "", undergraduate: "", yes: "", no: "", note: "" })
+            setData({ ...data, first_name: "", surname: "", email: "", contact_number: "", id_number: "", nationality: "", qualification: "", institution: "", student_number: "", fee_amount: "", year: "", type: "", consent: "", note: "" })
         } catch (successfull) {
             console.log("data")
         }
@@ -138,35 +136,16 @@ function Registration() {
                                                         }}
                                                         className="col-lg-12 col-md-12 col-sm-6 col-12 form-group">
 
-                                                        <label
-                                                            style={{
-                                                                width: "100px"
-                                                            }}
-                                                            htmlFor="qualify-post">Postgraduate
 
-                                                        </label>
+                                                        <select
+                                                            name="type" id="type" onChange={handleChange}
 
-                                                        <input
-                                                            style={{
-                                                                height: "20px",
-                                                                width: "100px",
-                                                                margin: "20px"
-                                                            }}
-                                                            type="checkbox" name="postgraduate" id="choice" value={postgraduate} onChange={handleChange}
-                                                        />
-                                                        <label
-                                                            style={{
-                                                                width: "100px"
-                                                            }}
-                                                            htmlFor="qualify-under">Undergraduate</label>
-                                                        <input
-                                                            style={{
-                                                                height: "20px",
-                                                                width: "100px",
-                                                                margin: "20px"
-                                                            }}
-                                                            type="checkbox" name="undergraduate" id="choice" value={undergraduate} onChange={handleChange}
-                                                        />
+
+                                                        >
+                                                            <option value="Postgraduate">Postgraduate</option>
+                                                            <option value="Undergraduate">Undergraduate</option>
+
+                                                        </select>
 
 
                                                     </div>
@@ -196,38 +175,15 @@ function Registration() {
                                                         className="col-lg-12 col-md-12 col-sm-6 col-12 form-group">
 
 
-                                                        <label
-                                                            style={{
-                                                                width: "100px"
-                                                            }}
-                                                            htmlFor="choice-1">Yes
+                                                        <select
+                                                            name="consent" id="consent" onChange={handleChange}
 
-                                                        </label>
-                                                        <input
-                                                            style={{
-                                                                height: "20px",
-                                                                width: "20px",
-                                                                margin: "20px"
-                                                            }}
-                                                            type="radio" name="choice" value={yes} onChange={handleChange}
-                                                        />
 
-                                                        <label
-                                                            style={{
-                                                                width: "100px"
-                                                            }}
-                                                            htmlFor="choice-1">No
+                                                        >
+                                                            <option value="Yes">Yes</option>
+                                                            <option value="No">No</option>
 
-                                                        </label>
-                                                        <input
-                                                            style={{
-                                                                height: "20px",
-                                                                width: "20px",
-                                                                margin: "20px"
-                                                            }}
-                                                            type="radio" name="choice" value={no} onChange={handleChange}
-                                                        />
-
+                                                        </select>
 
                                                     </div>
                                                 </div>
