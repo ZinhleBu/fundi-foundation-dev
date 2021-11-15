@@ -35,7 +35,7 @@ function Registration() {
 
         try {
             const response = await fetch(
-                "https://v1.nocodeapi.com/zinhle/google_sheets/FUwIDcKuRpVRQmsq?tabId=Sheet1", {
+                "https://v1.nocodeapi.com/fundifoundation/google_sheets/ipWwXVdeppeVdxEj?tabId=Sheet1", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -139,24 +139,16 @@ function Registration() {
 
                                                         <select
                                                             name="type" id="type" onChange={handleChange}
-
-
                                                         >
                                                             <option value="Postgraduate">Postgraduate</option>
                                                             <option value="Undergraduate">Undergraduate</option>
-
                                                         </select>
 
 
                                                     </div>
                                                 </div>
 
-
-
-
-
                                                 <div className="col-lg-12 col-md-12 col-sm-12 col-12 form-group">
-
                                                     <label
                                                         style={{
                                                             display: "flex",
@@ -166,19 +158,14 @@ function Registration() {
                                                         htmlFor="choice">
                                                         Do you hereby consent to the conducting of a background check?
                                                     </label>
-
                                                     <div
                                                         style={{
                                                             display: "flex",
                                                             justifyContent: "space-between",
                                                         }}
                                                         className="col-lg-12 col-md-12 col-sm-6 col-12 form-group">
-
-
                                                         <select
                                                             name="consent" id="consent" onChange={handleChange}
-
-
                                                         >
                                                             <option value="Yes">Yes</option>
                                                             <option value="No">No</option>
