@@ -9,11 +9,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/react-modal-video/scss/modal-video.scss';
 import '../styles/globals.css'
 import '../styles/style.css'
+
 import { AnimatePresence, motion } from "framer-motion";
 import Head from 'next/head';
 
 
 function MyApp({ Component, pageProps }) {
+ 
 
   return (
     <AnimatePresence exitBeforeEnter>
@@ -26,14 +28,15 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="Fundi, Foundation, donation, schools, loans, students, accommodation, devices" />
         <meta name="author" content="Fundi" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       
+
       </Head>
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
+        animate={{ opacity: 1, transition: {delay: .4, duration: .4}}}
+        exit={{ opacity: 0, transition: {delay: .4, duration: .6} }}
       >
         <Component {...pageProps} />
+       
       </motion.div>
     </AnimatePresence>
   )

@@ -80,7 +80,7 @@ class ContactForm extends Component {
         return (
             <form 
             
-            action="https://getform.io/f/2ba37af4-cd3b-40f9-8ab6-a0a54e96525c" method="POST" className="form">
+             action="https://getform.io/f/2ba37af4-cd3b-40f9-8ab6-a0a54e96525c" method="POST" className="form">
 
                 <div className="row">
                 <input type="hidden" name="_next" value="https://fundifoundation.org/ThankYouPage" />

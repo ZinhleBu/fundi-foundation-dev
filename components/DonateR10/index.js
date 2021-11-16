@@ -23,12 +23,7 @@ const DonateR10 = () => {
                                     <div className="row">
                                         <div className="col-12">
                                             <div className="row">
-                                                <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
-                                                    <div className="contact-form">
-                                                        <h2>Get In Touch</h2>
-                                                        <ContactForm />
-                                                    </div>
-                                                </div>
+                                               
                                                 <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
                                                     <div className="contact-form">
                                                         <h2>Donation Details</h2>
@@ -64,6 +59,12 @@ const DonateR10 = () => {
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
+                                                    <div className="contact-form">
+                                                        <h2>Get In Touch</h2>
+                                                        <ContactForm />
                                                     </div>
                                                 </div>
                                             </div>

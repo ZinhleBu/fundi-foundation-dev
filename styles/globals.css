@@ -429,3 +429,32 @@ img {
 .cBtnTheme {
     background: #3AA935;
 }
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.popup-inner {
+    position: relative;
+    padding: 2rem 2rem;
+    width: 100%;
+    max-width: 640px;
+    background-color: #FFF;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+}

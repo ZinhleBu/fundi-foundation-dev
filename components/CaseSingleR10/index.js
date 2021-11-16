@@ -50,11 +50,12 @@ const CaseSingleR10 = (props) => {
                                                     <p>
                                                         In March this year, students were unable to register due to a lack of funding. The protests inspired social media celebrity, Lasizwe Dambuza and friends into action and the #R10 Goes a long Way campaign was started – first raising R38 000 between the four friends, Takkies Nkateko, Sibu Mabena, Ayanda Mhlongo.
                                                     </p>
+                                                  
                                                     <p>
-                                                        The initiative went on to raise over R2 million in 5 days to help the most deserving students with registration fees, giving  them access to education. FundiFund was asked to get involved – and of the 19 000 funding applications received, we were able to fund the registration fees of 106 student’s of the 161 selected from the first draw.
+                                                        On 13 March Sibu Mabena, Ayanda Mhlongo, Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. 
                                                     </p>
                                                     <p>
-                                                        On 13 March Sibu Mabena, Ayanda Mhlongo ,Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. In 16 hours... YOU ALL HAVE TURNED THAT INTO R200 000
+                                                        The initiative went on to raise over R2 million in 5 days to help the most deserving students with registration fees, giving  them access to education. FundiFund was asked to get involved – and of the 19 000 funding applications received, we were able to fund the registration fees of 106 student’s of the 161 selected from the first draw.
                                                     </p>
                                                     <Gallery1 />
                                                     <div
@@ -86,7 +87,7 @@ const CaseSingleR10 = (props) => {
                                                             <li>All supporting documents and application enquiries to be emailed to: FundiFund@fundi.co.za</li>
                                                         </ul>
                                                         <div className="process col-12 col">
-                                                            <img src='images/process.png' alt="" />
+                                                            <img src='images/process1.jpg' alt="" />
                                                         </div>
                                                     </div>
                                                     <WorldSection worldclass={'wpo-world-area-2'} />
