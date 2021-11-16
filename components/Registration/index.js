@@ -32,7 +32,7 @@ function Registration() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
+        alert(`Thank you for contacting us :), we will get back to you soon.`);
         try {
             const response = await fetch(
                 "https://v1.nocodeapi.com/fundifoundation/google_sheets/ipWwXVdeppeVdxEj?tabId=Sheet1", {
@@ -76,6 +76,7 @@ function Registration() {
                                             onSubmit={handleSubmit}
                                             className="contact-validation-active"
                                             id="myForm">
+                                                
                                             <div className="row">
                                                 <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
                                                     <input type="text" className="form-control" name="first_name" id="name" placeholder="First Name" value={first_name} onChange={handleChange}
