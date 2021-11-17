@@ -16,18 +16,15 @@ function HomePage() {
     useEffect(() => {
         setTimeout(() => {
             setTimedPopup(true);
-        }, 3000);
+        }, 8000);
     }, []);
-
 
     return (
         <Fragment>
             <Head>
-                <title>FundiFoundation</title>
-
+                <title>FundiFoundation</title> 
             </Head>
             <Header />
-
             <Hero3 />
             <CaseSlide />
             <AboutSec />
@@ -45,7 +42,6 @@ function HomePage() {
                 </div>
             </Popup>
         </Fragment>
-
     )
 };
 export default HomePage;
