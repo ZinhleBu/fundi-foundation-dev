@@ -451,6 +451,10 @@ img {
     background-color: #FFF;
 }
 
+.popup-inner h1 {
+    margin: .8rem 1rem;
+}
+
 .popup-inner .close-btn {
     position: absolute;
     top: 16px;

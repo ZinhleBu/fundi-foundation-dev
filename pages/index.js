@@ -31,16 +31,17 @@ function HomePage() {
             <ImageSlide />
             <Footer />
             <Scrollbar />
-            <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
+            {/* <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
                                 <h2>Apply for 2022 registration fees funding</h2>
+                                <p></p>
                                 <Link href="/RegistrationPage"><a className="theme-btn-s3" ><img src='/images/team/1.png' alt="" /> Apply </a></Link>
                         </div>
                     </div>
                 </div>
-            </Popup>
+            </Popup> */}
         </Fragment>
     )
 };
