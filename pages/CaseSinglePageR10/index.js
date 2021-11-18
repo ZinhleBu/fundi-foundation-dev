@@ -12,7 +12,7 @@ const CaseSinglePageR10 =() => {
 
     useEffect(() => {
         setTimeout(() => {
-            router.push('/R10GoesALongWay')
+            router.push('/R10GoesALongWay');
         }, 0)
     }, [])
     return(
