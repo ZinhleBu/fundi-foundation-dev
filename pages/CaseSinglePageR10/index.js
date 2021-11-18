@@ -1,4 +1,5 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useEffect} from 'react';
+import { useRouter } from 'next/router'
 import Header from '../../components/header'
 import PageTitleR10 from '../../components/pagetitleR10'
 import CaseSingleR10 from '../../components/CaseSingleR10'
@@ -7,6 +8,13 @@ import Scrollbar from '../../components/scrollbar'
 import Head from 'next/head'
 
 const CaseSinglePageR10 =() => {
+    const router = useRouter();
+
+    useEffect(() => {
+        setTimeout(() => {
+            router.push('/R10GoesALongWay')
+        }, 0)
+    }, [])
     return(
         <Fragment>
              <Head>

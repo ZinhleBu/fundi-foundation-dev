@@ -4,5 +4,13 @@ module.exports = {
     
     return config;
   },
- 
+  async redirects() {
+    return [
+      {
+        source: '/CaseSinglePageR10',
+        destination: '/R10GoesALongWay',
+        permanent: true,
+      },
+    ]
+  },
 };

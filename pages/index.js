@@ -22,7 +22,7 @@ function HomePage() {
     return (
         <Fragment>
             <Head>
-                <title>FundiFoundation</title> 
+                <title>Fundi Foundation</title> 
             </Head>
             <Header />
             <Hero3 />

@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
 
       <Head>
 
-        <meta name="Description" content="The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves." />
+        <meta name="Description" content="The Fundi Foundation is a universe of all things that enable education and learning for those who can’t help themselves." />
         <meta name="robots" content="index,follow" />
         <meta charSet="UTF-8" />
         <meta name="keywords" content="Fundi, Foundation, donation, schools, loans, students, accommodation, devices" />
