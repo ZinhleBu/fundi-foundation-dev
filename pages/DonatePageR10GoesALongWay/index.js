@@ -10,7 +10,10 @@ const DonatePageR10GoesALongWay =() => {
     return(
         <Fragment>
              <Head>
-                <title>Donate</title>
+                <title>Donate R10 Goes A Long Way</title>
+                <meta name="description" content=" The protests inspired social media celebrity, Lasizwe Dambuza and friends into action and the #R10 Goes a long Way campaign was started – first raising R38 000 between the four friends, Takkies Nkateko, Sibu Mabena, Ayanda Mhlongo." />
+                <meta property="og:title" content="R10 Goes A Long Way" key="title"/>
+                <meta name="robots" content="index,follow" />
             </Head>
             <Header/>
             <PageTitleR10 pageTitle={'Donate Now'} pagesub={'Donate'}/> 
