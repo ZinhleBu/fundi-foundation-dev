@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="Fundi, Foundation, donation, schools, loans, students, accommodation, devices" />
         <meta name="author" content="Fundi" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+        <meta name="google-site-verification" content="lFLYZHjblJ-fRbu3n_CtiUvf4fDzwM3gqDzUWCgmF8A" />
       </Head>
       <motion.div
         initial={{ opacity: 0 }}
