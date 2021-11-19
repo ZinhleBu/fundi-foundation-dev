@@ -4,12 +4,12 @@ const { Readable } = require("stream");
 export default async (req, res) => {
   // An array with your links
   const links = [
-    { url: "/Home", changefreq: "daily", priority: 0.4 },
-    { url: "/About", changefreq: "daily", priority: 0.3 },
-    { url: "/R10GoesALongWay", changefreq: "daily", priority: 0.4 },
-    { url: "/FundiCsi", changefreq: "daily", priority: 0.3 },
-    { url: "/Press", changefreq: "daily", priority: 0.3 },
-    { url: "/Contact", changefreq: "daily", priority: 0.3 },
+    { url: "https://fundifoundation.org/Home", changefreq: "daily", priority: 0.4 },
+    { url: "https://fundifoundation.org/About", changefreq: "daily", priority: 0.3 },
+    { url: "https://fundifoundation.org/R10GoesALongWay", changefreq: "daily", priority: 0.4 },
+    { url: "https://fundifoundation.org/FundiCsi", changefreq: "daily", priority: 0.3 },
+    { url: "https://fundifoundation.org/Press", changefreq: "daily", priority: 0.3 },
+    { url: "https://fundifoundation.org/Contact", changefreq: "daily", priority: 0.3 },
 
   ];
 
