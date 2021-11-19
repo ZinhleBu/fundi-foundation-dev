@@ -15,9 +15,9 @@ const About =() => {
         <Fragment>
             <Head>
                 <title>About - FundiFoundation </title>
-                <meta name="Description" CONTENT="The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves." />
+                <meta name="description" content="The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves." />
                 <meta name="robots" content="index,follow"/>
-
+                <meta property="og:title" content="About Fundi Foundation" />
                 <link
                     rel="canonical"
                     href="https://fundifoundation.org/About"

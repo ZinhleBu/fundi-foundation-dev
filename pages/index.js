@@ -22,7 +22,15 @@ function HomePage() {
     return (
         <Fragment>
             <Head>
-                <title>Fundi Foundation</title> 
+                <title>Fundi Foundation</title>
+                <meta name="description" content="Enabling The Education Dreams of All South Africans" />
+                <meta property="og:title" content="Fundi Foundation" />
+                <meta name="robots" content="index,follow" />
+                <meta charSet="UTF-8" />
+                <meta name="keywords" content="Fundi, Foundation, donation, schools, loans, students, accommodation, devices" />
+                <meta name="author" content="Fundi" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
             </Head>
             <Header />
             <Hero3 />
