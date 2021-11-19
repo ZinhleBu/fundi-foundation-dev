@@ -17,7 +17,7 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <img src='images/fundifoundation-logo-white.png' alt="" />
+                                    <img src='images/fundifoundation-logo-white.webp' alt="" />
                                 </div>
                                 <p>Auditors Nexia SAB&T</p>
                                 <p>PBO Number: 930/072/462

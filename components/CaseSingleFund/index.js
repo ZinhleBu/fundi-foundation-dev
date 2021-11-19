@@ -13,7 +13,7 @@ const CaseSingleFund = (props) => {
                     <div className="col col-lg-12">
                         <div className="wpo-case-details-wrap">
                             <div className="wpo-case-details-img">
-                                <img src='images/event-details-makwena.jpg' alt="" />
+                                <img src='images/event-details-makwena.webp' alt="" />
                             </div>
                             <div className="wpo-case-details-text">
                                 <div className="row">

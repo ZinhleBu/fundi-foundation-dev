@@ -27,7 +27,7 @@ const AboutSec = (props) => {
                                 animate={inView ? { opacity: 1 } : { opacity: 0 }}
                                 transition={{ duration: 0.5 }}
                                 className="wpo-about-img-3">
-                                    <img src='images/event-details-makwena.jpg' alt="" />
+                                    <img src='images/event-details-makwena.webp' alt="" />
                                 </motion.div>
                             </div>
                         </div>

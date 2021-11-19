@@ -73,7 +73,7 @@ class CaseSlide extends Component {
                                 <div className="wpo-case-single">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
-                                            <img src='images/case/img-1-leaders.jpg' alt="" />
+                                            <img src='images/case/img-1-leaders.webp' alt="" />
                                         </div>
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
@@ -105,7 +105,7 @@ class CaseSlide extends Component {
                                 <div className="wpo-case-single">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
-                                            <img src='images/case/img-1-unite.jpg' alt="" />
+                                            <img src='images/case/img-1-unite.webp' alt="" />
                                         </div>
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
@@ -144,7 +144,7 @@ class CaseSlide extends Component {
                                 <div className="wpo-case-single">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
-                                            <img src='images/case/img-1-12412.jpg' alt="" />
+                                            <img src='images/case/img-1-12412.webp' alt="" />
                                         </div>
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
@@ -169,7 +169,7 @@ class CaseSlide extends Component {
                                 <div className="wpo-case-single">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
-                                            <img src='images/case/img-1-R10.jpg' alt="" />
+                                            <img src='images/case/img-1-R10.webp' alt="" />
                                         </div>
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
@@ -192,7 +192,7 @@ class CaseSlide extends Component {
                                 <div className="wpo-case-single">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
-                                            <img src='images/case/img-1-csi.jpg' alt="" />
+                                            <img src='images/case/img-1-csi.webp' alt="" />
                                         </div>
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">

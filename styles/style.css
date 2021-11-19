@@ -1244,7 +1244,7 @@ hero-style-1
 }
 
 .hero-style-3 {
-    background: url('../public/images/slider/img-2-home-2.jpg') no-repeat center center / cover;
+    background: url('../public/images/slider/img-2-home-2.webp') no-repeat center center / cover;
 }
 
 .hero-style-3 .slide-caption {
@@ -3687,7 +3687,7 @@ page-title
 }
 
 .wpo-breadcumb-area-about {
-    background: url('../public/images/about-banner.png') no-repeat center top / cover;
+    background: url('../public/images/about-banner.webp') no-repeat center top / cover;
     min-height: 350px;
     position: relative;
     display: flex;

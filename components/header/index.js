@@ -18,7 +18,7 @@ const Header = () => {
                                 exit={{ opacity: 0 }}
                                 className="logo">
                                 <Link href="/Home" title="">
-                                    <a><img src='images/fundifoundation-logo-blue.png' alt="" /></a>
+                                    <a><img src='images/fundifoundation-logo-blue.webp' alt="" /></a>
                                 </Link>
                             </motion.div>
                         </div>
