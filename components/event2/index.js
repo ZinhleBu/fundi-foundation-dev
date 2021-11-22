@@ -33,6 +33,33 @@ const EventSection2 = (props) => {
                         className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
+                                <img src='images/event/R10_kids_1.jpg' alt="" />
+                                <div className="thumb-text">
+                                    <span>18</span>
+                                    <span>NOV</span>
+                                </div>
+                            </div>
+                            <div className="wpo-event-text">
+                                <h2>#R10RandGoesALong Way ignites new possibility for Class of 2021</h2>
+                                <ul>
+                                    <li><i className="fi flaticon-pin"></i>Johannesburg</li>
+                                </ul>
+                                <p>
+                                    Founders of the R10GoesALongWay education funding initiative have launched the second phase of this inspirational campaign
+                                </p>
+                                <Link href="/R10EventBlogPost">Learn More...</Link>
+
+                            </div>
+                        </div>
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1, y: -10 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        transition={{ delay: .2 }}
+                        className="col-lg-4 col-md-6 col-sm-12 col-12 custom-grid">
+                        <div className="wpo-event-item">
+                            <div className="wpo-event-img">
                                 <img src='images/event/img-1-ayanda.jpg' alt="" />
                                 <div className="thumb-text">
                                     <span>25</span>
@@ -147,7 +174,7 @@ const EventSection2 = (props) => {
                         <div className="wpo-event-item">
                             <div className="wpo-event-img">
                                 <img src='images/event/article5.jpg' alt="school-bag-handover" />
-                                
+
                             </div>
                             <div className="wpo-event-text">
                                 <h2>Fundi: school bag handover (Mpebe Primary School)</h2>

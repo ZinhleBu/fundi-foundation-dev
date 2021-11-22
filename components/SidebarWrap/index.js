@@ -22,6 +22,15 @@ const SidebarWrap = () => {
                 <div className="widget recent-post-widget">
                     <h3>Recent posts</h3>
                     <div className="posts">
+                    <div className="post">
+                            <div className="img-holder">
+                                <img src='images/recent-posts/R10.jpg' alt=""/>
+                            </div>
+                            <div className="details">
+                                <h4><Link href="/R10EventBlogPost">#R10RandGoesALong Way ignites new possibility...</Link></h4>
+                                <span className="date">18 Nov 2021</span>
+                            </div>
+                        </div>
                         <div className="post">
                             <div className="img-holder">
                                 <img src='images/recent-posts/event-details2-ayanda.jpg' alt=""/>
@@ -42,17 +51,7 @@ const SidebarWrap = () => {
 
                             </div>
                         </div>
-                        <div className="post">
-                            <div className="img-holder">
-                                <img src='images/recent-posts/mala-suriah-fundi-cmo.jpg' alt=""/>
-                            </div>
-                            <div className="details">
-                                <h4><Link href="/RaceBlogPost">Fundi’s 12412 relay race raised R100K</Link></h4>
-                                <span className="date">04 Dec 2020</span>
-                                <span className="date">Helen Rossouw</span>
-
-                            </div>
-                        </div>
+                      
                     </div>
                 </div>
                 <div className="widget tag-widget">
