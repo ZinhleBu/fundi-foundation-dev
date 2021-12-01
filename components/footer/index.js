@@ -76,7 +76,11 @@ const Footer = (props) => {
                                             18A Certificate and Registration
                                         </a>
                                     </li>
-                                   
+                                    <li>
+                                        <a title="Audit Confirmation Letter" href="https://fundi-foundation-dev-chi.vercel.app/Audit_Confirmation_Letter_Nexia_SAB&T.pdf" download>
+                                        Audit Confirmation Letter
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
