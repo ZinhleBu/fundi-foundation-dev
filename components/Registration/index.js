@@ -29,13 +29,15 @@ function Registration() {
         setData({ ...data, [e.target.name]: e.target.value })
 
     };
+    const handleAlert = e => {
+        alert("Message sent")
 
+    };
     const handleSubmit = async (e) => {
         e.preventDefault();
-        alert(`Thank you for contacting us :), we will get back to you soon.`);
         try {
             const response = await fetch(
-                "https://v1.nocodeapi.com/fundifoundation/google_sheets/ipWwXVdeppeVdxEj?tabId=Sheet1", {
+                "https://v1.nocodeapi.com/fundifoundation1/google_sheets/TQXMeIwSGrdRnXjT?tabId=Sheet1", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
