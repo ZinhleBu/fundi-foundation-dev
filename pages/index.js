@@ -16,7 +16,7 @@ function HomePage() {
     useEffect(() => {
         setTimeout(() => {
             setTimedPopup(true);
-        }, 8000);
+        }, 0);
     }, []);
 
     return (

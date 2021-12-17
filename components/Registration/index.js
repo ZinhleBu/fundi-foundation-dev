@@ -1,6 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
+import Popup from '../../components/popup'
 
 function Registration() {
+
+
+
+    const [buttonPopup, setButtonPopup] = useState(false);
+
+    // useEffect(() => {
+    //         setTimeout(() => {
+    //             setTimedPopup(true);
+    //         }, 0);
+    // }, []);
+
+
+
+
+
 
 
 
@@ -29,12 +45,9 @@ function Registration() {
         setData({ ...data, [e.target.name]: e.target.value })
 
     };
-    const handleAlert = e => {
-        alert("Message sent")
 
-    };
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+
+    const handleSubmit = async () => {
         try {
             const response = await fetch(
                 "https://v1.nocodeapi.com/fundifoundation1/google_sheets/TQXMeIwSGrdRnXjT?tabId=Sheet1", {
@@ -78,7 +91,7 @@ function Registration() {
                                             onSubmit={handleSubmit}
                                             className="contact-validation-active"
                                             id="myForm">
-                                                
+
                                             <div className="row">
                                                 <div className="col-lg-6 col-md-6 col-sm-6 col-12 form-group">
                                                     <input type="text" className="form-control" name="first_name" id="name" placeholder="First Name" value={first_name} onChange={handleChange}
@@ -186,7 +199,7 @@ function Registration() {
                                         </form>
                                         <div className="submit-area col-lg-12 col-12">
                                             <button
-                                                onClick={handleSubmit}
+                                                onClick={() => { handleSubmit(); setButtonPopup(true); }}
                                                 type="submit"
                                                 className="theme-btn submit-btn">Send Message</button>
 
@@ -200,7 +213,17 @@ function Registration() {
                                         </div>
                                     </div>
                                 </div>
-
+                                <Popup
+                                    trigger={buttonPopup}  setTrigger={setButtonPopup}>
+                                    <div className="container">
+                                        <div className="row">
+                                            <div className="col-12">
+                                                <h2>Your application has been sent successfully</h2>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Popup>
 
                             </div>
                         </div>

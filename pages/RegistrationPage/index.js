@@ -1,13 +1,15 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import Header from '../../components/header'
 import PageTitleRegiser from '../../components/pagetitleregister'
 import Registration from '../../components/Registration'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
+import Popup from '../../components/popup'
+import Link from 'next/link'
 import Head from 'next/head'
 
 const RegistrationPage = () => {
-
+   
     return (
         <Fragment>
             <Head>
