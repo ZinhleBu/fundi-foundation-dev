@@ -80,7 +80,7 @@ const CaseSingleR10 = (props) => {
                                                             <li>  Applicant must confirm that they are registered for an undergraduate qualification in 2022 by the deadline as advised on the application form.</li>
                                                             <li>Provide consent to FUNDI Capital (Pty) Ltd to verify the students acceptance status at the student's relevant Higher Education Institute.</li>
                                                             <li>Application Opening date: 15 December.</li>
-                                                            <li>Application closing date: 15 January</li>
+                                                            <li>Application closing date: 17:00, 21 January</li>
                                                             <li>Only online applications will be considered.</li>
                                                             <li>Students funded by a private or public bursary/grant is not eligible to apply.</li>
                                                             <li>Supporting documentation, i.e., ID copy, proof of registration including tuition fee statement reflecting registration amount, submission deadline: 7 February.</li>
