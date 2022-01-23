@@ -199,7 +199,8 @@ function Registration() {
                                     </div>
                                 </div>
                                 <Popup
-                                    trigger={buttonPopup}  setTrigger={setButtonPopup}>
+                                    // trigger={buttonPopup}  setTrigger={setButtonPopup}
+                                    >
                                     <div className="container">
                                         <div className="row">
                                             <div className="col-12">
