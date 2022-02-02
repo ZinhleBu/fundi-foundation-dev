@@ -84,7 +84,7 @@ const CaseSingleR10 = (props) => {
                                                             <li>Only online applications will be considered.</li>
                                                             <li>Students funded by a private or public bursary/grant is not eligible to apply.</li>
                                                             <li>Supporting documentation, i.e., ID copy, proof of registration including tuition fee statement reflecting registration amount, submission deadline: 7 February.</li>
-                                                            <li>All supporting documents and application enquiries to be emailed to: FundiFund@fundi.co.za</li>
+                                                            <li>All supporting documents and application enquiries to be emailed to:fund@fundi.co.za</li>
                                                         </ul>
                                                         <div className="process col-12 col">
                                                             <img src='images/process1.jpg' alt="" />
