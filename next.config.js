@@ -11,5 +11,4 @@ module.exports = {
             permanent: true,
         }, ]
     },
-    swcMinify: true,
 };
