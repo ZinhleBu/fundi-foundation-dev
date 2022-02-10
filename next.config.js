@@ -1,6 +1,6 @@
 module.exports = {
     webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-        config.experiments = { topLevelAwait: true };
+        config.experiments = { topLevelAwait: false };
 
         return config;
     },

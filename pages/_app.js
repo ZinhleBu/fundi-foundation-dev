@@ -16,12 +16,13 @@ import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
  
+  const genKey = () => {
+    return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+  }
 
   return (
     <AnimatePresence exitBeforeEnter>
-
       <Head>
-
         <meta name="Description" content="The Fundi Foundation is a universe of all things that enable education and learning for those who can’t help themselves." />
         <meta name="robots" content="index,follow" />
         <meta charSet="UTF-8" />
@@ -31,12 +32,12 @@ function MyApp({ Component, pageProps }) {
         <meta name="google-site-verification" content="lFLYZHjblJ-fRbu3n_CtiUvf4fDzwM3gqDzUWCgmF8A" />
       </Head>
       <motion.div
+      key={genKey()}
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: {delay: .4, duration: .4}}}
-        exit={{ opacity: 0, transition: {delay: .4, duration: .6} }}
+        animate={{ opacity: 1, transition: {delay: .2, duration: .4}}}
+        exit={{ opacity: 0, transition: {delay: .2, duration: .4} }}
       >
         <Component {...pageProps} />
-       
       </motion.div>
     </AnimatePresence>
   )
