@@ -538,7 +538,7 @@ const PrivacySection = (props) => {
             </div >
             <style jsx>{`
 
-            buttonDownload-wrap: {
+            buttonDownload-wrap {
                     justifyContent = "center",
                }
                 `

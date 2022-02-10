@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Example from '../pdf'
 const MissionAbout = (props) => {
@@ -125,7 +124,7 @@ const MissionAbout = (props) => {
             </div>
             <style jsx>{`
 
-            buttonDownload-wrap: {
+            buttonDownload-wrap {
                     justifyContent = "center",
                 }
                 `
