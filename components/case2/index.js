@@ -134,7 +134,7 @@ class Casesection extends Component {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4 col-md-6 custom-grid col-12">
+                                {/* <div className="col-lg-4 col-md-6 custom-grid col-12">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
                                             <img src='images/case/img-1-csi.jpg' alt="" />
@@ -153,7 +153,7 @@ class Casesection extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
                             </div>
                         </div>

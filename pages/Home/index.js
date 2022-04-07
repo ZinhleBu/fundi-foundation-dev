@@ -14,7 +14,7 @@ const Home = () => {
         <Fragment>
             <Head>
                 <title>Home - FundiFoundation</title>
-                <meta name="Description" CONTENT="The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves." />
+                <meta name="Description" content="The FundiFoundation is a universe of all things that enable education and learning for those who can’t help themselves." />
                 <meta name="robots" content="index,follow"/>
                 <link
                     rel="canonical"

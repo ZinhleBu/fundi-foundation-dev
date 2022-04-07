@@ -1,5 +1,5 @@
 import React, { useState, useEffect, Fragment } from 'react';
-import Header from '../components/header'
+// import Header from '../components/header'
 import Hero3 from '../components/hero3'
 import AboutSec from '../components/aboutsec'
 import CaseSlide from '../components/case'
@@ -9,7 +9,13 @@ import Head from 'next/head'
 import ImageSlide from '../components/imageSlider';
 import Popup from '../components/popup'
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
+
 function HomePage() {
+    
+    const Header = dynamic(import("../components/header"));
+    const Hero3 = dynamic(import("../components/hero3"));
+    const CaseSlide = dynamic(import("../components/case"));
 
     const [timedPopup, setTimedPopup] = useState(false);
 

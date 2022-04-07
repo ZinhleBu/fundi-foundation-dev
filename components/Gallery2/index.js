@@ -84,6 +84,26 @@ const photos = [
       src: "/images/leaders-images/img-9-ld.webp",
       width: 4,
       height: 3
+    },
+    {
+      src: "/images/leaders-images/img-10-ld.jpeg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/leaders-images/img-11-ld.jpeg",
+      width: 4,
+      height: 4
+    },
+    {
+      src: "/images/leaders-images/img-12-ld.jpeg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/leaders-images/img-13-ld.jpeg",
+      width: 3,
+      height: 4
     }
     
   ];

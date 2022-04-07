@@ -68,7 +68,56 @@ const photos = [
       src: "/images/unite-images/img-6-un.webp",
       width: 4,
       height: 3
-    }
-    
+    },
+    {
+      src: "/images/unite-images/img-7-un.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/unite-images/img-8-un.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/unite-images/img-9-un.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/unite-images/img-10-un.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/unite-images/img-11-un.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/unite-images/img-12-un.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/unite-images/img-13-un.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/unite-images/img-14-un.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "/images/unite-images/img-15-un.jpeg",
+      width: 3,
+      height: 4
+    },
+    {
+      src: "/images/unite-images/img-16-un.jpeg",
+      width: 4,
+      height: 3
+    },
   ];
   

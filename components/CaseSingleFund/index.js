@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Gallery2 from '../Gallery2'
 import VideoPlayer1 from '../VideoPlayer1'
+import VideoPlayer5 from '../VideoPlayer5'
 
 
 const CaseSingleFund = (props) => {
@@ -39,6 +40,7 @@ const CaseSingleFund = (props) => {
                                                 </div>
                                                 <Gallery2 />
                                                 <VideoPlayer1 />
+                                                <VideoPlayer5/>
                                             </div>
                                         </div>
                                     </div>
