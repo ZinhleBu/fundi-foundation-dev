@@ -46,11 +46,11 @@ const menus = [
                 title: 'R10 Goes a Long Way',
                 link: '/R10GoesALongWay'
             },
-            {
-                id: 36,
-                title: 'Fundi CSI',
-                link: '/FundiCsi'
-            }
+            // {
+            //     id: 36,
+            //     title: 'Fundi CSI',
+            //     link: '/FundiCsi'
+            // }
         ]
     },
 {

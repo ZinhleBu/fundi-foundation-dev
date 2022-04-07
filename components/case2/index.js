@@ -7,20 +7,29 @@ class Casesection extends Component {
         const ClickHandler = () => {
             window.scrollTo(10, 0);
         }
+
+        const genKey = () => {
+            return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+        }
+        console.log(genKey);
+
         return (
-            <AnimatePresence>
+            <AnimatePresence exitBeforeEnter>
                 <div className="wpo-case-area-2 section-padding">
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
                                 <div className="wpo-section-title">
                                     <motion.span
+                                        key={genKey()}
+
                                         initial={{ opacity: 0 }}
                                         animate={{ opacity: 1, y: -10 }}
                                         exit={{ opacity: 0, y: 10 }}
                                         transition={{ delay: .1 }}
                                     >Our Causes</motion.span>
                                     <motion.h2
+                                        key={genKey()}
                                         initial={{ opacity: 0 }}
                                         animate={{ opacity: 1, y: -10 }}
                                         exit={{ opacity: 0, y: 10 }}
@@ -33,6 +42,7 @@ class Casesection extends Component {
                         <div className="wpo-case-wrap">
                             <div className="row">
                                 <motion.div
+                                    key={genKey()}
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1, y: -10 }}
                                     exit={{ opacity: 0, y: 10 }}
@@ -45,7 +55,6 @@ class Casesection extends Component {
                                         <div className="wpo-case-content">
                                             <div className="wpo-case-text-top">
                                                 <h2>#R10GoesALongWay</h2>
-
                                             </div>
                                             <div className="case-btn">
                                                 <ul>
@@ -57,6 +66,8 @@ class Casesection extends Component {
                                     </div>
                                 </motion.div>
                                 <motion.div
+                                    key={genKey()}
+
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1, y: -10 }}
                                     exit={{ opacity: 0, y: 10 }}
@@ -80,6 +91,8 @@ class Casesection extends Component {
                                     </div>
                                 </motion.div>
                                 <motion.div
+                                    key={genKey()}
+
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1, y: -10 }}
                                     exit={{ opacity: 0, y: 10 }}

@@ -24,7 +24,7 @@ const VideoPlayer5 = () => {
                                 data-cld-colors='{ "base": "#e20001", "accent": "#e67b7b", "text": "#fff" }'
                                 width="0%"
                                 controls
-                                publicId="https://res.cloudinary.com/icultivate/video/upload/v1634126256/Mala_interview_spsdvn.mp4" resourceType="video"
+                                publicId="https://res.cloudinary.com/database1z/video/upload/v1634126256/Mala_interview_spsdvn.mp4" resourceType="video"
                                 className="cld-video-player cld-video-player-skin-light"
                             >
                             </Video>

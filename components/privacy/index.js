@@ -1,21 +1,25 @@
-import { motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 import Example from '../pdf'
 
 
 const PrivacySection = (props) => {
     return (
+
         <div className={`wpo-mission-area ${props.subclass}`}>
             <div className="container">
+                <AnimatePresence exitBeforeEnter>
                 <div className="row">
                     <div className="col-12">
                         <div className="wpo-section-title">
                             <motion.span
+                            key={24}
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1, y: -10 }}
                                 exit={{ opacity: 0, y: 10 }}
                                 transition={{ delay: .2 }}
                             >FundiFoundation</motion.span>
                             <motion.h2
+                            key={25}
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1, y: -10 }}
                                 exit={{ opacity: 0, y: 10 }}
@@ -25,6 +29,7 @@ const PrivacySection = (props) => {
                     </div>
                 </div>
                 <motion.div
+                key={26}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, y: -10 }}
                     exit={{ opacity: 0, y: 10 }}
@@ -535,6 +540,7 @@ const PrivacySection = (props) => {
 
                     </div>
                 </motion.div>
+                </AnimatePresence>
             </div >
             <style jsx>{`
 

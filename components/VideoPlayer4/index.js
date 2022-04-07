@@ -14,7 +14,7 @@ const VideoPlayer4 = () => {
                     width="100%"
                     controls
                    
-                    publicId="https://res.cloudinary.com/icultivate/video/upload/v1634037077/Mothusi_composition_dpff2x.mp4" resourceType="video"
+                    publicId="https://res.cloudinary.com/database1z/video/upload/v1634037077/Mothusi_composition_dpff2x.mp4" resourceType="video"
                     className="cld-video-player cld-video-player-skin-light"
                 >
                 </Video>

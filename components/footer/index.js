@@ -93,6 +93,8 @@ const Footer = (props) => {
                                     <ul>
                                         <li><i className="fi flaticon-call"></i>Contact: 011 670 6188</li>
                                         <li><i className="fi flaticon-envelope"></i>fundifund@fundi.co.za</li>
+                                        <li><i className="fi flaticon-envelope"></i>fund@fundi.co.za</li>
+
                                         <li><Link onClick={ClickHandler} href="https://www.google.com/maps/place/Hendrik+Potgieter+Rd+%26+14th+Ave,+Constantia+Kloof,+Roodepoort,+1709/@-26.1514514,27.9222428,17z/data=!3m1!4b1!4m5!3m4!1s0x1e95a009dbec6d7d:0x3e31d62e156578d6!8m2!3d-26.1514514!4d27.9244315"><a><i className="fi flaticon-pin"></i></a></Link>Hendrik Potgieter Rd and 14th Ave, Weltevreden Park, 1751</li>
                                     </ul>
                                 </div>

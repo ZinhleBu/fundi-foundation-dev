@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 
 import { Video, CloudinaryContext, Transformation } from "cloudinary-react";
 const VideoPlayer3 = () => {
-    const videoRef = useRef();
     return (
         <CloudinaryContext cloud_name="icultivate">
             <div>
@@ -14,7 +13,7 @@ const VideoPlayer3 = () => {
                     width="100%"
                     controls
                    
-                    publicId="https://res.cloudinary.com/icultivate/video/upload/v1634036946/RebuildSa_Golden_Steps_gvuwbw.mp4" resourceType="video"
+                    publicId="https://res.cloudinary.com/database1z/video/upload/v1634036946/RebuildSa_Golden_Steps_gvuwbw.mp4" resourceType="video"
                     className="cld-video-player cld-video-player-skin-light"
                 >
                 </Video>

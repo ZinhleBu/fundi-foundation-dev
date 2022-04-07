@@ -1,9 +1,12 @@
 import Link from 'next/link'
-import { motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 
 const PageTitleR10 = (props) => {
     return(
+        <AnimatePresence exitBeforeEnter>
+
         <motion.div 
+        key={18}
         initial={{ opacity: 0}}
         animate={{ opacity: 1}}
         exit={{ opacity: 0 }}
@@ -14,12 +17,14 @@ const PageTitleR10 = (props) => {
                     <div className="col-12">
                         <div className="wpo-breadcumb-wrap">
                             <motion.h2
+                            key={19}
                               initial={{ opacity: 0 }}
                               animate={{ opacity: 1, y: -10 }}
                               exit={{ opacity: 0, y: 10 }}
                               transition={{ delay: .4}}
                             >{props.pageTitleR10}</motion.h2>
                             <motion.ul
+                            key={20}
                              initial={{ opacity: 0 }}
                              animate={{ opacity: 1, y: -10 }}
                              exit={{ opacity: 0, y: 10 }}
@@ -33,6 +38,7 @@ const PageTitleR10 = (props) => {
                 </div>
             </div>
         </motion.div>
+        </AnimatePresence>
     )
 }
 

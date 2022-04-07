@@ -189,7 +189,7 @@ class CaseSlide extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="wpo-case-single">
+                                {/* <div className="wpo-case-single">
                                     <div className="wpo-case-item">
                                         <div className="wpo-case-img">
                                             <img src='images/case/img-1-csi.webp' alt="" />
@@ -211,7 +211,7 @@ class CaseSlide extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </Slider>
                         </div>
                     </div>

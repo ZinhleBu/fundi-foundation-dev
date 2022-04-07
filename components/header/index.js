@@ -50,7 +50,7 @@ const Header = () => {
                                             <li><Link href="/FundiFund12412" title="">FundiFund 12412</Link></li>
                                             <li><Link href="/Unite4Schools" title="">Unite4Schools</Link></li>
                                             <li><Link href="/Leaders4Learners" title="">Leaders4Learners</Link></li>
-                                            <li><Link href="/FundiCsi" title="">Fundi CSI</Link></li>
+                                            {/* <li><Link href="/FundiCsi" title="">Fundi CSI</Link></li> */}
 
                                         </ul>
                                     </motion.li>

@@ -13,7 +13,7 @@ const VideoPlayer = () => {
                     width="100%"
                     controls
                    
-                    publicId="https://res.cloudinary.com/icultivate/video/upload/v1634032508/Liza_popldz.mp4" resourceType="video"
+                    publicId="https://res.cloudinary.com/database1z/video/upload/v1634032508/Liza_popldz.mp4" resourceType="video"
                     className="cld-video-player cld-video-player-skin-light"
                 >
                 </Video>

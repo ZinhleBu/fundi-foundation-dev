@@ -14,7 +14,7 @@ const VideoPlayer1 = () => {
                     width="100%"
                     controls
                    
-                    publicId="https://res.cloudinary.com/icultivate/video/upload/v1634035103/Makwena_Moloto_interview_iqfrou.mp4" resourceType="video"
+                    publicId="https://res.cloudinary.com/database1z/video/upload/v1634035103/Makwena_Moloto_interview_iqfrou.mp4" resourceType="video"
                     className="cld-video-player cld-video-player-skin-light"
                 >
                 </Video>

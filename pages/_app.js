@@ -12,7 +12,7 @@ import '../styles/style.css'
 
 import { AnimatePresence, motion } from "framer-motion";
 import Head from 'next/head';
-
+import NextNProgress from 'nextjs-progressbar';
 
 function MyApp({ Component, pageProps }) {
 
@@ -35,9 +35,10 @@ function MyApp({ Component, pageProps }) {
       <motion.div
         key={genKey()}
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1, transition: { duration: .4 } }}
-        exit={{ opacity: 0, transition: { duration: .4 } }}
+        animate={{ opacity: 1, transition: { duration: .2 } }}
+        exit={{ opacity: 0, transition: { duration: .2 } }}
       >
+        <NextNProgress />
         <Component {...pageProps} />
       </motion.div>
     </AnimatePresence>

@@ -3,7 +3,12 @@ import { InView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
 const AboutSec = (props) => {
-   
+
+    const genKey = () => {
+        return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+    }
+    console.log(genKey);
+
     return (
         <InView threshold={0.5}>
             {({ ref, inView }) => (
@@ -21,12 +26,13 @@ const AboutSec = (props) => {
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-8 col-sm-12">
-                                <motion.div 
-                                ref={ref}
-                                initial={{ opacity: 0 }}
-                                animate={inView ? { opacity: 1 } : { opacity: 0 }}
-                                transition={{ duration: 0.5 }}
-                                className="wpo-about-img-3">
+                                <motion.div
+                                    key={genKey}
+                                    ref={ref}
+                                    initial={{ opacity: 0 }}
+                                    animate={inView ? { opacity: 1 } : { opacity: 0 }}
+                                    transition={{ duration: 0.5 }}
+                                    className="wpo-about-img-3">
                                     <img src='images/event-details-makwena.webp' alt="" />
                                 </motion.div>
                             </div>
