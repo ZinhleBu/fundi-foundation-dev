@@ -50,9 +50,9 @@ const CaseSingleR10 = (props) => {
                                                     <p>
                                                         In March this year, students were unable to register due to a lack of funding. The protests inspired social media celebrity, Lasizwe Dambuza and friends into action and the #R10 Goes a long Way campaign was started – first raising R38 000 between the four friends, Takkies Nkateko, Sibu Mabena, Ayanda Mhlongo.
                                                     </p>
-                                                  
+
                                                     <p>
-                                                        On 13 March Sibu Mabena, Ayanda Mhlongo, Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students. 
+                                                        On 13 March Sibu Mabena, Ayanda Mhlongo, Lasizwe Dambuza and Nkateko Dinwiddy deposited R38 000 into the Duma Investment FNB, Account Number: 62859284152 Cheque Account to kick start #R10GoesALongWay to help students.
                                                     </p>
                                                     <p>
                                                         The initiative went on to raise over R2 million in 5 days to help the most deserving students with registration fees, giving  them access to education. FundiFund was asked to get involved – and of the 19 000 funding applications received, we were able to fund the registration fees of 106 student’s of the 161 selected from the first draw.
@@ -68,7 +68,7 @@ const CaseSingleR10 = (props) => {
                                                         <h1>List of Beneficiaries</h1>
                                                         <p>To view the list of all the beneficiaries of the #10GoesA LongWay campaign, clickon the button below:</p>
                                                         <List />
-                                                       
+
                                                     </div>
                                                     <CounterSection countclass={'wpo-counter-style-2'} />
                                                     <Sponsors />
@@ -76,14 +76,14 @@ const CaseSingleR10 = (props) => {
                                                         <h1>Application Rules, Criteria & Process:</h1>
                                                         <p>If you've applied for registration at a tertiary institution, and havee been accepted to study further, you can apply for funding here.</p>
                                                         <ul>
-                                                            <li>  Applicant must be looking at pursuing a 2022 undergraduate qualification at a higher education institute established under the Higher Education Act 101 of 1997, as amended by Higher Amendment Act of 2001, within the Republic of South Africa.</li>
-                                                            <li>  Applicant must confirm that they are registered for an undergraduate qualification in 2022 by the deadline as advised on the application form.</li>
+                                                            <li>Applicant must be looking at pursuing a 2023 undergraduate qualification at a higher education institute established under the Higher Education Act 101 of 1997, as amended by Higher Amendment Act of 2001, within the Republic of South Africa.</li>
+                                                            <li>Applicant must confirm that they are registered for an undergraduate qualification in 2023 by the deadline as advised on the application form.</li>
                                                             <li>Provide consent to FUNDI Capital (Pty) Ltd to verify the students acceptance status at the student's relevant Higher Education Institute.</li>
                                                             <li>Application Opening date: 15 December.</li>
-                                                            <li>Application closing date: 17:00, 21 January</li>
+                                                            <li>Application closing date: 17:00, 15 January</li>
                                                             <li>Only online applications will be considered.</li>
                                                             <li>Students funded by a private or public bursary/grant is not eligible to apply.</li>
-                                                            <li>Supporting documentation, i.e., ID copy, proof of registration including tuition fee statement reflecting registration amount, submission deadline: 7 February.</li>
+                                                            <li>Supporting documentation, i.e., ID copy, proof of registration including tuition fee statement reflecting registration amount, submission deadline: 7 February 2023.</li>
                                                             <li>All supporting documents and application enquiries to be emailed to:fund@fundi.co.za</li>
                                                         </ul>
                                                         <div className="process col-12 col">
@@ -106,7 +106,3 @@ const CaseSingleR10 = (props) => {
 }
 
 export default CaseSingleR10;
-
-
-
-
