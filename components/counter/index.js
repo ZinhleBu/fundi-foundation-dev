@@ -54,7 +54,7 @@ const CounterSection = (props) => {
                                             transition={{ duration: 0.8, delay: 0.5 }}
                                             className="grid">
                                             <div>
-                                                <h2><span className="odometer" data-count="106">430</span></h2>
+                                                <h2><span className="odometer" data-count="106">324</span></h2>
                                             </div>
                                             <p>Students Funded</p>
                                         </motion.div>
