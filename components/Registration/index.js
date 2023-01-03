@@ -6,6 +6,7 @@ function Registration() {
     const [buttonPopup, setButtonPopup] = useState(false);
 
     // useEffect(() => {
+
     //         setTimeout(() => {
     //             setButtonPopup(true);
     //         }, 0);
