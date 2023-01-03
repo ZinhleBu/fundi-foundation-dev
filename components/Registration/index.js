@@ -3,13 +3,13 @@ import Popup from '../../components/popup'
 
 function Registration() {
 
-    // const [buttonPopup, setButtonPopup] = useState(false);
+    const [buttonPopup, setButtonPopup] = useState(false);
 
-    // useEffect(() => {
-    //         setTimeout(() => {
-    //             setTimedPopup(true);
-    //         }, 0);
-    // }, []);
+    useEffect(() => {
+            setTimeout(() => {
+                setButtonPopup(true);
+            }, 0);
+    }, []);
 
     const [data, setData] = useState({
         first_name: "",
@@ -199,7 +199,7 @@ function Registration() {
                                     </div>
                                 </div>
                                 <Popup
-                                    // trigger={buttonPopup}  setTrigger={setButtonPopup}
+                                    trigger={buttonPopup}  setTrigger={setButtonPopup}
                                     >
                                     <div className="container">
                                         <div className="row">
@@ -224,7 +224,3 @@ function Registration() {
 
 
 export default Registration;
-
-
-
-
