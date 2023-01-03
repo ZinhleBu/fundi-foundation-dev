@@ -5,11 +5,11 @@ function Registration() {
 
     const [buttonPopup, setButtonPopup] = useState(false);
 
-    useEffect(() => {
-            setTimeout(() => {
-                setButtonPopup(true);
-            }, 0);
-    }, []);
+    // useEffect(() => {
+    //         setTimeout(() => {
+    //             setButtonPopup(true);
+    //         }, 0);
+    // }, []);
 
     const [data, setData] = useState({
         first_name: "",
