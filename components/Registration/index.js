@@ -3,12 +3,11 @@ import Popup from '../../components/popup'
 
 function Registration() {
 
-    const [buttonPopup, setButtonPopup] = useState(false);
+    // const [buttonPopup, setButtonPopup] = useState(false);
 
     // useEffect(() => {
-
     //         setTimeout(() => {
-    //             setButtonPopup(true);
+    //             setTimedPopup(true);
     //         }, 0);
     // }, []);
 
@@ -185,7 +184,7 @@ function Registration() {
                                         </form>
                                         <div className="submit-area col-lg-12 col-12">
                                             <button
-                                                onClick={() => { handleSubmit(); setButtonPopup(true); }}
+                                                // onClick={() => { handleSubmit(); setButtonPopup(true); }}
                                                 type="submit"
                                                 className="theme-btn submit-btn">Send Message</button>
 
@@ -200,7 +199,7 @@ function Registration() {
                                     </div>
                                 </div>
                                 <Popup
-                                    trigger={buttonPopup}  setTrigger={setButtonPopup}
+                                    // trigger={buttonPopup}  setTrigger={setButtonPopup}
                                     >
                                     <div className="container">
                                         <div className="row">
