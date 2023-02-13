@@ -76,7 +76,7 @@ const CaseSingleR10 = (props) => {
                                                         <h1>Application Rules, Criteria & Process:</h1>
                                                         <p>If you've applied for registration at a tertiary institution, and havee been accepted to study further, you can apply for funding here.</p>
                                                         <ul>
-                                                            <li>Applicant must be looking at pursuing a 2023 undergraduate qualification at a higher education institute established under the Higher Education Act 101 of 1997, as amended by Higher Amendment Act of 2001, within the Republic of South Africa.</li>
+                                                            <li>Applicant must be looking at pursuing a undergraduate or postgraduate qualification at a higher education institute established under the Higher Education Act 101 of 1997, as amended by Higher Amendment Act of 2001, within the Republic of South Africa.</li>
                                                             <li>Applicant must confirm that they are registered for an undergraduate qualification in 2023 by the deadline as advised on the application form.</li>
                                                             <li>Provide consent to FUNDI Capital (Pty) Ltd to verify the students acceptance status at the student's relevant Higher Education Institute.</li>
                                                             <li>Application Opening date: 15 December.</li>
