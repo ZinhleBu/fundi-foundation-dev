@@ -27,7 +27,7 @@ const CounterSection = (props) => {
                                                     <span
                                                         className="odometer"
                                                         data-count="2 342 462">
-                                                        R2,34M
+                                                        R2,4M
                                                     </span>
                                                 </h2>
                                             </div>
@@ -42,7 +42,7 @@ const CounterSection = (props) => {
                                             transition={{ duration: 0.8, delay: 0.3 }}
                                             className="grid">
                                             <div>
-                                                <h2><span className="odometer" data-count="80">R565.4K</span></h2>
+                                                <h2><span className="odometer" data-count="80">R1.76M</span></h2>
                                             </div>
                                             <p>Fund Dispursed</p>
                                         </motion.div>
@@ -54,7 +54,7 @@ const CounterSection = (props) => {
                                             transition={{ duration: 0.8, delay: 0.5 }}
                                             className="grid">
                                             <div>
-                                                <h2><span className="odometer" data-count="106">106</span></h2>
+                                                <h2><span className="odometer" data-count="106">324</span></h2>
                                             </div>
                                             <p>Students Funded</p>
                                         </motion.div>
@@ -66,7 +66,7 @@ const CounterSection = (props) => {
                                             transition={{ duration: 0.8, delay: 0.7 }}
                                             className="grid">
                                             <div>
-                                                <h2><span className="odometer" data-count="1 778 000">R1,78M</span></h2>
+                                                <h2><span className="odometer" data-count="1 778 000">R678.5k</span></h2>
                                             </div>
                                             <p>Funds to be awarded in the next cycle</p>
                                         </motion.div>

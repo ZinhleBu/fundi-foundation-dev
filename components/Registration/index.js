@@ -184,7 +184,7 @@ function Registration() {
                                         </form>
                                         <div className="submit-area col-lg-12 col-12">
                                             <button
-                                                onClick={() => { handleSubmit(); setButtonPopup(true); }}
+                                                // onClick={() => { handleSubmit(); setButtonPopup(true); }}
                                                 type="submit"
                                                 className="theme-btn submit-btn">Send Message</button>
 
@@ -224,7 +224,3 @@ function Registration() {
 
 
 export default Registration;
-
-
-
-
