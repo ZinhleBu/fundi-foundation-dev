@@ -17,13 +17,16 @@ const DonateR10 = () => {
                         <div className="col-lg-12 ">
                             <div className="wpo-donate-header">
                                 <h2>Please Make a Donation for #R10GoesALongWay</h2>
+                                <p><strong>Payfast is a Fundi Foundation partner.</strong>
+                                    By using Payfast you are supporting an organisation that does good business.
+                                </p>
                             </div>
                             <section className="wpo-contact-form-map section-padding">
                                 <div className="container">
                                     <div className="row">
                                         <div className="col-12">
                                             <div className="row">
-                                               
+
                                                 <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
                                                     <div className="contact-form">
                                                         <h2>Donation Details</h2>

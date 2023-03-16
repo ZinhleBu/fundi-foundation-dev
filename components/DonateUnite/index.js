@@ -17,6 +17,9 @@ const DonateUnite = () => {
                         <div className="col-lg-12 ">
                             <div className="wpo-donate-header">
                                 <h2>Please Make a Donation to Unite4Schools</h2>
+                                <p><strong>Payfast is a Fundi Foundation partner.</strong>
+                                    By using Payfast you are supporting an organisation that does good business.
+                                </p>
                             </div>
                             <section className="wpo-contact-form-map section-padding">
                                 <div className="container">

@@ -12,7 +12,7 @@ const WorldSection = (props) => {
                             <Link href="/RegistrationPage"><a><img src='/images/team/1.png' alt=""/> Apply </a></Link>
                         </div> */}
                         <div className="wpo-world-section">
-                            <h2>Apply for 2022 registration fees funding has closed.</h2>
+                            <h2>Applications for 2022 registration fees funding has closed.</h2>
                             {/* <Link href="/RegistrationPage"><a><img src='/images/team/1.png' alt=""/> Apply </a></Link> */}
                         </div>
                     </div>
