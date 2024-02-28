@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/react-modal-video/scss/modal-video.scss';
 import '../styles/globals.css'
 import '../styles/style.css'
+import { Analytics } from '@vercel/analytics/react';
 
 import { AnimatePresence, motion } from "framer-motion";
 import Head from 'next/head';
@@ -40,6 +41,8 @@ function MyApp({ Component, pageProps }) {
       >
         <NextNProgress />
         <Component {...pageProps} />
+        <Analytics />
+
       </motion.div>
     </AnimatePresence>
   )
